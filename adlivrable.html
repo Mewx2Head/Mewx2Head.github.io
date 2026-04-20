@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Soutenance Expert AD DS - ESUP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root { --neon-blue: #00d4ff; --neon-purple: #9d00ff; --glass: rgba(255, 255, 255, 0.05); }
+        body { font-family: 'Roboto Mono', monospace; background: #050505; }
+        .reveal h1, .reveal h2 { font-family: 'Orbitron', sans-serif; color: var(--neon-blue); text-transform: uppercase; letter-spacing: 3px; }
+        .reveal h3 { color: var(--neon-purple); font-family: 'Orbitron', sans-serif; }
+        
+        /* Glassmorphism Card Style */
+        .content-box {
+            background: var(--glass); backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 212, 255, 0.3); border-radius: 15px;
+            padding: 20px; box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+        }
+        
+        .img-frame {
+            border: 2px solid var(--neon-blue); border-radius: 10px;
+            box-shadow: 0 0 15px var(--neon-blue); margin-bottom: 15px;
+            max-height: 400px !important;
+        }
+
+        .tech-label {
+            background: var(--neon-blue); color: #000;
+            padding: 2px 10px; font-weight: bold; border-radius: 5px; font-size: 0.5em;
+        }
+
+        .expl-text { font-size: 0.6em !important; text-align: left; line-height: 1.4; color: #ccc; }
+        .footer-bar { position: absolute; bottom: 10px; width: 100%; font-size: 0.4em; color: #555; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="footer-bar">PROJET BLOC 1 - SÉCURISATION DES INFRASTRUCTURES - ESUP ACTUAL BUSINESS SCHOOL</div>
+        <div class="slides">
+
+            <section data-background-color="#000">
+                <h1 style="font-size: 2em;">Infrastructure <br><span style="color:#fff">Active Directory</span></h1>
+                <div class="content-box">
+                    <p>Soutenance de Projet - Bloc 1 SISR</p>
+                    <p style="font-size: 0.5em;">SÉCURISATION & AUTOMATISATION D'UN DOMAINE ESN</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>01. Déploiement du Socle</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <img src="01_config.png" class="img-frame">
+                    <div class="content-box expl-text">
+                        <span class="tech-label">SÉANCE 1 & 2</span>
+                        <p><strong>Configuration IP & Rôle :</strong></p>
+                        <ul>
+                            <li>Hostname: <span style="color:var(--neon-blue)">SRV-AD01</span></li>
+                            <li>Static IP: 192.168.1.10 / DNS: 127.0.0.1</li>
+                            <li>Installation du rôle AD DS & DNS</li>
+                            <li>Promotion du domaine : <span style="color:var(--neon-blue)">esup.local</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>02. Gestion des Identités</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="content-box expl-text">
+                        <span class="tech-label">SÉANCE 3</span>
+                        <p><strong>Automatisation PowerShell :</strong></p>
+                        <ul>
+                            <li>Création de l'OU : <span style="color:var(--neon-blue)">ESUP_Entreprise</span></li>
+                            <li>Importation via fichier .CSV</li>
+                            <li>Provisionnement des comptes : Lefebvre, Garcia, Durand</li>
+                            <li>Standardisation des groupes de sécurité.</li>
+                        </ul>
+                    </div>
+                    <img src="03_users.png" class="img-frame">
+                </div>
+            </section>
+
+            <section>
+                <h3>03. Sécurité (Activité 1)</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <img src="04_gpo.png" class="img-frame">
+                    <img src="ACT1_Verrouillage_Compte.png" class="img-frame">
+                </div>
+                <div class="content-box expl-text">
+                    <p><strong>Durcissement des Comptes :</strong> Activation de la <span style="color:var(--neon-blue)">Complexité</span> (Majuscules, chiffres, caractères spéciaux) et mise en place du <span style="color:var(--neon-blue)">Verrouillage de compte</span> après 3 tentatives infructueuses (Protection Brute Force).</p>
+                </div>
+            </section>
+
+            <section>
+                <h3>04. Authentification Forte (Act. 2)</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="content-box expl-text">
+                        <span class="tech-label">MULTI-FACTOR AUTH</span>
+                        <p><strong>Mise en place du 2FA :</strong></p>
+                        <p>Exigence de la <span style="color:var(--neon-blue)">Carte à Puce</span> pour les sessions interactives des comptes Administrateurs. Sécurisation physique de l'accès au domaine.</p>
+                    </div>
+                    <img src="05_2FA_Securite.png" class="img-frame">
+                </div>
+            </section>
+
+            <section>
+                <h3>05. Audit & Traçabilité (Act. 3)</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <img src="ACT3_Audit_Securite.png" class="img-frame">
+                    <div class="content-box expl-text">
+                        <span class="tech-label">LOGS DE SÉCURITÉ</span>
+                        <p><strong>Configuration de l'Audit :</strong></p>
+                        <p>Surveillance active des <span style="color:var(--neon-blue)">succès et échecs</span> de connexion. Chaque tentative suspecte est désormais enregistrée dans l'Observateur d'événements.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>06. Advanced Monitoring (Act. 4)</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div class="content-box expl-text">
+                        <span class="tech-label">MICROSOFT ATA PREP</span>
+                        <p><strong>Réduction de la surface d'attaque :</strong></p>
+                        <p>Configuration du Pare-feu avancé pour autoriser uniquement les flux AD DS. Activation de la <span style="color:var(--neon-blue)">journalisation des paquets ignorés</span> pour analyse ATA.</p>
+                    </div>
+                    <img src="06_Surveillance_ATA.png" class="img-frame">
+                </div>
+            </section>
+
+            <section data-background-color="var(--neon-blue)">
+                <h2 style="color: #000; border:none;">PROJET VALIDÉ</h2>
+                <div class="content-box" style="background:rgba(0,0,0,0.8); border:none;">
+                    <p>Infrastructure conforme aux spécifications ESUP. Centralisation, Automatisation et Sécurisation terminées.</p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>Reveal.initialize({ hash: true, transition: 'fade', center: true });</script>
+</body>
+</html>
