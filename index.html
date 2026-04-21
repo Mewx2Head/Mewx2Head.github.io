@@ -47,6 +47,7 @@
             text-transform: uppercase;
             letter-spacing: 2px;
             font-family: 'Orbitron', sans-serif;
+            display: inline-block;
         }
 
         .btn-neon:hover {
@@ -77,22 +78,33 @@
 
     <nav class="p-6 flex justify-end items-center max-w-7xl mx-auto">
         <div class="relative contact-group">
-            <button class="glass-card px-6 py-2 text-sm font-bold border-cyan-500/50 text-cyan-400">
-                <i class="fas fa-address-book mr-2"></i>CONTACT
+            <button class="glass-card px-6 py-2 text-sm font-bold border-cyan-500/50 text-cyan-400 flex items-center gap-2">
+                <i class="fas fa-user-tie"></i> PROFIL & CONTACT
             </button>
+            
             <div class="contact-dropdown glass-card p-6 shadow-2xl">
-                <div class="space-y-4">
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-phone text-cyan-400"></i>
-                        <a href="tel:0610057960" class="hover:text-cyan-400">06 10 05 79 60</a>
+                <div class="space-y-6 text-left">
+                    <div class="pb-4 border-b border-white/10">
+                        <p class="text-[10px] text-gray-500 uppercase tracking-widest mb-3">Curriculum Vitae</p>
+                        <a href="CV_Aness_Khenichil.pdf" target="_blank" class="btn-neon px-4 py-2 rounded text-[10px] w-full text-center">
+                            <i class="fas fa-file-pdf mr-2"></i>Voir le CV (PDF)
+                        </a>
                     </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fas fa-envelope text-cyan-400"></i>
-                        <a href="mailto:anesskhenichilone@gmail.com" class="hover:text-cyan-400 text-sm">anesskhenichilone@gmail.com</a>
-                    </div>
-                    <div class="flex items-center gap-3">
-                        <i class="fab fa-linkedin text-cyan-400"></i>
-                        <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="hover:text-cyan-400 text-sm">LinkedIn Profil</a>
+
+                    <div class="space-y-4">
+                        <p class="text-[10px] text-gray-400 uppercase tracking-widest">Coordonnées</p>
+                        <div class="flex items-center gap-3 text-sm">
+                            <i class="fas fa-phone text-cyan-400"></i>
+                            <a href="tel:0610057960" class="hover:text-cyan-400">06 10 05 79 60</a>
+                        </div>
+                        <div class="flex items-center gap-3 text-sm">
+                            <i class="fas fa-envelope text-cyan-400"></i>
+                            <a href="mailto:anesskhenichilone@gmail.com" class="hover:text-cyan-400 text-xs">anesskhenichilone@gmail.com</a>
+                        </div>
+                        <div class="flex items-center gap-3 text-sm">
+                            <i class="fab fa-linkedin text-cyan-400"></i>
+                            <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="hover:text-cyan-400">Profil LinkedIn</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,9 +120,9 @@
             <p class="text-gray-400 text-xl md:text-2xl font-light">BTS SIO SISR • Apprenti Administrateur Systèmes & Réseaux</p>
             
             <div class="mt-8 flex justify-center gap-3 flex-wrap">
-                <span class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold">Linux Expert</span>
-                <span class="bg-purple-500/10 text-purple-400 border border-purple-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold">Active Directory</span>
-                <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold">VLAN / Routing</span>
+                <span class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">Linux Expert</span>
+                <span class="bg-purple-500/10 text-purple-400 border border-purple-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">Active Directory</span>
+                <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">VLAN / Routing</span>
             </div>
         </header>
 
@@ -123,10 +135,10 @@
                 </div>
                 <h3 class="text-2xl font-bold mb-2 uppercase tracking-wider">Expert AD DS - ESUP</h3>
                 <p class="text-gray-400 text-sm mb-6 leading-relaxed">
-                    Infrastructure complète sous Windows Server 2022. Mise en place d'Unités d'Organisation, 
-                    sécurisation via GPO avancées.
+                    Infrastructure Windows Server 2022. Gestion des Unités d'Organisation, 
+                    sécurisation avancée et automatisation des GPO.
                 </p>
-                <a href="adlivrable.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center block">
+                <a href="adlivrable.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center">
                     Ouvrir le Livrable
                 </a>
             </div>
@@ -138,9 +150,9 @@
                 </div>
                 <h3 class="text-2xl font-bold mb-2 uppercase tracking-wider">StratAdvise Network</h3>
                 <p class="text-gray-400 text-sm mb-6 leading-relaxed">
-                    Segmentation VLAN, configuration de switchs, routage inter-VLAN et sécurité via ACL. 
+                    Segmentation VLAN, routage inter-VLAN et sécurité réseau via ACL sur équipements Cisco. 
                 </p>
-                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center block" style="border-color: #10b981; color: #10b981;">
+                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center" style="border-color: #10b981; color: #10b981;">
                     Explorer le Réseau
                 </a>
             </div>
@@ -149,22 +161,22 @@
 
         <section>
             <div class="glass-card p-10">
-                <h2 class="text-2xl font-bold mb-10 font-['Orbitron'] border-l-4 border-cyan-500 pl-6 text-cyan-400 uppercase tracking-widest">Compétences Clés</h2>
+                <h2 class="text-2xl font-bold mb-10 font-['Orbitron'] border-l-4 border-cyan-500 pl-6 text-cyan-400 uppercase tracking-widest text-left">Compétences Clés</h2>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                     <div>
                         <div class="text-4xl font-bold text-white mb-2 italic">C1</div>
                         <div class="text-[10px] uppercase text-gray-500 tracking-widest">Anglais</div>
                     </div>
                     <div>
-                        <div class="text-4xl font-bold text-white mb-2">AGILE</div>
+                        <div class="text-4xl font-bold text-white mb-2 uppercase">Agile</div>
                         <div class="text-[10px] uppercase text-gray-500 tracking-widest">Kanboard</div>
                     </div>
                     <div>
-                        <div class="text-4xl font-bold text-white mb-2">ITIL</div>
+                        <div class="text-4xl font-bold text-white mb-2 uppercase">ITIL</div>
                         <div class="text-[10px] uppercase text-gray-500 tracking-widest">GLPI</div>
                     </div>
                     <div>
-                        <div class="text-4xl font-bold text-white mb-2">B / A2</div>
+                        <div class="text-4xl font-bold text-white mb-2 uppercase">B/A2</div>
                         <div class="text-[10px] uppercase text-gray-500 tracking-widest">Permis</div>
                     </div>
                 </div>
@@ -174,7 +186,7 @@
     </main>
 
     <footer class="text-center py-20 text-gray-600 text-[10px] tracking-[0.3em] uppercase">
-        © 2024 Aness Khenichil | ESUP PARIS
+        © 2024 Aness Khenichil | Étudiant SISR ESUP PARIS
     </footer>
 
 </body>
