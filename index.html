@@ -14,14 +14,15 @@
             --bg: #0a0a0a;
             --card-bg: rgba(255, 255, 255, 0.02);
             --text: #e2e8f0;
-            --cyan: #00f0ff;
+            --nav-bg: rgba(10, 10, 10, 0.9);
         }
 
         .light-mode {
             --bg: #f8fafc;
             --card-bg: #ffffff;
             --text: #0f172a;
-            --accent: #2563eb; /* Bleu pro en mode clair */
+            --accent: #2563eb;
+            --nav-bg: rgba(248, 250, 252, 0.9);
         }
 
         body {
@@ -38,177 +39,202 @@
             transition: all 0.3s ease;
         }
 
+        .glass-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+        }
+
         .btn-cyber {
             font-family: 'Syncopate', sans-serif;
             border: 2px solid var(--accent);
-            padding: 8px 16px;
+            padding: 10px 20px;
             color: var(--accent);
             font-size: 0.7rem;
             text-transform: uppercase;
             cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
         }
 
         .btn-cyber:hover {
             background: var(--accent);
             color: white;
+            box-shadow: 0 0 15px var(--accent);
         }
 
         .fixed-controls {
             position: fixed;
-            bottom: 20px;
-            right: 20px;
+            bottom: 30px;
+            right: 30px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 12px;
             z-index: 100;
         }
 
         .control-btn {
-            background: var(--card-bg);
-            border: 1px solid rgba(128, 128, 128, 0.3);
-            padding: 10px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            width: 48px;
+            height: 48px;
             border-radius: 50%;
             cursor: pointer;
-            width: 45px;
-            height: 45px;
             display: flex;
             align-items: center;
             justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .nav-bar {
+            position: sticky;
+            top: 0;
+            background: var(--nav-bg);
+            backdrop-filter: blur(10px);
+            z-index: 90;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.1);
         }
     </style>
 </head>
-<body class="bg-mesh min-h-screen">
+<body>
 
     <div class="fixed-controls">
-        <button onclick="toggleTheme()" class="control-btn" title="Changer Thème">
-            <i id="theme-icon" class="fas fa-moon"></i>
-        </button>
+        <button onclick="toggleTheme()" class="control-btn"><i id="theme-icon" class="fas fa-moon"></i></button>
         <button onclick="toggleLang()" class="control-btn font-bold text-xs" id="lang-indicator">EN</button>
     </div>
 
-    <nav class="p-8 flex justify-between items-center max-w-7xl mx-auto">
-        <div class="font-bold tracking-tighter" style="font-family: 'Syncopate'; color: var(--accent);">AK_SYSTEMS</div>
-        <div class="flex gap-6 items-center">
-            <a href="tel:0610057960" class="text-xs font-bold">06 10 05 79 60</a>
-            <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="text-xl"><i class="fab fa-linkedin"></i></a>
+    <nav class="nav-bar">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-sm tracking-widest uppercase" style="font-family: 'Syncopate';">Aness Khenichil</div>
+            <div class="flex gap-6 items-center text-[10px] md:text-xs font-bold uppercase tracking-widest">
+                <a href="tel:0610057960" class="hover:text-[--accent] transition-colors"><i class="fas fa-phone mr-1"></i> 06 10 05 79 60</a>
+                <a href="mailto:anesskhenichilone@gmail.com" class="hover:text-[--accent] transition-colors hidden md:block"><i class="fas fa-envelope mr-1"></i> anesskhenichilone@gmail.com</a>
+                <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="text-lg hover:text-[--accent]"><i class="fab fa-linkedin"></i></a>
+            </div>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-6 py-12">
+    <main class="max-w-6xl mx-auto px-6 py-16">
         
         <header class="text-center mb-32">
             <h1 class="text-5xl md:text-8xl font-bold mb-6 italic uppercase" style="font-family: 'Syncopate';">
                 Aness <span style="color: var(--accent);">Khenichil</span>
             </h1>
-            <p id="txt-role" class="text-gray-500 tracking-[0.3em] uppercase text-sm mb-10">Apprenti Administrateur Systèmes & Réseaux</p>
+            <p id="txt-role" class="text-gray-500 tracking-[0.4em] uppercase text-sm mb-12">Apprenti Administrateur Systèmes & Réseaux</p>
             
-            <div class="max-w-2xl mx-auto glass-card p-6 rounded-lg text-sm leading-relaxed" id="txt-profile">
-                Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité AD et l'optimisation réseau. Je recherche une alternance pour transformer mes compétences académiques en solutions concrètes pour votre infrastructure.
+            <div class="max-w-3xl mx-auto glass-card p-8 rounded-2xl text-sm leading-relaxed mb-10" id="txt-profile">
+                Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.
             </div>
+
+            <a href="CV_Aness_Khenichil.pdf" target="_blank" class="btn-cyber">
+                <i class="fas fa-file-pdf"></i> <span id="txt-cv-btn">Télécharger mon CV PDF</span>
+            </a>
         </header>
 
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-32">
-            <div class="md:col-span-2 space-y-8">
-                <h2 class="text-xl font-bold uppercase italic border-b-2 border-[--accent] pb-2 inline-block" id="txt-title-exp">Expériences</h2>
-                <div class="glass-card p-6 rounded-none border-l-4 border-[--accent]">
-                    <h4 class="font-bold">Naturalia Paris | <span id="txt-job1">Vendeur Responsable</span></h4>
-                    <p class="text-xs opacity-60">2023 - 2025</p>
-                    <p class="text-sm mt-2 italic" id="txt-desc-job1">Gestion de l'autonomie et des responsabilités opérationnelles du point de vente. Travail en flux tendu.</p>
-                </div>
-                <div class="glass-card p-6 rounded-none border-l-4 border-gray-500">
-                    <h4 class="font-bold">Le 57 Paris | <span id="txt-job2">Vendeur Boulangerie</span></h4>
-                    <p class="text-xs opacity-60">2024 - Présent</p>
-                    <p class="text-sm mt-2 italic" id="txt-desc-job2">Capacité de travail sous pression et service client.</p>
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-32">
+            <div class="md:col-span-2 space-y-12">
+                <h2 class="text-2xl font-bold uppercase italic border-l-4 border-[--accent] pl-4" id="txt-title-exp">Expériences</h2>
+                <div class="space-y-8">
+                    <div class="glass-card p-6 border-l-4 border-[--accent]">
+                        <h4 class="font-bold">Naturalia Paris | <span id="txt-job1" class="text-[--accent]">Vendeur Responsable</span></h4>
+                        <p class="text-[10px] opacity-50 mb-3">2023 - 2025</p>
+                        <p class="text-sm italic" id="txt-desc-job1">Gestion autonome des responsabilités opérationnelles du point de vente. Travail en flux tendu.</p>
+                    </div>
+                    <div class="glass-card p-6 border-l-4 border-gray-500">
+                        <h4 class="font-bold">Le 57 Paris | <span id="txt-job2">Vendeur Boulangerie</span></h4>
+                        <p class="text-[10px] opacity-50 mb-3">Depuis Déc. 2024</p>
+                        <p class="text-sm italic" id="txt-desc-job2">Capacité de travail sous pression et excellence du service client.</p>
+                    </div>
                 </div>
             </div>
 
-            <div class="space-y-8">
-                <h2 class="text-xl font-bold uppercase italic border-b-2 border-cyan-500 pb-2 inline-block" id="txt-title-edu">Formation</h2>
-                <div class="text-sm">
-                    <p class="font-bold">BTS SIO SISR</p>
-                    <p class="text-xs opacity-60">ESUP Paris | 2024 - 2026</p>
+            <div class="space-y-12">
+                <div>
+                    <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-6" id="txt-title-edu">Formation</h2>
+                    <div class="space-y-4 text-sm">
+                        <div>
+                            <p class="font-bold">BTS SIO SISR</p>
+                            <p class="text-xs opacity-50">ESUP Paris | 2024 - 2026</p>
+                        </div>
+                        <div>
+                            <p class="font-bold" id="txt-edu-lic">Licence Sciences de la Matière</p>
+                            <p class="text-xs opacity-50">Sorbonne Université | 2023</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="text-sm">
-                    <p class="font-bold" id="txt-edu-lic">Licence Sciences de la Matière</p>
-                    <p class="text-xs opacity-60">Sorbonne Université | 2023</p>
-                </div>
-                
-                <h2 class="text-xl font-bold uppercase italic border-b-2 border-cyan-500 pb-2 inline-block mt-8" id="txt-title-lang">Langues</h2>
-                <div class="space-y-2">
-                    <div class="flex justify-between text-xs font-bold"><span>ANGLAIS</span> <span class="text-cyan-500">NIVEAU C1</span></div>
-                    <div class="flex justify-between text-xs font-bold"><span>ARABE</span> <span class="text-cyan-500">NATAL</span></div>
+                <div>
+                    <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-6" id="txt-title-lang">Langues</h2>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-xs font-bold uppercase"><span>Anglais</span> <span class="text-cyan-500">Niveau C1</span></div>
+                        <div class="flex justify-between text-xs font-bold uppercase"><span>Arabe</span> <span class="text-cyan-500">Maternel</span></div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <h2 class="text-3xl font-bold mb-12 uppercase italic" style="font-family: 'Syncopate';">Projets_Web_Livrables</h2>
+        <h2 class="text-3xl font-bold mb-12 uppercase italic" style="font-family: 'Syncopate';">Projets & Livrables</h2>
         <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-32">
-            <div class="glass-card p-10 hover:border-[--accent]">
-                <h3 class="text-xl font-bold mb-4">ACTIVE DIRECTORY</h3>
-                <p class="text-sm text-gray-500 mb-6" id="txt-proj1">Infrastructure Windows Server 2022. Automatisation complète par scripts PowerShell.</p>
-                <a href="adlivrable.html" target="_blank" class="btn-cyber">Lancer</a>
+            <div class="glass-card p-10">
+                <h3 class="text-xl font-bold mb-4 uppercase">Expert AD DS</h3>
+                <p class="text-sm text-gray-500 mb-8" id="txt-proj1">Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.</p>
+                <a href="adlivrable.html" target="_blank" class="btn-cyber w-full justify-center">Ouvrir le livrable</a>
             </div>
-            <div class="glass-card p-10 hover:border-cyan-500">
-                <h3 class="text-xl font-bold mb-4">STRATADVISE NET</h3>
-                <p class="text-sm text-gray-500 mb-6" id="txt-proj2">Segmentation VLAN, Routage Inter-VLAN et ACL de sécurité Cisco.</p>
-                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-cyber" style="border-color:var(--cyan); color:var(--cyan);">Lancer</a>
+            <div class="glass-card p-10">
+                <h3 class="text-xl font-bold mb-4 uppercase">StratAdvise Network</h3>
+                <p class="text-sm text-gray-500 mb-8" id="txt-proj2">Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.</p>
+                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-cyber w-full justify-center" style="border-color: #00f0ff; color: #00f0ff;">Explorer le réseau</a>
             </div>
         </section>
 
     </main>
+
+    <footer class="text-center py-20 opacity-20 text-[10px] tracking-[1em] uppercase">
+        Aness Khenichil • 2026
+    </footer>
 
     <script>
         let currentLang = 'fr';
         const content = {
             fr: {
                 role: "Apprenti Administrateur Systèmes & Réseaux",
-                profile: "Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité AD et l'optimisation réseau.",
+                profile: "Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.",
+                cvBtn: "Télécharger mon CV PDF",
                 exp: "Expériences", edu: "Formation", lang: "Langues",
-                job1: "Vendeur Responsable", desc1: "Gestion autonome des responsabilités opérationnelles.",
-                job2: "Vendeur Boulangerie", desc2: "Travail en flux tendu et service client.",
+                job1: "Vendeur Responsable", desc1: "Gestion autonome des responsabilités opérationnelles du point de vente.",
+                job2: "Vendeur Boulangerie", desc2: "Capacité de travail sous pression et excellence du service client.",
                 lic: "Licence Sciences de la Matière",
-                proj1: "Infrastructure Windows Server 2022. Automatisation complète.",
-                proj2: "Segmentation VLAN et sécurité ACL Cisco."
+                proj1: "Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.",
+                proj2: "Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco."
             },
             en: {
                 role: "Systems & Network Administrator Apprentice",
-                profile: "SISR Student at ESUP Paris. Passionate about Linux administration, AD security, and network optimization.",
+                profile: "SISR Student at ESUP Paris. Passionate about Linux administration, Active Directory security, and network optimization. Looking for an apprenticeship to apply my skills to your infrastructure.",
+                cvBtn: "Download PDF Resume",
                 exp: "Experience", edu: "Education", lang: "Languages",
                 job1: "Store Manager", desc1: "Autonomous management of operational responsibilities.",
-                job2: "Bakery Salesman", desc2: "High-pressure environment and customer service.",
+                job2: "Bakery Sales Associate", desc2: "Ability to work under pressure and customer service excellence.",
                 lic: "Bachelor of Material Sciences",
-                proj1: "Windows Server 2022 Infra. Full PowerShell automation.",
-                proj2: "VLAN Segmentation and Cisco ACL security."
+                proj1: "Windows Server 2022 Infrastructure. GPO management and PowerShell automation.",
+                proj2: "VLAN Segmentation, Inter-VLAN Routing, and Cisco ACL security."
             }
         };
 
         function toggleLang() {
             currentLang = currentLang === 'fr' ? 'en' : 'fr';
             document.getElementById('lang-indicator').innerText = currentLang === 'fr' ? 'EN' : 'FR';
-            
-            document.getElementById('txt-role').innerText = content[currentLang].role;
-            document.getElementById('txt-profile').innerText = content[currentLang].profile;
-            document.getElementById('txt-title-exp').innerText = content[currentLang].exp;
-            document.getElementById('txt-title-edu').innerText = content[currentLang].edu;
-            document.getElementById('txt-title-lang').innerText = content[currentLang].lang;
-            document.getElementById('txt-job1').innerText = content[currentLang].job1;
-            document.getElementById('txt-desc-job1').innerText = content[currentLang].desc1;
-            document.getElementById('txt-job2').innerText = content[currentLang].job2;
-            document.getElementById('txt-desc-job2').innerText = content[currentLang].desc2;
-            document.getElementById('txt-edu-lic').innerText = content[currentLang].lic;
-            document.getElementById('txt-proj1').innerText = content[currentLang].proj1;
-            document.getElementById('txt-proj2').innerText = content[currentLang].proj2;
+            Object.keys(content[currentLang]).forEach(key => {
+                const el = document.getElementById('txt-' + key.replace(/([A-Z])/g, "-$1").toLowerCase());
+                if(el) el.innerText = content[currentLang][key];
+            });
         }
 
         function toggleTheme() {
-            const body = document.body;
+            document.body.classList.toggle('light-mode');
             const icon = document.getElementById('theme-icon');
-            body.classList.toggle('light-mode');
-            if(body.classList.contains('light-mode')) {
-                icon.classList.replace('fa-moon', 'fa-sun');
-            } else {
-                icon.classList.replace('fa-sun', 'fa-moon');
-            }
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
         }
     </script>
 </body>
