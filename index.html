@@ -7,184 +7,209 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600&display=swap');
         
         :root {
-            --neon-blue: #00d4ff;
-            --neon-purple: #9d00ff;
+            --accent-orange: #ff6b00;
+            --accent-cyan: #00f0ff;
         }
 
         body {
             font-family: 'Inter', sans-serif;
-            background: #050505;
+            background: #0a0a0a;
             color: #e2e8f0;
             overflow-x: hidden;
         }
 
-        .hero-gradient {
-            background: radial-gradient(circle at 50% 50%, rgba(0, 212, 255, 0.1) 0%, rgba(5, 5, 5, 1) 70%);
+        /* Design de fond original */
+        .bg-mesh {
+            background-color: #0a0a0a;
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(255, 107, 0, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(0, 240, 255, 0.1) 0px, transparent 50%);
         }
 
         .glass-card {
-            background: rgba(255, 255, 255, 0.03);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 24px;
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 0px; /* Look brutaliste/industriel */
+            transition: all 0.4s ease;
         }
 
         .glass-card:hover {
-            transform: scale(1.02);
-            border-color: var(--neon-blue);
-            box-shadow: 0 0 30px rgba(0, 212, 255, 0.2);
+            border-color: var(--accent-orange);
+            box-shadow: 10px 10px 0px var(--accent-orange);
+            transform: translate(-5px, -5px);
         }
 
-        .btn-neon {
-            background: transparent;
-            border: 1px solid var(--neon-blue);
-            color: var(--neon-blue);
-            transition: all 0.3s;
+        .btn-cyber {
+            font-family: 'Syncopate', sans-serif;
+            border: 2px solid var(--accent-cyan);
+            padding: 10px 20px;
+            color: var(--accent-cyan);
             text-transform: uppercase;
+            font-size: 0.7rem;
             letter-spacing: 2px;
-            font-family: 'Orbitron', sans-serif;
-            display: inline-block;
+            transition: all 0.3s;
+            cursor: pointer;
         }
 
-        .btn-neon:hover {
-            background: var(--neon-blue);
+        .btn-cyber:hover {
+            background: var(--accent-cyan);
             color: #000;
-            box-shadow: 0 0 20px var(--neon-blue);
+            box-shadow: 0 0 20px var(--accent-cyan);
         }
 
-        .contact-dropdown {
-            display: none;
-            position: absolute;
-            right: 0;
-            top: 100%;
-            width: 320px;
-            z-index: 50;
-            margin-top: 10px;
+        .lang-toggle {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+            background: #000;
+            border: 1px solid #333;
+            border-radius: 50px;
+            padding: 5px;
+            display: flex;
+            gap: 5px;
         }
 
-        .contact-group:hover .contact-dropdown {
-            display: block;
-            animation: fadeIn 0.3s ease;
+        .lang-btn {
+            padding: 8px 15px;
+            border-radius: 25px;
+            font-size: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
         }
 
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+        .lang-btn.active {
+            background: var(--accent-orange);
+            color: #000;
+        }
     </style>
 </head>
-<body class="hero-gradient">
+<body class="bg-mesh min-h-screen">
 
-    <nav class="p-6 flex justify-end items-center max-w-7xl mx-auto">
-        <div class="relative contact-group">
-            <button class="glass-card px-6 py-2 text-sm font-bold border-cyan-500/50 text-cyan-400 flex items-center gap-2">
-                <i class="fas fa-address-book"></i> CONTACT
-            </button>
-            
-            <div class="contact-dropdown glass-card p-6 shadow-2xl">
-                <div class="space-y-4 text-left">
-                    <p class="text-[10px] text-gray-400 uppercase tracking-widest">Coordonnées</p>
-                    <div class="flex items-center gap-3 text-sm">
-                        <i class="fas fa-phone text-cyan-400"></i>
-                        <a href="tel:0610057960" class="hover:text-cyan-400">06 10 05 79 60</a>
-                    </div>
-                    <div class="flex items-center gap-3 text-sm">
-                        <i class="fas fa-envelope text-cyan-400"></i>
-                        <a href="mailto:anesskhenichilone@gmail.com" class="hover:text-cyan-400 text-xs">anesskhenichilone@gmail.com</a>
-                    </div>
-                    <div class="flex items-center gap-3 text-sm">
-                        <i class="fab fa-linkedin text-cyan-400"></i>
-                        <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="hover:text-cyan-400">Profil LinkedIn</a>
-                    </div>
-                </div>
-            </div>
+    <div class="lang-toggle">
+        <div id="btn-fr" class="lang-btn active" onclick="setLanguage('fr')">FR</div>
+        <div id="btn-en" class="lang-btn" onclick="setLanguage('en')">EN</div>
+    </div>
+
+    <nav class="p-8 flex justify-end items-center max-w-7xl mx-auto">
+        <div class="flex gap-6 items-center">
+            <a href="tel:0610057960" class="text-xs hover:text-[--accent-orange] transition-colors uppercase tracking-widest font-bold">06 10 05 79 60</a>
+            <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="text-xl hover:text-[--accent-cyan]"><i class="fab fa-linkedin"></i></a>
         </div>
     </nav>
 
-    <main class="max-w-6xl mx-auto px-6 py-12">
+    <main class="max-w-6xl mx-auto px-6 py-12 text-center">
         
-        <header class="text-center mb-24">
-            <h1 class="text-6xl md:text-8xl font-black mb-4 tracking-tight">
-                ANESS <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">KHENICHIL</span>
+        <header class="mb-32">
+            <h1 class="text-6xl md:text-8xl font-bold mb-6 tracking-tighter italic uppercase" style="font-family: 'Syncopate';">
+                Aness <span id="txt-surname" style="color: var(--accent-orange);">Khenichil</span>
             </h1>
-            <p class="text-gray-400 text-xl md:text-2xl font-light">BTS SIO SISR • Apprenti Administrateur Systèmes & Réseaux</p>
+            <p id="txt-role" class="text-gray-400 text-lg md:text-xl tracking-[0.5em] uppercase font-light">
+                Apprenti Administrateur Systèmes & Réseaux
+            </p>
             
-            <div class="mt-8 flex justify-center gap-3 flex-wrap">
-                <span class="bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">Linux </span>
-                <span class="bg-purple-500/10 text-purple-400 border border-purple-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">Active Directory</span>
-                <span class="bg-blue-500/10 text-blue-400 border border-blue-500/20 px-4 py-1 rounded-full text-xs uppercase font-bold tracking-widest">VLAN / Routing</span>
-            </div>
-
-            <div class="mt-10">
-                <a href="CV_Aness_Khenichil.pdf" target="_blank" class="btn-neon px-8 py-4 rounded-xl text-sm font-bold">
-                    <i class="fas fa-file-pdf mr-2"></i> Télécharger mon CV
+            <div class="mt-16">
+                <a href="CV_Aness_Khenichil.pdf" target="_blank" class="btn-cyber">
+                    <i class="fas fa-file-pdf mr-2"></i> <span id="txt-cv">Télécharger CV</span>
                 </a>
             </div>
         </header>
 
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-32">
             
-            <div class="glass-card p-8 group">
-                <div class="flex justify-between items-start mb-6">
-                    <i class="fa-solid fa-folder-tree text-4xl text-cyan-400"></i>
-                    <span class="text-[10px] text-cyan-400 font-mono tracking-widest"> </span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2 uppercase tracking-wider text-left">Expert AD DS - ESUP</h3>
-                <p class="text-gray-400 text-sm mb-6 leading-relaxed text-left">
-                    Infrastructure Windows Server 2022. Gestion des Unités d'Organisation, 
-                    sécurisation avancée et automatisation des GPO.
+            <div class="glass-card p-10 text-left relative">
+                <div class="absolute -top-4 -left-4 bg-[--accent-orange] text-black font-bold px-3 py-1 text-[10px]">01</div>
+                <h3 class="text-2xl font-bold mb-4 uppercase italic" style="font-family: 'Syncopate';">Active Directory</h3>
+                <p id="txt-desc-ad" class="text-gray-400 text-sm mb-10 leading-relaxed border-l-2 border-orange-500 pl-4">
+                    Windows Server 2022. Gestion des Unités d'Organisation, GPO avancées et automatisation PowerShell.
                 </p>
-                <a href="adlivrable.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center">
-                    Ouvrir le Livrable
+                <a href="adlivrable.html" target="_blank" class="text-xs font-bold text-[--accent-cyan] uppercase tracking-widest hover:underline">
+                    [ <span id="txt-link-ad">Ouvrir Livrable</span> ]
                 </a>
             </div>
 
-            <div class="glass-card p-8 group">
-                <div class="flex justify-between items-start mb-6">
-                    <i class="fa-solid fa-network-wired text-4xl text-emerald-400"></i>
-                    <span class="text-[10px] text-emerald-400 font-mono tracking-widest"></span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2 uppercase tracking-wider text-left">StratAdvise Network</h3>
-                <p class="text-gray-400 text-sm mb-6 leading-relaxed text-left">
-                    Segmentation VLAN, routage inter-VLAN et sécurité réseau via ACL sur équipements Cisco. 
+            <div class="glass-card p-10 text-left relative">
+                <div class="absolute -top-4 -left-4 bg-[--accent-cyan] text-black font-bold px-3 py-1 text-[10px]">02</div>
+                <h3 class="text-2xl font-bold mb-4 uppercase italic" style="font-family: 'Syncopate';">StratAdvise Net</h3>
+                <p id="txt-desc-net" class="text-gray-400 text-sm mb-10 leading-relaxed border-l-2 border-cyan-500 pl-4">
+                    Segmentation VLAN, routage inter-VLAN et sécurité réseau via ACL sur équipements Cisco.
                 </p>
-                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-neon px-6 py-3 rounded-lg text-xs font-bold w-full text-center" style="border-color: #10b981; color: #10b981;">
-                    Explorer le Réseau
+                <a href="StratAdvise Infrastructure.html" target="_blank" class="text-xs font-bold text-[--accent-cyan] uppercase tracking-widest hover:underline">
+                    [ <span id="txt-link-net">Explorer Réseau</span> ]
                 </a>
             </div>
 
         </section>
 
-        <section>
-            <div class="glass-card p-10 text-left">
-                <h2 class="text-2xl font-bold mb-10 font-['Orbitron'] border-l-4 border-cyan-500 pl-6 text-cyan-400 uppercase tracking-widest">Compétences Clés</h2>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                    <div>
-                        <div class="text-4xl font-bold text-white mb-2 italic">C1</div>
-                        <div class="text-[10px] uppercase text-gray-500 tracking-widest">Anglais</div>
-                    </div>
-                    <div>
-                        <div class="text-4xl font-bold text-white mb-2 uppercase">Agile</div>
-                        <div class="text-[10px] uppercase text-gray-500 tracking-widest">Kanboard</div>
-                    </div>
-                    <div>
-                        <div class="text-4xl font-bold text-white mb-2 uppercase">ITIL</div>
-                        <div class="text-[10px] uppercase text-gray-500 tracking-widest">GLPI</div>
-                    </div>
-                    <div>
-                        <div class="text-4xl font-bold text-white mb-2 uppercase">B/A2</div>
-                        <div class="text-[10px] uppercase text-gray-500 tracking-widest">Permis</div>
-                    </div>
+        <section class="mb-32">
+            <div class="border-t border-b border-white/10 py-20 grid grid-cols-2 md:grid-cols-4 gap-10">
+                <div>
+                    <div class="text-4xl font-bold mb-2 italic tracking-tighter" style="color: var(--accent-orange);">C1</div>
+                    <div id="txt-skill-lang" class="text-[10px] uppercase tracking-widest opacity-50">Anglais Technique</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2 italic tracking-tighter">LINUX</div>
+                    <div class="text-[10px] uppercase tracking-widest opacity-50">Ubuntu / Kali</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2 italic tracking-tighter">AGILE</div>
+                    <div class="text-[10px] uppercase tracking-widest opacity-50">Kanboard / GLPI</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2 italic tracking-tighter">CISCO</div>
+                    <div class="text-[10px] uppercase tracking-widest opacity-50">VLAN / Routing</div>
                 </div>
             </div>
         </section>
 
     </main>
 
-    <footer class="text-center py-20 text-gray-600 text-[10px] tracking-[0.3em] uppercase">
-        © 2026 Aness Khenichil | Étudiant BTS SIO SISR ESUP PARIS
+    <footer class="text-center py-10 text-[10px] opacity-30 tracking-[1em] uppercase">
+        ESUP PARIS • 2026
     </footer>
+
+    <script>
+        const translations = {
+            fr: {
+                role: "Apprenti Administrateur Systèmes & Réseaux",
+                cv: "Télécharger CV",
+                descAd: "Windows Server 2022. Gestion des Unités d'Organisation, GPO avancées et automatisation PowerShell.",
+                linkAd: "Ouvrir Livrable",
+                descNet: "Segmentation VLAN, routage inter-VLAN et sécurité réseau via ACL sur équipements Cisco.",
+                linkNet: "Explorer Réseau",
+                skillLang: "Anglais Technique"
+            },
+            en: {
+                role: "Systems & Network Administrator Apprentice",
+                cv: "Download Resume",
+                descAd: "Windows Server 2022. Organizational Units management, advanced GPOs and PowerShell automation.",
+                linkAd: "Open Deliverable",
+                descNet: "VLAN Segmentation, inter-VLAN routing and network security via ACL on Cisco equipment.",
+                linkNet: "Explore Network",
+                skillLang: "Technical English"
+            }
+        };
+
+        function setLanguage(lang) {
+            // Update Text
+            document.getElementById('txt-role').innerText = translations[lang].role;
+            document.getElementById('txt-cv').innerText = translations[lang].cv;
+            document.getElementById('txt-desc-ad').innerText = translations[lang].descAd;
+            document.getElementById('txt-link-ad').innerText = translations[lang].linkAd;
+            document.getElementById('txt-desc-net').innerText = translations[lang].descNet;
+            document.getElementById('txt-link-net').innerText = translations[lang].linkNet;
+            document.getElementById('txt-skill-lang').innerText = translations[lang].skillLang;
+
+            // Update Buttons Style
+            document.getElementById('btn-fr').classList.toggle('active', lang === 'fr');
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+        }
+    </script>
 
 </body>
 </html>
