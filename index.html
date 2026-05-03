@@ -56,6 +56,7 @@
             align-items: center;
             gap: 10px;
             transition: all 0.3s;
+            text-decoration: none;
         }
 
         .btn-cyber:hover {
@@ -96,6 +97,17 @@
             z-index: 90;
             border-bottom: 1px solid rgba(128, 128, 128, 0.1);
         }
+
+        .badge {
+            background: rgba(0, 212, 255, 0.1);
+            color: #00d4ff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
@@ -128,10 +140,47 @@
                 Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.
             </div>
 
-            <a href="CV%20ANESS%20KHENICHIL%20-%20SISR.pdf" target="_blank" class="btn-cyber">
-                <i class="fas fa-file-pdf"></i> <span id="txt-cv-btn">Télécharger mon CV PDF</span>
-            </a>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="CV%20ANESS%20KHENICHIL%20-%20SISR.pdf" target="_blank" class="btn-cyber">
+                    <i class="fas fa-file-pdf"></i> <span id="txt-cv-btn">Télécharger mon CV PDF</span>
+                </a>
+                <a href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20-%20Tableau%20de%20synthèse%20Épreuve%20E5.pdf" target="_blank" class="btn-cyber" style="border-color: #00d4ff; color: #00d4ff;">
+                    <i class="fas fa-table"></i> <span id="txt-synth-btn">Tableau de Synthèse E5</span>
+                </a>
+            </div>
         </header>
+
+        <section class="mb-32">
+            <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-8" id="txt-title-skills">Compétences Référentiel SISR</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="glass-card p-4 text-xs">
+                    <span class="badge">Gérer le patrimoine</span>
+                    <p class="mt-2 opacity-70" id="txt-skill1">Recensement des ressources, gestion de parc avec GLPI et maintenance préventive.</p>
+                </div>
+                <div class="glass-card p-4 text-xs">
+                    <span class="badge">Sécuriser les services</span>
+                    <p class="mt-2 opacity-70" id="txt-skill2">Mise en place de politiques GPO, audit de vulnérabilités et gestion des habilitations AD DS.</p>
+                </div>
+                <div class="glass-card p-4 text-xs">
+                    <span class="badge">Travailler en mode projet</span>
+                    <p class="mt-2 opacity-70" id="txt-skill3">Utilisation de Kanboard (Agile), documentation technique et suivi des indicateurs.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="text-3xl font-bold mb-12 uppercase italic" style="font-family: 'Syncopate';" id="txt-title-proj">Projets & Livrables</h2>
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-32">
+            <div class="glass-card p-10">
+                <h3 class="text-xl font-bold mb-4 uppercase">Expert AD DS</h3>
+                <p class="text-sm text-gray-500 mb-8" id="txt-proj1">Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.</p>
+                <a href="adlivrable.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link1">Ouvrir le livrable</a>
+            </div>
+            <div class="glass-card p-10">
+                <h3 class="text-xl font-bold mb-4 uppercase">StratAdvise Network</h3>
+                <p class="text-sm text-gray-500 mb-8" id="txt-proj2">Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.</p>
+                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link2" style="border-color: #00f0ff; color: #00f0ff;">Explorer le réseau</a>
+            </div>
+        </section>
 
         <section class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-32">
             <div class="md:col-span-2 space-y-12">
@@ -156,7 +205,7 @@
                     <div class="space-y-4 text-sm">
                         <div>
                             <p class="font-bold">BTS SIO SISR</p>
-                            <p class="text-xs opacity-50">ESUP Paris | 2025 - 2027</p>
+                            <p class="text-xs opacity-50">ESUP Paris | 2024 - 2026</p>
                         </div>
                         <div>
                             <p class="font-bold" id="txt-edu-lic">Licence Sciences de la Matière</p>
@@ -174,19 +223,6 @@
             </div>
         </section>
 
-        <h2 class="text-3xl font-bold mb-12 uppercase italic" style="font-family: 'Syncopate';" id="txt-title-proj">Projets & Livrables</h2>
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-32">
-            <div class="glass-card p-10">
-                <h3 class="text-xl font-bold mb-4 uppercase">Expert AD DS</h3>
-                <p class="text-sm text-gray-500 mb-8" id="txt-proj1">Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.</p>
-                <a href="adlivrable.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link1">Ouvrir le livrable</a>
-            </div>
-            <div class="glass-card p-10">
-                <h3 class="text-xl font-bold mb-4 uppercase">StratAdvise Network</h3>
-                <p class="text-sm text-gray-500 mb-8" id="txt-proj2">Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.</p>
-                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link2" style="border-color: #00f0ff; color: #00f0ff;">Explorer le réseau</a>
-            </div>
-        </section>
     </main>
 
     <footer class="text-center py-20 opacity-20 text-[10px] tracking-[1em] uppercase">
@@ -200,45 +236,55 @@
                 role: "Apprenti Administrateur Systèmes & Réseaux",
                 profile: "Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.",
                 cvBtn: "Télécharger mon CV PDF",
+                synthBtn: "Tableau de Synthèse E5",
+                titleSkills: "Compétences Référentiel SISR",
+                skill1: "Recensement des ressources, gestion de parc avec GLPI et maintenance préventive.",
+                skill2: "Mise en place de politiques GPO, audit de vulnérabilités et gestion des habilitations AD DS.",
+                skill3: "Utilisation de Kanboard (Agile), documentation technique et suivi des indicateurs.",
+                titleProj: "Projets & Livrables",
+                proj1: "Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.",
+                proj2: "Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.",
+                link1: "Ouvrir le livrable",
+                link2: "Explorer le réseau",
                 exp: "Expériences", 
                 edu: "Formation", 
                 lang: "Langues",
                 job1: "Vendeur Responsable",
                 date1: "2023 - 2025",
-                descJob1: "Gestion autonome des responsabilités opérationnelles du point de vente. Travail en flux tendu.",
+                descJob1: "Gestion autonome des responsabilités opérationnelles du point de vente.",
                 job2: "Vendeur Boulangerie",
                 date2: "Depuis Déc. 2024",
                 descJob2: "Capacité de travail sous pression et excellence du service client.",
                 eduLic: "Licence Sciences de la Matière",
                 langEn: "Niveau C1",
-                langAr: "Maternel",
-                titleProj: "Projets & Livrables",
-                proj1: "Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.",
-                proj2: "Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.",
-                link1: "Ouvrir le livrable",
-                link2: "Explorer le réseau"
+                langAr: "Maternel"
             },
             en: {
                 role: "Systems & Network Administrator Apprentice",
                 profile: "SISR Student at ESUP Paris. Passionate about Linux administration, Active Directory security, and network optimization. Looking for an apprenticeship to apply my skills to your infrastructure.",
                 cvBtn: "Download PDF Resume",
+                synthBtn: "E5 Synthesis Table",
+                titleSkills: "SISR Curriculum Skills",
+                skill1: "Resource inventory, IT asset management with GLPI, and preventive maintenance.",
+                skill2: "Implementation of GPO policies, vulnerability auditing, and AD DS permission management.",
+                skill3: "Using Kanboard (Agile), technical documentation, and performance tracking.",
+                titleProj: "Projects & Deliverables",
+                proj1: "Windows Server 2022 Infrastructure. GPO management and PowerShell automation.",
+                proj2: "VLAN Segmentation, Inter-VLAN Routing, and Cisco ACL security.",
+                link1: "Open deliverable",
+                link2: "Explore network",
                 exp: "Experience", 
                 edu: "Education", 
                 lang: "Languages",
                 job1: "Store Manager",
                 date1: "2023 - 2025",
-                descJob1: "Autonomous management of operational responsibilities. Fast-paced environment.",
+                descJob1: "Autonomous management of operational responsibilities.",
                 job2: "Bakery Associate",
                 date2: "Since Dec. 2024",
                 descJob2: "Ability to work under pressure and customer service excellence.",
                 eduLic: "Bachelor of Material Sciences",
                 langEn: "Advanced (C1)",
-                langAr: "Native",
-                titleProj: "Projects & Deliverables",
-                proj1: "Windows Server 2022 Infrastructure. GPO management and PowerShell automation.",
-                proj2: "VLAN Segmentation, Inter-VLAN Routing, and Cisco ACL security.",
-                link1: "Open deliverable",
-                link2: "Explore network"
+                langAr: "Native"
             }
         };
 
