@@ -1,310 +1,763 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Aness Khenichil</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio BTS SIO SISR | Aness Khenichil</title>
+    <meta name="description" content="Portfolio BTS SIO option SISR d'Aness Khenichil : compétences du Bloc 1, réalisations professionnelles, tableau de synthèse E5, veille technologique.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;600&display=swap');
-        
         :root {
             --accent: #ff6b00;
+            --accent-2: #00d4ff;
             --bg: #0a0a0a;
-            --card-bg: rgba(255, 255, 255, 0.02);
+            --surface: rgba(255, 255, 255, 0.03);
+            --surface-2: rgba(255, 255, 255, 0.06);
+            --border: rgba(255, 255, 255, 0.09);
             --text: #e2e8f0;
-            --nav-bg: rgba(10, 10, 10, 0.9);
+            --muted: #94a3b8;
+            --nav-bg: rgba(10, 10, 10, 0.88);
+            --ok: #22c55e;
         }
-
-        .light-mode {
+        [data-theme="light"] {
+            --accent: #d9480f;
+            --accent-2: #0369a1;
             --bg: #f8fafc;
-            --card-bg: #ffffff;
+            --surface: #ffffff;
+            --surface-2: #f1f5f9;
+            --border: rgba(15, 23, 42, 0.12);
             --text: #0f172a;
-            --accent: #2563eb;
-            --nav-bg: rgba(248, 250, 252, 0.9);
+            --muted: #475569;
+            --nav-bg: rgba(248, 250, 252, 0.92);
+            --ok: #15803d;
         }
 
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: 80px; }
         body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg);
+            margin: 0;
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
             color: var(--text);
-            transition: all 0.3s ease;
+            line-height: 1.6;
+            transition: background .3s, color .3s;
+        }
+        a { color: inherit; }
+        h1, h2, h3, h4 { margin: 0; line-height: 1.2; }
+        .display { font-family: 'Syncopate', sans-serif; text-transform: uppercase; }
+        .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+        .muted { color: var(--muted); }
+        .accent { color: var(--accent); }
+
+        /* Navigation */
+        .nav {
+            position: sticky; top: 0; z-index: 50;
+            background: var(--nav-bg); backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
+        .brand { font-family: 'Syncopate'; font-weight: 700; font-size: 13px; letter-spacing: .15em; text-decoration: none; white-space: nowrap; }
+        .nav-links { display: flex; gap: 22px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
+        .nav-links a { text-decoration: none; color: var(--muted); transition: color .2s; }
+        .nav-links a:hover { color: var(--accent); }
+        .icon-btn {
+            background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
+            width: 38px; height: 38px; border-radius: 50%; cursor: pointer;
+            display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .menu-btn { display: none; }
+        @media (max-width: 900px) {
+            .menu-btn { display: inline-flex; }
+            .nav-links {
+                display: none; position: absolute; top: 64px; left: 0; right: 0;
+                flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--border);
+            }
+            .nav-links.open { display: flex; }
+            .nav-links a { padding: 14px 20px; border-top: 1px solid var(--border); }
         }
 
-        .glass-card {
-            background: var(--card-bg);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(128, 128, 128, 0.1);
-            transition: all 0.3s ease;
+        /* Sections */
+        section { padding: 80px 0; }
+        .section-head { margin-bottom: 36px; }
+        .kicker { font-size: 12px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
+        .section-head h2 { font-family: 'Syncopate'; font-size: clamp(22px, 4vw, 32px); text-transform: uppercase; margin-top: 8px; }
+        .section-head p { max-width: 720px; margin: 12px 0 0; color: var(--muted); }
+
+        .card {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+            padding: 24px; transition: border-color .25s, transform .25s;
+        }
+        .card:hover { border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+        .grid { display: grid; gap: 18px; }
+        .g2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .g3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+        .btn {
+            display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
+            border: 2px solid var(--accent); color: var(--accent); background: transparent;
+            padding: 11px 20px; border-radius: 8px; font-size: 13px; font-weight: 700;
+            cursor: pointer; transition: all .2s;
+        }
+        .btn:hover { background: var(--accent); color: #fff; }
+        .btn.alt { border-color: var(--accent-2); color: var(--accent-2); }
+        .btn.alt:hover { background: var(--accent-2); color: #000; }
+        .btn.sm { padding: 7px 12px; font-size: 12px; border-width: 1px; }
+
+        .tag {
+            display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 9px;
+            border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
+        }
+        .comp-badge {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 26px; height: 26px; border-radius: 6px; font-size: 12px; font-weight: 800;
+            background: color-mix(in srgb, var(--accent-2) 15%, transparent); color: var(--accent-2);
         }
 
-        .glass-card:hover {
-            border-color: var(--accent);
-            transform: translateY(-5px);
-        }
+        /* Hero */
+        .hero { padding: 90px 0 70px; text-align: center; }
+        .hero h1 { font-family: 'Syncopate'; font-size: clamp(34px, 8vw, 84px); font-weight: 700; font-style: italic; text-transform: uppercase; }
+        .hero .role { letter-spacing: .3em; text-transform: uppercase; font-size: 13px; color: var(--muted); margin: 18px 0 32px; }
+        .hero .intro { max-width: 760px; margin: 0 auto 32px; text-align: left; }
+        .hero .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+        .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; max-width: 760px; margin: 40px auto 0; }
+        .fact { padding: 16px; text-align: center; }
+        .fact strong { display: block; font-size: 26px; color: var(--accent); }
+        .fact span { font-size: 12px; color: var(--muted); }
 
-        .btn-cyber {
-            font-family: 'Syncopate', sans-serif;
-            border: 2px solid var(--accent);
-            padding: 10px 20px;
-            color: var(--accent);
-            font-size: 0.7rem;
-            text-transform: uppercase;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            transition: all 0.3s;
-            text-decoration: none;
-        }
+        /* Compétences */
+        .comp-card { cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; display: flex; flex-direction: column; align-items: flex-start; }
+        .comp-card .count { margin-top: auto !important; padding-top: 14px; }
+        .comp-card h3 { font-size: 16px; margin: 12px 0 10px; }
+        .comp-card ul { margin: 0; padding-left: 18px; font-size: 13px; color: var(--muted); }
+        .comp-card li { margin-bottom: 4px; }
+        .comp-card .count { margin-top: 14px; font-size: 12px; font-weight: 600; color: var(--accent); }
+        .comp-card.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 
-        .btn-cyber:hover {
-            background: var(--accent);
-            color: white;
-            box-shadow: 0 0 15px var(--accent);
-        }
+        .stack { display: flex; flex-wrap: wrap; gap: 8px; }
+        .stack .tag { font-size: 12px; padding: 6px 12px; }
 
-        .fixed-controls {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            z-index: 100;
+        /* Réalisations */
+        .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+        .chip {
+            border: 1px solid var(--border); background: var(--surface); color: var(--muted);
+            padding: 7px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; cursor: pointer;
         }
+        .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+        .group-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 32px 0 14px; display: flex; align-items: center; gap: 10px; }
+        .group-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+        .real { display: flex; flex-direction: column; gap: 12px; }
+        .real-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 12px; }
+        .real h3 { font-size: 17px; }
+        .real p { margin: 0; font-size: 14px; color: var(--muted); }
+        .real .comps { display: flex; gap: 6px; flex-wrap: wrap; }
+        .real .techs { display: flex; gap: 6px; flex-wrap: wrap; }
+        .real details { font-size: 14px; border-top: 1px solid var(--border); padding-top: 10px; }
+        .real summary { cursor: pointer; font-weight: 600; font-size: 13px; color: var(--accent); }
+        .real details dl { margin: 10px 0 0; }
+        .real details dt { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin-top: 10px; }
+        .real details dd { margin: 2px 0 0; color: var(--muted); }
+        .real .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+        .hidden { display: none !important; }
 
-        .control-btn {
-            background: var(--accent);
-            color: white;
-            border: none;
-            width: 48px;
-            height: 48px;
-            border-radius: 50%;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        /* Tableau de synthèse */
+        .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 760px; }
+        th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); text-align: center; }
+        th:first-child, td:first-child { text-align: left; }
+        thead th { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); vertical-align: bottom; background: var(--surface-2); }
+        tbody tr:hover { background: var(--surface-2); }
+        td.period { white-space: nowrap; color: var(--muted); font-size: 12px; }
+        .check { color: var(--ok); font-weight: 800; }
+        tr.group-row td { background: var(--surface-2); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; text-align: left; }
+        tfoot td { font-weight: 700; }
+        .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 18px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+
+        /* Veille */
+        .source-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+        .source-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; }
+        .source-list i { color: var(--accent); margin-top: 4px; width: 16px; text-align: center; }
+        .source-list a { font-weight: 600; }
+
+        /* Timeline */
+        .timeline { border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 22px; }
+        .timeline .item { position: relative; }
+        .timeline .item::before {
+            content: ""; position: absolute; left: -29px; top: 6px; width: 12px; height: 12px;
+            border-radius: 50%; background: var(--bg); border: 2px solid var(--accent);
         }
+        .timeline h4 { font-size: 15px; }
+        .timeline .date { font-size: 12px; color: var(--muted); }
+        .timeline p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
 
-        .nav-bar {
-            position: sticky;
-            top: 0;
-            background: var(--nav-bg);
-            backdrop-filter: blur(10px);
-            z-index: 90;
-            border-bottom: 1px solid rgba(128, 128, 128, 0.1);
-        }
+        .contact-grid a { text-decoration: none; display: flex; align-items: center; gap: 14px; }
+        .contact-grid i { font-size: 20px; color: var(--accent); width: 24px; text-align: center; }
 
-        .badge {
-            background: rgba(0, 212, 255, 0.1);
-            color: #00d4ff;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 10px;
-            font-weight: bold;
-            display: inline-block;
-            margin-bottom: 8px;
+        footer { text-align: center; padding: 40px 0 60px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+
+        @media print {
+            .nav, .filters, .icon-btn, .hero .actions { display: none !important; }
+            body { background: #fff; color: #000; }
+            section { padding: 24px 0; }
+            .real details { display: block; }
         }
     </style>
 </head>
 <body>
 
-    <div class="fixed-controls">
-        <button onclick="toggleTheme()" class="control-btn"><i id="theme-icon" class="fas fa-moon"></i></button>
-        <button onclick="toggleLang()" class="control-btn font-bold text-xs" id="lang-indicator">EN</button>
+<nav class="nav" aria-label="Navigation principale">
+    <div class="wrap">
+        <a href="#accueil" class="brand">Aness <span class="accent">Khenichil</span></a>
+        <div class="nav-links" id="nav-links">
+            <a href="#profil">Profil</a>
+            <a href="#competences">Compétences</a>
+            <a href="#realisations">Réalisations</a>
+            <a href="#synthese">Tableau E5</a>
+            <a href="#veille">Veille</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div style="display:flex; gap:8px;">
+            <button class="icon-btn" id="theme-btn" aria-label="Changer de thème"><i class="fas fa-sun"></i></button>
+            <button class="icon-btn menu-btn" id="menu-btn" aria-label="Ouvrir le menu"><i class="fas fa-bars"></i></button>
+        </div>
     </div>
+</nav>
 
-    <nav class="nav-bar">
-        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="font-bold text-sm tracking-widest uppercase" style="font-family: 'Syncopate';">Aness Khenichil</div>
-            <div class="flex gap-6 items-center text-[10px] md:text-xs font-bold uppercase tracking-widest">
-                <a href="tel:0610057960" class="hover:text-[--accent] transition-colors"><i class="fas fa-phone mr-1"></i> 06 10 05 79 60</a>
-                <span id="txt-nav-mail" class="hidden md:inline"><i class="fas fa-envelope mr-1"></i> anesskhenichilone@gmail.com</span>
-                <a href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" class="text-lg hover:text-[--accent]"><i class="fab fa-linkedin"></i></a>
+<main>
+    <!-- ACCUEIL -->
+    <header class="hero wrap" id="accueil">
+        <h1>Aness <span class="accent">Khenichil</span></h1>
+        <p class="role">BTS SIO option SISR · Systèmes & Réseaux</p>
+        <div class="card intro" id="profil">
+            <p style="margin-top:0">
+                Étudiant en <strong>BTS Services Informatiques aux Organisations</strong>, option
+                <strong>SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux) à l'ESUP Paris, session 2027.
+            </p>
+            <p style="margin-bottom:0" class="muted">
+                Je m'intéresse à l'administration Windows Server et Linux, à la sécurité Active Directory et aux réseaux Cisco.
+                Ce portfolio présente mes réalisations professionnelles, en formation et en entreprise, classées selon
+                les compétences du <strong>Bloc 1 « Support et mise à disposition de services informatiques »</strong>
+                évaluées à l'épreuve E5.
+            </p>
+        </div>
+        <div class="actions">
+            <a href="CV%20ANESS%20KHENICHIL%20-%20SISR.pdf" target="_blank" rel="noopener" class="btn"><i class="fas fa-file-pdf"></i> Mon CV</a>
+            <a href="#synthese" class="btn alt"><i class="fas fa-table"></i> Tableau de synthèse E5</a>
+            <a href="#realisations" class="btn alt"><i class="fas fa-folder-open"></i> Mes réalisations</a>
+        </div>
+        <div class="facts">
+            <div class="card fact"><strong id="fact-real">–</strong><span>réalisations professionnelles</span></div>
+            <div class="card fact"><strong id="fact-comp">–</strong><span>compétences du Bloc 1 couvertes</span></div>
+            <div class="card fact"><strong>3</strong><span>parcours Cisco Networking Academy</span></div>
+        </div>
+    </header>
+
+    <!-- COMPETENCES -->
+    <section id="competences">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Référentiel BTS SIO · Bloc 1</span>
+                <h2>Compétences</h2>
+                <p>Les six compétences du Bloc 1 évaluées à l'épreuve E5. Cliquez sur une compétence pour voir les réalisations qui la mettent en œuvre.</p>
+            </div>
+            <div class="grid g3" id="comp-grid"></div>
+
+            <div class="card" style="margin-top:28px">
+                <h3 style="font-size:16px; margin-bottom:14px"><i class="fas fa-screwdriver-wrench accent"></i> Environnement technique maîtrisé</h3>
+                <div class="stack">
+                    <span class="tag">Windows Server 2019</span>
+                    <span class="tag">Active Directory (AD DS)</span>
+                    <span class="tag">GPO</span>
+                    <span class="tag">DNS / DHCP</span>
+                    <span class="tag">PowerShell</span>
+                    <span class="tag">Ubuntu / Kali Linux</span>
+                    <span class="tag">Cisco IOS : VLAN, inter-VLAN, ACL</span>
+                    <span class="tag">Cisco Packet Tracer</span>
+                    <span class="tag">VirtualBox</span>
+                    <span class="tag">GLPI (ITSM, gestion de parc)</span>
+                    <span class="tag">Kanboard</span>
+                    <span class="tag">TCP/IP</span>
+                    <span class="tag">Python (bases)</span>
+                    <span class="tag">HTML / CSS</span>
+                </div>
             </div>
         </div>
-    </nav>
+    </section>
 
-    <main class="max-w-6xl mx-auto px-6 py-16">
-        
-        <header class="text-center mb-32">
-            <h1 class="text-5xl md:text-8xl font-bold mb-6 italic uppercase" style="font-family: 'Syncopate';">
-                Aness <span style="color: var(--accent);">Khenichil</span>
-            </h1>
-            <p id="txt-role" class="text-gray-500 tracking-[0.4em] uppercase text-sm mb-12">Apprenti Administrateur Systèmes & Réseaux</p>
-            
-            <div class="max-w-3xl mx-auto glass-card p-8 rounded-2xl text-sm leading-relaxed mb-10" id="txt-profile">
-                Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.
+    <!-- REALISATIONS -->
+    <section id="realisations" style="background: var(--surface);">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Épreuve E5</span>
+                <h2>Réalisations professionnelles</h2>
+                <p>Chaque réalisation précise son contexte, sa période, les compétences mobilisées et les documents associés.</p>
             </div>
+            <div class="filters" id="filters"></div>
+            <div id="real-list"></div>
+        </div>
+    </section>
 
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="CV%20ANESS%20KHENICHIL%20-%20SISR.pdf" target="_blank" class="btn-cyber">
-                    <i class="fas fa-file-pdf"></i> <span id="txt-cv-btn">Télécharger mon CV PDF</span>
-                </a>
-                <a href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20-%20Tableau%20de%20synthèse%20Épreuve%20E5.pdf" target="_blank" class="btn-cyber" style="border-color: #00d4ff; color: #00d4ff;">
-                    <i class="fas fa-table"></i> <span id="txt-synth-btn">Tableau de Synthèse E5</span>
-                </a>
+    <!-- TABLEAU DE SYNTHESE -->
+    <section id="synthese">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Annexe VI-1 · Session 2026</span>
+                <h2>Tableau de synthèse</h2>
+                <p>Vue d'ensemble des réalisations et des compétences mises en œuvre. Le document officiel est téléchargeable ci-dessous.</p>
             </div>
-        </header>
+            <div class="table-wrap">
+                <table id="synth-table" aria-label="Tableau de synthèse des réalisations professionnelles"></table>
+            </div>
+            <div class="legend" id="legend"></div>
+            <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:22px">
+                <a class="btn sm" target="_blank" rel="noopener" href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20-%20Tableau%20de%20synth%C3%A8se%20%C3%89preuve%20E5.pdf"><i class="fas fa-file-pdf"></i> Tableau officiel (PDF)</a>
+                <a class="btn sm alt" href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20(2).xlsx"><i class="fas fa-file-excel"></i> Version Excel</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="mb-32">
-            <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-8" id="txt-title-skills">Compétences Référentiel SISR</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="glass-card p-4 text-xs">
-                    <span class="badge">Gérer le patrimoine</span>
-                    <p class="mt-2 opacity-70" id="txt-skill1">Recensement des ressources, gestion de parc avec GLPI et maintenance préventive.</p>
+    <!-- VEILLE -->
+    <section id="veille" style="background: var(--surface);">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Organiser son développement professionnel</span>
+                <h2>Veille technologique</h2>
+                <p>Thème : <strong>la sécurité des annuaires Active Directory face aux attaques par rançongiciel</strong>.
+                   L'Active Directory est la cible prioritaire des attaquants : en prendre le contrôle donne accès à tout le système d'information.</p>
+            </div>
+            <div class="grid g3">
+                <div class="card">
+                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-bullseye accent"></i> Problématique</h3>
+                    <p class="muted" style="margin:0; font-size:14px">
+                        Comment un administrateur peut-il réduire la surface d'attaque d'un domaine Active Directory
+                        et détecter rapidement une compromission ? Axes suivis : politique de mots de passe,
+                        modèle d'administration par niveaux (tiering), authentification forte, journalisation et
+                        sauvegardes hors ligne.
+                    </p>
                 </div>
-                <div class="glass-card p-4 text-xs">
-                    <span class="badge">Sécuriser les services</span>
-                    <p class="mt-2 opacity-70" id="txt-skill2">Mise en place de politiques GPO, audit de vulnérabilités et gestion des habilitations AD DS.</p>
+                <div class="card">
+                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-gears accent"></i> Méthode et outils</h3>
+                    <ul class="source-list">
+                        <li><i class="fas fa-rss"></i><span><strong>Flux RSS</strong> regroupés dans un agrégateur (Feedly)</span></li>
+                        <li><i class="fas fa-bell"></i><span><strong>Google Alertes</strong> sur « Active Directory », « ransomware », « CVE Windows Server »</span></li>
+                        <li><i class="fab fa-linkedin"></i><span><strong>LinkedIn</strong> : suivi de professionnels et d'éditeurs de sécurité</span></li>
+                        <li><i class="fas fa-clock"></i><span>Lecture hebdomadaire, tri, puis fiche de synthèse mensuelle</span></li>
+                    </ul>
                 </div>
-                <div class="glass-card p-4 text-xs">
-                    <span class="badge">Travailler en mode projet</span>
-                    <p class="mt-2 opacity-70" id="txt-skill3">Utilisation de Kanboard (Agile), documentation technique et suivi des indicateurs.</p>
-                </div>
-            </div>
-        </section>
-
-        <h2 class="text-3xl font-bold mb-12 uppercase italic" style="font-family: 'Syncopate';" id="txt-title-proj">Projets & Livrables</h2>
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-32">
-            <div class="glass-card p-10">
-                <h3 class="text-xl font-bold mb-4 uppercase">Expert AD DS</h3>
-                <p class="text-sm text-gray-500 mb-8" id="txt-proj1">Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.</p>
-                <a href="adlivrable.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link1">Ouvrir le livrable</a>
-            </div>
-            <div class="glass-card p-10">
-                <h3 class="text-xl font-bold mb-4 uppercase">StratAdvise Network</h3>
-                <p class="text-sm text-gray-500 mb-8" id="txt-proj2">Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.</p>
-                <a href="StratAdvise Infrastructure.html" target="_blank" class="btn-cyber w-full justify-center" id="txt-link2" style="border-color: #00f0ff; color: #00f0ff;">Explorer le réseau</a>
-            </div>
-        </section>
-
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-32">
-            <div class="md:col-span-2 space-y-12">
-                <h2 class="text-2xl font-bold uppercase italic border-l-4 border-[--accent] pl-4" id="txt-title-exp">Expériences</h2>
-                <div class="space-y-8">
-                    <div class="glass-card p-6 border-l-4 border-[--accent]">
-                        <h4 class="font-bold">Naturalia Paris | <span id="txt-job1" class="text-[--accent]">Vendeur Responsable</span></h4>
-                        <p class="text-[10px] opacity-50 mb-3" id="txt-date1">2023 - 2025</p>
-                        <p class="text-sm italic" id="txt-desc-job1">Gestion autonome des responsabilités opérationnelles du point de vente. Travail en flux tendu.</p>
-                    </div>
-                    <div class="glass-card p-6 border-l-4 border-gray-500">
-                        <h4 class="font-bold">Le 57 Paris | <span id="txt-job2">Vendeur Boulangerie</span></h4>
-                        <p class="text-[10px] opacity-50 mb-3" id="txt-date2">Depuis Déc. 2024</p>
-                        <p class="text-sm italic" id="txt-desc-job2">Capacité de travail sous pression et excellence du service client.</p>
-                    </div>
+                <div class="card">
+                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-book-open accent"></i> Sources</h3>
+                    <ul class="source-list">
+                        <li><i class="fas fa-shield-halved"></i><span><a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">CERT-FR</a> : alertes et avis de sécurité</span></li>
+                        <li><i class="fas fa-landmark"></i><span><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">ANSSI</a> : guides de sécurisation AD</span></li>
+                        <li><i class="fas fa-user-shield"></i><span><a href="https://www.cybermalveillance.gouv.fr/" target="_blank" rel="noopener">Cybermalveillance.gouv.fr</a></span></li>
+                        <li><i class="fas fa-newspaper"></i><span><a href="https://www.it-connect.fr/" target="_blank" rel="noopener">IT-Connect</a>, <a href="https://www.lemagit.fr/" target="_blank" rel="noopener">LeMagIT</a>, <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">BleepingComputer</a></span></li>
+                    </ul>
                 </div>
             </div>
+            <!--
+                Ajouter ici les fiches de veille (3 à 5 minimum), sur ce modèle :
+                <div class="card">
+                    <span class="tag">MM/AAAA · Source</span>
+                    <h3>Titre de l'article</h3>
+                    <p>Résumé en 3 lignes + ce que j'en retiens pour mon métier.</p>
+                    <a href="URL" target="_blank">Lire l'article</a>
+                </div>
+            -->
+        </div>
+    </section>
 
-            <div class="space-y-12">
-                <div>
-                    <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-6" id="txt-title-edu">Formation</h2>
-                    <div class="space-y-4 text-sm">
-                        <div>
-                            <p class="font-bold">BTS SIO SISR</p>
-                            <p class="text-xs opacity-50">ESUP Paris | 2025 - 2027</p>
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Formation continue</span>
+                <h2>Certifications</h2>
+            </div>
+            <div class="grid g3">
+                <div class="card">
+                    <span class="tag">Cisco Networking Academy · 11/2025</span>
+                    <h3 style="font-size:16px; margin:12px 0 6px">Premiers pas avec Cisco Packet Tracer</h3>
+                    <p class="muted" style="margin:0; font-size:14px">Prise en main du simulateur : topologies, équipements, configuration de base.</p>
+                </div>
+                <div class="card">
+                    <span class="tag">Cisco Networking Academy · 11/2025</span>
+                    <h3 style="font-size:16px; margin:12px 0 6px">Exploring Networking with Cisco Packet Tracer</h3>
+                    <p class="muted" style="margin:0; font-size:14px">Construction et test de réseaux simulés : adressage IP, commutation, routage.</p>
+                </div>
+                <div class="card">
+                    <span class="tag">Cisco Networking Academy · 11/2025</span>
+                    <h3 style="font-size:16px; margin:12px 0 6px">Exploring IoT with Cisco Packet Tracer</h3>
+                    <p class="muted" style="margin:0; font-size:14px">Intégration d'objets connectés dans un réseau simulé et automatisation simple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section id="parcours" style="background: var(--surface);">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Formation & expériences</span>
+                <h2>Parcours</h2>
+            </div>
+            <div class="grid g2">
+                <div class="card">
+                    <h3 style="font-size:16px; margin-bottom:20px"><i class="fas fa-graduation-cap accent"></i> Formation</h3>
+                    <div class="timeline">
+                        <div class="item">
+                            <h4>BTS SIO, option SISR</h4>
+                            <div class="date">ESUP Paris (Puteaux) · 2025 – 2027</div>
+                            <p>Administration systèmes et réseaux, cybersécurité, support et mise à disposition de services informatiques.</p>
                         </div>
-                        <div>
-                            <p class="font-bold" id="txt-edu-lic">Licence Sciences de la Matière</p>
-                            <p class="text-xs opacity-50">Sorbonne Université | 2023</p>
+                        <div class="item">
+                            <h4>Licence Sciences de la Matière</h4>
+                            <div class="date">Sorbonne Université · 2023 – 2025</div>
+                        </div>
+                        <div class="item">
+                            <h4>Baccalauréat scientifique</h4>
+                            <div class="date">Lycée Voltaire · 2023</div>
+                            <p>Spécialités Mathématiques et Sciences de l'ingénieur.</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h2 class="text-2xl font-bold uppercase italic border-l-4 border-cyan-500 pl-4 mb-6" id="txt-title-lang">Langues</h2>
-                    <div class="space-y-2 text-xs font-bold uppercase">
-                        <div class="flex justify-between"><span>Anglais</span> <span class="text-cyan-500" id="txt-lang-en">Niveau C1</span></div>
-                        <div class="flex justify-between"><span>Arabe</span> <span class="text-cyan-500" id="txt-lang-ar">Maternel</span></div>
+                <div class="card">
+                    <h3 style="font-size:16px; margin-bottom:20px"><i class="fas fa-briefcase accent"></i> Expériences</h3>
+                    <div class="timeline">
+                        <div class="item">
+                            <h4>Vendeur en boulangerie · Le 57, Paris</h4>
+                            <div class="date">Depuis décembre 2024</div>
+                            <p>Travail en flux tendu, rigueur et sens du service client.</p>
+                        </div>
+                        <div class="item">
+                            <h4>Vendeur responsable · Naturalia, Paris</h4>
+                            <div class="date">2023 – 2025</div>
+                            <p>Gestion autonome des responsabilités opérationnelles du point de vente.</p>
+                        </div>
+                        <div class="item">
+                            <h4>Serveur polyvalent · Brasserie l'Engrenage, Paris</h4>
+                            <div class="date">2022 – 2023</div>
+                            <p>Adaptabilité et réactivité en environnement dynamique.</p>
+                        </div>
+                    </div>
+                    <h3 style="font-size:16px; margin:28px 0 12px"><i class="fas fa-language accent"></i> Langues</h3>
+                    <div class="stack">
+                        <span class="tag">Anglais · C1</span>
+                        <span class="tag">Arabe · langue maternelle</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </main>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="kicker">Me joindre</span>
+                <h2>Contact</h2>
+            </div>
+            <div class="grid g3 contact-grid">
+                <a class="card" href="mailto:anesskhenichilone@gmail.com"><i class="fas fa-envelope"></i><span>anesskhenichilone@gmail.com</span></a>
+                <a class="card" href="tel:+33610057960"><i class="fas fa-phone"></i><span>06 10 05 79 60</span></a>
+                <a class="card" href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+            </div>
+        </div>
+    </section>
+</main>
 
-    <footer class="text-center py-20 opacity-20 text-[10px] tracking-[1em] uppercase">
-        Aness Khenichil • 2026
-    </footer>
+<footer>
+    Aness Khenichil · Portfolio BTS SIO SISR · ESUP Paris · 2026
+</footer>
 
-    <script>
-        let currentLang = 'fr';
-        const content = {
-            fr: {
-                role: "Apprenti Administrateur Systèmes & Réseaux",
-                profile: "Étudiant en BTS SIO (SISR) à l'ESUP Paris. Passionné par l'administration Linux, la sécurité Active Directory et l'optimisation réseau. Je recherche une alternance pour transformer mes acquis académiques en solutions concrètes pour votre infrastructure.",
-                cvBtn: "Télécharger mon CV PDF",
-                synthBtn: "Tableau de Synthèse E5",
-                titleSkills: "Compétences Référentiel SISR",
-                skill1: "Recensement des ressources, gestion de parc avec GLPI et maintenance préventive.",
-                skill2: "Mise en place de politiques GPO, audit de vulnérabilités et gestion des habilitations AD DS.",
-                skill3: "Utilisation de Kanboard (Agile), documentation technique et suivi des indicateurs.",
-                titleProj: "Projets & Livrables",
-                proj1: "Infrastructure Windows Server 2022. Gestion des GPO et automatisation PowerShell.",
-                proj2: "Segmentation VLAN, Routage Inter-VLAN et sécurité via ACL Cisco.",
-                link1: "Ouvrir le livrable",
-                link2: "Explorer le réseau",
-                exp: "Expériences", 
-                edu: "Formation", 
-                lang: "Langues",
-                job1: "Vendeur Responsable",
-                date1: "2023 - 2025",
-                descJob1: "Gestion autonome des responsabilités opérationnelles du point de vente.",
-                job2: "Vendeur Boulangerie",
-                date2: "Depuis Déc. 2024",
-                descJob2: "Capacité de travail sous pression et excellence du service client.",
-                eduLic: "Licence Sciences de la Matière",
-                langEn: "Niveau C1",
-                langAr: "Maternel"
-            },
-            en: {
-                role: "Systems & Network Administrator Apprentice",
-                profile: "SISR Student at ESUP Paris. Passionate about Linux administration, Active Directory security, and network optimization. Looking for an apprenticeship to apply my skills to your infrastructure.",
-                cvBtn: "Download PDF Resume",
-                synthBtn: "E5 Synthesis Table",
-                titleSkills: "SISR Curriculum Skills",
-                skill1: "Resource inventory, IT asset management with GLPI, and preventive maintenance.",
-                skill2: "Implementation of GPO policies, vulnerability auditing, and AD DS permission management.",
-                skill3: "Using Kanboard (Agile), technical documentation, and performance tracking.",
-                titleProj: "Projects & Deliverables",
-                proj1: "Windows Server 2022 Infrastructure. GPO management and PowerShell automation.",
-                proj2: "VLAN Segmentation, Inter-VLAN Routing, and Cisco ACL security.",
-                link1: "Open deliverable",
-                link2: "Explore network",
-                exp: "Experience", 
-                edu: "Education", 
-                lang: "Languages",
-                job1: "Store Manager",
-                date1: "2023 - 2025",
-                descJob1: "Autonomous management of operational responsibilities.",
-                job2: "Bakery Associate",
-                date2: "Since Dec. 2024",
-                descJob2: "Ability to work under pressure and customer service excellence.",
-                eduLic: "Bachelor of Material Sciences",
-                langEn: "Advanced (C1)",
-                langAr: "Native"
-            }
-        };
+<script>
+    // Les 6 compétences du Bloc 1 (référentiel BTS SIO)
+    const COMPETENCES = [
+        { id: 'C1', short: 'Patrimoine', title: 'Gérer le patrimoine informatique', items: [
+            'Recenser et identifier les ressources numériques',
+            'Exploiter des référentiels, normes et standards adoptés par le prestataire informatique',
+            'Mettre en place et vérifier les niveaux d’habilitation associés à un service',
+            'Vérifier les conditions de la continuité d’un service informatique',
+            'Gérer des sauvegardes',
+            'Vérifier le respect des règles d’utilisation des ressources numériques'
+        ]},
+        { id: 'C2', short: 'Incidents', title: 'Répondre aux incidents et aux demandes d’assistance et d’évolution', items: [
+            'Collecter, suivre et orienter des demandes',
+            'Traiter des demandes concernant les services réseau et système, applicatifs',
+            'Traiter des demandes concernant les applications'
+        ]},
+        { id: 'C3', short: 'Présence en ligne', title: 'Développer la présence en ligne de l’organisation', items: [
+            'Participer à la valorisation de l’image de l’organisation sur les médias numériques en tenant compte du cadre juridique et des enjeux économiques',
+            'Référencer les services en ligne de l’organisation et mesurer leur visibilité',
+            'Participer à l’évolution d’un site Web exploitant les données de l’organisation'
+        ]},
+        { id: 'C4', short: 'Mode projet', title: 'Travailler en mode projet', items: [
+            'Analyser les objectifs et les modalités d’organisation d’un projet',
+            'Planifier les activités',
+            'Évaluer les indicateurs de suivi d’un projet et analyser les écarts'
+        ]},
+        { id: 'C5', short: 'Mise à disposition', title: 'Mettre à disposition des utilisateurs un service informatique', items: [
+            'Réaliser les tests d’intégration et d’acceptation d’un service',
+            'Déployer un service',
+            'Accompagner les utilisateurs dans la mise en place d’un service'
+        ]},
+        { id: 'C6', short: 'Dév. pro', title: 'Organiser son développement professionnel', items: [
+            'Mettre en place son environnement d’apprentissage personnel',
+            'Mettre en œuvre des outils et stratégies de veille informationnelle',
+            'Gérer son identité professionnelle',
+            'Développer son projet professionnel'
+        ]}
+    ];
 
-        function toggleLang() {
-            currentLang = currentLang === 'fr' ? 'en' : 'fr';
-            document.getElementById('lang-indicator').innerText = currentLang === 'fr' ? 'EN' : 'FR';
-            
-            Object.keys(content[currentLang]).forEach(key => {
-                const elementId = 'txt-' + key.replace(/([A-Z])/g, "-$1").toLowerCase();
-                const el = document.getElementById(elementId);
-                if (el) el.innerText = content[currentLang][key];
+    // Réalisations professionnelles (reprises du tableau de synthèse)
+    const REALISATIONS = [
+        // ---- En formation ----
+        {
+            group: 'formation', title: "Mise en production d'un contrôleur de domaine sous Windows Server 2019 (AD DS, DNS, DHCP)",
+            period: '04/26', comps: ['C1', 'C5'],
+            techs: ['Windows Server 2019', 'AD DS', 'DNS', 'DHCP', 'PowerShell', 'VirtualBox'],
+            summary: "Déploiement d'un domaine esup.local sur le serveur SRV-AD01 et création automatisée des comptes utilisateurs.",
+            context: "Projet du Bloc 1 en formation : mettre en place l'annuaire centralisé d'une ESN fictive.",
+            goals: "Installer et configurer les rôles AD DS, DNS et DHCP ; structurer l'annuaire en unités d'organisation ; provisionner les comptes.",
+            done: "Adressage IP statique (192.168.1.10), promotion du contrôleur de domaine esup.local, création de l'OU ESUP_Entreprise et import des utilisateurs depuis un fichier CSV avec PowerShell, création des groupes de sécurité.",
+            links: [{ label: 'Voir le livrable', href: 'adlivrable.html' }]
+        },
+        {
+            group: 'formation', title: "Mise en place d'une politique de sécurité des mots de passe via AD DS",
+            period: '03/26', comps: ['C1', 'C5'],
+            techs: ['GPO', 'AD DS', 'Observateur d’événements', 'Pare-feu Windows'],
+            summary: "Durcissement du domaine : complexité des mots de passe, verrouillage des comptes, carte à puce pour les administrateurs, audit des connexions.",
+            context: "Suite du projet Active Directory : sécuriser les comptes du domaine esup.local.",
+            goals: "Protéger les comptes contre les attaques par force brute et tracer les tentatives de connexion.",
+            done: "Stratégie de mot de passe complexe par GPO, verrouillage après 3 échecs, exigence de carte à puce pour les sessions administrateur, audit des succès et échecs de connexion, filtrage des flux par le pare-feu avancé.",
+            links: [{ label: 'Voir le livrable', href: 'adlivrable.html#/3' }]
+        },
+        {
+            group: 'formation', title: 'StratAdvise : infrastructure réseau segmentée (VLAN, DHCP, routage inter-VLAN)',
+            period: '11/25', comps: ['C4', 'C5'],
+            techs: ['Cisco Packet Tracer', 'VLAN', 'Router-on-a-stick', 'DHCP', 'ACL'],
+            summary: "Conception et test du réseau d'un cabinet de conseil : VLAN Accueil et Gestion, DHCP, routage entre VLAN et accès sans fil.",
+            context: "Projet de formation pour le cabinet fictif StratAdvise : séparer les flux des visiteurs et du personnel.",
+            goals: "Segmenter le réseau, distribuer les adresses automatiquement et valider la communication entre les VLAN.",
+            done: "Création des VLAN 10 (Accueil) et 20 (Gestion) sur le commutateur, pool DHCP pour le VLAN 10, sous-interfaces sur le routeur pour le routage inter-VLAN, tests de connectivité (ping intra et inter-VLAN) sur chaque poste.",
+            links: [{ label: 'Voir la présentation', href: 'StratAdvise%20Infrastructure.html' }]
+        },
+        {
+            group: 'formation', title: 'Gestion du parc et support utilisateur avec la solution ITSM GLPI',
+            period: '12/25 à 05/27', comps: ['C1', 'C2'],
+            techs: ['GLPI', 'ITSM'],
+            summary: "Inventaire du parc informatique et traitement des tickets d'assistance dans GLPI.",
+            context: "Mise en œuvre de GLPI en formation pour gérer le parc et les demandes des utilisateurs.",
+            goals: "Recenser les ressources matérielles et logicielles, suivre les demandes de leur création à leur clôture.",
+            done: "Inventaire des postes, création et suivi de tickets (incidents et demandes), catégorisation et priorisation.",
+            links: []
+        },
+        {
+            group: 'formation', title: 'Création de ce portfolio',
+            period: '09/25 à 04/26', comps: ['C3', 'C6'],
+            techs: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages'],
+            summary: "Conception et publication de ce site sur GitHub Pages pour présenter mes compétences et réalisations.",
+            context: "Portfolio exigé pour l'épreuve E5 du BTS SIO.",
+            goals: "Valoriser mon identité professionnelle en ligne et rendre mes réalisations accessibles au jury et aux recruteurs.",
+            done: "Développement du site, hébergement sur GitHub Pages, gestion des versions avec Git, mise à jour régulière.",
+            links: [{ label: 'Code source', href: 'https://github.com/mewx2head/mewx2head.github.io' }]
+        },
+        {
+            group: 'formation', title: 'Création d’un profil LinkedIn présentant mes réalisations techniques',
+            period: '12/25', comps: ['C3', 'C6'],
+            techs: ['LinkedIn'],
+            summary: "Construction d'un profil professionnel en ligne : parcours, compétences et projets.",
+            context: "Travail sur l'identité professionnelle numérique en formation.",
+            goals: "Être visible des recruteurs et suivre l'actualité du secteur.",
+            done: "Rédaction du profil, mise en avant des projets, constitution d'un réseau et abonnement à des comptes de veille.",
+            links: [{ label: 'Voir le profil', href: 'https://www.linkedin.com/in/aness-khenichil-630a10224' }]
+        },
+        {
+            group: 'formation', title: 'Parcours Cisco Packet Tracer (Premiers pas, Exploring Networking, Exploring IoT)',
+            period: '11/25', comps: ['C5', 'C6'],
+            techs: ['Cisco Packet Tracer', 'Cisco NetAcad'],
+            summary: "Trois parcours Cisco Networking Academy pour maîtriser la simulation de réseaux et d'objets connectés.",
+            context: "Autoformation sur la plateforme Cisco Networking Academy.",
+            goals: "Savoir construire, configurer et tester un réseau simulé.",
+            done: "Réalisation des activités pratiques des trois parcours et obtention des attestations.",
+            links: [{ label: 'Voir les certifications', href: '#certifications', internal: true }]
+        },
+        // ---- En milieu professionnel ----
+        {
+            group: 'entreprise', title: 'Support de proximité et gestion des incidents via la plateforme ITSM GLPI',
+            period: '12/25 à 05/27', comps: ['C1', 'C2'],
+            techs: ['GLPI', 'Windows', 'Support niveau 1'],
+            summary: "Prise en charge des demandes des utilisateurs, diagnostic et résolution des incidents, suivi dans GLPI.",
+            context: "Mission en entreprise au sein du service informatique.",
+            goals: "Traiter les incidents et demandes dans les délais et en garder une trace exploitable.",
+            done: "Qualification et suivi des tickets, intervention sur les postes, escalade si besoin, clôture avec compte rendu.",
+            links: []
+        },
+        {
+            group: 'entreprise', title: "Intégration et configuration réseau d'une solution d'impression partagée",
+            period: '01/26', comps: ['C1', 'C5'],
+            techs: ['Imprimante réseau', 'TCP/IP', 'Partage d’imprimante'],
+            summary: "Installation d'une imprimante réseau et mise à disposition pour les postes des utilisateurs.",
+            context: "Mission en entreprise : remplacer ou ajouter un équipement d'impression partagé.",
+            goals: "Rendre l'imprimante accessible à tous les postes concernés.",
+            done: "Attribution d'une adresse IP, déploiement sur les postes, tests d'impression avec les utilisateurs, mise à jour de l'inventaire.",
+            links: []
+        },
+        {
+            group: 'entreprise', title: 'Participation à un audit de vulnérabilités et vérification de la politique de sécurité du parc',
+            period: '03/26', comps: ['C1', 'C5', 'C6'],
+            techs: ['Audit de sécurité', 'Politique de sécurité'],
+            summary: "Contribution à l'identification des vulnérabilités du parc et au contrôle du respect de la politique de sécurité.",
+            context: "Mission en entreprise : audit de sécurité du parc informatique.",
+            goals: "Repérer les failles et les écarts à la politique de sécurité, proposer des corrections.",
+            done: "Vérification des postes et des comptes, relevé des écarts, participation aux recommandations.",
+            links: []
+        },
+        {
+            group: 'entreprise', title: 'Mise à jour des antivirus du parc',
+            period: '02/26', comps: ['C1', 'C5'],
+            techs: ['Antivirus', 'Gestion de parc'],
+            summary: "Contrôle et mise à jour des solutions antivirus sur les postes de travail.",
+            context: "Mission en entreprise : maintien en condition de sécurité du parc.",
+            goals: "Garantir que tous les postes disposent d'une protection à jour.",
+            done: "Vérification de l'état des antivirus, déploiement des mises à jour, contrôle de la conformité des postes.",
+            links: []
+        },
+        {
+            group: 'entreprise', title: 'Vérification des rapports de sauvegarde quotidiens',
+            period: '03/26', comps: ['C1'],
+            techs: ['Sauvegardes'],
+            summary: "Contrôle quotidien des rapports de sauvegarde et signalement des échecs.",
+            context: "Mission en entreprise : continuité de service et protection des données.",
+            goals: "S'assurer que les sauvegardes sont réalisées et exploitables.",
+            done: "Lecture des rapports, identification des tâches en échec, remontée et suivi des anomalies.",
+            links: []
+        }
+    ];
+
+    const GROUPS = { formation: 'Réalisations en cours de formation', entreprise: 'Réalisations en milieu professionnel' };
+    const byId = Object.fromEntries(COMPETENCES.map(c => [c.id, c]));
+    const esc = s => String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+    let activeFilter = 'all';
+
+    // Chiffres clés
+    document.getElementById('fact-real').textContent = REALISATIONS.length;
+    document.getElementById('fact-comp').textContent =
+        COMPETENCES.filter(c => REALISATIONS.some(r => r.comps.includes(c.id))).length + '/6';
+
+    // Cartes compétences
+    document.getElementById('comp-grid').innerHTML = COMPETENCES.map(c => {
+        const n = REALISATIONS.filter(r => r.comps.includes(c.id)).length;
+        return `<button class="card comp-card" data-comp="${c.id}">
+            <span class="comp-badge">${c.id}</span>
+            <h3>${esc(c.title)}</h3>
+            <ul>${c.items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
+            <div class="count">${n} réalisation${n > 1 ? 's' : ''} <i class="fas fa-arrow-right"></i></div>
+        </button>`;
+    }).join('');
+    document.querySelectorAll('.comp-card').forEach(el => el.addEventListener('click', () => {
+        setFilter(el.dataset.comp);
+        document.getElementById('realisations').scrollIntoView();
+    }));
+
+    // Filtres
+    document.getElementById('filters').innerHTML =
+        `<button class="chip active" data-f="all">Toutes</button>` +
+        COMPETENCES.map(c => `<button class="chip" data-f="${c.id}" title="${esc(c.title)}">${c.id} · ${esc(c.short)}</button>`).join('');
+    document.querySelectorAll('.chip').forEach(el => el.addEventListener('click', () => setFilter(el.dataset.f)));
+
+    // Cartes réalisations
+    function renderReal(r, idx) {
+        const links = r.links.map(l =>
+            `<a class="btn sm" href="${l.href}" ${l.internal ? '' : 'target="_blank" rel="noopener"'}><i class="fas fa-arrow-up-right-from-square"></i> ${esc(l.label)}</a>`
+        ).join('');
+        return `<article class="card real" data-comps="${r.comps.join(' ')}" id="real-${idx}">
+            <div class="real-top">
+                <span class="tag"><i class="fas ${r.group === 'formation' ? 'fa-graduation-cap' : 'fa-building'}"></i> ${r.group === 'formation' ? 'Formation' : 'Entreprise'}</span>
+                <span class="muted"><i class="far fa-calendar"></i> ${esc(r.period)}</span>
+            </div>
+            <h3>${esc(r.title)}</h3>
+            <p>${esc(r.summary)}</p>
+            <div class="comps">${r.comps.map(c => `<span class="comp-badge" title="${esc(byId[c].title)}">${c}</span>`).join('')}</div>
+            <div class="techs">${r.techs.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+            <details>
+                <summary>Contexte, objectifs et réalisation</summary>
+                <dl>
+                    <dt>Contexte</dt><dd>${esc(r.context)}</dd>
+                    <dt>Objectifs</dt><dd>${esc(r.goals)}</dd>
+                    <dt>Ce que j'ai réalisé</dt><dd>${esc(r.done)}</dd>
+                    <dt>Compétences mobilisées</dt><dd>${r.comps.map(c => `${c} · ${esc(byId[c].title)}`).join('<br>')}</dd>
+                </dl>
+            </details>
+            ${links ? `<div class="links">${links}</div>` : ''}
+        </article>`;
+    }
+    document.getElementById('real-list').innerHTML = Object.entries(GROUPS).map(([g, label]) =>
+        `<div class="real-group" data-group="${g}">
+            <h3 class="group-title">${label}</h3>
+            <div class="grid g2">${REALISATIONS.map((r, i) => r.group === g ? renderReal(r, i) : '').join('')}</div>
+        </div>`
+    ).join('');
+
+    function setFilter(f) {
+        activeFilter = f;
+        document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.f === f));
+        document.querySelectorAll('.comp-card').forEach(c => c.classList.toggle('active', c.dataset.comp === f));
+        document.querySelectorAll('.real').forEach(el => {
+            el.classList.toggle('hidden', f !== 'all' && !el.dataset.comps.split(' ').includes(f));
+        });
+        document.querySelectorAll('.real-group').forEach(g => {
+            g.classList.toggle('hidden', !g.querySelector('.real:not(.hidden)'));
+        });
+    }
+
+    // Tableau de synthèse
+    (function buildTable() {
+        let html = `<thead><tr><th>Réalisation professionnelle</th><th>Période</th>` +
+            COMPETENCES.map(c => `<th title="${esc(c.title)}">${c.id}<br>${esc(c.short)}</th>`).join('') + `</tr></thead><tbody>`;
+        Object.entries(GROUPS).forEach(([g, label]) => {
+            html += `<tr class="group-row"><td colspan="${COMPETENCES.length + 2}">${label}</td></tr>`;
+            REALISATIONS.forEach((r, i) => {
+                if (r.group !== g) return;
+                html += `<tr><td><a href="#real-${i}">${esc(r.title)}</a></td><td class="period">${esc(r.period)}</td>` +
+                    COMPETENCES.map(c => `<td>${r.comps.includes(c.id) ? '<span class="check" aria-label="oui">✓</span>' : ''}</td>`).join('') + `</tr>`;
             });
-        }
+        });
+        html += `</tbody><tfoot><tr><td>Total</td><td></td>` +
+            COMPETENCES.map(c => `<td>${REALISATIONS.filter(r => r.comps.includes(c.id)).length}</td>`).join('') + `</tr></tfoot>`;
+        document.getElementById('synth-table').innerHTML = html;
+        document.getElementById('legend').innerHTML = COMPETENCES.map(c => `<span><strong>${c.id}</strong> : ${esc(c.title)}</span>`).join('');
+    })();
 
-        function toggleTheme() {
-            document.body.classList.toggle('light-mode');
-            const icon = document.getElementById('theme-icon');
-            icon.classList.toggle('fa-moon');
-            icon.classList.toggle('fa-sun');
-        }
-    </script>
+    // Lien "réalisation" depuis le tableau : on enlève le filtre et on ouvre le détail
+    document.querySelectorAll('#synth-table a').forEach(a => a.addEventListener('click', () => {
+        setFilter('all');
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.querySelector('details').open = true;
+    }));
+
+    // Thème clair / sombre (mémorisé si possible)
+    const root = document.documentElement;
+    const themeBtn = document.getElementById('theme-btn');
+    function applyTheme(t) {
+        root.dataset.theme = t;
+        themeBtn.innerHTML = `<i class="fas ${t === 'dark' ? 'fa-sun' : 'fa-moon'}"></i>`;
+    }
+    try { applyTheme(localStorage.getItem('theme') || 'dark'); } catch (e) { applyTheme('dark'); }
+    themeBtn.addEventListener('click', () => {
+        const t = root.dataset.theme === 'dark' ? 'light' : 'dark';
+        applyTheme(t);
+        try { localStorage.setItem('theme', t); } catch (e) {}
+    });
+
+    // Menu mobile
+    const navLinks = document.getElementById('nav-links');
+    document.getElementById('menu-btn').addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+</script>
 </body>
 </html>
