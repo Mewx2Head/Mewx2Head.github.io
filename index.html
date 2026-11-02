@@ -646,60 +646,10 @@
             goals: "Rétablir rapidement le service pour l'utilisateur.",
             done: "Traitement des problèmes d'impression, des accès et partages SharePoint, des problèmes de stockage cloud, diagnostic et remplacement des écrans défectueux.",
             links: []
-        },
-        {
-            group: 'entreprise', title: 'Support de proximité et gestion des incidents via la plateforme ITSM GLPI',
-            period: '12/25 à 05/26', comps: ['C1', 'C2'],
-            techs: ['GLPI', 'Windows', 'Support niveau 1'],
-            summary: "Prise en charge des demandes des utilisateurs, diagnostic et résolution des incidents, suivi dans GLPI.",
-            context: "En entreprise (1re année) : support informatique des collaborateurs.",
-            goals: "Traiter les incidents et demandes dans les délais et en garder une trace exploitable.",
-            done: "Qualification et suivi des tickets, intervention sur les postes, escalade si besoin, clôture avec compte rendu.",
-            links: []
-        },
-        {
-            group: 'entreprise', title: "Intégration et configuration réseau d'une solution d'impression partagée",
-            period: '01/26', comps: ['C1', 'C5'],
-            techs: ['Imprimante réseau', 'TCP/IP', 'Partage d’imprimante'],
-            summary: "Installation d'une imprimante réseau et mise à disposition pour les postes des utilisateurs.",
-            context: "En entreprise (1re année) : ajout ou remplacement d'un équipement d'impression partagé.",
-            goals: "Rendre l'imprimante accessible à tous les postes concernés.",
-            done: "Attribution d'une adresse IP, déploiement sur les postes, tests d'impression avec les utilisateurs, mise à jour de l'inventaire.",
-            links: []
-        },
-        {
-            group: 'entreprise', title: 'Participation à un audit de vulnérabilités et vérification de la politique de sécurité du parc',
-            period: '03/26', comps: ['C1', 'C5', 'C6'],
-            techs: ['Audit de sécurité', 'Politique de sécurité'],
-            summary: "Contribution à l'identification des vulnérabilités du parc et au contrôle du respect de la politique de sécurité.",
-            context: "En entreprise (1re année) : audit de sécurité du parc informatique.",
-            goals: "Repérer les failles et les écarts à la politique de sécurité, proposer des corrections.",
-            done: "Vérification des postes et des comptes, relevé des écarts, participation aux recommandations.",
-            links: []
-        },
-        {
-            group: 'entreprise', title: 'Mise à jour des antivirus du parc',
-            period: '02/26', comps: ['C1', 'C5'],
-            techs: ['Antivirus', 'Gestion de parc'],
-            summary: "Contrôle et mise à jour des solutions antivirus sur les postes de travail.",
-            context: "En entreprise (1re année) : maintien en condition de sécurité du parc.",
-            goals: "Garantir que tous les postes disposent d'une protection à jour.",
-            done: "Vérification de l'état des antivirus, déploiement des mises à jour, contrôle de la conformité des postes.",
-            links: []
-        },
-        {
-            group: 'entreprise', title: 'Vérification des rapports de sauvegarde quotidiens',
-            period: '03/26', comps: ['C1'],
-            techs: ['Sauvegardes'],
-            summary: "Contrôle quotidien des rapports de sauvegarde et signalement des échecs.",
-            context: "En entreprise (1re année) : continuité de service et protection des données.",
-            goals: "S'assurer que les sauvegardes sont réalisées et exploitables.",
-            done: "Lecture des rapports, identification des tâches en échec, remontée et suivi des anomalies.",
-            links: []
         }
     ];
 
-    const GROUPS = { formation: 'Réalisations en cours de formation', entreprise: 'Réalisations en milieu professionnel · 1re année', alternance: 'Réalisations en milieu professionnel · 2e année · Alternance chez QSRP' };
+    const GROUPS = { formation: 'Réalisations en cours de formation', alternance: 'Réalisations en milieu professionnel · Alternance chez QSRP' };
     const byId = Object.fromEntries(COMPETENCES.map(c => [c.id, c]));
     const esc = s => String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
     let activeFilter = 'all';
@@ -737,7 +687,7 @@
         ).join('');
         return `<article class="card real" data-comps="${r.comps.join(' ')}" id="real-${idx}">
             <div class="real-top">
-                <span class="tag"><i class="fas ${r.group === 'formation' ? 'fa-graduation-cap' : 'fa-building'}"></i> ${r.group === 'formation' ? 'Formation' : r.group === 'alternance' ? 'Alternance QSRP' : 'Entreprise · 1re année'}</span>
+                <span class="tag"><i class="fas ${r.group === 'formation' ? 'fa-graduation-cap' : 'fa-building'}"></i> ${r.group === 'formation' ? 'Formation' : 'Alternance QSRP'}</span>
                 <span class="muted"><i class="far fa-calendar"></i> ${esc(r.period)}</span>
             </div>
             <h3>${esc(r.title)}</h3>
