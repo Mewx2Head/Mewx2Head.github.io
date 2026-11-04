@@ -23,7 +23,7 @@
     </style>
 </head>
 <body>
-<a href="index.html#realisations" style="position:fixed;top:14px;left:14px;z-index:1000;background:#ff6b00;color:#fff;padding:8px 14px;border-radius:8px;font:600 13px sans-serif;text-decoration:none">&larr; Retour au portfolio</a>
+<a id="back-link" href="index.html#realisations" style="position:fixed;top:14px;left:14px;z-index:1000;background:#ff6b00;color:#fff;padding:8px 14px;border-radius:8px;font:600 13px sans-serif;text-decoration:none">&larr; Retour au portfolio</a>
 
     <section class="slide" style="justify-content: center;">
         <h1>StratAdvise</h1>
@@ -93,5 +93,6 @@
         </div>
     </section>
 
+<script>if (window.self !== window.top) document.getElementById("back-link").remove();</script>
 </body>
 </html>

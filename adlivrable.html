@@ -36,7 +36,7 @@
     </style>
 </head>
 <body>
-<a href="index.html#realisations" style="position:fixed;top:14px;left:14px;z-index:1000;background:#ff6b00;color:#fff;padding:8px 14px;border-radius:8px;font:600 13px sans-serif;text-decoration:none">&larr; Retour au portfolio</a>
+<a id="back-link" href="index.html#realisations" style="position:fixed;top:14px;left:14px;z-index:1000;background:#ff6b00;color:#fff;padding:8px 14px;border-radius:8px;font:600 13px sans-serif;text-decoration:none">&larr; Retour au portfolio</a>
     <div class="reveal">
         <div class="footer-bar">PROJET BLOC 1 - SÉCURISATION DES INFRASTRUCTURES - ESUP ACTUAL BUSINESS SCHOOL</div>
         <div class="slides">
@@ -141,5 +141,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
     <script>Reveal.initialize({ hash: true, transition: 'fade', center: true });</script>
+<script>if (window.self !== window.top) document.getElementById("back-link").remove();</script>
 </body>
 </html>

@@ -198,6 +198,18 @@
 
         footer { text-align: center; padding: 40px 0 60px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
 
+
+        /* Fenêtre d'aperçu (CV, PDF, livrables) */
+        .viewer { position: fixed; inset: 0; z-index: 200; display: none; align-items: center; justify-content: center; padding: 24px; background: rgba(0, 0, 0, .75); backdrop-filter: blur(4px); }
+        .viewer.open { display: flex; }
+        .viewer-box { width: min(1200px, 100%); height: min(92vh, 100%); display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.5); animation: pop .2s ease-out; }
+        @keyframes pop { from { opacity: 0; transform: scale(.97); } to { opacity: 1; transform: none; } }
+        .viewer-bar { display: flex; align-items: center; gap: 10px; padding: 10px 12px 10px 18px; border-bottom: 1px solid var(--border); background: var(--surface-2); }
+        .viewer-bar h3 { flex: 1; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .viewer iframe { flex: 1; width: 100%; border: 0; background: #fff; }
+        body.no-scroll { overflow: hidden; }
+        @media (max-width: 700px) { .viewer { padding: 0; } .viewer-box { height: 100%; border-radius: 0; } .viewer-bar .label { display: none; } }
+
         @media print {
             .nav, .filters, .icon-btn, .hero .actions { display: none !important; }
             body { background: #fff; color: #000; }
@@ -484,6 +496,17 @@
     Aness Khenichil · Portfolio BTS SIO SISR · ESUP Paris · 2026
 </footer>
 
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title">
+    <div class="viewer-box">
+        <div class="viewer-bar">
+            <h3 id="viewer-title"></h3>
+            <a class="btn sm" id="viewer-newtab" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> <span class="label">Nouvel onglet</span></a>
+            <button class="icon-btn" id="viewer-close" aria-label="Fermer"><i class="fas fa-xmark"></i></button>
+        </div>
+        <iframe id="viewer-frame" title="Aperçu du document"></iframe>
+    </div>
+</div>
+
 <script>
     // Les 6 compétences du Bloc 1 (référentiel BTS SIO)
     const COMPETENCES = [
@@ -768,6 +791,46 @@
     const navLinks = document.getElementById('nav-links');
     document.getElementById('menu-btn').addEventListener('click', () => navLinks.classList.toggle('open'));
     navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+    // Ouvre les documents du site (CV, PDF, livrables) dans une fenêtre au lieu d'un nouvel onglet
+    (function () {
+        const viewer = document.getElementById('viewer');
+        const frame = document.getElementById('viewer-frame');
+        const title = document.getElementById('viewer-title');
+        const newTab = document.getElementById('viewer-newtab');
+        // Les navigateurs mobiles affichent mal les PDF dans une fenêtre : on les ouvre normalement
+        const mobile = matchMedia('(max-width: 700px), (pointer: coarse)').matches;
+
+        function open(url, label) {
+            title.textContent = label;
+            newTab.href = url;
+            frame.src = url;
+            viewer.classList.add('open');
+            document.body.classList.add('no-scroll');
+            document.getElementById('viewer-close').focus();
+        }
+        function close() {
+            viewer.classList.remove('open');
+            document.body.classList.remove('no-scroll');
+            frame.src = 'about:blank';
+        }
+
+        document.addEventListener('click', e => {
+            const a = e.target.closest('a[href]');
+            if (!a || a.closest('#viewer') || e.ctrlKey || e.metaKey || e.shiftKey) return;
+            const url = new URL(a.href, location.href);
+            if (url.origin !== location.origin) return;
+            const isPdf = /\.pdf$/i.test(url.pathname);
+            const isPage = /\.html$/i.test(url.pathname) && !/index\.html$/i.test(url.pathname);
+            if (!isPdf && !isPage) return;
+            if (isPdf && mobile) return;
+            e.preventDefault();
+            const card = a.closest('.real');
+            open(url.href, (card && card.querySelector('h3').textContent) || a.textContent.trim() || 'Document');
+        });
+        document.getElementById('viewer-close').addEventListener('click', close);
+        viewer.addEventListener('click', e => { if (e.target === viewer) close(); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape' && viewer.classList.contains('open')) close(); });
+    })();
 </script>
 </body>
 </html>
