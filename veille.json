@@ -1,1 +1,332 @@
-{"updated": null, "sources": [], "items": []}
+{
+ "updated": "2026-11-04T11:32+00:00",
+ "sources": [
+  "BleepingComputer",
+  "CERT-FR",
+  "IT-Connect",
+  "LeMagIT",
+  "Zataz"
+ ],
+ "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+   "date": "2026-11-04T09:39:54+00:00",
+   "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
+   "link": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
+   "date": "2026-11-04T09:32:03+00:00",
+   "summary": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l'IA de Google perdra aussi l'accès au moteur de recherche. Le post Pas d’IA, pas de recherche Google : c’est ce que veut…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cloudflare security-audit : prendre en main la skill d’audit de sécurité pour agents IA",
+   "link": "https://www.it-connect.fr/cloudflare-security-audit-skill-audit-de-securite-agents-ia/",
+   "date": "2026-11-04T08:45:00+00:00",
+   "summary": "Découvrez la skill open source security-audit de Cloudflare pour auditer votre code avec Claude Code et l'IA afin de débusquer des failles. Le post Cloudflare security-audit : prendre en main la skill d’audit de…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Barracuda ESG : exploitées ensemble, ces deux failles offrent un accès root",
+   "link": "https://www.it-connect.fr/barracuda-esg-waf-failles-acces-root/",
+   "date": "2026-11-04T07:50:10+00:00",
+   "summary": "Barracuda a corrigé deux failles touchant ESG, WAF, Load Balancer ADC et d'autres produits. Sur l'ESG, leur combinaison peut offrir un accès root à distance. Le post Barracuda ESG : exploitées ensemble, ces deux failles…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Patch gap : Mozilla va décaler les correctifs de Firefox pour empêcher l’IA de les transformer en exploits",
+   "link": "https://www.it-connect.fr/firefox-patch-gap-ia-correctifs-mozilla/",
+   "date": "2026-11-04T07:26:00+00:00",
+   "summary": "Un correctif visible dans le code, mais pas encore sur vos postes : une brèche que l'IA sait désormais exploiter dans Firefox. Mozilla riposte. Voici comment. Le post Patch gap : Mozilla va décaler les correctifs de…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "1,3 million de box Android TV piégées en usine par leur propre fabricant",
+   "link": "https://www.it-connect.fr/google-botnet-xcpe-videostrong-box-android-tv/",
+   "date": "2026-11-04T07:22:00+00:00",
+   "summary": "Selon Google, Videostrong a piégé 1,3 million de box Android TV pour les exploiter comme proxys résidentiels via le botnet XCPE. Voici ce que l'on sait. Le post 1,3 million de box Android TV piégées en usine par leur…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Maintenance IT : comment Jiliti simplifie le support matériel des entreprises multi-constructeurs",
+   "link": "https://www.it-connect.fr/maintenance-it-comment-jiliti-simplifie-le-support-materiel-des-entreprises-multi-constructeurs/",
+   "date": "2026-11-04T07:20:41+00:00",
+   "summary": "TPM et Shared Support transforment la maintenance IT multi-constructeurs : coût maîtrisé, SLA simplifiés et gouvernance centralisée. Le post Maintenance IT : comment Jiliti simplifie le support matériel des entreprises…",
+   "theme": true
+  },
+  {
+   "source": "LeMagIT",
+   "title": "L’idée discutable d’OpenAI d’acheter des puces à Google Cloud",
+   "link": "https://www.lemagit.fr/dessin/Lidee-discutable-dOpenAI-dacheter-des-puces-a-Google-Cloud",
+   "date": "2026-11-04T05:18:00+00:00",
+   "summary": "Après son partenaire OCI, OpenAI confirme à demi-mot qu’il dotera les datacenters dédiés à ses IA de puces TPU. L’ambition est d’avoir davantage de stocks de temps de calcul à revendre en ligne. Mais la rentabilité de…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Pourquoi Marvell rachète Lumentum pour 115 milliards de dollars",
+   "link": "https://www.lemagit.fr/actualites/366653592/Pourquoi-Marvell-rachete-Lumentum-pour-115-milliards-de-dollars",
+   "date": "2026-11-04T02:00:00+00:00",
+   "summary": "Souffrant la concurrence de Nvidia et Broadcom dans les puces réseau, Marvell avait besoin d’un relais de croissance. Il est allé le chercher parmi les fabricants d’équipement photoniques qui promettent aux hyperscalers…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "date": "2026-11-03T22:18:50+00:00",
+   "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Sortir du cloud : comment y parvenir grâce au cloud hybride",
+   "link": "https://www.lemagit.fr/conseil/Sortir-du-cloud-comment-y-parvenir-grace-au-cloud-hybride",
+   "date": "2026-11-03T22:00:00+00:00",
+   "summary": "D’ici à fin 2027, 87 % des entreprises auront rapatrié leurs traitements hors du cloud public. Cet article explique comment une stratégie de sortie basée sur une approche hybride peut aider à optimiser les coûts et…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "date": "2026-11-03T21:28:44+00:00",
+   "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "date": "2026-11-03T20:05:50+00:00",
+   "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+   "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "date": "2026-11-03T18:51:04+00:00",
+   "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Barracuda warns of critical flaws allowing root access to devices",
+   "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "date": "2026-11-03T15:06:16+00:00",
+   "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+   "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+   "date": "2026-11-03T15:00:10+00:00",
+   "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "date": "2026-11-03T14:00:00+00:00",
+   "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Police seizes over 100 servers in investment scam crackdown",
+   "link": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+   "date": "2026-11-03T13:33:49+00:00",
+   "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "IBM Automation 2.0 : vers une console unifiée pour l’automatisation IT",
+   "link": "https://www.lemagit.fr/actualites/366653492/IBM-Automation-20-vers-une-console-unifiee-pour-lautomatisation-IT",
+   "date": "2026-11-03T12:30:00+00:00",
+   "summary": "Les mises à jour présentées cette semaine lors du TechXChange ont renforcé les liens entre les produits IBM Automation, avec à l’horizon une rationalisation accrue et une interface utilisateur centralisée.",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+   "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+   "date": "2026-11-03T12:05:52+00:00",
+   "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Divalto lance sa plateforme d’agents IA pour ses ERP et CRM",
+   "link": "https://www.lemagit.fr/actualites/366653436/Divalto-lance-sa-plateforme-dagents-IA-pour-ERP-et-CRM",
+   "date": "2026-11-03T11:19:00+00:00",
+   "summary": "Divalto one AI regroupe des agents qui automatisent des workflows métiers (en gardant l’humain dans la boucle) ainsi que des outils pour les lister, les gérer et les développer.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Harvard University data breach exposed info of 851,000 accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "date": "2026-11-03T10:53:25+00:00",
+   "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "CI/CD : GitHub décline son arsenal pour limiter les attaques de type « Pwn Request »",
+   "link": "https://www.lemagit.fr/actualites/366653454/CI-CD-GitHub-decline-son-arsenal-pour-limiter-les-attaques-de-type-Pwn-Request",
+   "date": "2026-11-03T10:30:00+00:00",
+   "summary": "Face à la multiplication des attaques exploitant des défauts de configuration de GitHub Actions, la filiale de Microsoft renforce chaque maillon de sa chaîne CI/CD. Une stratégie qui ne sera efficace qui si l’écosystème…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Visio : Tixeo passe au chiffrement post-quantique",
+   "link": "https://www.lemagit.fr/actualites/366653396/Visio-Tixeo-passe-au-chiffrement-post-quantique",
+   "date": "2026-11-03T09:34:00+00:00",
+   "summary": "L’éditeur français de visioconférence Tixeo annonce l’arrivée d’une protection post-quantique hybride pour se conformer aux exigences de l’ANSSI. Elle sera, dans un premier temps, limitée à l’accès par le navigateur.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Guide essentiel : la sauvegarde en cloud",
+   "link": "https://www.lemagit.fr/essentialguide/Guide-essentiel-la-sauvegarde-en-cloud",
+   "date": "2026-11-03T09:15:00+00:00",
+   "summary": "La sauvegarde en cloud s’applique aux datacenters privés pour en garder une copie de secours loin d’une production susceptible de se faire attaquer ; et aux applications déjà en cloud, mais qui ne protègent pas leurs…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude Code : qu’est-ce qu’un Skill et comment en créer un ?",
+   "link": "https://www.it-connect.fr/claude-code-quest-ce-quun-skill-et-comment-en-creer-un/",
+   "date": "2026-11-03T08:45:00+00:00",
+   "summary": "Découvrez ce qu'est un Skill dans Claude Code et comment en créer un : structure du fichier SKILL.md, emplacement, exemples et bonnes pratiques. Le post Claude Code : qu’est-ce qu’un Skill et comment en créer un ? a été…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "GPT-6 Astra a touché 0,016 % des poids de Qwen : son score en maths est multiplié par 6",
+   "link": "https://www.it-connect.fr/gpt-6-astra-weight-space-programming-poids-ia/",
+   "date": "2026-11-03T08:09:45+00:00",
+   "summary": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B, sans entraînement : son score MATH-500 passe de 7,9 % à 48,1 %. Quand un LLM en améliore un autre. Le post GPT-6 Astra a touché 0,016 % des poids de Qwen : son…",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Après la France, des pirates font chauffer les frigos de supermarchés en Belgique et en Suède",
+   "link": "https://www.it-connect.fr/cyberattaque-frigos-supermarches-belgique-suede/",
+   "date": "2026-11-03T06:35:10+00:00",
+   "summary": "Delhaize, Carrefour, ICA, Coop : des pirates ont activé à distance le dégivrage des frigos de supermarchés en Belgique et en Suède. Voici ce que l'on sait. Le post Après la France, des pirates font chauffer les frigos…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "SMS of Death : un SMS invisible coupe les appels téléphoniques sur Android",
+   "link": "https://www.it-connect.fr/sms-of-death-android-faille-appels/",
+   "date": "2026-11-03T06:03:31+00:00",
+   "summary": "Un SMS invisible suffit à faire planter la téléphonie d'Android et à couper les appels, même les appels d'urgence. Voici la faille SMS of Death. Le post SMS of Death : un SMS invisible coupe les appels téléphoniques sur…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "L’idée discutable d’OpenAI d’acheter des puces à Google Cloud",
+   "link": "https://www.lemagit.fr/actualites/366653276/Lidee-discutable-dOpenAI-dacheter-des-puces-a-Google-Cloud",
+   "date": "2026-11-03T02:00:00+00:00",
+   "summary": "Après son partenaire OCI, OpenAI confirme à demi-mot qu’il dotera les datacenters dédiés à ses IA de puces TPU. L’ambition est d’avoir davantage de stocks de temps de calcul à revendre en ligne. Mais la rentabilité de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "date": "2026-11-02T21:40:14+00:00",
+   "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "date": "2026-11-02T19:00:45+00:00",
+   "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+   "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+   "date": "2026-11-02T18:16:34+00:00",
+   "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "NetBird : un VPN mesh open source et auto-hébergé pour accéder à son réseau à distance",
+   "link": "https://www.it-connect.fr/tuto-netbird-vpn-maille-auto-heberge/",
+   "date": "2026-11-02T17:00:00+00:00",
+   "summary": "Tutoriel NetBird : installez un VPN maillé WireGuard auto-hébergé avec Docker, déployez un routing peer LXC sur Proxmox et publiez vos services. Le post NetBird : un VPN mesh open source et auto-hébergé pour accéder à…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+   "date": "2026-11-02T15:03:07+00:00",
+   "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Gemini 4 Carbon : Google troque l’efficience contre la première place du classement",
+   "link": "https://www.lemagit.fr/actualites/366653377/Gemini-4-Carbon-Google-troque-lefficience-contre-la-premiere-place-du-classement",
+   "date": "2026-11-02T13:49:00+00:00",
+   "summary": "Avec Gemini 4 Carbon, Google met l’accent sur la cybersécurité. Une qualité difficilement appréciable tant que le fournisseur restreint l’accès à son modèle. Le modèle de raisonnement domine néanmoins le classement…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Chiffrement post-quantique : Sanofi passe à l’action",
+   "link": "https://www.lemagit.fr/etude/Chiffrement-post-quantique-Sanofi-passe-a-laction",
+   "date": "2026-11-02T11:17:00+00:00",
+   "summary": "Dès la publication de la liste des algorithmes de chiffrement post-quantique (PQC) par le NIST, le géant pharmaceutique français a démarré ses travaux. Certaines mesures sont déjà effectives. D’autres vont demander…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Comment les alertes basées sur l’analyse des risques peuvent réduire le bruit au sein du SOC",
+   "link": "https://www.lemagit.fr/conseil/Comment-les-alertes-basees-sur-lanalyse-des-risques-peuvent-reduire-le-bruit-au-sein-du-SOC",
+   "date": "2026-11-02T11:06:00+00:00",
+   "summary": "Une étude indépendante valide les systèmes d’alerte fondés sur le risque et révèle quelles stratégies de scoring réduisent les faux positifs, et quelles règles prisées des éditeurs échouent en pratique.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "GitHub Copilot s’insère plus profondément dans la chaîne de livraison logicielle",
+   "link": "https://www.lemagit.fr/actualites/366653392/GitHub-Copilot-sinsere-plus-profondement-dans-la-chaine-de-livraison-logicielle",
+   "date": "2026-11-02T11:05:00+00:00",
+   "summary": "La filiale de Microsoft infuse ses propres fonctionnalités agentiques au sein de la chaîne de livraison logicielle. Outre un nécessaire rattrapage face à Anthropic et OpenAI, GitHub mise sur la manière d’encadrer les…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cloud & Cyber Security Expo Paris 2026 : les grands enjeux cyber au cœur du programme",
+   "link": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-programme/",
+   "date": "2026-11-02T10:00:00+00:00",
+   "summary": "IA, gestion des incidents, NIS2, CRA et géopolitique : découvrez les thèmes des conférences de Cloud & Cyber Security Expo Paris, les 18 et 19 novembre 2026. Le post Cloud & Cyber Security Expo Paris 2026 : les grands…",
+   "theme": false
+  }
+ ]
+}
