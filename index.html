@@ -181,6 +181,17 @@
         .source-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; }
         .source-list i { color: var(--accent); margin-top: 4px; width: 16px; text-align: center; }
         .source-list a { font-weight: 600; }
+        .fiche { display: flex; flex-direction: column; gap: 10px; }
+        .fiche h3 { font-size: 16px; }
+        .fiche p { margin: 0; font-size: 14px; }
+        .fiche .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+        .feed { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+        .feed li { padding: 12px 0; border-bottom: 1px solid var(--border); }
+        .feed li:last-child { border-bottom: 0; }
+        .feed .meta { display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+        .feed a { font-weight: 600; text-decoration: none; }
+        .feed a:hover { color: var(--accent); }
+        .feed p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
 
         /* Timeline */
         .timeline { border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 22px; }
@@ -360,7 +371,7 @@
                 <div class="card">
                     <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-gears accent"></i> Méthode et outils</h3>
                     <ul class="source-list">
-                        <li><i class="fas fa-rss"></i><span><strong>Flux RSS</strong> regroupés dans un agrégateur (Feedly)</span></li>
+                        <li><i class="fas fa-rss"></i><span><strong>Flux RSS</strong> récupérés automatiquement et affichés plus bas (fil d'actualité)</span></li>
                         <li><i class="fas fa-bell"></i><span><strong>Google Alertes</strong> sur « Active Directory », « ransomware », « CVE Windows Server »</span></li>
                         <li><i class="fab fa-linkedin"></i><span><strong>LinkedIn</strong> : suivi de professionnels et d'éditeurs de sécurité</span></li>
                         <li><i class="fas fa-clock"></i><span>Lecture hebdomadaire, tri, puis fiche de synthèse mensuelle</span></li>
@@ -376,15 +387,71 @@
                     </ul>
                 </div>
             </div>
-            <!--
-                Ajouter ici les fiches de veille (3 à 5 minimum), sur ce modèle :
-                <div class="card">
-                    <span class="tag">MM/AAAA · Source</span>
-                    <h3>Titre de l'article</h3>
-                    <p>Résumé en 3 lignes + ce que j'en retiens pour mon métier.</p>
-                    <a href="URL" target="_blank">Lire l'article</a>
+
+            <h3 class="group-title">Fiches de veille</h3>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr))">
+                <article class="card fiche">
+                    <span class="tag">09/2026 · Kaspersky, relayé par SC Media</span>
+                    <h3>Le groupe PAYLOAD paralyse un domaine Windows en détournant les GPO</h3>
+                    <p class="muted">Lors d'une attaque contre un industriel au Moyen-Orient, les attaquants sont entrés par un compte VPN compromis, puis ont utilisé les stratégies de groupe (GPO) d'Active Directory pour perturber tout le domaine, sans rançongiciel classique ni chiffrement des fichiers.</p>
+                    <p><strong>Ce que j'en retiens :</strong> l'AD lui-même devient l'arme. Il faut surveiller les modifications de GPO (événements 5136, 5137 et 5141), protéger le partage SYSVOL, imposer la MFA sur le VPN et centraliser les journaux. C'est le prolongement de l'audit que j'ai configuré sur mon projet AD DS.</p>
+                    <div class="links">
+                        <a class="btn sm" href="https://www.scworld.com/brief/ransomware-group-payload-weaponizes-microsoft-active-directory-for-disruption" target="_blank" rel="noopener">SC Media</a>
+                        <a class="btn sm" href="https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/" target="_blank" rel="noopener">Cyber Security News</a>
+                    </div>
+                </article>
+                <article class="card fiche">
+                    <span class="tag">2026 · Semperis, relayé par Cyber Press</span>
+                    <h3>87 % des attaques par rançongiciel visent les systèmes d'identité</h3>
+                    <p class="muted">Selon le rapport 2026 de Semperis sur les rançongiciels, les attaquants ont ciblé ou exploité un système d'identité (Active Directory, Entra ID, Okta) dans 87 % des cas. L'AD était touché dans 51 % des cas étudiés, et seules 60 % environ des organisations disposaient d'une procédure documentée de restauration de l'AD.</p>
+                    <p><strong>Ce que j'en retiens :</strong> protéger l'annuaire ne suffit pas, il faut aussi savoir le reconstruire. Sauvegarder les contrôleurs de domaine et tester la restauration fait partie de la continuité de service (compétence « Gérer le patrimoine informatique »).</p>
+                    <div class="links">
+                        <a class="btn sm" href="https://cyberpress.org/ransomware-targets-identity-systems/" target="_blank" rel="noopener">Cyber Press</a>
+                    </div>
+                </article>
+                <article class="card fiche">
+                    <span class="tag">04 → 07/2026 · Microsoft</span>
+                    <h3>Fin du chiffrement RC4 pour Kerberos (CVE-2026-20833)</h3>
+                    <p class="muted">Pour contrer le Kerberoasting, Microsoft retire progressivement le chiffrement RC4, jugé faible, sur les contrôleurs de domaine : changement de comportement à partir d'avril 2026, application définitive en juillet 2026. Les comptes de service sans type de chiffrement défini passent en AES. Les applications qui ne connaissent que RC4 risquent de ne plus pouvoir s'authentifier.</p>
+                    <p><strong>Ce que j'en retiens :</strong> une mise à jour de sécurité peut casser un service. Avant de l'appliquer, il faut recenser les comptes de service et les applications concernées, puis tester. C'est exactement la démarche « tests d'intégration avant déploiement » du référentiel.</p>
+                    <div class="links">
+                        <a class="btn sm" href="https://techcommunity.microsoft.com/discussions/microsoft-security/kerberos-and-the-end-of-rc4-protocol-hardening-and-preparing-for-cve%E2%80%912026%E2%80%9120833/4502262" target="_blank" rel="noopener">Microsoft Tech Community</a>
+                        <a class="btn sm" href="https://4sysops.com/archives/windows-kerberos-rc4-deprecation-what-will-break-in-active-directory-and-how-to-fix-it/" target="_blank" rel="noopener">4sysops</a>
+                    </div>
+                </article>
+                <article class="card fiche">
+                    <span class="tag">03/2026 · ANSSI / CERT-FR</span>
+                    <h3>Mise à jour des points de contrôle Active Directory de l'ANSSI</h3>
+                    <p class="muted">L'ANSSI publie une liste de points de contrôle pour évaluer la sécurité d'un annuaire AD, utilisée par son service d'audit ADS. La mise à jour du 23 mars 2026 classe comme vulnérables les modèles de certificats AD CS dont l'attribut EKU est vide, car ils permettent de s'authentifier via PKINIT.</p>
+                    <p><strong>Ce que j'en retiens :</strong> c'est une référence officielle et gratuite pour auditer un domaine. Je peux m'en servir comme liste de vérification sur mon laboratoire esup.local (compétence « Exploiter des référentiels, normes et standards »).</p>
+                    <div class="links">
+                        <a class="btn sm" href="https://www.cert.ssi.gouv.fr/uploads/guide-ad.html" target="_blank" rel="noopener">Points de contrôle AD</a>
+                        <a class="btn sm" href="https://messervices.cyber.gouv.fr/services/ads" target="_blank" rel="noopener">Service ADS</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="card" style="margin-top:18px">
+                <h3 style="font-size:16px; margin-bottom:10px"><i class="fas fa-lightbulb accent"></i> Bilan de ma veille</h3>
+                <p class="muted" style="margin:0; font-size:14px">
+                    Les attaques ne cherchent plus seulement à chiffrer des fichiers : elles prennent le contrôle de l'annuaire et l'utilisent contre l'entreprise.
+                    Pour un administrateur, les priorités sont claires : réduire les droits (GPO, comptes à privilèges), abandonner les protocoles faibles (RC4, NTLM),
+                    surveiller les changements dans l'AD et garder des sauvegardes restaurables des contrôleurs de domaine.
+                </p>
+            </div>
+
+            <h3 class="group-title">Fil d'actualité en direct</h3>
+            <div class="card">
+                <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:16px">
+                    <div class="filters" style="margin:0" id="feed-filters">
+                        <button class="chip active" data-feed="theme">Mon thème (AD, rançongiciels)</button>
+                        <button class="chip" data-feed="all">Toute l'actualité</button>
+                    </div>
+                    <span class="muted" style="font-size:12px" id="feed-status"></span>
                 </div>
-            -->
+                <ul class="feed" id="feed-list"></ul>
+                <p class="muted" style="font-size:12px; margin:14px 0 0"><i class="fas fa-rss accent"></i> Mis à jour automatiquement 3 fois par jour à partir des flux RSS de CERT-FR, IT-Connect, LeMagIT, Zataz et BleepingComputer.</p>
+            </div>
         </div>
     </section>
 
@@ -791,6 +858,35 @@
     const navLinks = document.getElementById('nav-links');
     document.getElementById('menu-btn').addEventListener('click', () => navLinks.classList.toggle('open'));
     navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+    // Fil de veille : lit veille.json, mis à jour par GitHub Actions
+    (function () {
+        const list = document.getElementById('feed-list');
+        const status = document.getElementById('feed-status');
+        let items = [], mode = 'theme';
+        const fmt = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' }) : '';
+        function render() {
+            const shown = (mode === 'theme' ? items.filter(i => i.theme) : items).slice(0, 12);
+            list.innerHTML = shown.length ? shown.map(i => `<li>
+                <div class="meta"><span class="tag">${esc(i.source)}</span><span>${fmt(i.date)}</span></div>
+                <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+                ${i.summary ? `<p>${esc(i.summary)}</p>` : ''}
+            </li>`).join('') : `<li class="muted">${items.length ? 'Aucun article récent sur mon thème : voir « Toute l’actualité ».' : 'Le fil sera bientôt disponible.'}</li>`;
+        }
+        document.querySelectorAll('#feed-filters .chip').forEach(b => b.addEventListener('click', () => {
+            mode = b.dataset.feed;
+            document.querySelectorAll('#feed-filters .chip').forEach(c => c.classList.toggle('active', c === b));
+            render();
+        }));
+        fetch('veille.json', { cache: 'no-cache' })
+            .then(r => r.json())
+            .then(d => {
+                items = d.items || [];
+                if (d.updated) status.textContent = 'Dernière mise à jour : ' + new Date(d.updated).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
+                render();
+            })
+            .catch(() => { list.innerHTML = '<li class="muted">Fil indisponible pour le moment.</li>'; });
+    })();
+
     // Ouvre les documents du site (CV, PDF, livrables) dans une fenêtre au lieu d'un nouvel onglet
     (function () {
         const viewer = document.getElementById('viewer');
