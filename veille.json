@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:32+00:00",
+ "updated": "2026-11-04T11:33+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -7,6 +7,7 @@
   "LeMagIT",
   "Zataz"
  ],
+ "errors": [],
  "items": [
   {
    "source": "BleepingComputer",
@@ -62,7 +63,7 @@
    "link": "https://www.it-connect.fr/maintenance-it-comment-jiliti-simplifie-le-support-materiel-des-entreprises-multi-constructeurs/",
    "date": "2026-11-04T07:20:41+00:00",
    "summary": "TPM et Shared Support transforment la maintenance IT multi-constructeurs : coût maîtrisé, SLA simplifiés et gouvernance centralisée. Le post Maintenance IT : comment Jiliti simplifie le support matériel des entreprises…",
-   "theme": true
+   "theme": false
   },
   {
    "source": "LeMagIT",
@@ -158,14 +159,6 @@
    "link": "https://www.lemagit.fr/actualites/366653492/IBM-Automation-20-vers-une-console-unifiee-pour-lautomatisation-IT",
    "date": "2026-11-03T12:30:00+00:00",
    "summary": "Les mises à jour présentées cette semaine lors du TechXChange ont renforcé les liens entre les produits IBM Automation, avec à l’horizon une rationalisation accrue et une interface utilisateur centralisée.",
-   "theme": true
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
-   "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
-   "date": "2026-11-03T12:05:52+00:00",
-   "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
    "theme": false
   },
   {
@@ -174,14 +167,6 @@
    "link": "https://www.lemagit.fr/actualites/366653436/Divalto-lance-sa-plateforme-dagents-IA-pour-ERP-et-CRM",
    "date": "2026-11-03T11:19:00+00:00",
    "summary": "Divalto one AI regroupe des agents qui automatisent des workflows métiers (en gardant l’humain dans la boucle) ainsi que des outils pour les lister, les gérer et les développer.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Harvard University data breach exposed info of 851,000 accounts",
-   "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
-   "date": "2026-11-03T10:53:25+00:00",
-   "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been…",
    "theme": false
   },
   {
@@ -222,110 +207,134 @@
    "link": "https://www.it-connect.fr/gpt-6-astra-weight-space-programming-poids-ia/",
    "date": "2026-11-03T08:09:45+00:00",
    "summary": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B, sans entraînement : son score MATH-500 passe de 7,9 % à 48,1 %. Quand un LLM en améliore un autre. Le post GPT-6 Astra a touché 0,016 % des poids de Qwen : son…",
-   "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Après la France, des pirates font chauffer les frigos de supermarchés en Belgique et en Suède",
-   "link": "https://www.it-connect.fr/cyberattaque-frigos-supermarches-belgique-suede/",
-   "date": "2026-11-03T06:35:10+00:00",
-   "summary": "Delhaize, Carrefour, ICA, Coop : des pirates ont activé à distance le dégivrage des frigos de supermarchés en Belgique et en Suède. Voici ce que l'on sait. Le post Après la France, des pirates font chauffer les frigos…",
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "SMS of Death : un SMS invisible coupe les appels téléphoniques sur Android",
-   "link": "https://www.it-connect.fr/sms-of-death-android-faille-appels/",
-   "date": "2026-11-03T06:03:31+00:00",
-   "summary": "Un SMS invisible suffit à faire planter la téléphonie d'Android et à couper les appels, même les appels d'urgence. Voici la faille SMS of Death. Le post SMS of Death : un SMS invisible coupe les appels téléphoniques sur…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits IBM (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1433/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "L’idée discutable d’OpenAI d’acheter des puces à Google Cloud",
-   "link": "https://www.lemagit.fr/actualites/366653276/Lidee-discutable-dOpenAI-dacheter-des-puces-a-Google-Cloud",
-   "date": "2026-11-03T02:00:00+00:00",
-   "summary": "Après son partenaire OCI, OpenAI confirme à demi-mot qu’il dotera les datacenters dédiés à ses IA de puces TPU. L’ambition est d’avoir davantage de stocks de temps de calcul à revendre en ligne. Mais la rentabilité de…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits Apple (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données.",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
-   "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
-   "date": "2026-11-02T21:40:14+00:00",
-   "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Stormshield Management Center (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1429/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-   "date": "2026-11-02T19:00:45+00:00",
-   "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Google Chrome (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1422/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-   "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-   "date": "2026-11-02T18:16:34+00:00",
-   "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate…",
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans CPython (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "NetBird : un VPN mesh open source et auto-hébergé pour accéder à son réseau à distance",
-   "link": "https://www.it-connect.fr/tuto-netbird-vpn-maille-auto-heberge/",
-   "date": "2026-11-02T17:00:00+00:00",
-   "summary": "Tutoriel NetBird : installez un VPN maillé WireGuard auto-hébergé avec Docker, déployez un routing peer LXC sur Proxmox et publiez vos services. Le post NetBird : un VPN mesh open source et auto-hébergé pour accéder à…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique…",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
-   "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-   "date": "2026-11-02T15:03:07+00:00",
-   "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Tenable Nessus Plugin (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Tenable Nessus Plugin. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Gemini 4 Carbon : Google troque l’efficience contre la première place du classement",
-   "link": "https://www.lemagit.fr/actualites/366653377/Gemini-4-Carbon-Google-troque-lefficience-contre-la-premiere-place-du-classement",
-   "date": "2026-11-02T13:49:00+00:00",
-   "summary": "Avec Gemini 4 Carbon, Google met l’accent sur la cybersécurité. Une qualité difficilement appréciable tant que le fournisseur restreint l’accès à son modèle. Le modèle de raisonnement domine néanmoins le classement…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 octobre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1431/",
+   "date": "2026-10-30T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Chiffrement post-quantique : Sanofi passe à l’action",
-   "link": "https://www.lemagit.fr/etude/Chiffrement-post-quantique-Sanofi-passe-a-laction",
-   "date": "2026-11-02T11:17:00+00:00",
-   "summary": "Dès la publication de la liste des algorithmes de chiffrement post-quantique (PQC) par le NIST, le géant pharmaceutique français a démarré ses travaux. Certaines mesures sont déjà effectives. D’autres vont demander…",
+   "source": "Zataz",
+   "title": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
+   "link": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
+   "date": "2026-10-24T23:00:29+00:00",
+   "summary": "Chimeraz revendique des données annoncées comme volées aux partis politiques de Renaissance, LFI et du PCF.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Comment les alertes basées sur l’analyse des risques peuvent réduire le bruit au sein du SOC",
-   "link": "https://www.lemagit.fr/conseil/Comment-les-alertes-basees-sur-lanalyse-des-risques-peuvent-reduire-le-bruit-au-sein-du-SOC",
-   "date": "2026-11-02T11:06:00+00:00",
-   "summary": "Une étude indépendante valide les systèmes d’alerte fondés sur le risque et révèle quelles stratégies de scoring réduisent les faux positifs, et quelles règles prisées des éditeurs échouent en pratique.",
+   "source": "Zataz",
+   "title": "DeepSeek banni des agences fédérales US",
+   "link": "https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/",
+   "date": "2026-10-24T10:46:39+00:00",
+   "summary": "DeepSeek banni des agences fédérales civiles américaines : portée, calendrier et risques pour les données.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "GitHub Copilot s’insère plus profondément dans la chaîne de livraison logicielle",
-   "link": "https://www.lemagit.fr/actualites/366653392/GitHub-Copilot-sinsere-plus-profondement-dans-la-chaine-de-livraison-logicielle",
-   "date": "2026-11-02T11:05:00+00:00",
-   "summary": "La filiale de Microsoft infuse ses propres fonctionnalités agentiques au sein de la chaîne de livraison logicielle. Outre un nécessaire rattrapage face à Anthropic et OpenAI, GitHub mise sur la manière d’encadrer les…",
+   "source": "Zataz",
+   "title": "Point Vision : des données de patients dérobées",
+   "link": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
+   "date": "2026-10-24T09:29:23+00:00",
+   "summary": "Cyberattaque chez Point Vision : données de patients volées, exposition possible des motifs de rendez-vous.",
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Cloud & Cyber Security Expo Paris 2026 : les grands enjeux cyber au cœur du programme",
-   "link": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-programme/",
-   "date": "2026-11-02T10:00:00+00:00",
-   "summary": "IA, gestion des incidents, NIS2, CRA et géopolitique : découvrez les thèmes des conférences de Cloud & Cyber Security Expo Paris, les 18 et 19 novembre 2026. Le post Cloud & Cyber Security Expo Paris 2026 : les grands…",
+   "source": "Zataz",
+   "title": "Technostress : une faille pour l’ingénierie sociale",
+   "link": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
+   "date": "2026-10-23T12:56:16+00:00",
+   "summary": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Piratage de la FFTir : la Fédération confirme le vol",
+   "link": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
+   "date": "2026-10-23T10:41:26+00:00",
+   "summary": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Fraude bancaire : deux mails pour installer la peur",
+   "link": "https://www.zataz.com/fraude-bancaire-deux-mails-pour-installer-la-peur/",
+   "date": "2026-10-23T10:27:14+00:00",
+   "summary": "Alerte ZATAZ : deux faux mails bancaires, des milliers d'euros en jeu et une fraude téléphonique décryptée.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Arrêtée pour avoir bloqué un robot de livraison Uber",
+   "link": "https://www.zataz.com/arretee-pour-avoir-bloque-un-robot-de-livraison-uber/",
+   "date": "2026-10-21T18:04:11+00:00",
+   "summary": "Une manifestante arrêtée pour avoir bloqué un robot Uber et dénoncé l'automatisation des emplois.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Panne chez Orange et Sosh !",
+   "link": "https://www.zataz.com/panne-chez-orange-et-sosh/",
+   "date": "2026-10-21T15:21:36+00:00",
+   "summary": "Ce mercredi 21 octobre 2026, une importante panne perturbe le réseau mobile d'Orange et de sa marque low cost Sosh.",
    "theme": false
   }
  ]
