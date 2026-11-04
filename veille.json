@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T11:33+00:00",
+ "updated": "2026-11-04T22:36+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -11,10 +11,122 @@
  "items": [
   {
    "source": "BleepingComputer",
-   "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
-   "date": "2026-11-04T09:39:54+00:00",
-   "summary": "A large-scale watering hole attack associated with Russian hackers has been targeting iOS and Android users visiting compromised sites or fake ones impersonating legitimate portals. [...]",
+   "title": "Vercel rolls out new protection against stolen session cookie attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+   "date": "2026-11-04T21:31:18+00:00",
+   "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "date": "2026-11-04T20:58:19+00:00",
+   "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "date": "2026-11-04T19:05:19+00:00",
+   "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "date": "2026-11-04T18:02:56+00:00",
+   "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "CTF Social Engineering : trois jours pour piéger l’humain",
+   "link": "https://www.zataz.com/ctf-social-engineering-trois-jours-pour-pieger-lhumain/",
+   "date": "2026-11-04T17:35:25+00:00",
+   "summary": "Hackfest Québec 2026 : deuxième place au CTF de Social Engineering, 43 appels et trois outils de renseignement.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "date": "2026-11-04T16:58:46+00:00",
+   "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "mSecure password manager hack prompts password reset warnings",
+   "link": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+   "date": "2026-11-04T16:00:18+00:00",
+   "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+   "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+   "date": "2026-11-04T15:00:10+00:00",
+   "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Crédit Mutuel Arkéa : 133 millions de dollars détournés ?",
+   "link": "https://www.zataz.com/credit-mutuel-arkea-133-millions-de-dollars-detournes/",
+   "date": "2026-11-04T14:53:45+00:00",
+   "summary": "Fortuneo au cœur de la fraude Arkéa ? 133 millions de dollars détournés, des virements suspects et un blanchiment crypto.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+   "date": "2026-11-04T14:42:25+00:00",
+   "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Braquage numérique au Crédit Mutuel Arkéa : la banque confirme l’attaque, 133 millions de dollars en jeu",
+   "link": "https://www.it-connect.fr/cyberattaque-credit-mutuel-arkea-fortuneo-133-millions/",
+   "date": "2026-11-04T14:06:26+00:00",
+   "summary": "Plus de 133 millions de dollars auraient été détournés au Crédit Mutuel Arkéa, maison mère de Fortuneo. La banque confirme une attaque. Voici ce que l'on sait. Le post Braquage numérique au Crédit Mutuel Arkéa : la…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "TikTok, une passerelle vers les casinos illégaux ?",
+   "link": "https://www.zataz.com/tiktok-une-passerelle-vers-les-casinos-illegaux/",
+   "date": "2026-11-04T13:58:13+00:00",
+   "summary": "Sur TikTok, des jeux vidéo peuvent mener à des casinos illégaux. Analyse des redirections, risques et sanctions.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cyberattaque contre un prestataire de l’EFS : des congélateurs de plasma réglés à 110 °C",
+   "link": "https://www.it-connect.fr/cyberattaque-efs-coolworld-congelateurs-plasma/",
+   "date": "2026-11-04T13:41:51+00:00",
+   "summary": "Un prestataire de l'EFS piraté, des congélateurs de plasma réglés à 110 °C au lieu de -30 °C. Ce que l'on sait de l'attaque qui touche le secteur de la santé. Le post Cyberattaque contre un prestataire de l’EFS : des…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "IA en entreprise : l’industrialisation reste marginale (étude)",
+   "link": "https://www.lemagit.fr/actualites/366653539/IA-en-entreprise-lindustrialisation-reste-marginale-etude",
+   "date": "2026-11-04T13:01:00+00:00",
+   "summary": "D’après TCS, le pourcentage d’entreprise qui a fait passer l’IA et l’IA agentique à l’échelle est inférieur à 10 %. Les coûts difficilement prévisibles sont un freins majeur, aux côtés de la qualité des données et de la…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "RSSI : pourquoi l’accélération de l’IA rend les fondamentaux de la sécurité indispensables",
+   "link": "https://www.lemagit.fr/conseil/RSSI-pourquoi-lacceleration-de-lIA-rend-les-fondamentaux-de-la-securite-indispensables",
+   "date": "2026-11-04T10:07:00+00:00",
+   "summary": "Les échanges du CyberRisk Alliance Summit le montrent : l’IA n’a pas redessiné le paysage des menaces, elle a simplement réduit à néant le temps dont disposent les défenseurs pour corriger leurs failles opérationnelles…",
    "theme": false
   },
   {
@@ -23,6 +135,14 @@
    "link": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
    "date": "2026-11-04T09:32:03+00:00",
    "summary": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l'IA de Google perdra aussi l'accès au moteur de recherche. Le post Pas d’IA, pas de recherche Google : c’est ce que veut…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Chasse aux vulnérabilités : chez GitHub, les scans agentiques complètent les analyses statiques",
+   "link": "https://www.lemagit.fr/actualites/366653556/Chasse-aux-vulnerabilites-chez-GitHub-les-scans-agentiques-completent-les-analyses-statiques",
+   "date": "2026-11-04T08:57:00+00:00",
+   "summary": "Avec ses modules payants Code Security et Secret Protection, la filiale de Microsoft introduit des scans réalisés par des agents IA, afin d’étendre la découverte de secrets et des vulnérabilités. En principe plus…",
    "theme": false
   },
   {
@@ -75,82 +195,18 @@
   },
   {
    "source": "LeMagIT",
-   "title": "Pourquoi Marvell rachète Lumentum pour 115 milliards de dollars",
-   "link": "https://www.lemagit.fr/actualites/366653592/Pourquoi-Marvell-rachete-Lumentum-pour-115-milliards-de-dollars",
-   "date": "2026-11-04T02:00:00+00:00",
-   "summary": "Souffrant la concurrence de Nvidia et Broadcom dans les puces réseau, Marvell avait besoin d’un relais de croissance. Il est allé le chercher parmi les fabricants d’équipement photoniques qui promettent aux hyperscalers…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
-   "date": "2026-11-03T22:18:50+00:00",
-   "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
    "title": "Sortir du cloud : comment y parvenir grâce au cloud hybride",
    "link": "https://www.lemagit.fr/conseil/Sortir-du-cloud-comment-y-parvenir-grace-au-cloud-hybride",
-   "date": "2026-11-03T22:00:00+00:00",
+   "date": "2026-11-04T02:30:00+00:00",
    "summary": "D’ici à fin 2027, 87 % des entreprises auront rapatrié leurs traitements hors du cloud public. Cet article explique comment une stratégie de sortie basée sur une approche hybride peut aider à optimiser les coûts et…",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
-   "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
-   "date": "2026-11-03T21:28:44+00:00",
-   "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
-   "date": "2026-11-03T20:05:50+00:00",
-   "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
-   "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
-   "date": "2026-11-03T18:51:04+00:00",
-   "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Barracuda warns of critical flaws allowing root access to devices",
-   "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
-   "date": "2026-11-03T15:06:16+00:00",
-   "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
-   "link": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
-   "date": "2026-11-03T15:00:10+00:00",
-   "summary": "Gartner predicts that security operations centers will have 50% more engineers than analysts by 2028 as AI agents take over routine alert handling. Prophet Security examines how AI is reshaping SOC roles, from analyst…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
-   "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
-   "date": "2026-11-03T14:00:00+00:00",
-   "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
-   "theme": true
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Police seizes over 100 servers in investment scam crackdown",
-   "link": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
-   "date": "2026-11-03T13:33:49+00:00",
-   "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
+   "source": "LeMagIT",
+   "title": "Pourquoi Marvell rachète Lumentum pour 115 milliards de dollars",
+   "link": "https://www.lemagit.fr/actualites/366653592/Pourquoi-Marvell-rachete-Lumentum-pour-115-milliards-de-dollars",
+   "date": "2026-11-04T02:00:00+00:00",
+   "summary": "Souffrant de la concurrence de Nvidia et Broadcom dans les puces réseau, Marvell avait besoin d’un relais de croissance. Il est allé le chercher parmi les fabricants d’équipement photonique qui promettent aux…",
    "theme": false
   },
   {
@@ -170,107 +226,67 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "CI/CD : GitHub décline son arsenal pour limiter les attaques de type « Pwn Request »",
-   "link": "https://www.lemagit.fr/actualites/366653454/CI-CD-GitHub-decline-son-arsenal-pour-limiter-les-attaques-de-type-Pwn-Request",
-   "date": "2026-11-03T10:30:00+00:00",
-   "summary": "Face à la multiplication des attaques exploitant des défauts de configuration de GitHub Actions, la filiale de Microsoft renforce chaque maillon de sa chaîne CI/CD. Une stratégie qui ne sera efficace qui si l’écosystème…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Visio : Tixeo passe au chiffrement post-quantique",
-   "link": "https://www.lemagit.fr/actualites/366653396/Visio-Tixeo-passe-au-chiffrement-post-quantique",
-   "date": "2026-11-03T09:34:00+00:00",
-   "summary": "L’éditeur français de visioconférence Tixeo annonce l’arrivée d’une protection post-quantique hybride pour se conformer aux exigences de l’ANSSI. Elle sera, dans un premier temps, limitée à l’accès par le navigateur.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Guide essentiel : la sauvegarde en cloud",
-   "link": "https://www.lemagit.fr/essentialguide/Guide-essentiel-la-sauvegarde-en-cloud",
-   "date": "2026-11-03T09:15:00+00:00",
-   "summary": "La sauvegarde en cloud s’applique aux datacenters privés pour en garder une copie de secours loin d’une production susceptible de se faire attaquer ; et aux applications déjà en cloud, mais qui ne protègent pas leurs…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Claude Code : qu’est-ce qu’un Skill et comment en créer un ?",
-   "link": "https://www.it-connect.fr/claude-code-quest-ce-quun-skill-et-comment-en-creer-un/",
-   "date": "2026-11-03T08:45:00+00:00",
-   "summary": "Découvrez ce qu'est un Skill dans Claude Code et comment en créer un : structure du fichier SKILL.md, emplacement, exemples et bonnes pratiques. Le post Claude Code : qu’est-ce qu’un Skill et comment en créer un ? a été…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "GPT-6 Astra a touché 0,016 % des poids de Qwen : son score en maths est multiplié par 6",
-   "link": "https://www.it-connect.fr/gpt-6-astra-weight-space-programming-poids-ia/",
-   "date": "2026-11-03T08:09:45+00:00",
-   "summary": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B, sans entraînement : son score MATH-500 passe de 7,9 % à 48,1 %. Quand un LLM en améliore un autre. Le post GPT-6 Astra a touché 0,016 % des poids de Qwen : son…",
+   "source": "CERT-FR",
+   "title": "Bulletin d'actualité CERTFR-2026-ACT-046 (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits IBM (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1433/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
+   "title": "Multiples vulnérabilités dans Tenable Identity Exposure (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1436/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Apple (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Apple. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données.",
+   "title": "Multiples vulnérabilités dans les produits Synology (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1435/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans Stormshield Management Center (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1429/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Stormshield Management Center. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "title": "Multiples vulnérabilités dans Redmine (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS), un contournement de la politique de sécurité…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Google Chrome (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1422/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "title": "Multiples vulnérabilités dans Microsoft Edge (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1440/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans CPython (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique…",
+   "title": "Multiples vulnérabilités dans Qnap QNE (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1437/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Qnap QNE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans Tenable Nessus Plugin (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Tenable Nessus Plugin. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 octobre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1431/",
-   "date": "2026-10-30T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
+   "title": "Multiples vulnérabilités dans macmon et NRSW (02 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1438/",
+   "date": "2026-11-02T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Belden macmon et NRSW. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
@@ -311,30 +327,6 @@
    "link": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
    "date": "2026-10-23T10:41:26+00:00",
    "summary": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Fraude bancaire : deux mails pour installer la peur",
-   "link": "https://www.zataz.com/fraude-bancaire-deux-mails-pour-installer-la-peur/",
-   "date": "2026-10-23T10:27:14+00:00",
-   "summary": "Alerte ZATAZ : deux faux mails bancaires, des milliers d'euros en jeu et une fraude téléphonique décryptée.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Arrêtée pour avoir bloqué un robot de livraison Uber",
-   "link": "https://www.zataz.com/arretee-pour-avoir-bloque-un-robot-de-livraison-uber/",
-   "date": "2026-10-21T18:04:11+00:00",
-   "summary": "Une manifestante arrêtée pour avoir bloqué un robot Uber et dénoncé l'automatisation des emplois.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Panne chez Orange et Sosh !",
-   "link": "https://www.zataz.com/panne-chez-orange-et-sosh/",
-   "date": "2026-10-21T15:21:36+00:00",
-   "summary": "Ce mercredi 21 octobre 2026, une importante panne perturbe le réseau mobile d'Orange et de sa marque low cost Sosh.",
    "theme": false
   }
  ]
