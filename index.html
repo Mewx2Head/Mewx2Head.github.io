@@ -881,6 +881,8 @@
             .then(r => r.json())
             .then(d => {
                 items = d.items || [];
+                // Peu d'articles sur le thème en ce moment : on affiche toute l'actualité
+                if (items.filter(i => i.theme).length < 3) document.querySelector('[data-feed=all]').click();
                 if (d.updated) status.textContent = 'Dernière mise à jour : ' + new Date(d.updated).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
                 render();
             })
