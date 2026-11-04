@@ -12,23 +12,27 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from html import unescape
 
+# Plusieurs adresses possibles par source : la première qui répond est utilisée
 FEEDS = [
-    ("CERT-FR", "https://www.cert.ssi.gouv.fr/feed/"),
-    ("IT-Connect", "https://www.it-connect.fr/feed/"),
-    ("LeMagIT", "https://www.lemagit.fr/rss/ContentSyndication.xml"),
-    ("Zataz", "https://www.zataz.com/feed/"),
-    ("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
+    ("CERT-FR", ["https://cert.cyber.gouv.fr/feed/", "https://www.cert.ssi.gouv.fr/feed/",
+                 "https://www.cert.ssi.gouv.fr/alerte/feed/"]),
+    ("IT-Connect", ["https://www.it-connect.fr/feed/"]),
+    ("LeMagIT", ["https://www.lemagit.fr/rss/ContentSyndication.xml"]),
+    ("Zataz", ["https://www.zataz.com/feed/", "https://www.zataz.com/rss/"]),
+    ("BleepingComputer", ["https://www.bleepingcomputer.com/feed/"]),
 ]
 
 # Mots-clés du thème de veille : sécurité Active Directory et rançongiciels
 KEYWORDS = [
-    "active directory", "entra", "kerberos", "ntlm", "gpo", "contrôleur de domaine",
-    "domain controller", "ransomware", "rançongiciel", "rançon", "windows server",
-    "ldap", "kerberoast", "mimikatz", "ad cs",
+    "active directory", "entra id", "kerberos", "ntlm", "gpo", "stratégies? de groupe",
+    "contrôleurs? de domaine", "domain controllers?", "ransomware", "rançongiciels?",
+    "windows server", "ldap", "kerberoasting", "mimikatz", "ad cs", "lockbit", "akira",
 ]
+THEME = re.compile(r"\b(" + "|".join(KEYWORDS) + r")\b", re.I)
 
-MAX_PER_FEED = 15
-MAX_ITEMS = 40
+MAX_PER_FEED = 20
+MAX_RECENT_PER_SOURCE = 8   # pour qu'une source ne prenne pas toute la place
+MAX_ITEMS = 50
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
@@ -58,7 +62,10 @@ def parse_date(s):
 
 
 def read_feed(source, url):
-    req = urllib.request.Request(url, headers={"User-Agent": "portfolio-veille/1.0"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; portfolio-veille/1.0)",
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
+    })
     with urllib.request.urlopen(req, timeout=20) as r:
         root = ET.fromstring(r.read())
     items = []
@@ -77,14 +84,14 @@ def read_feed(source, url):
         d = parse_date(date)
         if not title or not link:
             continue
-        blob = (title + " " + desc).lower()
+        blob = clean(title, 10**6) + " " + clean(desc, 10**6)
         out.append({
             "source": source,
             "title": clean(title, 200),
             "link": link,
             "date": d.isoformat() if d else None,
             "summary": clean(desc),
-            "theme": any(k in blob for k in KEYWORDS),
+            "theme": bool(THEME.search(blob)),
         })
     return out
 
@@ -93,17 +100,26 @@ def main():
     feeds = json.loads(os.environ["VEILLE_FEEDS"]) if os.environ.get("VEILLE_FEEDS") else FEEDS
     out_path = os.environ.get("VEILLE_OUT", "veille.json")
     items, errors = [], []
-    for source, url in feeds:
-        try:
-            items += read_feed(source, url)
-        except Exception as e:  # un flux en panne ne doit pas bloquer les autres
-            errors.append(f"{source}: {e}")
+    for source, urls in feeds:
+        if isinstance(urls, str):
+            urls = [urls]
+        for url in urls:
+            try:
+                got = read_feed(source, url)
+            except Exception as e:  # un flux en panne ne doit pas bloquer les autres
+                errors.append(f"{source} ({url}): {e}")
+                continue
+            got.sort(key=lambda i: i["date"] or "", reverse=True)
+            # on garde tous les articles du thème + les plus récents des autres
+            items += [i for i in got if i["theme"]] + [i for i in got if not i["theme"]][:MAX_RECENT_PER_SOURCE]
+            break
     if not items:
         raise SystemExit("Aucun flux n'a pu être lu : " + "; ".join(errors))
     items.sort(key=lambda i: i["date"] or "", reverse=True)
     data = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "sources": sorted({i["source"] for i in items}),
+        "errors": errors,
         "items": items[:MAX_ITEMS],
     }
     with open(out_path, "w", encoding="utf-8") as f:
