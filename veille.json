@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T13:09+00:00",
+ "updated": "2026-11-05T22:40+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,94 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "date": "2026-11-05T21:30:30+00:00",
+   "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+   "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+   "date": "2026-11-05T20:15:08+00:00",
+   "summary": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+   "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+   "date": "2026-11-05T19:24:26+00:00",
+   "summary": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+   "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+   "date": "2026-11-05T17:45:29+00:00",
+   "summary": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "CleanYourTV : comment nettoyer une box Android TV avec l’IA (sans root)",
+   "link": "https://www.it-connect.fr/cleanyourtv-nettoyer-box-android-tv/",
+   "date": "2026-11-05T17:00:00+00:00",
+   "summary": "Supprimez les pubs de l'accueil de votre box Android TV avec CleanYourTV et Claude Code, ou une app gratuite : ADB, prérequis, thèmes et précautions. Le post CleanYourTV : comment nettoyer une box Android TV avec l’IA…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaque contre les frigos de l’EFS : le plasma visé",
+   "link": "https://www.zataz.com/cyberattaque-contre-les-frigos-de-lefs-le-plasma-vise/",
+   "date": "2026-11-05T16:36:51+00:00",
+   "summary": "Cyberattaque EFS : trois sites touchés, du plasma menacé. ZATAZ revient sur les précédents et les risques industriels.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "date": "2026-11-05T16:24:26+00:00",
+   "summary": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "DigiCert data breach exposes customer information, identity documents",
+   "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "date": "2026-11-05T16:12:46+00:00",
+   "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Closing the Identity Gap at the Service Desk",
+   "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+   "date": "2026-11-05T15:00:10+00:00",
+   "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "SUSE s’appuie sur Nvidia pour muscler son AI Factory",
+   "link": "https://www.lemagit.fr/actualites/366653792/SUSE-sappuie-sur-Nvidia-pour-muscler-son-AI-Factory",
+   "date": "2026-11-05T13:10:00+00:00",
+   "summary": "Lors de la GTC à Berlin, SUSE a été mis en avant lors du keynote d’ouverture de Nvidia. Le spécialiste des distributions Linux et de Kubernetes devient un des relais des architectures de référence du géant fabless en…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Checkmarx, ou l’éloge du Tokenmaxxing contrôlé",
+   "link": "https://www.lemagit.fr/actualites/366653772/Checkmarks-ou-leloge-du-Tokenmaxxing-controle",
+   "date": "2026-11-05T11:04:00+00:00",
+   "summary": "Oxymore pour les uns, approche indispensable à l’innovation pour les autres. Le tokenmaxxing maîtrisé permet au spécialiste de l’AppSec de produire 50 % de code en plus. Il entre aujourd’hui dans une logique de…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
@@ -34,6 +122,14 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Snowflake précise les contours de sa Business Ontology",
+   "link": "https://www.lemagit.fr/actualites/366653696/Snowflake-precise-les-contours-de-sa-Business-Ontology",
+   "date": "2026-11-05T08:19:00+00:00",
+   "summary": "Évoquée lors de sa conférence annuelle en juin, Snowflake a pris le temps de détailler le fonctionnement de son ontologie métier, l’une des trois couches de contexte pour fiabiliser les analyses de données des agents…",
+   "theme": false
+  },
+  {
    "source": "IT-Connect",
    "title": "SonicWall GMS : deux failles, dont une critique, ne seront jamais corrigées",
    "link": "https://www.it-connect.fr/sonicwall-gms-fin-de-vie-failles-non-corrigees/",
@@ -54,7 +150,7 @@
    "title": "STMicroelectronics face aux défis de la conformité CRA",
    "link": "https://www.lemagit.fr/etude/STMicroelectronics-face-aux-defis-de-la-conformite-CRA",
    "date": "2026-11-05T03:08:00+00:00",
-   "summary": "L’industriel franco-italien a créé une Task force afin d’assurer sa mise en conformité avec le Cyber Resilience Act (CRA) européen. Un défi en termes de gestion des vulnérabilités lorsqu’on sait que le fabricant de…",
+   "summary": "L’industriel franco-italien a créé une Task force afin d’assurer sa mise en conformité avec le Cyber Resilience Act (CRA) européen. Un défi en termes de gestion des vulnérabilités, lorsqu’on sait que le fabricant de…",
    "theme": false
   },
   {
@@ -66,67 +162,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Vercel rolls out new protection against stolen session cookie attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-   "date": "2026-11-04T21:31:18+00:00",
-   "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-   "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-   "date": "2026-11-04T20:58:19+00:00",
-   "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-   "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-   "date": "2026-11-04T19:05:19+00:00",
-   "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-   "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-   "date": "2026-11-04T18:02:56+00:00",
-   "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "CTF Social Engineering : trois jours pour piéger l’humain",
    "link": "https://www.zataz.com/ctf-social-engineering-trois-jours-pour-pieger-lhumain/",
    "date": "2026-11-04T17:35:25+00:00",
    "summary": "Hackfest Québec 2026 : deuxième place au CTF de Social Engineering, 43 appels et trois outils de renseignement.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-   "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-   "date": "2026-11-04T16:58:46+00:00",
-   "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "mSecure password manager hack prompts password reset warnings",
-   "link": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-   "date": "2026-11-04T16:00:18+00:00",
-   "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-   "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-   "date": "2026-11-04T15:00:10+00:00",
-   "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the…",
    "theme": false
   },
   {
@@ -194,35 +234,59 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Cloudflare security-audit : prendre en main la skill d’audit de sécurité pour agents IA",
-   "link": "https://www.it-connect.fr/cloudflare-security-audit-skill-audit-de-securite-agents-ia/",
-   "date": "2026-11-04T08:45:00+00:00",
-   "summary": "Découvrez la skill open source security-audit de Cloudflare pour auditer votre code avec Claude Code et l'IA afin de débusquer des failles. Le post Cloudflare security-audit : prendre en main la skill d’audit de…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
+   "date": "2026-11-04T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "L’idée discutable d’OpenAI d’acheter des puces à Google Cloud",
-   "link": "https://www.lemagit.fr/dessin/Lidee-discutable-dOpenAI-dacheter-des-puces-a-Google-Cloud",
-   "date": "2026-11-04T05:18:00+00:00",
-   "summary": "Après son partenaire OCI, OpenAI confirme à demi-mot qu’il dotera les datacenters dédiés à ses IA de puces TPU. L’ambition est d’avoir davantage de stocks de temps de calcul à revendre en ligne. Mais la rentabilité de…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
+   "date": "2026-11-04T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Sortir du cloud : comment y parvenir grâce au cloud hybride",
-   "link": "https://www.lemagit.fr/conseil/Sortir-du-cloud-comment-y-parvenir-grace-au-cloud-hybride",
-   "date": "2026-11-04T02:30:00+00:00",
-   "summary": "D’ici à fin 2027, 87 % des entreprises auront rapatrié leurs traitements hors du cloud public. Cet article explique comment une stratégie de sortie basée sur une approche hybride peut aider à optimiser les coûts et…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans NetApp ONTAP 9. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Pourquoi Marvell rachète Lumentum pour 115 milliards de dollars",
-   "link": "https://www.lemagit.fr/actualites/366653592/Pourquoi-Marvell-rachete-Lumentum-pour-115-milliards-de-dollars",
-   "date": "2026-11-04T02:00:00+00:00",
-   "summary": "Souffrant de la concurrence de Nvidia et Broadcom dans les puces réseau, Marvell avait besoin d’un relais de croissance. Il est allé le chercher parmi les fabricants d’équipement photonique qui promettent aux…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans GLPI (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1444/",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans GLPI. Elles permettent à un attaquant de provoquer une élévation de privilèges, une injection de code indirecte à distance (XSS) et un contournement de la politique…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans PostgreSQL (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1445/",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans PostgreSQL. Elles permettent à un attaquant de provoquer une injection SQL (SQLi), un contournement de la politique de sécurité et un problème de sécurité non…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Xen (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1447/",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Google Android (03 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1443/",
+   "date": "2026-11-03T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Google Android. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une…",
    "theme": false
   },
   {
@@ -231,62 +295,6 @@
    "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
    "date": "2026-11-02T00:00:00+00:00",
    "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Tenable Identity Exposure (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1436/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Synology (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1435/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Redmine (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1434/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Redmine. Certaines d'entre elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS), un contournement de la politique de sécurité…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Microsoft Edge (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1440/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Ivanti Connect Secure (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1442/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Ivanti Connect Secure. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Qnap QNE (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1437/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Qnap QNE. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans macmon et NRSW (02 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1438/",
-   "date": "2026-11-02T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Belden macmon et NRSW. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
@@ -319,14 +327,6 @@
    "link": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
    "date": "2026-10-23T12:56:16+00:00",
    "summary": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Piratage de la FFTir : la Fédération confirme le vol",
-   "link": "https://www.zataz.com/piratage-de-la-fftir-la-federation-confirme-le-vol/",
-   "date": "2026-10-23T10:41:26+00:00",
-   "summary": "FFTir : la Fédération confirme une cyberattaque, le vol de 64 000 photos et de milliers de documents personnels.",
    "theme": false
   }
  ]
