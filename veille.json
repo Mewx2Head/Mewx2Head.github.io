@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:40+00:00",
+ "updated": "2026-11-06T12:55+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,86 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "date": "2026-11-06T12:37:22+00:00",
+   "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
+   "link": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
+   "date": "2026-11-06T11:10:41+00:00",
+   "summary": "Trois mois de ChatGPT Pro offerts pour une simple inscription ? Cette fausse invitation OpenAI sert à pirater votre compte Microsoft ou Google, MFA compris. Le post Faux événements OpenAI, SpaceX et Anthropic : ce…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "DigiCert : une erreur de migration expose les données et pièces d’identité de clients",
+   "link": "https://www.it-connect.fr/digicert-une-erreur-de-migration-expose-les-donnees-et-pieces-didentite-de-clients/",
+   "date": "2026-11-06T09:35:02+00:00",
+   "summary": "Une erreur de migration a ouvert les archives de DigiCert à des comptes créés sur Internet : données clients et pièces d'identité consultées. Ce que l'on sait. Le post DigiCert : une erreur de migration expose les…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+   "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+   "date": "2026-11-06T09:22:28+00:00",
+   "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Après l’Europe, le FBI et la CISA alertent sur les cyberattaques contre les systèmes de réfrigération",
+   "link": "https://www.it-connect.fr/fbi-cisa-alerte-cyberattaques-systemes-refrigeration/",
+   "date": "2026-11-06T08:54:17+00:00",
+   "summary": "Après les supermarchés et l'EFS, la CISA et le FBI alertent sur les attaques contre les systèmes de froid industriels. Voici leurs recommandations. Le post Après l’Europe, le FBI et la CISA alertent sur les…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "*sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH",
+   "link": "https://www.it-connect.fr/faille-openssh-musl-sshhole-alpine-linux/",
+   "date": "2026-11-06T08:35:46+00:00",
+   "summary": "La faille *sshole (CVE-2026-123158) ouvre en SSH, avec un mot de passe trop long, des comptes Linux sans mot de passe. Alpine Linux est le premier concerné. Le post *sshole : sur Alpine Linux, un mot de passe trop long…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "IA agentique et programmation réactive : pourquoi Mistral AI acquiert SkipLabs",
+   "link": "https://www.lemagit.fr/actualites/366653932/IA-agentique-et-programmation-reactive-pourquoi-Mistral-AI-acquiert-SkipLabs",
+   "date": "2026-11-06T06:57:00+00:00",
+   "summary": "Mistral AI poursuit ses emplettes. Cette fois-ci c’est SkipLabs, une startup spécialisée dans la programmation réactive qui donne naissance à une nouvelle équipe. Son objectif : créer des outils pour valider et tester…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
+   "link": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
+   "date": "2026-11-06T06:05:44+00:00",
+   "summary": "OpenAI lance GPT-6 Cyber, réservé à Daybreak Red : 948 exploits Linux, 81 failles graves dans Firefox et un modèle entraîné à rester dans son périmètre. Le post OpenAI lance GPT-6 Cyber : son modèle IA taillé pour…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "date": "2026-11-06T00:56:44+00:00",
+   "summary": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "AIOps pour le réseau : les entreprises s’y font, à tâtons",
+   "link": "https://www.lemagit.fr/actualites/366653814/AIOps-pour-le-reseau-les-entreprises-sy-font-a-tatons",
+   "date": "2026-11-06T00:20:00+00:00",
+   "summary": "Les agents d'IA continuent pour l'essentiel de jouer un rôle consultatif auprès des équipes NetOps, qui adoptent une approche de type « faire confiance, mais vérifier ». Cependant, les systèmes autonomes gagnent du…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
@@ -66,22 +146,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "DigiCert data breach exposes customer information, identity documents",
-   "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-   "date": "2026-11-05T16:12:46+00:00",
-   "summary": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Closing the Identity Gap at the Service Desk",
-   "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-   "date": "2026-11-05T15:00:10+00:00",
-   "summary": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "SUSE s’appuie sur Nvidia pour muscler son AI Factory",
    "link": "https://www.lemagit.fr/actualites/366653792/SUSE-sappuie-sur-Nvidia-pour-muscler-son-AI-Factory",
@@ -95,14 +159,6 @@
    "link": "https://www.lemagit.fr/actualites/366653772/Checkmarks-ou-leloge-du-Tokenmaxxing-controle",
    "date": "2026-11-05T11:04:00+00:00",
    "summary": "Oxymore pour les uns, approche indispensable à l’innovation pour les autres. Le tokenmaxxing maîtrisé permet au spécialiste de l’AppSec de produire 50 % de code en plus. Il entre aujourd’hui dans une logique de…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-   "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-   "date": "2026-11-05T09:18:29+00:00",
-   "summary": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
    "theme": false
   },
   {
@@ -127,22 +183,6 @@
    "link": "https://www.lemagit.fr/actualites/366653696/Snowflake-precise-les-contours-de-sa-Business-Ontology",
    "date": "2026-11-05T08:19:00+00:00",
    "summary": "Évoquée lors de sa conférence annuelle en juin, Snowflake a pris le temps de détailler le fonctionnement de son ontologie métier, l’une des trois couches de contexte pour fiabiliser les analyses de données des agents…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "SonicWall GMS : deux failles, dont une critique, ne seront jamais corrigées",
-   "link": "https://www.it-connect.fr/sonicwall-gms-fin-de-vie-failles-non-corrigees/",
-   "date": "2026-11-05T08:17:38+00:00",
-   "summary": "Vous gérez vos firewalls SonicWall avec GMS ? Deux failles, dont une critique exploitable sans authentification, ne seront jamais corrigées. Voici pourquoi. Le post SonicWall GMS : deux failles, dont une critique, ne…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Linux : une faille dans APT permet de remplacer un paquet vérifié et de l’exécuter en root",
-   "link": "https://www.it-connect.fr/faille-apt-cve-2026-109518-debian-ubuntu-root/",
-   "date": "2026-11-05T07:12:12+00:00",
-   "summary": "Une faille dans APT permet de remplacer un paquet déjà vérifié et de l'exécuter en root. Debian, Ubuntu et leurs dérivées sont concernées. Voici l'essentiel. Le post Linux : une faille dans APT permet de remplacer un…",
    "theme": false
   },
   {
@@ -178,14 +218,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Braquage numérique au Crédit Mutuel Arkéa : la banque confirme l’attaque, 133 millions de dollars en jeu",
-   "link": "https://www.it-connect.fr/cyberattaque-credit-mutuel-arkea-fortuneo-133-millions/",
-   "date": "2026-11-04T14:06:26+00:00",
-   "summary": "Plus de 133 millions de dollars auraient été détournés au Crédit Mutuel Arkéa, maison mère de Fortuneo. La banque confirme une attaque. Voici ce que l'on sait. Le post Braquage numérique au Crédit Mutuel Arkéa : la…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "TikTok, une passerelle vers les casinos illégaux ?",
    "link": "https://www.zataz.com/tiktok-une-passerelle-vers-les-casinos-illegaux/",
@@ -194,43 +226,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Cyberattaque contre un prestataire de l’EFS : des congélateurs de plasma réglés à 110 °C",
-   "link": "https://www.it-connect.fr/cyberattaque-efs-coolworld-congelateurs-plasma/",
-   "date": "2026-11-04T13:41:51+00:00",
-   "summary": "Un prestataire de l'EFS piraté, des congélateurs de plasma réglés à 110 °C au lieu de -30 °C. Ce que l'on sait de l'attaque qui touche le secteur de la santé. Le post Cyberattaque contre un prestataire de l’EFS : des…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "IA en entreprise : l’industrialisation reste marginale (étude)",
    "link": "https://www.lemagit.fr/actualites/366653539/IA-en-entreprise-lindustrialisation-reste-marginale-etude",
    "date": "2026-11-04T13:01:00+00:00",
    "summary": "D’après TCS, le pourcentage d’entreprise qui a fait passer l’IA et l’IA agentique à l’échelle est inférieur à 10 %. Les coûts difficilement prévisibles sont un frein majeur, aux côtés de la qualité des données et de la…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "RSSI : pourquoi l’accélération de l’IA rend les fondamentaux de la sécurité indispensables",
-   "link": "https://www.lemagit.fr/conseil/RSSI-pourquoi-lacceleration-de-lIA-rend-les-fondamentaux-de-la-securite-indispensables",
-   "date": "2026-11-04T10:07:00+00:00",
-   "summary": "Les échanges du CyberRisk Alliance Summit le montrent : l’IA n’a pas redessiné le paysage des menaces, elle a simplement réduit à néant le temps dont disposent les défenseurs pour corriger leurs failles opérationnelles…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
-   "link": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
-   "date": "2026-11-04T09:32:03+00:00",
-   "summary": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l'IA de Google perdra aussi l'accès au moteur de recherche. Le post Pas d’IA, pas de recherche Google : c’est ce que veut…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Chasse aux vulnérabilités : chez GitHub, les scans agentiques complètent les analyses statiques",
-   "link": "https://www.lemagit.fr/actualites/366653556/Chasse-aux-vulnerabilites-chez-GitHub-les-scans-agentiques-completent-les-analyses-statiques",
-   "date": "2026-11-04T08:57:00+00:00",
-   "summary": "Avec ses modules payants Code Security et Secret Protection, la filiale de Microsoft introduit des scans réalisés par des agents IA, afin d’étendre la découverte de secrets et des vulnérabilités. En principe plus…",
    "theme": false
   },
   {
