@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:05+00:00",
+ "updated": "2026-11-07T11:41+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,46 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "IT-Connect",
+   "title": "Firefox cache un jeu Snake dans sa barre d’adresse : voici comment le lancer",
+   "link": "https://www.it-connect.fr/firefox-jeu-snake-cache-barre-adresse/",
+   "date": "2026-11-07T10:00:00+00:00",
+   "summary": "Un calcul égal à 150 dans la barre d'adresse de Firefox débloque un jeu Snake caché. Voici comment lancer cet easter egg dans le navigateur Firefox. Le post Firefox cache un jeu Snake dans sa barre d’adresse : voici…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
+   "link": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
+   "date": "2026-11-07T07:30:00+00:00",
+   "summary": "J'ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux. Le post LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi automatique",
+   "link": "https://www.it-connect.fr/test-reolink-omvi-3i-wifi/",
+   "date": "2026-11-07T07:00:00+00:00",
+   "summary": "Test de la Reolink OMVI 3i WiFi : une caméra triple objectif avec vue panoramique à 180°, caméra PT 4K, suivi automatique, IA locale et Wi-Fi 6. Le post Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+   "date": "2026-11-07T00:00:55+00:00",
+   "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
+   "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+   "date": "2026-11-06T22:27:25+00:00",
+   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
@@ -74,14 +114,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-   "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-   "date": "2026-11-06T12:37:22+00:00",
-   "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Oui, l’IA agentique accélère le passage à Rust, mais attention aux déconvenues",
    "link": "https://www.lemagit.fr/actualites/366653933/Oui-lIA-agentique-accelere-le-passage-a-Rust-mais-attention-aux-deconvenues",
@@ -114,14 +146,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-   "date": "2026-11-06T09:22:28+00:00",
-   "summary": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Après l’Europe, le FBI et la CISA alertent sur les cyberattaques contre les systèmes de réfrigération",
    "link": "https://www.it-connect.fr/fbi-cisa-alerte-cyberattaques-systemes-refrigeration/",
@@ -138,14 +162,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "*sshole : sur Alpine Linux, un mot de passe trop long peut mener à un accès root via SSH",
-   "link": "https://www.it-connect.fr/faille-openssh-musl-sshhole-alpine-linux/",
-   "date": "2026-11-06T08:35:46+00:00",
-   "summary": "La faille *sshole (CVE-2026-123158) ouvre en SSH, avec un mot de passe trop long, des comptes Linux sans mot de passe. Alpine Linux est le premier concerné. Le post *sshole : sur Alpine Linux, un mot de passe trop long…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "IA agentique et programmation réactive : pourquoi Mistral AI acquiert SkipLabs",
    "link": "https://www.lemagit.fr/actualites/366653932/IA-agentique-et-programmation-reactive-pourquoi-Mistral-AI-acquiert-SkipLabs",
@@ -154,11 +170,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "OpenAI lance GPT-6 Cyber : son modèle IA taillé pour trouver et exploiter des failles",
-   "link": "https://www.it-connect.fr/openai-gpt-6-cyber-exploits-linux-firefox-daybreak-red/",
-   "date": "2026-11-06T06:05:44+00:00",
-   "summary": "OpenAI lance GPT-6 Cyber, réservé à Daybreak Red : 948 exploits Linux, 81 failles graves dans Firefox et un modèle entraîné à rester dans son périmètre. Le post OpenAI lance GPT-6 Cyber : son modèle IA taillé pour…",
+   "source": "LeMagIT",
+   "title": "L’heure est l’élagage des projets IA peu fructueux",
+   "link": "https://www.lemagit.fr/actualites/366653918/Lheure-est-lelagage-des-projets-IA-peu-fructueux",
+   "date": "2026-11-06T04:18:00+00:00",
+   "summary": "Après la frénésie des débuts, les entreprises commencent à couper les initiatives non rentables pour optimiser les coûts et préparer le passage à l’échelle des « bons » projets.",
    "theme": false
   },
   {
@@ -167,14 +183,6 @@
    "link": "https://www.lemagit.fr/actualites/366653814/AIOps-pour-le-reseau-les-entreprises-sy-font-a-tatons",
    "date": "2026-11-06T00:20:00+00:00",
    "summary": "Les agents d’IA continuent pour l’essentiel de jouer un rôle consultatif auprès des équipes NetOps, qui adoptent une approche de type « faire confiance, mais vérifier ». Cependant, les systèmes autonomes gagnent du…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "CleanYourTV : comment nettoyer une box Android TV avec l’IA (sans root)",
-   "link": "https://www.it-connect.fr/cleanyourtv-nettoyer-box-android-tv/",
-   "date": "2026-11-05T17:00:00+00:00",
-   "summary": "Supprimez les pubs de l'accueil de votre box Android TV avec CleanYourTV et Claude Code, ou une app gratuite : ADB, prérequis, thèmes et précautions. Le post CleanYourTV : comment nettoyer une box Android TV avec l’IA…",
    "theme": false
   },
   {
@@ -199,14 +207,6 @@
    "link": "https://www.lemagit.fr/actualites/366653772/Checkmarks-ou-leloge-du-Tokenmaxxing-controle",
    "date": "2026-11-05T11:04:00+00:00",
    "summary": "Oxymore pour les uns, approche indispensable à l’innovation pour les autres. Le tokenmaxxing maîtrisé permet au spécialiste de l’AppSec de produire 50 % de code en plus. Il entre aujourd’hui dans une logique de…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Snowflake précise les contours de sa Business Ontology",
-   "link": "https://www.lemagit.fr/actualites/366653696/Snowflake-precise-les-contours-de-sa-Business-Ontology",
-   "date": "2026-11-05T08:19:00+00:00",
-   "summary": "Évoquée lors de sa conférence annuelle en juin, Snowflake a pris le temps de détailler le fonctionnement de son ontologie métier, l’une des trois couches de contexte pour fiabiliser les analyses de données des agents…",
    "theme": false
   },
   {
