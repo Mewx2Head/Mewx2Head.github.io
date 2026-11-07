@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:41+00:00",
+ "updated": "2026-11-07T20:51+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "date": "2026-11-07T15:25:35+00:00",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "date": "2026-11-07T14:10:19+00:00",
+   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use…",
+   "theme": false
+  },
   {
    "source": "IT-Connect",
    "title": "Firefox cache un jeu Snake dans sa barre d’adresse : voici comment le lancer",
@@ -90,27 +106,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-   "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-   "date": "2026-11-06T15:00:10+00:00",
-   "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Deep-Live-Cam : cet outil open source de deepfake change votre visage à partir d’une photo",
    "link": "https://www.it-connect.fr/deep-live-cam-deepfake-temps-reel-open-source/",
    "date": "2026-11-06T15:00:00+00:00",
    "summary": "Deep-Live-Cam est un outil open source capable de remplacer un visage en direct lors d'une visio (Teams, Zoom, etc.) à partir d'une seule photo. Le post Deep-Live-Cam : cet outil open source de deepfake change votre…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Chainalysis says breach exposed credentials for all customers",
-   "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-   "date": "2026-11-06T14:17:07+00:00",
-   "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
    "theme": false
   },
   {
