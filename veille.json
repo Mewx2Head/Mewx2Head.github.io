@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:54+00:00",
+ "updated": "2026-11-08T21:07+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+   "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+   "date": "2026-11-08T15:43:08+00:00",
+   "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "DataSuckers : trois suspects arrêtés après une fuite",
+   "link": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
+   "date": "2026-11-08T14:16:04+00:00",
+   "summary": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Hackers pull off $133 million French bank heist via service provider",
@@ -95,14 +111,6 @@
    "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
    "date": "2026-11-06T17:04:23+00:00",
    "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-   "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-   "date": "2026-11-06T15:25:31+00:00",
-   "summary": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
    "theme": false
   },
   {
@@ -319,14 +327,6 @@
    "link": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
    "date": "2026-10-24T09:29:23+00:00",
    "summary": "Cyberattaque chez Point Vision : données de patients volées, exposition possible des motifs de rendez-vous.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Technostress : une faille pour l’ingénierie sociale",
-   "link": "https://www.zataz.com/technostress-une-faille-pour-lingenierie-sociale/",
-   "date": "2026-10-23T12:56:16+00:00",
-   "summary": "Technostress et ingénierie sociale : comment la surcharge numérique peut fragiliser la vigilance face aux manipulations.",
    "theme": false
   }
  ]
