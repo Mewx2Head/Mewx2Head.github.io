@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:07+00:00",
+ "updated": "2026-11-09T13:51+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,110 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
+   "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+   "date": "2026-11-09T13:28:56+00:00",
+   "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
+   "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+   "date": "2026-11-09T12:16:13+00:00",
+   "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Nvidia : l’espionnage par la séduction et le social engineering",
+   "link": "https://www.zataz.com/nvidia-lespionnage-par-la-seduction-et-le-social-engineering/",
+   "date": "2026-11-09T11:46:46+00:00",
+   "summary": "Nvidia, espionnage chinois et social engineering : comprendre les manipulations humaines et apprendre à les contrer.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "VMware vSphere Express : Broadcom revient vers les PME avec une nouvelle offre !",
+   "link": "https://www.it-connect.fr/vmware-vsphere-express-128-coeurs-pme/",
+   "date": "2026-11-09T10:45:00+00:00",
+   "summary": "128 cœurs, pas un de plus : avec vSphere Express, Broadcom veut séduire à nouveau les PME, dont beaucoup lorgnent vers Proxmox. Voici ce qu'il faut savoir. Le post VMware vSphere Express : Broadcom revient vers les PME…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Bon plan : les serrures connectées WELOCK aux prix les plus bas de l’année pour le 11.11",
+   "link": "https://www.it-connect.fr/bon-plan-welock-novembre-2026-single-day/",
+   "date": "2026-11-09T10:36:03+00:00",
+   "summary": "Profitez du 11.11 pour équiper votre porte d’une serrure connectée WELOCK à prix réduit : déverrouillage par empreinte, code ou smartphone. Notre sélection d'offres. Le post Bon plan : les serrures connectées WELOCK aux…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
+   "link": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
+   "date": "2026-11-09T08:43:15+00:00",
+   "summary": "Selon Microsoft, moins d'un appareil Windows sur deux en entreprise installe le patch de sécurité en deux semaines. Un délai risqué face à l'IA. Voici pourquoi. Le post Moins d’un PC Windows sur deux patché en 2…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Infomaniak lance un service de stockage objet S3 souverain en Suisse",
+   "link": "https://www.it-connect.fr/infomaniak-stockage-objet-s3/",
+   "date": "2026-11-09T07:40:36+00:00",
+   "summary": "Infomaniak lance un stockage objet compatible S3 hébergé en Suisse : Object Lock, réplication, 10 To de trafic sortant inclus et aucun frais de requêtes. Le post Infomaniak lance un service de stockage objet S3…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Bon plan VZMORE AX9 MAX : ce mini-PC Ryzen AI 9 HX 470 à son prix le plus bas sur le Web",
+   "link": "https://www.it-connect.fr/bon-plan-vzmore-ax9-max-novembre-2026/",
+   "date": "2026-11-09T06:45:00+00:00",
+   "summary": "Jusqu'au 22 novembre 2026, le mini PC VZMORE AX9 MAX (Ryzen AI 9 HX 470) passe à 1 310 € au lieu de 1 549 € grâce au code réservé aux lecteurs d'IT-Connect. Le post Bon plan VZMORE AX9 MAX : ce mini-PC Ryzen AI 9 HX 470…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Phishing : 7,3 milliards de menaces par e-mail au troisième trimestre 2026, voici ce que révèle Microsoft",
+   "link": "https://www.it-connect.fr/microsoft-rapport-menaces-email-phishing-exceptions/",
+   "date": "2026-11-09T06:29:48+00:00",
+   "summary": "Microsoft a détecté 7,3 milliards e-mails de phishing au troisième trimestre 2026. Faux DocuSign, SVG, code d'appareil : voici ce qu'il faut retenir. Le post Phishing : 7,3 milliards de menaces par e-mail au troisième…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Un pirate revendique le vol de millions de données d’automobilistes français",
+   "link": "https://www.zataz.com/sgs-un-pirate-revendique-259-millions-de-lignes-volees/",
+   "date": "2026-11-09T00:30:00+00:00",
+   "summary": "Un pirate revendique une base SGS concernant 22 millions d'automobilistes : des données voitures et clients volées ?",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "NoName vise Free, La Poste Mobile et Danfoss",
+   "link": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
+   "date": "2026-11-09T00:08:10+00:00",
+   "summary": "NoName vise Free, La Poste Mobile et Danfoss. ZATAZ distingue données volées, DDoS et revendications industrielles.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Un géant de l’informatique visé par une revendication de vol de données",
+   "link": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
+   "date": "2026-11-08T23:36:38+00:00",
+   "summary": "Kensium visé par une revendication de vol de 18 To : code source et sauvegardes annoncés par un pirate informatique.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Alain Afflelou : des données clients et bancaires exposées ?",
+   "link": "https://www.zataz.com/alain-afflelou-des-donnees-clients-et-bancaires-exposees/",
+   "date": "2026-11-08T23:03:54+00:00",
+   "summary": "Alain Afflelou visé par Emperador : les pirates mettent à execution leur menace aprés une demande de rançon qui a échouée.",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
@@ -58,14 +162,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi automatique",
-   "link": "https://www.it-connect.fr/test-reolink-omvi-3i-wifi/",
-   "date": "2026-11-07T07:00:00+00:00",
-   "summary": "Test de la Reolink OMVI 3i WiFi : une caméra triple objectif avec vue panoramique à 180°, caméra PT 4K, suivi automatique, IA locale et Wi-Fi 6. Le post Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi…",
-   "theme": false
-  },
-  {
    "source": "BleepingComputer",
    "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
    "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -90,38 +186,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Fake security tools on GitHub push backdoors and infostealers",
-   "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-   "date": "2026-11-06T18:46:52+00:00",
-   "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "NIKKE : la version PC du jeu piégée pour installer un redoutable malware",
-   "link": "https://www.it-connect.fr/nikke-lanceur-pc-pirate-malware-k2f/",
-   "date": "2026-11-06T18:32:19+00:00",
-   "summary": "Le lanceur PC de NIKKE a chargé un malware depuis le CDN de Level Infinite : contrôle à distance, vol de secrets et de cryptos. Voici ce qu'il faut vérifier. Le post NIKKE : la version PC du jeu piégée pour installer un…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-   "date": "2026-11-06T17:04:23+00:00",
-   "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Deep-Live-Cam : cet outil open source de deepfake change votre visage à partir d’une photo",
-   "link": "https://www.it-connect.fr/deep-live-cam-deepfake-temps-reel-open-source/",
-   "date": "2026-11-06T15:00:00+00:00",
-   "summary": "Deep-Live-Cam est un outil open source capable de remplacer un visage en direct lors d'une visio (Teams, Zoom, etc.) à partir d'une seule photo. Le post Deep-Live-Cam : cet outil open source de deepfake change votre…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Oui, l’IA agentique accélère le passage à Rust, mais attention aux déconvenues",
    "link": "https://www.lemagit.fr/actualites/366653933/Oui-lIA-agentique-accelere-le-passage-a-Rust-mais-attention-aux-deconvenues",
@@ -135,30 +199,6 @@
    "link": "https://www.lemagit.fr/conseil/Il-ny-a-pas-un-metier-de-RSSI-mais-des-metiers-regard-de-cinq-secteurs-economiques",
    "date": "2026-11-06T11:11:00+00:00",
    "summary": "Un seul titre, des fonctions multiples : les RSSI de Fastly, SolarWinds, DeVry et d’autres organisations expliquent comment leurs secteurs respectifs façonnent leurs responsabilités et leurs priorités.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
-   "link": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
-   "date": "2026-11-06T11:10:41+00:00",
-   "summary": "Trois mois de ChatGPT Pro offerts pour une simple inscription ? Cette fausse invitation OpenAI sert à pirater votre compte Microsoft ou Google, MFA compris. Le post Faux événements OpenAI, SpaceX et Anthropic : ce…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "DigiCert : une erreur de migration expose les données et pièces d’identité de clients",
-   "link": "https://www.it-connect.fr/digicert-une-erreur-de-migration-expose-les-donnees-et-pieces-didentite-de-clients/",
-   "date": "2026-11-06T09:35:02+00:00",
-   "summary": "Une erreur de migration a ouvert les archives de DigiCert à des comptes créés sur Internet : données clients et pièces d'identité consultées. Ce que l'on sait. Le post DigiCert : une erreur de migration expose les…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Après l’Europe, le FBI et la CISA alertent sur les cyberattaques contre les systèmes de réfrigération",
-   "link": "https://www.it-connect.fr/fbi-cisa-alerte-cyberattaques-systemes-refrigeration/",
-   "date": "2026-11-06T08:54:17+00:00",
-   "summary": "Après les supermarchés et l'EFS, la CISA et le FBI alertent sur les attaques contre les systèmes de froid industriels. Voici leurs recommandations. Le post Après l’Europe, le FBI et la CISA alertent sur les…",
    "theme": false
   },
   {
@@ -226,22 +266,6 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Crédit Mutuel Arkéa : 133 millions de dollars détournés ?",
-   "link": "https://www.zataz.com/credit-mutuel-arkea-133-millions-de-dollars-detournes/",
-   "date": "2026-11-04T14:53:45+00:00",
-   "summary": "Fortuneo au cœur de la fraude Arkéa ? 133 millions de dollars détournés, des virements suspects et un blanchiment crypto.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "TikTok, une passerelle vers les casinos illégaux ?",
-   "link": "https://www.zataz.com/tiktok-une-passerelle-vers-les-casinos-illegaux/",
-   "date": "2026-11-04T13:58:13+00:00",
-   "summary": "Sur TikTok, des jeux vidéo peuvent mener à des casinos illégaux. Analyse des redirections, risques et sanctions.",
-   "theme": false
-  },
-  {
    "source": "CERT-FR",
    "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
@@ -303,30 +327,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
    "date": "2026-11-04T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Chimeraz revendique des fuites visant trois partis français, dont celui du groupe présidentiel",
-   "link": "https://www.zataz.com/chimeraz-revendique-des-fuites-visant-trois-partis-francais/",
-   "date": "2026-10-24T23:00:29+00:00",
-   "summary": "Chimeraz revendique des données annoncées comme volées aux partis politiques de Renaissance, LFI et du PCF.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "DeepSeek banni des agences fédérales US",
-   "link": "https://www.zataz.com/deepseek-banni-des-agences-federales-civiles-americaines/",
-   "date": "2026-10-24T10:46:39+00:00",
-   "summary": "DeepSeek banni des agences fédérales civiles américaines : portée, calendrier et risques pour les données.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Point Vision : des données de patients dérobées",
-   "link": "https://www.zataz.com/point-vision-des-donnees-de-patients-derobees/",
-   "date": "2026-10-24T09:29:23+00:00",
-   "summary": "Cyberattaque chez Point Vision : données de patients volées, exposition possible des motifs de rendez-vous.",
    "theme": false
   }
  ]
