@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T00:40+00:00",
+ "updated": "2026-11-10T13:26+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,94 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "IT-Connect",
+   "title": "Faux support IT sur Teams : moins de 15 minutes entre la réponse de la victime et le malware",
+   "link": "https://www.it-connect.fr/teams-faux-support-it-email-bombing/",
+   "date": "2026-11-10T13:00:00+00:00",
+   "summary": "Plus de 400 attaques au faux support IT via le chat externe de Teams : l'ordinateur de la victime peut être compromis en moins de 15 minutes. Le post Faux support IT sur Teams : moins de 15 minutes entre la réponse de…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Early Black Friday chez GoDeal24 : Office 2024 Pro Plus à 22.11€ et Windows 11 Pro à 12.25€",
+   "link": "https://www.it-connect.fr/bon-plan-des-promos-sur-les-licences-office-2021-windows-10-et-windows-11/",
+   "date": "2026-11-10T12:44:00+00:00",
+   "summary": "Notre partenaire GoDeal24 propose une nouvelle vente flash avec des prix très intéressants sur les licences Windows 11, Office 2024 et même Windows 10 LTSC. Le post Early Black Friday chez GoDeal24 : Office 2024 Pro…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+   "date": "2026-11-10T12:07:03+00:00",
+   "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+   "date": "2026-11-10T10:10:20+00:00",
+   "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
+   "link": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
+   "date": "2026-11-10T10:04:32+00:00",
+   "summary": "The Russian state-backed threat group Turla has been using a new malicious toolset called 'Cereal' to intercept emails on Microsoft Exchange servers at government organizations. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
+   "link": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
+   "date": "2026-11-10T08:51:25+00:00",
+   "summary": "Google has released emergency security updates to patch a new Chrome vulnerability exploited in zero-day attacks, the eighth such flaw since the start of the year. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Exchange Online : comment désactiver SMTP AUTH et sécuriser l’envoi d’e-mails",
+   "link": "https://www.it-connect.fr/desactiver-smtp-auth-exchange-online/",
+   "date": "2026-11-10T08:45:00+00:00",
+   "summary": "SMTP AUTH reste activé sur votre tenant Microsoft 365 ? Auditez son usage, désactivez-le pour l'organisation et les boîtes aux lettres, et bloquez l'auth basique. Le post Exchange Online : comment désactiver SMTP AUTH…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Fireworks AI discloses new breach after cloud provider hack",
+   "link": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+   "date": "2026-11-10T07:49:58+00:00",
+   "summary": "AI infrastructure startup Fireworks has disclosed a new security breach in which attackers accessed its development machines after breaching a third-party cloud provider. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Frigos piratés : la France accuse les Gardiens de la révolution iraniens",
+   "link": "https://www.it-connect.fr/frigos-supermarches-france-impute-iran-cgri-shahid-kaveh/",
+   "date": "2026-11-10T07:16:26+00:00",
+   "summary": "Frigos réglés à haute température dans 700 supermarchés : la France attribue cette attaque, et d'autres incidents, aux Gardiens de la révolution iraniens. Le post Frigos piratés : la France accuse les Gardiens de la…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Ray-Ban Meta piratées : une chercheuse obtient un shell, puis contourne le correctif de Meta",
+   "link": "https://www.it-connect.fr/lunettes-ray-ban-meta-piratees-shell/",
+   "date": "2026-11-10T06:30:00+00:00",
+   "summary": "Une chercheuse a obtenu un shell sur des lunettes Ray-Ban Meta en détournant le Device Access Toolkit, puis a contourné le correctif de Meta. Voici comment. Le post Ray-Ban Meta piratées : une chercheuse obtient un…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Puces IA : Google élargit sa gamme de TPU, pour les entreprises",
+   "link": "https://www.lemagit.fr/actualites/366653955/Puces-IA-Google-elargit-sa-gamme-de-TPU-pour-les-entreprises",
+   "date": "2026-11-10T02:00:00+00:00",
+   "summary": "L’hyperscaler a désormais quatre modèles de sa dernière puce accélératrice d’IA au catalogue. Les deux derniers, contenant des cœurs x86 et supportant le chiffrement ou une plus grande fenêtre de contexte, adressent…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
@@ -58,22 +146,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-   "date": "2026-11-09T18:32:42+00:00",
-   "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
-   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
-   "date": "2026-11-09T17:50:32+00:00",
-   "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Sniffnet : un moniteur réseau gratuit et open source pour Windows, Linux et macOS",
    "link": "https://www.it-connect.fr/sniffnet-moniteur-trafic-reseau/",
@@ -90,14 +162,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "SonicWall : une faille dans le VPN SSL permet de contourner le MFA et elle est exploitée",
-   "link": "https://www.it-connect.fr/sonicwall-vpn-ssl-faille-saml-mfa-cve-2026-19868/",
-   "date": "2026-11-09T16:49:22+00:00",
-   "summary": "Une faille exploitée dans le VPN SSL des firewalls SonicWall peut permettre de contourner SAML et le MFA associé. Qui est affecté ? Comment se protoéger ? Le post SonicWall : une faille dans le VPN SSL permet de…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Cyberattaque des frigos : la piste iranienne se précise",
    "link": "https://www.zataz.com/cyberattaque-des-frigos-la-piste-iranienne-se-precise/",
@@ -106,51 +170,27 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Binance denies data breach after alleged ShinyHunters claims",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
-   "date": "2026-11-09T16:12:39+00:00",
-   "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
-   "date": "2026-11-09T16:04:57+00:00",
-   "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
-   "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
-   "date": "2026-11-09T15:05:15+00:00",
-   "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Chiffrement postquantique : Red Hat accélère sa feuille de route",
    "link": "https://www.lemagit.fr/actualites/366654714/Chiffrement-postquantique-Red-Hat-accelere-sa-feuille-de-route",
    "date": "2026-11-09T13:27:00+00:00",
-   "summary": "Comme bon nombre d'éditeurs américains, en matière de chiffrement postquantique, Red Hat suit le rythme imprimé par l’Administration américaine. Pour son directeur technique, un long travail attend encore les…",
+   "summary": "Comme bon nombre d’éditeurs américains, en matière de chiffrement postquantique, Red Hat suit le rythme imprimé par l’Administration américaine. Pour son directeur technique, un long travail attend encore les…",
    "theme": false
   },
   {
    "source": "LeMagIT",
-   "title": "Comment Binance s'est fait voler plusieurs milliards",
+   "title": "Comment Binance s’est fait voler plusieurs milliards",
    "link": "https://www.lemagit.fr/actualites/366654657/Comment-Binance-sest-fait-voler-plusieurs-milliards",
    "date": "2026-11-09T13:17:00+00:00",
-   "summary": "L'ordinateur portable d'un ingénieur a été compromis, permettant aux pirates de retirer 6,36 milliards de dollars des portefeuilles Binance. L'attaque a été attribuée à la Corée du Nord.",
+   "summary": "L’ordinateur portable d’un ingénieur a été compromis, permettant aux pirates de retirer 6,36 milliards de dollars des portefeuilles Binance. L’attaque a été attribuée à la Corée du Nord.",
    "theme": false
   },
   {
    "source": "LeMagIT",
-   "title": "Piratage des systèmes de réfrigération : l'enquête s'oriente vers Téhéran",
+   "title": "Piratage des systèmes de réfrigération : l’enquête s’oriente vers Téhéran",
    "link": "https://www.lemagit.fr/actualites/366654713/Piratage-des-systemes-de-refrigeration-lenquete-soriente-vers-Teheran",
    "date": "2026-11-09T13:13:00+00:00",
-   "summary": "Le parquet a ouvert une information judiciaire à la suite de la campagne de cyberattaques ayant touché des systèmes de réfrigération depuis la mi-octobre. Elle vise notamment l'équipe cyber-offensive du Corps des…",
+   "summary": "Le parquet a ouvert une information judiciaire à la suite de la campagne de cyberattaques ayant touché des systèmes de réfrigération depuis la mi-octobre. Elle vise notamment l’équipe cyber-offensive du Corps des…",
    "theme": false
   },
   {
@@ -170,43 +210,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "VMware vSphere Express : Broadcom revient vers les PME avec une nouvelle offre !",
-   "link": "https://www.it-connect.fr/vmware-vsphere-express-128-coeurs-pme/",
-   "date": "2026-11-09T10:45:00+00:00",
-   "summary": "128 cœurs, pas un de plus : avec vSphere Express, Broadcom veut séduire à nouveau les PME, dont beaucoup lorgnent vers Proxmox. Voici ce qu'il faut savoir. Le post VMware vSphere Express : Broadcom revient vers les PME…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Bon plan : les serrures connectées WELOCK aux prix les plus bas de l’année pour le 11.11",
-   "link": "https://www.it-connect.fr/bon-plan-welock-novembre-2026-single-day/",
-   "date": "2026-11-09T10:36:03+00:00",
-   "summary": "Profitez du 11.11 pour équiper votre porte d’une serrure connectée WELOCK à prix réduit : déverrouillage par empreinte, code ou smartphone. Notre sélection d'offres. Le post Bon plan : les serrures connectées WELOCK aux…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Flunch pose les bases d’un pilotage financier à 360 degrés",
    "link": "https://www.lemagit.fr/etude/Flunch-pose-les-bases-dun-pilotage-financier-a-360-degres",
    "date": "2026-11-09T09:58:00+00:00",
    "summary": "Du fait de son gain d’autonomie au sein de la galaxie Mulliez, Flunch a dû recomposer son système d’information. L’enseigne en a profité pour moderniser son pilotage financier, jusque-là tributaire d’un EPM vieillissant…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
-   "link": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
-   "date": "2026-11-09T08:43:15+00:00",
-   "summary": "Selon Microsoft, moins d'un appareil Windows sur deux en entreprise installe le patch de sécurité en deux semaines. Un délai risqué face à l'IA. Voici pourquoi. Le post Moins d’un PC Windows sur deux patché en 2…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Infomaniak lance un service de stockage objet S3 souverain en Suisse",
-   "link": "https://www.it-connect.fr/infomaniak-stockage-objet-s3/",
-   "date": "2026-11-09T07:40:36+00:00",
-   "summary": "Infomaniak lance un stockage objet compatible S3 hébergé en Suisse : Object Lock, réplication, 10 To de trafic sortant inclus et aucun frais de requêtes. Le post Infomaniak lance un service de stockage objet S3…",
    "theme": false
   },
   {
@@ -219,7 +227,7 @@
   },
   {
    "source": "LeMagIT",
-   "title": "Comment utiliser GitHub Copilot pour créer de scripts PowerShell",
+   "title": "Comment utiliser GitHub Copilot pour créer des scripts PowerShell",
    "link": "https://www.lemagit.fr/conseil/Comment-utiliser-GitHub-Copilot-pour-creer-de-scripts-PowerShell",
    "date": "2026-11-09T00:30:00+00:00",
    "summary": "Cet article explique comment se servir de GitHub Copilot pour écrire des scripts, refactoriser du code existant et optimiser l’automatisation d’Azure selon les bonnes pratiques en vigueur.",
@@ -263,14 +271,6 @@
    "link": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
    "date": "2026-11-08T14:16:04+00:00",
    "summary": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Oui, l’IA agentique accélère le passage à Rust, mais attention aux déconvenues",
-   "link": "https://www.lemagit.fr/actualites/366653933/Oui-lIA-agentique-accelere-le-passage-a-Rust-mais-attention-aux-deconvenues",
-   "date": "2026-11-06T11:35:00+00:00",
-   "summary": "Grâce à son mécanisme de sécurité de la mémoire et ses performances, Rust gagne en popularité pour la modernisation de back-end. Sa courbe d’apprentissage abrupte en a d’abord fait le langage des fournisseurs. L’IA…",
    "theme": false
   },
   {
