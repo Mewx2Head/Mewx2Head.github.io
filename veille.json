@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T13:51+00:00",
+ "updated": "2026-11-10T00:40+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -11,18 +11,146 @@
  "items": [
   {
    "source": "BleepingComputer",
-   "title": "US bans MEXC crypto exchange over sanctions evasion, cybercrime links",
-   "link": "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
-   "date": "2026-11-09T13:28:56+00:00",
-   "summary": "The US Department of the Treasury has cut off the MEXC Global crypto exchange from the US financial system over sanctions evasion and links with cybercrime gangs. [...]",
+   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+   "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+   "date": "2026-11-09T23:52:12+00:00",
+   "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data.…",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+   "link": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+   "date": "2026-11-09T22:09:33+00:00",
+   "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Discord abandonne Electron et réécrit son client en Rust : 290 Mo de RAM avec deux comptes actifs",
+   "link": "https://www.it-connect.fr/discord-client-rust-gpui-fin-electron/",
+   "date": "2026-11-09T22:00:00+00:00",
+   "summary": "290 Mo de RAM avec deux comptes connectés : c'est ce qu'affiche une première version du futur client Discord, réécrit en Rust pour Windows, mais pas seulement. Le post Discord abandonne Electron et réécrit son client en…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cybersécurité : la CNIL sanctionne dix collectivités",
+   "link": "https://www.zataz.com/cybersecurite-la-cnil-sanctionne-dix-collectivites/",
+   "date": "2026-11-09T21:50:33+00:00",
+   "summary": "La CNIL sanctionne dix collectivités pour des failles de cybersécurité. Amendes, RGPD, accès sensibles et NIS2.",
    "theme": false
   },
   {
    "source": "BleepingComputer",
-   "title": "Ukraine dismantles crypto scam network that stole €4.3 million",
-   "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
-   "date": "2026-11-09T12:16:13+00:00",
-   "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+   "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+   "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+   "date": "2026-11-09T21:26:25+00:00",
+   "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities,…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "York University breach exposed personal information dating to 2007",
+   "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+   "date": "2026-11-09T21:22:31+00:00",
+   "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+   "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+   "date": "2026-11-09T18:32:42+00:00",
+   "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+   "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+   "date": "2026-11-09T17:50:32+00:00",
+   "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Sniffnet : un moniteur réseau gratuit et open source pour Windows, Linux et macOS",
+   "link": "https://www.it-connect.fr/sniffnet-moniteur-trafic-reseau/",
+   "date": "2026-11-09T17:15:00+00:00",
+   "summary": "Découvrez Sniffnet, l'analyseur réseau gratuit et open source : installation avec Npcap, trafic par programme, export PCAP, filtres BPF et blacklist d'IP. Le post Sniffnet : un moniteur réseau gratuit et open source…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Plex2Shell : QNAP fait état de NAS compromis, vous devez patcher !",
+   "link": "https://www.it-connect.fr/qnap-plex2shell-nas-compromis/",
+   "date": "2026-11-09T17:06:39+00:00",
+   "summary": "QNAP fait état de NAS compromis via Plex2Shell. Si Plex Media Server était exposé sur Internet, la mise à jour ne suffit pas : voici comment vérifier votre NAS. Le post Plex2Shell : QNAP fait état de NAS compromis, vous…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "SonicWall : une faille dans le VPN SSL permet de contourner le MFA et elle est exploitée",
+   "link": "https://www.it-connect.fr/sonicwall-vpn-ssl-faille-saml-mfa-cve-2026-19868/",
+   "date": "2026-11-09T16:49:22+00:00",
+   "summary": "Une faille exploitée dans le VPN SSL des firewalls SonicWall peut permettre de contourner SAML et le MFA associé. Qui est affecté ? Comment se protoéger ? Le post SonicWall : une faille dans le VPN SSL permet de…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaque des frigos : la piste iranienne se précise",
+   "link": "https://www.zataz.com/cyberattaque-des-frigos-la-piste-iranienne-se-precise/",
+   "date": "2026-11-09T16:28:21+00:00",
+   "summary": "Cyberattaque de 700 sites frigorifiques : Paris vise une unité iranienne après vingt départs de feu.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Binance denies data breach after alleged ShinyHunters claims",
+   "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+   "date": "2026-11-09T16:12:39+00:00",
+   "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+   "date": "2026-11-09T16:04:57+00:00",
+   "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI.",
+   "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+   "date": "2026-11-09T15:05:15+00:00",
+   "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Chiffrement postquantique : Red Hat accélère sa feuille de route",
+   "link": "https://www.lemagit.fr/actualites/366654714/Chiffrement-postquantique-Red-Hat-accelere-sa-feuille-de-route",
+   "date": "2026-11-09T13:27:00+00:00",
+   "summary": "Comme bon nombre d'éditeurs américains, en matière de chiffrement postquantique, Red Hat suit le rythme imprimé par l’Administration américaine. Pour son directeur technique, un long travail attend encore les…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Comment Binance s'est fait voler plusieurs milliards",
+   "link": "https://www.lemagit.fr/actualites/366654657/Comment-Binance-sest-fait-voler-plusieurs-milliards",
+   "date": "2026-11-09T13:17:00+00:00",
+   "summary": "L'ordinateur portable d'un ingénieur a été compromis, permettant aux pirates de retirer 6,36 milliards de dollars des portefeuilles Binance. L'attaque a été attribuée à la Corée du Nord.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Piratage des systèmes de réfrigération : l'enquête s'oriente vers Téhéran",
+   "link": "https://www.lemagit.fr/actualites/366654713/Piratage-des-systemes-de-refrigeration-lenquete-soriente-vers-Teheran",
+   "date": "2026-11-09T13:13:00+00:00",
+   "summary": "Le parquet a ouvert une information judiciaire à la suite de la campagne de cyberattaques ayant touché des systèmes de réfrigération depuis la mi-octobre. Elle vise notamment l'équipe cyber-offensive du Corps des…",
    "theme": false
   },
   {
@@ -31,6 +159,14 @@
    "link": "https://www.zataz.com/nvidia-lespionnage-par-la-seduction-et-le-social-engineering/",
    "date": "2026-11-09T11:46:46+00:00",
    "summary": "Nvidia, espionnage chinois et social engineering : comprendre les manipulations humaines et apprendre à les contrer.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "L’IA devrait supprimer entre « 5 % et 15 % » des effectifs, pas 25 % comme chez Microsoft",
+   "link": "https://www.lemagit.fr/actualites/366654653/LIA-devrait-supprimer-entre-5-et-15-des-effectifs-pas-25-comme-chez-Microsoft",
+   "date": "2026-11-09T11:12:00+00:00",
+   "summary": "Le géant du logiciel a annoncé un plan de départs qui touche un quart de ses employés. Mais pour Stéphane Roder, président d’AI Builders, l’IA menacerait plutôt entre 5 % et 15 % des postes, selon les secteurs. Le reste…",
    "theme": false
   },
   {
@@ -50,6 +186,14 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Flunch pose les bases d’un pilotage financier à 360 degrés",
+   "link": "https://www.lemagit.fr/etude/Flunch-pose-les-bases-dun-pilotage-financier-a-360-degres",
+   "date": "2026-11-09T09:58:00+00:00",
+   "summary": "Du fait de son gain d’autonomie au sein de la galaxie Mulliez, Flunch a dû recomposer son système d’information. L’enseigne en a profité pour moderniser son pilotage financier, jusque-là tributaire d’un EPM vieillissant…",
+   "theme": false
+  },
+  {
    "source": "IT-Connect",
    "title": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
    "link": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
@@ -66,19 +210,19 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Bon plan VZMORE AX9 MAX : ce mini-PC Ryzen AI 9 HX 470 à son prix le plus bas sur le Web",
-   "link": "https://www.it-connect.fr/bon-plan-vzmore-ax9-max-novembre-2026/",
-   "date": "2026-11-09T06:45:00+00:00",
-   "summary": "Jusqu'au 22 novembre 2026, le mini PC VZMORE AX9 MAX (Ryzen AI 9 HX 470) passe à 1 310 € au lieu de 1 549 € grâce au code réservé aux lecteurs d'IT-Connect. Le post Bon plan VZMORE AX9 MAX : ce mini-PC Ryzen AI 9 HX 470…",
+   "source": "LeMagIT",
+   "title": "Puces IA : l’EFSA se crée pour que le Chips Act de l’UE fonctionne enfin",
+   "link": "https://www.lemagit.fr/actualites/366654012/Puces-IA-lEFSA-se-cree-pour-que-le-Chips-Act-de-lUE-fonctionne-enfin",
+   "date": "2026-11-09T00:30:00+00:00",
+   "summary": "L’Europe a la possibilité de faire émerger sur son territoire des champions des puces fabless. Mais le programme qui les concerne, le Chips Act, leur était inaccessible. L’association a pour objectif de faire tomber ses…",
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Phishing : 7,3 milliards de menaces par e-mail au troisième trimestre 2026, voici ce que révèle Microsoft",
-   "link": "https://www.it-connect.fr/microsoft-rapport-menaces-email-phishing-exceptions/",
-   "date": "2026-11-09T06:29:48+00:00",
-   "summary": "Microsoft a détecté 7,3 milliards e-mails de phishing au troisième trimestre 2026. Faux DocuSign, SVG, code d'appareil : voici ce qu'il faut retenir. Le post Phishing : 7,3 milliards de menaces par e-mail au troisième…",
+   "source": "LeMagIT",
+   "title": "Comment utiliser GitHub Copilot pour créer de scripts PowerShell",
+   "link": "https://www.lemagit.fr/conseil/Comment-utiliser-GitHub-Copilot-pour-creer-de-scripts-PowerShell",
+   "date": "2026-11-09T00:30:00+00:00",
+   "summary": "Cet article explique comment se servir de GitHub Copilot pour écrire des scripts, refactoriser du code existant et optimiser l’automatisation d’Azure selon les bonnes pratiques en vigueur.",
    "theme": false
   },
   {
@@ -114,75 +258,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
-   "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
-   "date": "2026-11-08T15:43:08+00:00",
-   "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "DataSuckers : trois suspects arrêtés après une fuite",
    "link": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
    "date": "2026-11-08T14:16:04+00:00",
    "summary": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers pull off $133 million French bank heist via service provider",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-   "date": "2026-11-07T15:25:35+00:00",
-   "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.v [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-   "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-   "date": "2026-11-07T14:10:19+00:00",
-   "summary": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Firefox cache un jeu Snake dans sa barre d’adresse : voici comment le lancer",
-   "link": "https://www.it-connect.fr/firefox-jeu-snake-cache-barre-adresse/",
-   "date": "2026-11-07T10:00:00+00:00",
-   "summary": "Un calcul égal à 150 dans la barre d'adresse de Firefox débloque un jeu Snake caché. Voici comment lancer cet easter egg dans le navigateur Firefox. Le post Firefox cache un jeu Snake dans sa barre d’adresse : voici…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
-   "link": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
-   "date": "2026-11-07T07:30:00+00:00",
-   "summary": "J'ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux. Le post LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-   "date": "2026-11-07T00:00:55+00:00",
-   "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-   "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-   "date": "2026-11-06T22:27:25+00:00",
-   "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-   "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
-   "date": "2026-11-06T20:24:19+00:00",
-   "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws.…",
    "theme": false
   },
   {
@@ -194,139 +274,67 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Il n’y a pas un métier de RSSI, mais des métiers : regard de cinq secteurs économiques",
-   "link": "https://www.lemagit.fr/conseil/Il-ny-a-pas-un-metier-de-RSSI-mais-des-metiers-regard-de-cinq-secteurs-economiques",
-   "date": "2026-11-06T11:11:00+00:00",
-   "summary": "Un seul titre, des fonctions multiples : les RSSI de Fastly, SolarWinds, DeVry et d’autres organisations expliquent comment leurs secteurs respectifs façonnent leurs responsabilités et leurs priorités.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Navigateur d’entreprise sécurisé ou extensions de sécurité : comment choisir",
-   "link": "https://www.lemagit.fr/conseil/Navigateur-dentreprise-securise-ou-extensions-de-securite-comment-choisir",
-   "date": "2026-11-06T08:43:00+00:00",
-   "summary": "Les acteurs malveillants ciblent et exploitent depuis longtemps les vulnérabilités des navigateurs. La généralisation de l’IA accroît ce risque et oblige les RSSI à réexaminer leurs options en matière de sécurité du…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "IA agentique et programmation réactive : pourquoi Mistral AI acquiert SkipLabs",
-   "link": "https://www.lemagit.fr/actualites/366653932/IA-agentique-et-programmation-reactive-pourquoi-Mistral-AI-acquiert-SkipLabs",
-   "date": "2026-11-06T06:57:00+00:00",
-   "summary": "Mistral AI poursuit ses emplettes. Cette fois-ci c’est SkipLabs, une startup spécialisée dans la programmation réactive qui donne naissance à une nouvelle équipe. Son objectif : créer des outils pour valider et tester…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "L’heure est l’élagage des projets IA peu fructueux",
-   "link": "https://www.lemagit.fr/actualites/366653918/Lheure-est-lelagage-des-projets-IA-peu-fructueux",
-   "date": "2026-11-06T04:18:00+00:00",
-   "summary": "Après la frénésie des débuts, les entreprises commencent à couper les initiatives non rentables pour optimiser les coûts et préparer le passage à l’échelle des « bons » projets.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "AIOps pour le réseau : les entreprises s’y font, à tâtons",
-   "link": "https://www.lemagit.fr/actualites/366653814/AIOps-pour-le-reseau-les-entreprises-sy-font-a-tatons",
-   "date": "2026-11-06T00:20:00+00:00",
-   "summary": "Les agents d’IA continuent pour l’essentiel de jouer un rôle consultatif auprès des équipes NetOps, qui adoptent une approche de type « faire confiance, mais vérifier ». Cependant, les systèmes autonomes gagnent du…",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Cyberattaque contre les frigos de l’EFS : le plasma visé",
-   "link": "https://www.zataz.com/cyberattaque-contre-les-frigos-de-lefs-le-plasma-vise/",
-   "date": "2026-11-05T16:36:51+00:00",
-   "summary": "Cyberattaque EFS : trois sites touchés, du plasma menacé. ZATAZ revient sur les précédents et les risques industriels.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "SUSE s’appuie sur Nvidia pour muscler son AI Factory",
-   "link": "https://www.lemagit.fr/actualites/366653792/SUSE-sappuie-sur-Nvidia-pour-muscler-son-AI-Factory",
-   "date": "2026-11-05T13:10:00+00:00",
-   "summary": "Lors de la GTC à Berlin, SUSE a été mis en avant lors du keynote d’ouverture de Nvidia. Le spécialiste des distributions Linux et de Kubernetes devient un des relais des architectures de référence du géant fabless en…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Checkmarx, ou l’éloge du Tokenmaxxing contrôlé",
-   "link": "https://www.lemagit.fr/actualites/366653772/Checkmarks-ou-leloge-du-Tokenmaxxing-controle",
-   "date": "2026-11-05T11:04:00+00:00",
-   "summary": "Oxymore pour les uns, approche indispensable à l’innovation pour les autres. Le tokenmaxxing maîtrisé permet au spécialiste de l’AppSec de produire 50 % de code en plus. Il entre aujourd’hui dans une logique de…",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "CTF Social Engineering : trois jours pour piéger l’humain",
-   "link": "https://www.zataz.com/ctf-social-engineering-trois-jours-pour-pieger-lhumain/",
-   "date": "2026-11-04T17:35:25+00:00",
-   "summary": "Hackfest Québec 2026 : deuxième place au CTF de Social Engineering, 43 appels et trois outils de renseignement.",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Microsoft Edge (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1466/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
+   "title": "Multiples vulnérabilités dans les produits Siemens (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1464/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Apache Zookeeper. Elles permettent à un attaquant de provoquer un déni de service à distance et un contournement de la politique de sécurité.",
+   "title": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1468/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans OpenSSH. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits SonicWall. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une injection SQL (SQLi).",
+   "title": "Multiples vulnérabilités dans les produits Cisco (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1467/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un contournement de la politique de sécurité et un…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans MongoDB. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+   "title": "Multiples vulnérabilités dans OpenOffice (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1463/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans OpenOffice. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "title": "Multiples vulnérabilités dans SPIP (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1465/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans Laravel (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1457/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "title": "Multiples vulnérabilités dans MongoDB (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1462/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1451/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits HPE Aruba Networking. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
-   "date": "2026-11-04T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+   "title": "[MàJ] Vulnérabilité dans OpenSSH (05 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+   "date": "2026-11-05T00:00:00+00:00",
+   "summary": "[Mise à jour du 6 novembre 2026] Cette vulnérabilité porte l'identifiant CVE-2026-123158. Alpine a publié un bulletin de sécurité (cf. section Documentation) concernant cette vulnérabilité. Le CERT-FR précise que toute…",
    "theme": false
   }
  ]
