@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T12:41+00:00",
+ "updated": "2026-11-11T23:26+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,78 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Baker Tilly notifies clients of data breach at third-party provider",
+   "link": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+   "date": "2026-11-11T23:01:31+00:00",
+   "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+   "link": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+   "date": "2026-11-11T22:56:21+00:00",
+   "summary": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+   "link": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+   "date": "2026-11-11T21:27:40+00:00",
+   "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+   "link": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+   "date": "2026-11-11T20:54:20+00:00",
+   "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Kudu : découverte de l’alternative gratuite et open source à CCleaner pour Windows, macOS et Linux",
+   "link": "https://www.it-connect.fr/kudu-alternative-open-source-ccleaner/",
+   "date": "2026-11-11T17:06:37+00:00",
+   "summary": "Kudu est un logiciel de nettoyage et d'optimisation gratuit et open source pour Windows, macOS et Linux. Voici les fonctionnalités de cette alternative à CCleaner. Le post Kudu : découverte de l’alternative gratuite et…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+   "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+   "date": "2026-11-11T16:24:18+00:00",
+   "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "pfSense 26.10 : Netgate fusionne CE et Plus, toutes les fonctionnalités deviennent gratuites",
+   "link": "https://www.it-connect.fr/pfsense-26-10-fusion-ce-plus-edition-unique-gratuite/",
+   "date": "2026-11-11T16:00:00+00:00",
+   "summary": "Vous utilisez pfSense CE sur votre propre matériel ? Avec la version 26.10, Netgate fusionne CE et Plus en une seule édition gratuite. Voici ce qui change. Le post pfSense 26.10 : Netgate fusionne CE et Plus, toutes les…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+   "date": "2026-11-11T15:12:59+00:00",
+   "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+   "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+   "date": "2026-11-11T15:01:11+00:00",
+   "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "N-able releases security hotfixes for zero-day vulnerabilities",
@@ -31,14 +103,6 @@
    "link": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
    "date": "2026-11-11T10:30:00+00:00",
    "summary": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier. Le post Outlook et Hotmail : les e-mails rejetés faute de…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-   "date": "2026-11-11T10:12:08+00:00",
-   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
    "theme": false
   },
   {
@@ -82,60 +146,12 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-   "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-   "date": "2026-11-10T22:20:19+00:00",
-   "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-   "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-   "date": "2026-11-10T20:54:55+00:00",
-   "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
    "link": "https://www.it-connect.fr/claude-fable-5-2-systeme-exploitation-1000-sous-agents/",
    "date": "2026-11-10T20:18:00+00:00",
    "summary": "Anthropic a dévoilé Claude Fable 5.2 (et Mythos 5.2), et à cette occasion, l'IA a créée un système d'exploitation en huit jours avec plus de 1 000 sous-agents. Le post Claude Fable 5.2 a codé un système d’exploitation…",
    "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-   "date": "2026-11-10T20:04:36+00:00",
-   "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-   "date": "2026-11-10T19:31:11+00:00",
-   "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
-   "date": "2026-11-10T19:07:36+00:00",
-   "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Ransomware recovery is now a client retention metric",
-   "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
-   "date": "2026-11-10T15:01:11+00:00",
-   "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these…",
-   "theme": true
   },
   {
    "source": "LeMagIT",
@@ -170,27 +186,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Early Black Friday chez GoDeal24 : Office 2024 Pro Plus à 22.11€ et Windows 11 Pro à 12.25€",
-   "link": "https://www.it-connect.fr/bon-plan-des-promos-sur-les-licences-office-2021-windows-10-et-windows-11/",
-   "date": "2026-11-10T12:44:00+00:00",
-   "summary": "Notre partenaire GoDeal24 propose une nouvelle vente flash avec des prix très intéressants sur les licences Windows 11, Office 2024 et même Windows 10 LTSC. Le post Early Black Friday chez GoDeal24 : Office 2024 Pro…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Analytique : l’écosystème veut « recycler » les GPU délaissés par les fournisseurs de LLM",
    "link": "https://www.lemagit.fr/actualites/366654680/Analytique-lecosysteme-veut-recycler-les-GPU-delaisses-par-les-fournisseurs-de-LLM",
    "date": "2026-11-10T11:01:00+00:00",
    "summary": "Parfois boudés par les géants de l’IA générative, les GPU Nvidia de générations antérieures trouvent une nouvelle utilité. Ils accélèrent les charges de travail analytiques. Microsoft et Starburst s’appuient sur la…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Exchange Online : comment désactiver SMTP AUTH et sécuriser l’envoi d’e-mails",
-   "link": "https://www.it-connect.fr/desactiver-smtp-auth-exchange-online/",
-   "date": "2026-11-10T08:45:00+00:00",
-   "summary": "SMTP AUTH reste activé sur votre tenant Microsoft 365 ? Auditez son usage, désactivez-le pour l'organisation et les boîtes aux lettres, et bloquez l'auth basique. Le post Exchange Online : comment désactiver SMTP AUTH…",
    "theme": false
   },
   {
