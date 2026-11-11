@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:21+00:00",
+ "updated": "2026-11-11T12:41+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,78 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+   "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+   "date": "2026-11-11T12:32:27+00:00",
+   "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft fixes audio issues caused by September security updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+   "date": "2026-11-11T11:18:36+00:00",
+   "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
+   "link": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
+   "date": "2026-11-11T10:30:00+00:00",
+   "summary": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier. Le post Outlook et Hotmail : les e-mails rejetés faute de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+   "date": "2026-11-11T10:12:08+00:00",
+   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned on Tuesday that hackers are now exploiting a high-severity Cisco BroadWorks vulnerability in attacks. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+   "date": "2026-11-11T09:07:27+00:00",
+   "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
+   "link": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
+   "date": "2026-11-11T08:45:00+00:00",
+   "summary": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change. Le post Firefox 160 : Mini Window, vitesse de lecture en…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
+   "link": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
+   "date": "2026-11-11T07:16:01+00:00",
+   "summary": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet. Le post Patch Tuesday – Novembre 2026 : 1 093 failles…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows 11 KB5132061 : voici l’essentiel à savoir sur la mise à jour de novembre 2026",
+   "link": "https://www.it-connect.fr/windows-11-kb5132061-kb5131087-nouveautes-correctifs/",
+   "date": "2026-11-11T07:15:41+00:00",
+   "summary": "KB5132061 : menu contextuel personnalisable, signature NTLM par défaut, audio USB corrigé. Voici le récapitulatif de la mise à jour Windows 11 de novembre 2026. Le post Windows 11 KB5132061 : voici l’essentiel à savoir…",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows 10 – KB5131096 : voici la mise à jour de sécurité de novembre 2026",
+   "link": "https://www.it-connect.fr/windows-10-kb5131096-mise-a-jour-esu/",
+   "date": "2026-11-11T07:15:22+00:00",
+   "summary": "KB5131096 pour Windows 10 : le bug audio USB est corrigé, l'ESU entre dans sa deuxième année et la signature des scripts PowerShell devient plus stricte. Le post Windows 10 – KB5131096 : voici la mise à jour de sécurité…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Railway breach leads to $740,000 in fraudulent AI charges",
@@ -55,30 +127,6 @@
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
    "date": "2026-11-10T19:07:36+00:00",
    "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-   "date": "2026-11-10T18:33:26+00:00",
-   "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
-   "date": "2026-11-10T16:17:16+00:00",
-   "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
-   "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
-   "date": "2026-11-10T15:59:19+00:00",
-   "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and…",
    "theme": false
   },
   {
@@ -146,22 +194,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Frigos piratés : la France accuse les Gardiens de la révolution iraniens",
-   "link": "https://www.it-connect.fr/frigos-supermarches-france-impute-iran-cgri-shahid-kaveh/",
-   "date": "2026-11-10T07:16:26+00:00",
-   "summary": "Frigos réglés à haute température dans 700 supermarchés : la France attribue cette attaque, et d'autres incidents, aux Gardiens de la révolution iraniens. Le post Frigos piratés : la France accuse les Gardiens de la…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Ray-Ban Meta piratées : une chercheuse obtient un shell, puis contourne le correctif de Meta",
-   "link": "https://www.it-connect.fr/lunettes-ray-ban-meta-piratees-shell/",
-   "date": "2026-11-10T06:30:00+00:00",
-   "summary": "Une chercheuse a obtenu un shell sur des lunettes Ray-Ban Meta en détournant le Device Access Toolkit, puis a contourné le correctif de Meta. Voici comment. Le post Ray-Ban Meta piratées : une chercheuse obtient un…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Puces IA : Google élargit sa gamme de TPU, pour les entreprises",
    "link": "https://www.lemagit.fr/actualites/366653955/Puces-IA-Google-elargit-sa-gamme-de-TPU-pour-les-entreprises",
@@ -170,35 +202,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-   "link": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-   "date": "2026-11-09T23:52:12+00:00",
-   "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data.…",
-   "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Discord abandonne Electron et réécrit son client en Rust : 290 Mo de RAM avec deux comptes actifs",
-   "link": "https://www.it-connect.fr/discord-client-rust-gpui-fin-electron/",
-   "date": "2026-11-09T22:00:00+00:00",
-   "summary": "290 Mo de RAM avec deux comptes connectés : c'est ce qu'affiche une première version du futur client Discord, réécrit en Rust pour Windows, mais pas seulement. Le post Discord abandonne Electron et réécrit son client en…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Cybersécurité : la CNIL sanctionne dix collectivités",
    "link": "https://www.zataz.com/cybersecurite-la-cnil-sanctionne-dix-collectivites/",
    "date": "2026-11-09T21:50:33+00:00",
    "summary": "La CNIL sanctionne dix collectivités pour des failles de cybersécurité. Amendes, RGPD, accès sensibles et NIS2.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Sniffnet : un moniteur réseau gratuit et open source pour Windows, Linux et macOS",
-   "link": "https://www.it-connect.fr/sniffnet-moniteur-trafic-reseau/",
-   "date": "2026-11-09T17:15:00+00:00",
-   "summary": "Découvrez Sniffnet, l'analyseur réseau gratuit et open source : installation avec Npcap, trafic par programme, export PCAP, filtres BPF et blacklist d'IP. Le post Sniffnet : un moniteur réseau gratuit et open source…",
    "theme": false
   },
   {
