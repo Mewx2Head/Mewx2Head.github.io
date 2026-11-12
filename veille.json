@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T23:26+00:00",
+ "updated": "2026-11-12T13:43+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,102 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+   "date": "2026-11-12T12:11:11+00:00",
+   "summary": "Microsoft has confirmed that Windows updates released since the October 2026 Patch Tuesday are causing SQL Server performance and stability issues. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft confirms Windows security updates installation issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+   "date": "2026-11-12T10:24:07+00:00",
+   "summary": "Microsoft has confirmed reports that the November 2026 security updates are failing to install on Windows 11 systems with the October preview update. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "NAS Synology : deux failles exploitables sans authentification dans DSM, dont une injection SQL",
+   "link": "https://www.it-connect.fr/nas-synology-dsm-failles-sans-authentification-novembre-2026/",
+   "date": "2026-11-12T10:15:00+00:00",
+   "summary": "Synology a corrigé deux failles dans DSM exploitables sans authentification, dont une injection SQL critique. Voici les versions à installer sur votre NAS. Le post NAS Synology : deux failles exploitables sans…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Notion AI : le piratage de Fireworks AI a exposé des conversations de clients",
+   "link": "https://www.it-connect.fr/notion-ai-fuite-conversations-fireworks/",
+   "date": "2026-11-12T09:50:00+00:00",
+   "summary": "Le piratage de Fireworks AI, sous-traitant de Notion, a exposé des conversations Notion AI. Moins de 1 % des espaces de travail sont touchés. Le post Notion AI : le piratage de Fireworks AI a exposé des conversations de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers plant GSocket on Linux servers for persistent access",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+   "date": "2026-11-12T09:38:00+00:00",
+   "summary": "Multiple threat actors are abusing GSocket, a legitimate open-source remote access tool, to maintain access to Linux servers even after patching the vulnerabilities exploited to gain initial access. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Maersk confirme une fuite de données : WhiteArmor réclame 5 millions de dollars",
+   "link": "https://www.it-connect.fr/maersk-fuite-de-donnees-whitearmor/",
+   "date": "2026-11-12T09:30:00+00:00",
+   "summary": "Maersk reconnaît un vol de données sur un système hérité d'un rachat. WhiteArmor revendique 100 Go de données volées et exige 5 millions de dollars en bitcoins. Le post Maersk confirme une fuite de données : WhiteArmor…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Xen Orchestra : cette faille critique déjà exploitée permet de compromettre les hôtes XCP-ng",
+   "link": "https://www.it-connect.fr/xen-orchestra-faille-critique-vsa-2026-062-exploitee/",
+   "date": "2026-11-12T08:19:58+00:00",
+   "summary": "Un cookie piégé suffit pour devenir administrateur de Xen Orchestra : cette faille critique est déjà exploitée. Voici comment protéger vos hôtes XCP-ng. Le post Xen Orchestra : cette faille critique déjà exploitée…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "IA agentique : les sandbox de Nvidia et de Google rejoignent la CNCF",
+   "link": "https://www.lemagit.fr/actualites/366654705/IA-agentique-les-sandbox-de-Nvidia-et-de-Google-rejoignent-la-CNCF",
+   "date": "2026-11-12T07:01:00+00:00",
+   "summary": "OpenShell de Nvidia et Agent Substrate de Google ciblent les déploiements agentique sur site, en alliant la sécurité des agents à l'automatisation de l'infrastructure.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "GTA 6 : Logitech offre à ses 7 000 salariés une journée de congé pour jouer aux jeux vidéo",
+   "link": "https://www.it-connect.fr/logitech-jour-conge-jeux-video-gta-6/",
+   "date": "2026-11-12T06:29:57+00:00",
+   "summary": "Logitech offre à ses 7 000 salariés, stagiaires compris, un jour de congé pour jouer au jeu de leur choix, à neuf jours de la sortie de GTA 6. Explications. Le post GTA 6 : Logitech offre à ses 7 000 salariés une…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude Whiteboards, Sheets et Data : Anthropic ajoute un tableur et un tableau blanc à Claude",
+   "link": "https://www.it-connect.fr/claude-whiteboards-sheets-data-anthropic/",
+   "date": "2026-11-12T06:18:45+00:00",
+   "summary": "Anthropic déploie Claude Sheets et Claude Whiteboards en bêta, et Claude Data en version finale. Fonctions, limites et réglages admin : voici l'essentiel. Le post Claude Whiteboards, Sheets et Data : Anthropic ajoute un…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "AMD affirme que l’Epyc 9006 sera le processeur de l’IA agentique",
+   "link": "https://www.lemagit.fr/actualites/366654755/AMD-affirme-que-lEpyc-9006-sera-le-processeur-de-lIA-agentique",
+   "date": "2026-11-12T02:00:00+00:00",
+   "summary": "Commercialisé ces jours-ci, le dernier CPU du constructeur peut exécuter jusqu’à 512 agents d’IA simultanément pour 600 watts d’énergie consommée. Une version en 400 watts arrive un peu plus tard pour rapatrier l’IA du…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Comment gérer le stockage sous Windows à l'aide de Storage Spaces",
+   "link": "https://www.lemagit.fr/conseil/Comment-gerer-le-stockage-sous-Windows-a-laide-de-Storage-Spaces",
+   "date": "2026-11-12T02:00:00+00:00",
+   "summary": "Windows Storage Spaces est une approche alternative à la gestion traditionnelle du stockage qui offre une flexibilité et une évolutivité accrues grâce à un processus de configuration simple.",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Baker Tilly notifies clients of data breach at third-party provider",
@@ -75,59 +171,11 @@
   },
   {
    "source": "BleepingComputer",
-   "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-   "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-   "date": "2026-11-11T15:01:11+00:00",
-   "summary": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-   "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-   "date": "2026-11-11T12:32:27+00:00",
-   "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft fixes audio issues caused by September security updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-   "date": "2026-11-11T11:18:36+00:00",
-   "summary": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
-   "link": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
-   "date": "2026-11-11T10:30:00+00:00",
-   "summary": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier. Le post Outlook et Hotmail : les e-mails rejetés faute de…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
    "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
    "date": "2026-11-11T09:07:27+00:00",
    "summary": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
    "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
-   "link": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
-   "date": "2026-11-11T08:45:00+00:00",
-   "summary": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change. Le post Firefox 160 : Mini Window, vitesse de lecture en…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
-   "link": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
-   "date": "2026-11-11T07:16:01+00:00",
-   "summary": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet. Le post Patch Tuesday – Novembre 2026 : 1 093 failles…",
-   "theme": false
   },
   {
    "source": "IT-Connect",
@@ -138,24 +186,8 @@
    "theme": true
   },
   {
-   "source": "IT-Connect",
-   "title": "Windows 10 – KB5131096 : voici la mise à jour de sécurité de novembre 2026",
-   "link": "https://www.it-connect.fr/windows-10-kb5131096-mise-a-jour-esu/",
-   "date": "2026-11-11T07:15:22+00:00",
-   "summary": "KB5131096 pour Windows 10 : le bug audio USB est corrigé, l'ESU entre dans sa deuxième année et la signature des scripts PowerShell devient plus stricte. Le post Windows 10 – KB5131096 : voici la mise à jour de sécurité…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Claude Fable 5.2 a codé un système d’exploitation en 8 jours avec plus de 1 000 sous-agents",
-   "link": "https://www.it-connect.fr/claude-fable-5-2-systeme-exploitation-1000-sous-agents/",
-   "date": "2026-11-10T20:18:00+00:00",
-   "summary": "Anthropic a dévoilé Claude Fable 5.2 (et Mythos 5.2), et à cette occasion, l'IA a créée un système d'exploitation en huit jours avec plus de 1 000 sous-agents. Le post Claude Fable 5.2 a codé un système d’exploitation…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
-   "title": "Claude Fable 5.2 est toujours plus performant…et encore très cher",
+   "title": "Claude Fable 5.2 est toujours plus performant… et encore très cher",
    "link": "https://www.lemagit.fr/actualites/366654701/Claude-Fable-52-est-toujours-plus-performantet-encore-tres-cher",
    "date": "2026-11-10T14:14:00+00:00",
    "summary": "Claude Fable 5.2 permet à Anthropic de reprendre la tête des classements. Or le modèle de raisonnement ne se montre pertinent que dans son mode d’effort élevé. À plein régime, il se montre performant, mais très cher,…",
@@ -171,18 +203,10 @@
   },
   {
    "source": "LeMagIT",
-   "title": "NIS 2 est enfin arrivé à l’Assemblée",
+   "title": "NIS 2 est enfin arrivé à l’Assemblée nationale",
    "link": "https://www.lemagit.fr/actualites/366654660/NIS-2-est-enfin-arrive-a-lAssemblee",
    "date": "2026-11-10T13:04:00+00:00",
    "summary": "L’examen du projet de loi dit de résilience, visant à transposer en droit français la directive européenne NIS 2, a enfin commencé à l’Assemblée nationale. Rien ne dit qu’il ne sera pas sans accrocs.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Faux support IT sur Teams : moins de 15 minutes entre la réponse de la victime et le malware",
-   "link": "https://www.it-connect.fr/teams-faux-support-it-email-bombing/",
-   "date": "2026-11-10T13:00:00+00:00",
-   "summary": "Plus de 400 attaques au faux support IT via le chat externe de Teams : l'ordinateur de la victime peut être compromis en moins de 15 minutes. Le post Faux support IT sur Teams : moins de 15 minutes entre la réponse de…",
    "theme": false
   },
   {
@@ -215,30 +239,6 @@
    "link": "https://www.zataz.com/cyberattaque-des-frigos-la-piste-iranienne-se-precise/",
    "date": "2026-11-09T16:28:21+00:00",
    "summary": "Cyberattaque de 700 sites frigorifiques : Paris vise une unité iranienne après vingt départs de feu.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Chiffrement postquantique : Red Hat accélère sa feuille de route",
-   "link": "https://www.lemagit.fr/actualites/366654714/Chiffrement-postquantique-Red-Hat-accelere-sa-feuille-de-route",
-   "date": "2026-11-09T13:27:00+00:00",
-   "summary": "Comme bon nombre d’éditeurs américains, en matière de chiffrement postquantique, Red Hat suit le rythme imprimé par l’Administration américaine. Pour son directeur technique, un long travail attend encore les…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Comment Binance s’est fait voler plusieurs milliards",
-   "link": "https://www.lemagit.fr/actualites/366654657/Comment-Binance-sest-fait-voler-plusieurs-milliards",
-   "date": "2026-11-09T13:17:00+00:00",
-   "summary": "L’ordinateur portable d’un ingénieur a été compromis, permettant aux pirates de retirer 6,36 milliards de dollars des portefeuilles Binance. L’attaque a été attribuée à la Corée du Nord.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Piratage des systèmes de réfrigération : l’enquête s’oriente vers Téhéran",
-   "link": "https://www.lemagit.fr/actualites/366654713/Piratage-des-systemes-de-refrigeration-lenquete-soriente-vers-Teheran",
-   "date": "2026-11-09T13:13:00+00:00",
-   "summary": "Le parquet a ouvert une information judiciaire à la suite de la campagne de cyberattaques ayant touché des systèmes de réfrigération depuis la mi-octobre. Elle vise notamment l’équipe cyber-offensive du Corps des…",
    "theme": false
   },
   {
