@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:42+00:00",
+ "updated": "2026-11-13T13:03+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,94 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "IT-Connect",
+   "title": "Windows : les mises à jour de novembre 2026 provoquent des échecs d’activation, Microsoft confirme",
+   "link": "https://www.it-connect.fr/windows-activation-slmgr-erreur-080041008/",
+   "date": "2026-11-13T12:41:58+00:00",
+   "summary": "Les mises à jour Windows de novembre 2026 font échouer l'activation via slmgr avec l'erreur 0x80041008. Microsoft confirme le bug et prépare un correctif. Le post Windows : les mises à jour de novembre 2026 provoquent…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft says November security updates cause printing issues",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+   "date": "2026-11-13T12:27:40+00:00",
+   "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "« Les tokens ont un impact important sur les marges des éditeurs » (Jean-Philippe Couturier, Numeum)",
+   "link": "https://www.lemagit.fr/actualites/366654706/Les-tokens-ont-un-impact-important-sur-nos-marges-brutes-Jean-Philippe-Couturier-Numeum",
+   "date": "2026-11-13T12:00:00+00:00",
+   "summary": "Les éditeurs de logiciels français ont fait de l’IA leur priorité dans leurs produits et pour écrire leur code. Mais selon l’étude annuelle de Numeum et d’EY, ils tâtonnent pour la monétiser et apprennent à maîtriser la…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Check Point warns of zero-day flaw exploited for root access",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+   "date": "2026-11-13T10:44:22+00:00",
+   "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude Meetings : Anthropic envoie son IA dans vos réunions Google Meet",
+   "link": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
+   "date": "2026-11-13T09:45:00+00:00",
+   "summary": "Anthropic lance Claude Meetings en bêta : l'IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites. Le post Claude Meetings : Anthropic envoie son IA dans vos…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft confirms Windows activation failures after November updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+   "date": "2026-11-13T09:36:18+00:00",
+   "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
+   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+   "date": "2026-11-13T08:34:20+00:00",
+   "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Panne mondiale de Microsoft 365 : Outlook, Teams et Copilot perturbés depuis plus de 11 heures",
+   "link": "https://www.it-connect.fr/panne-mondiale-microsoft-365-exchange-online-outlook-teams/",
+   "date": "2026-11-13T06:24:51+00:00",
+   "summary": "Depuis jeudi soir, une panne mondiale de Microsoft 365 perturbe Outlook, Teams et Copilot. Le service n'est pas rétabli en ce vendredi 13 novembre 2026. Le post Panne mondiale de Microsoft 365 : Outlook, Teams et…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "SignDrop : cette faille zero-day détourne la protection CLFS de Windows pour obtenir les droits SYSTEM",
+   "link": "https://www.it-connect.fr/signdrop-zero-day-windows-clfs-system/",
+   "date": "2026-11-13T05:56:31+00:00",
+   "summary": "SignDrop, nouvelle zero-day publiée par Nightmare Eclipse, détourne l'authentification CLFS de Windows pour obtenir les droits SYSTEM. Voici ce que l'on sait. Le post SignDrop : cette faille zero-day détourne la…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Analytique : l’écosystème veut « recycler » les GPU délaissés par les fournisseurs de LLM",
+   "link": "https://www.lemagit.fr/dessin/Analytique-lecosysteme-veut-recycler-les-GPU-delaisses-par-les-fournisseurs-de-LLM",
+   "date": "2026-11-13T04:26:00+00:00",
+   "summary": "Parfois boudés par les géants de l’IA générative, les GPU Nvidia de générations antérieures trouvent une nouvelle utilité. Ils accélèrent les charges de travail analytiques. Microsoft et Starburst s’appuient sur la…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+   "date": "2026-11-12T22:53:10+00:00",
+   "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
@@ -42,14 +130,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-   "link": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-   "date": "2026-11-12T19:12:55+00:00",
-   "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE). [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Dark Web : comment y accéder avec Tor et Tails, et publier un site .onion",
    "link": "https://www.it-connect.fr/dark-web-tor-tails-site-onion/",
@@ -74,46 +154,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Windows 11 : la mise à jour KB5132061 refuse de s’installer sur certains PC, Microsoft promet un correctif",
-   "link": "https://www.it-connect.fr/windows-11-kb5132061-echec-installation-0800f0989/",
-   "date": "2026-11-12T16:10:10+00:00",
-   "summary": "L'installation de la KB5132061 échoue sur certains PC Windows 11 ayant reçu la préversion d'octobre. Microsoft promet une réparation automatique sous 48h. Le post Windows 11 : la mise à jour KB5132061 refuse de…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
-   "link": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
-   "date": "2026-11-12T16:04:00+00:00",
-   "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-   "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
-   "date": "2026-11-12T15:07:20+00:00",
-   "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
-   "link": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
-   "date": "2026-11-12T15:00:10+00:00",
-   "summary": "Endpoint management platforms can become powerful attack tools when compromised, allowing hackers to deploy malware, execute commands, and disrupt thousands of devices. Action1 explains how customer-controlled…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-   "link": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-   "date": "2026-11-12T14:36:47+00:00",
-   "summary": "Apify has rotated critical internal secrets and revoked some third-party OAuth connections after detecting unauthorized access to its internal systems. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Red Hat voit l’IA comme un cheval de Troie pour OpenShift",
    "link": "https://www.lemagit.fr/actualites/366654664/Red-Hat-voit-lIA-comme-un-cheval-de-Troie-pour-OpenShift",
@@ -131,42 +171,10 @@
   },
   {
    "source": "LeMagIT",
-   "title": "« Les tokens ont un impact important sur les marges des éditeurs » (Jean-Philippe Couturier, Numeum)",
-   "link": "https://www.lemagit.fr/actualites/366654706/Les-tokens-ont-un-impact-important-sur-nos-marges-brutes-Jean-Philippe-Couturier-Numeum",
-   "date": "2026-11-12T12:00:00+00:00",
-   "summary": "Les éditeurs de logiciels français ont fait de l’IA leur priorité dans leurs produits et pour écrire leur code. Mais selon l’étude annuelle de Numeum et d’EY, ils tâtonnent pour la monétiser et apprennent à maîtriser la…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
    "title": "Opération Endgame : la saison 4 commence avec Gootloader",
    "link": "https://www.lemagit.fr/actualites/366654643/Operation-Endgame-la-saison-4-commence-avec-Gootloader",
    "date": "2026-11-12T11:23:00+00:00",
    "summary": "L’opération Endgame continue de porter des coups à l’écosystème cybercriminel, avec cette fois des atteintes à l’infrastructure de Gootloader, notamment. Avec à nouveau des données utiles à la poursuite des efforts.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "NAS Synology : deux failles exploitables sans authentification dans DSM, dont une injection SQL",
-   "link": "https://www.it-connect.fr/nas-synology-dsm-failles-sans-authentification-novembre-2026/",
-   "date": "2026-11-12T10:15:00+00:00",
-   "summary": "Synology a corrigé deux failles dans DSM exploitables sans authentification, dont une injection SQL critique. Voici les versions à installer sur votre NAS. Le post NAS Synology : deux failles exploitables sans…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Notion AI : le piratage de Fireworks AI a exposé des conversations de clients",
-   "link": "https://www.it-connect.fr/notion-ai-fuite-conversations-fireworks/",
-   "date": "2026-11-12T09:50:00+00:00",
-   "summary": "Le piratage de Fireworks AI, sous-traitant de Notion, a exposé des conversations Notion AI. Moins de 1 % des espaces de travail sont touchés. Le post Notion AI : le piratage de Fireworks AI a exposé des conversations de…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Maersk confirme une fuite de données : WhiteArmor réclame 5 millions de dollars",
-   "link": "https://www.it-connect.fr/maersk-fuite-de-donnees-whitearmor/",
-   "date": "2026-11-12T09:30:00+00:00",
-   "summary": "Maersk reconnaît un vol de données sur un système hérité d'un rachat. WhiteArmor revendique 100 Go de données volées et exige 5 millions de dollars en bitcoins. Le post Maersk confirme une fuite de données : WhiteArmor…",
    "theme": false
   },
   {
@@ -255,14 +263,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1499/",
    "date": "2026-11-12T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Claude Fable 5.2 est toujours plus performant… et encore très cher",
-   "link": "https://www.lemagit.fr/actualites/366654701/Claude-Fable-52-est-toujours-plus-performantet-encore-tres-cher",
-   "date": "2026-11-10T14:14:00+00:00",
-   "summary": "Claude Fable 5.2 permet à Anthropic de reprendre la tête des classements. Or le modèle de raisonnement ne se montre pertinent que dans son mode d’effort élevé. À plein régime, il se montre performant, mais très cher,…",
    "theme": false
   },
   {
