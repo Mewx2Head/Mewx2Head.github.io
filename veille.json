@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T13:03+00:00",
+ "updated": "2026-11-13T22:34+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,54 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "link": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "date": "2026-11-13T19:38:36+00:00",
+   "summary": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery phrases and send…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "German military drone operations disrupted by cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "date": "2026-11-13T17:31:56+00:00",
+   "summary": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack by \"hostile actors.\" [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "link": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "date": "2026-11-13T16:21:43+00:00",
+   "summary": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "How one AI agent exposed five critical enterprise security gaps",
+   "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+   "date": "2026-11-13T15:01:11+00:00",
+   "summary": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Anthropic décline Claude Managed Agents en cloud privé et sur site",
+   "link": "https://www.lemagit.fr/actualites/366654740/Anthropic-decline-Claude-Managed-Agents-en-cloud-prive-et-sur-site",
+   "date": "2026-11-13T15:00:00+00:00",
+   "summary": "Sans les laisser installer ses LLM, le fournisseur propose aux entreprises de déployer sa plateforme d’exécution d’agents IA sur leurs instances de cloud privé ou sur site. Ce niveau de contrôle supplémentaire sur…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude Code : revenir en arrière avec les checkpoints et /rewind",
+   "link": "https://www.it-connect.fr/claude-code-revenir-en-arriere-avec-les-checkpoints-et-rewind/",
+   "date": "2026-11-13T13:45:00+00:00",
+   "summary": "Ce tutoriel explique comment Claude Code vous permet de revenir en arrière à tout moment grâce à ses checkpoints automatiques et à la commande /rewind. Le post Claude Code : revenir en arrière avec les checkpoints et…",
+   "theme": false
+  },
   {
    "source": "IT-Connect",
    "title": "Windows : les mises à jour de novembre 2026 provoquent des échecs d’activation, Microsoft confirme",
@@ -27,10 +75,42 @@
   },
   {
    "source": "LeMagIT",
+   "title": "N-Central : N-Able fournit un correctif d’urgence",
+   "link": "https://www.lemagit.fr/actualites/366654627/N-Central-N-Able-fournit-un-correctif-durgence",
+   "date": "2026-11-13T12:22:00+00:00",
+   "summary": "N-able Technologies a commencé par déconnecter sa plateforme N-Central après la divulgation de quelques dizaines de vulnérabilités. Avant de publier un correctif en urgence.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "10 critères pour assurer sa souveraineté numérique",
+   "link": "https://www.lemagit.fr/conseil/10-criteres-pour-assurer-sa-souverainete-numerique",
+   "date": "2026-11-13T12:03:00+00:00",
+   "summary": "Olivier Klein, DPO et membre de l’AFCDP, partage une grille de lecture qui permet à chacun de s’interroger et de se positionner en tant qu’acteur de la, ou de sa, souveraineté numérique",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
    "title": "« Les tokens ont un impact important sur les marges des éditeurs » (Jean-Philippe Couturier, Numeum)",
    "link": "https://www.lemagit.fr/actualites/366654706/Les-tokens-ont-un-impact-important-sur-nos-marges-brutes-Jean-Philippe-Couturier-Numeum",
    "date": "2026-11-13T12:00:00+00:00",
    "summary": "Les éditeurs de logiciels français ont fait de l’IA leur priorité dans leurs produits et pour écrire leur code. Mais selon l’étude annuelle de Numeum et d’EY, ils tâtonnent pour la monétiser et apprennent à maîtriser la…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Chez Databricks, l’ontologie n’est pas si automatique",
+   "link": "https://www.lemagit.fr/actualites/366654799/Chez-Databricks-lontologie-nest-pas-si-automatique",
+   "date": "2026-11-13T11:28:00+00:00",
+   "summary": "Le 11 novembre, Databricks a présenté la « seconde génération » de son assistant agentique Genie. Au-delà des futurs gains d’autonomie, il faut surtout noter la disponibilité générale de Genie Ontology, une ontologie…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Sauvegarde : Commvault enrichit l’intelligence des restaurations",
+   "link": "https://www.lemagit.fr/actualites/366654776/Sauvegarde-Commvault-enrichit-lintelligence-des-restaurations",
+   "date": "2026-11-13T11:04:00+00:00",
+   "summary": "L’éditeur annonce Recovery Studio et AgentRecover. Ces outils visent à automatiser la restauration des services applicatifs et des données, après un incident dans un contexte d’interdépendances logicielles qui se…",
    "theme": false
   },
   {
@@ -39,6 +119,22 @@
    "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
    "date": "2026-11-13T10:44:22+00:00",
    "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "ERP : Workday intègre Zuora pour la facturation à l’usage",
+   "link": "https://www.lemagit.fr/actualites/366654709/ERP-Workday-integre-Zuora-pour-la-facturation-a-lusage",
+   "date": "2026-11-13T10:41:00+00:00",
+   "summary": "Alors que l’IA pousse de plus en plus d’entreprises vers la facturation à l’usage, Workday crée un lien plus direct entre son ERP Finance et la plateforme de facturation des abonnements et de reconnaissance du chiffre…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cyberhebdo du 13 novembre 2026 : une semaine à haute intensité",
+   "link": "https://www.lemagit.fr/actualites/366654708/Cyberhebdo-du-13-novembre-2026",
+   "date": "2026-11-13T10:16:00+00:00",
+   "summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
    "theme": false
   },
   {
@@ -82,46 +178,6 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Analytique : l’écosystème veut « recycler » les GPU délaissés par les fournisseurs de LLM",
-   "link": "https://www.lemagit.fr/dessin/Analytique-lecosysteme-veut-recycler-les-GPU-delaisses-par-les-fournisseurs-de-LLM",
-   "date": "2026-11-13T04:26:00+00:00",
-   "summary": "Parfois boudés par les géants de l’IA générative, les GPU Nvidia de générations antérieures trouvent une nouvelle utilité. Ils accélèrent les charges de travail analytiques. Microsoft et Starburst s’appuient sur la…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-   "date": "2026-11-12T22:53:10+00:00",
-   "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-   "date": "2026-11-12T22:25:30+00:00",
-   "summary": "A new campaign dubbed 'wfx-loot' has unfolded on GitHub where threat actors used 4,837 compromised accounts to probe 61,764 repositories, open pull requests, and push secrets-stealing malware. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-   "date": "2026-11-12T20:15:16+00:00",
-   "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-   "link": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-   "date": "2026-11-12T19:51:16+00:00",
-   "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected…",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Serveurs Apache : cette faille critique dans HTTP/2 permet d’exécuter du code à distance",
    "link": "https://www.it-connect.fr/faille-apache-http2-cve-2026-119618-rce/",
@@ -143,62 +199,6 @@
    "link": "https://www.it-connect.fr/reactiv-anssi-point-situation-fuites-donnees-caf-france-travail/",
    "date": "2026-11-12T16:51:27+00:00",
    "summary": "64 violations de données signalées depuis fin septembre : l'ANSSI publie son 2e point REACTIV. CAF, France Travail, OFB... avec toujours les mêmes failles. Le post CAF, France Travail, OFB… l’ANSSI fait le point sur les…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Votre SQL Server est lent ? Les mises à jour Windows récentes sont peut-être en cause",
-   "link": "https://www.it-connect.fr/sql-server-serveurs-lies-connexions-ouvertes-mises-a-jour-windows/",
-   "date": "2026-11-12T16:25:06+00:00",
-   "summary": "Depuis les mises à jour Windows d'octobre 2026, les serveurs liés SQL Server peuvent laisser des connexions ouvertes. Microsoft a confirmé et prépare un patch. Le post Votre SQL Server est lent ? Les mises à jour…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Red Hat voit l’IA comme un cheval de Troie pour OpenShift",
-   "link": "https://www.lemagit.fr/actualites/366654664/Red-Hat-voit-lIA-comme-un-cheval-de-Troie-pour-OpenShift",
-   "date": "2026-11-12T13:13:00+00:00",
-   "summary": "La filiale d’IBM entend mettre l’IA agentique au service des administrateurs de sa plateforme. Et sa plateforme au service de l’industrialisation de l’IA agentique. Derrière cette vitrine, Red Hat admet volontiers que…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Patch Tuesday de novembre : encore une cuvée spectaculaire",
-   "link": "https://www.lemagit.fr/actualites/366654645/Patch-Tuesday-de-Novembre-encore-une-cuvee-spectaculaire",
-   "date": "2026-11-12T12:38:00+00:00",
-   "summary": "Microsoft a corrigé plus d’un millier de vulnérabilités ce mois-ci. Pour la seconde fois consécutive. Un chiffre spectaculaire, mais aussi le pic d’une vague ?",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Opération Endgame : la saison 4 commence avec Gootloader",
-   "link": "https://www.lemagit.fr/actualites/366654643/Operation-Endgame-la-saison-4-commence-avec-Gootloader",
-   "date": "2026-11-12T11:23:00+00:00",
-   "summary": "L’opération Endgame continue de porter des coups à l’écosystème cybercriminel, avec cette fois des atteintes à l’infrastructure de Gootloader, notamment. Avec à nouveau des données utiles à la poursuite des efforts.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "IA agentique : les sandbox de Nvidia et de Google rejoignent la CNCF",
-   "link": "https://www.lemagit.fr/actualites/366654705/IA-agentique-les-sandbox-de-Nvidia-et-de-Google-rejoignent-la-CNCF",
-   "date": "2026-11-12T07:01:00+00:00",
-   "summary": "OpenShell de Nvidia et Agent Substrate de Google ciblent les déploiements agentique sur site, en alliant la sécurité des agents à l’automatisation de l’infrastructure.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "AMD affirme que l’Epyc 9006 sera le processeur de l’IA agentique",
-   "link": "https://www.lemagit.fr/actualites/366654755/AMD-affirme-que-lEpyc-9006-sera-le-processeur-de-lIA-agentique",
-   "date": "2026-11-12T02:00:00+00:00",
-   "summary": "Commercialisé ces jours-ci, le dernier CPU du constructeur peut exécuter jusqu’à 512 agents d’IA simultanément pour 600 watts d’énergie consommée. Une version en 400 watts arrive un peu plus tard pour rapatrier l’IA du…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Comment gérer le stockage sous Windows à l’aide de Storage Spaces",
-   "link": "https://www.lemagit.fr/conseil/Comment-gerer-le-stockage-sous-Windows-a-laide-de-Storage-Spaces",
-   "date": "2026-11-12T02:00:00+00:00",
-   "summary": "Windows Storage Spaces est une approche alternative à la gestion traditionnelle du stockage qui offre une flexibilité et une évolutivité accrues, grâce à un processus de configuration simple.",
    "theme": false
   },
   {
@@ -259,10 +259,10 @@
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Fortinet (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1499/",
+   "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/",
    "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de…",
    "theme": false
   },
   {
