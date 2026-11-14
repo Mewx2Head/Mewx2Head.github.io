@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T22:34+00:00",
+ "updated": "2026-11-14T12:08+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "IT-Connect",
+   "title": "Passerelles Check Point piratées via PHP2Shell : une porte dérobée et un wiper pour VMware ESXi",
+   "link": "https://www.it-connect.fr/check-point-php2shell-wiper-esxi-tsga/",
+   "date": "2026-11-14T05:00:00+00:00",
+   "summary": "PHP2Shell et une faille zero-day de Gaia OS ont permis de pirater des passerelles Check Point, avant le déploiement d'un wiper sur un hôte VMware ESXi. Le post Passerelles Check Point piratées via PHP2Shell : une porte…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
@@ -191,14 +199,6 @@
    "link": "https://www.it-connect.fr/dark-web-tor-tails-site-onion/",
    "date": "2026-11-12T17:00:00+00:00",
    "summary": "Dark Web, Tor, routage en oignon : comprenez comment fonctionne ce réseau, accédez-y en sécurité avec Tails et publiez votre propre site .onion. Le post Dark Web : comment y accéder avec Tor et Tails, et publier un site…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "CAF, France Travail, OFB… l’ANSSI fait le point sur les fuites de données d’octobre 2026",
-   "link": "https://www.it-connect.fr/reactiv-anssi-point-situation-fuites-donnees-caf-france-travail/",
-   "date": "2026-11-12T16:51:27+00:00",
-   "summary": "64 violations de données signalées depuis fin septembre : l'ANSSI publie son 2e point REACTIV. CAF, France Travail, OFB... avec toujours les mêmes failles. Le post CAF, France Travail, OFB… l’ANSSI fait le point sur les…",
    "theme": false
   },
   {
