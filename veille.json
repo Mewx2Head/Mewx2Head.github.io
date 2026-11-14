@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:08+00:00",
+ "updated": "2026-11-14T21:26+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Cursor confirms security breach led to malicious Claude Code extension",
+   "link": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+   "date": "2026-11-14T17:27:25+00:00",
+   "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+   "link": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+   "date": "2026-11-14T15:15:49+00:00",
+   "summary": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+   "theme": false
+  },
   {
    "source": "IT-Connect",
    "title": "Passerelles Check Point piratées via PHP2Shell : une porte dérobée et un wiper pour VMware ESXi",
@@ -151,22 +167,6 @@
    "link": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
    "date": "2026-11-13T09:45:00+00:00",
    "summary": "Anthropic lance Claude Meetings en bêta : l'IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites. Le post Claude Meetings : Anthropic envoie son IA dans vos…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft confirms Windows activation failures after November updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
-   "date": "2026-11-13T09:36:18+00:00",
-   "summary": "Microsoft has confirmed that this month's Patch Tuesday security updates are causing Windows activation and licensing failures with 0x80041008 error codes. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Police arrest 354 suspects in dark web cybercrime crackdown",
-   "link": "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
-   "date": "2026-11-13T08:34:20+00:00",
-   "summary": "Authorities arrested 354 suspects in a joint international operation targeting vendors and buyers on the Archetyp, Nemesis, Tor2Door, Bohemia, and Kingdom dark web marketplaces. [...]",
    "theme": false
   },
   {
