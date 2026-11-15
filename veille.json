@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T21:26+00:00",
+ "updated": "2026-11-15T12:41+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,30 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "Zataz",
+   "title": "Le pirate qui « audite » la France",
+   "link": "https://www.zataz.com/le-pirate-qui-audite-la-france/",
+   "date": "2026-11-15T12:37:12+00:00",
+   "summary": "La FFTT confirme un vol de données. ZATAZ retrace les annonces de Chimera et les fichiers attribués à 33 autres fédération sportives.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Opsysweb, une fuite présumée de 4,3 millions de commandes",
+   "link": "https://www.zataz.com/opsysweb-une-fuite-presumee-de-43-millions-de-commandes/",
+   "date": "2026-11-15T12:19:51+00:00",
+   "summary": "Sur un forum irate, un internaute revendique une fuite de 4,3 millions de commandes de verres attribuées à Opsysweb.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaque Maileva, 22 millions de personnes touchées",
+   "link": "https://www.zataz.com/cyberattaque-maileva-22-millions-de-personnes-touchees/",
+   "date": "2026-11-15T11:47:49+00:00",
+   "summary": "Cyberattaque Maileva, 22 millions de personnes touchées par le vol de données. Des relances de paiement ont été exposées.",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Cursor confirms security breach led to malicious Claude Code extension",
@@ -303,30 +327,6 @@
    "link": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
    "date": "2026-11-09T00:08:10+00:00",
    "summary": "NoName vise Free, La Poste Mobile et Danfoss. ZATAZ distingue données volées, DDoS et revendications industrielles.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Un géant de l’informatique visé par une revendication de vol de données",
-   "link": "https://www.zataz.com/un-geant-de-linformatique-vise-par-une-revendication-de-vol-de-donnees/",
-   "date": "2026-11-08T23:36:38+00:00",
-   "summary": "Kensium visé par une revendication de vol de 18 To : code source et sauvegardes annoncés par un pirate informatique.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Alain Afflelou : des données clients et bancaires exposées ?",
-   "link": "https://www.zataz.com/alain-afflelou-des-donnees-clients-et-bancaires-exposees/",
-   "date": "2026-11-08T23:03:54+00:00",
-   "summary": "Alain Afflelou visé par Emperador : les pirates mettent à execution leur menace aprés une demande de rançon qui a échouée.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "DataSuckers : trois suspects arrêtés après une fuite",
-   "link": "https://www.zataz.com/datasuckers-trois-suspects-arretes-apres-une-fuite/",
-   "date": "2026-11-08T14:16:04+00:00",
-   "summary": "Trois suspects liés à DataSuckers arrêtés après le piratage de Dodo Pizza et le vol de millions de données.",
    "theme": false
   }
  ]
