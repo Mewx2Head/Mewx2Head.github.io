@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:41+00:00",
+ "updated": "2026-11-15T21:44+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,62 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "Zataz",
+   "title": "Stripe va masquer ses clés API secrètes le 20 novembre",
+   "link": "https://www.zataz.com/stripe-va-masquer-ses-cles-api-secretes-le-20-novembre/",
+   "date": "2026-11-15T19:44:34+00:00",
+   "summary": "Stripe masquera ses anciennes clés API secrètes le 20 novembre 2026. ZATAZ analyse les risques et les conséquences.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "date": "2026-11-15T18:29:53+00:00",
+   "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "TSMC employee data breach linked to cloud provider",
+   "link": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "date": "2026-11-15T15:23:48+00:00",
+   "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Aréas Assurances visée par une vente de données",
+   "link": "https://www.zataz.com/areas-assurances-vise-par-une-vente-de-donnees/",
+   "date": "2026-11-15T14:58:23+00:00",
+   "summary": "Un pirate informatique affirme détenir les données de plus de 21 000 assurés d’Aréas Assurances, dont leurs numéros de Sécurité sociale.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Techfive cité dans une annonce de vente de données",
+   "link": "https://www.zataz.com/techfive-cite-dans-une-annonce-de-vente-de-donnees/",
+   "date": "2026-11-15T14:54:01+00:00",
+   "summary": "Un pirate informatique annonce la vente de 400 entreprises retrouvées chez chez un professionnel de l'encaissement et du paiement.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Entre Bièvre et Rhône visée par une revendication cyber",
+   "link": "https://www.zataz.com/entre-bievre-et-rhone-visee-par-une-revendication-cyber/",
+   "date": "2026-11-15T14:45:47+00:00",
+   "summary": "Entre Bièvre et Rhône, en Isère, fait l’objet d’une revendication cyber portant sur des données d’usagers.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Métaux précieux et données clients mises en vente",
+   "link": "https://www.zataz.com/metaux-precieux-et-donnees-clients-mises-en-vente/",
+   "date": "2026-11-15T12:42:32+00:00",
+   "summary": "Un vendeur affirme détenir quatre bases clients et 30 000 documents d’une entreprise française de métaux précieux.",
+   "theme": false
+  },
   {
    "source": "Zataz",
    "title": "Le pirate qui « audite » la France",
@@ -22,7 +78,7 @@
    "title": "Opsysweb, une fuite présumée de 4,3 millions de commandes",
    "link": "https://www.zataz.com/opsysweb-une-fuite-presumee-de-43-millions-de-commandes/",
    "date": "2026-11-15T12:19:51+00:00",
-   "summary": "Sur un forum irate, un internaute revendique une fuite de 4,3 millions de commandes de verres attribuées à Opsysweb.",
+   "summary": "Sur un forum pirate, un internaute revendique une fuite de 4,3 millions de commandes de verres attribuées à Opsysweb.",
    "theme": false
   },
   {
@@ -114,14 +170,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Microsoft says November security updates cause printing issues",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-   "date": "2026-11-13T12:27:40+00:00",
-   "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "N-Central : N-Able fournit un correctif d’urgence",
    "link": "https://www.lemagit.fr/actualites/366654627/N-Central-N-Able-fournit-un-correctif-durgence",
@@ -159,14 +207,6 @@
    "link": "https://www.lemagit.fr/actualites/366654776/Sauvegarde-Commvault-enrichit-lintelligence-des-restaurations",
    "date": "2026-11-13T11:04:00+00:00",
    "summary": "L’éditeur annonce Recovery Studio et AgentRecover. Ces outils visent à automatiser la restauration des services applicatifs et des données, après un incident dans un contexte d’interdépendances logicielles qui se…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Check Point warns of zero-day flaw exploited for root access",
-   "link": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-   "date": "2026-11-13T10:44:22+00:00",
-   "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
    "theme": false
   },
   {
@@ -287,46 +327,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/",
    "date": "2026-11-12T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de…",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Cybersécurité : la CNIL sanctionne dix collectivités",
-   "link": "https://www.zataz.com/cybersecurite-la-cnil-sanctionne-dix-collectivites/",
-   "date": "2026-11-09T21:50:33+00:00",
-   "summary": "La CNIL sanctionne dix collectivités pour des failles de cybersécurité. Amendes, RGPD, accès sensibles et NIS2.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Cyberattaque des frigos : la piste iranienne se précise",
-   "link": "https://www.zataz.com/cyberattaque-des-frigos-la-piste-iranienne-se-precise/",
-   "date": "2026-11-09T16:28:21+00:00",
-   "summary": "Cyberattaque de 700 sites frigorifiques : Paris vise une unité iranienne après vingt départs de feu.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Nvidia : l’espionnage par la séduction et le social engineering",
-   "link": "https://www.zataz.com/nvidia-lespionnage-par-la-seduction-et-le-social-engineering/",
-   "date": "2026-11-09T11:46:46+00:00",
-   "summary": "Nvidia, espionnage chinois et social engineering : comprendre les manipulations humaines et apprendre à les contrer.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Un pirate revendique le vol de millions de données d’automobilistes français",
-   "link": "https://www.zataz.com/sgs-un-pirate-revendique-259-millions-de-lignes-volees/",
-   "date": "2026-11-09T00:30:00+00:00",
-   "summary": "Un pirate revendique une base SGS concernant 22 millions d'automobilistes : des données voitures et clients volées ?",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "NoName vise Free, La Poste Mobile et Danfoss",
-   "link": "https://www.zataz.com/noname-vise-free-la-poste-mobile-et-danfoss/",
-   "date": "2026-11-09T00:08:10+00:00",
-   "summary": "NoName vise Free, La Poste Mobile et Danfoss. ZATAZ distingue données volées, DDoS et revendications industrielles.",
    "theme": false
   }
  ]
