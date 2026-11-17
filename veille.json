@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T00:46+00:00",
+ "updated": "2026-11-17T14:20+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,126 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+   "date": "2026-11-17T11:19:51+00:00",
+   "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Faux coursiers bancaires : trois équipes interpellées",
+   "link": "https://www.zataz.com/faux-coursiers-bancaires-trois-equipes-interpellees/",
+   "date": "2026-11-17T11:02:44+00:00",
+   "summary": "Dans le Nord, trois équipes de faux coursiers bancaires arrêtées. Des personnes âgées ciblées et dépouillées.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+   "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+   "date": "2026-11-17T09:44:22+00:00",
+   "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude Code : comment automatiser vos tâches avec le mode headless ?",
+   "link": "https://www.it-connect.fr/claude-code-mode-headless/",
+   "date": "2026-11-17T08:45:00+00:00",
+   "summary": "Apprenez à utiliser Claude Code en mode headless avec la commande claude -p pour automatiser vos tâches dans des scripts, des tâches planifiées ou en CI/CD. Le post Claude Code : comment automatiser vos tâches avec le…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+   "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+   "date": "2026-11-17T08:35:42+00:00",
+   "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
+   "link": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
+   "date": "2026-11-17T07:58:23+00:00",
+   "summary": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux. Le post NoisyTCP : cette faille du noyau Linux vieille de 11 ans…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaque : 765 000 euros d’or dérobés à des clients",
+   "link": "https://www.zataz.com/cyberattaque-765-000-euros-dor-derobes-a-des-clients/",
+   "date": "2026-11-17T07:47:16+00:00",
+   "summary": "Cyberattaque et vol de données clients : de faux policiers dérobent au moins 765 000 euros d'or en France.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+   "date": "2026-11-17T07:25:44+00:00",
+   "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
+   "theme": true
+  },
+  {
+   "source": "Zataz",
+   "title": "Rassemblement National : une seconde fuite de données ?",
+   "link": "https://www.zataz.com/rassemblement-national-une-seconde-fuite-de-donnees/",
+   "date": "2026-11-17T06:29:20+00:00",
+   "summary": "Un pirate revendique 500 782 nouvelles données du RN à vendre. Il affiche aussi un accés informatique interne.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la France, attention aux arnaques",
+   "link": "https://www.it-connect.fr/gta-6-heure-sortie-nouvelle-zelande-arnaques/",
+   "date": "2026-11-17T06:25:23+00:00",
+   "summary": "Envie de jouer à GTA 6 dès mercredi midi grâce à la Nouvelle-Zélande ? L’astuce a ses limites sur Xbox et PS5. Et les faux GTA 6 PC, eux, volent vos données. Le post GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Intune : Microsoft permet enfin de verrouiller à distance un PC Windows perdu ou volé",
+   "link": "https://www.it-connect.fr/intune-remote-lock-verrouiller-pc-windows-distance/",
+   "date": "2026-11-17T06:00:00+00:00",
+   "summary": "Remote Lock arrive en préversion dans Intune : verrouillez un PC Windows perdu ou volé sans effacer ses données. Fonctionnement, configuration et limites. Le post Intune : Microsoft permet enfin de verrouiller à…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)",
+   "link": "https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/",
+   "date": "2026-11-17T05:00:00+00:00",
+   "summary": "PostgreSQL corrige 52 failles, dont la CVE-2026-6460 vieille de 22 ans. Le correctif impose de mettre à jour serveur et extensions en même temps. Explications. Le post PostgreSQL a corrigé 52 failles de sécurité, dont…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+   "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+   "date": "2026-11-17T02:12:17+00:00",
+   "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Gouvernance des agents IA : Axway destine Amplify aux secteurs régulés",
+   "link": "https://www.lemagit.fr/actualites/366654671/Gouvernance-des-agents-IA-Axway-destine-Amplify-aux-secteurs-regules",
+   "date": "2026-11-17T01:41:00+00:00",
+   "summary": "Axway infuse la gestion des agents et des applications agentiques au sein de sa plateforme Amplify. Chahuté par la concurrence, le spécialiste de l’intégration se concentre sur les enjeux des entreprises régulées. En…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Sauvegarde : Commvault étend ses fonctions de souveraineté pour mieux vendre en Europe",
+   "link": "https://www.lemagit.fr/actualites/366654670/Sauvegarde-Commvault-etend-ses-fonctions-de-souverainete-pour-mieux-vendre-en-Europe",
+   "date": "2026-11-17T01:30:00+00:00",
+   "summary": "L’éditeur cherche à se rendre indispensable auprès des entreprises en leur vendant une expertise de la restauration au-delà des fonctions de sauvegarde sur étagère. Et, en Europe, cela passe par des modules qui n’ont…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
@@ -98,75 +218,11 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Quantum Systems : une cyberattaque inquiète l’armée allemande",
-   "link": "https://www.zataz.com/quantum-systems-une-cyberattaque-inquiete-larmee-allemande/",
-   "date": "2026-11-16T16:48:18+00:00",
-   "summary": "Quantum Systems confirme une cyberattaque. Une possible compromission des mises à jour de drones inquiète l'Allemagne.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-   "date": "2026-11-16T16:43:24+00:00",
-   "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive. [...]",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Deepfakes : une fraude présumée à 129 millions de dollars",
-   "link": "https://www.zataz.com/deepfakes-une-fraude-presumee-a-129-millions-de-dollars/",
-   "date": "2026-11-16T15:57:48+00:00",
-   "summary": "Trois hommes sont accusés d'une fraude à 129 millions de dollars utilisant des deepfakes et l'ingénierie sociale.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Télémaintenance : 288 entreprises visées par une attaque",
-   "link": "https://www.zataz.com/telemaintenance-288-entreprises-visees-par-une-attaque/",
-   "date": "2026-11-16T15:46:36+00:00",
-   "summary": "Une extension ScreenConnect exploitée pour perturber 288 machines de télémaintenance dans 48 organisations.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Fandango says hackers stole payment card details from checkout pages",
-   "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-   "date": "2026-11-16T15:44:21+00:00",
-   "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Microsoft 365 : un correctif Windows défectueux à l’origine de la panne mondiale",
    "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-post-incident-bug-windows/",
    "date": "2026-11-16T15:33:32+00:00",
    "summary": "Microsoft a publié son rapport sur la panne de Microsoft 365 : un bug Windows dormant depuis juillet est à l'origine de la panne, mais pas tout seul. Le post Microsoft 365 : un correctif Windows défectueux à l’origine…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-   "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-   "date": "2026-11-16T15:01:11+00:00",
-   "summary": "The FBI's latest CJIS Security Policy requires law enforcement agencies to strengthen password protections and enforce MFA across privileged and non-privileged accounts. Specops Software outlines seven practical steps…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Google warns that fully-automated AI attacks are coming soon",
-   "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-   "date": "2026-11-16T14:00:00+00:00",
-   "summary": "Threat actors are now relying on agentic workflows powered by AI-based offensive frameworks to automate vulnerability discovery and exploitation, accelerating attacks to machine speed. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Erreur 0x80041008 : Microsoft corrige l’activation de Windows avec des mises à jour hors bande",
-   "link": "https://www.it-connect.fr/windows-mise-a-jour-hors-bande-activation-slmgr-080041008/",
-   "date": "2026-11-16T13:56:55+00:00",
-   "summary": "Microsoft a publié des mises à jour hors bande pour corriger l'erreur 0x80041008 qui bloque l'activation de Windows via slmgr.vbs. Voici les KB à installer. Le post Erreur 0x80041008 : Microsoft corrige l’activation de…",
    "theme": false
   },
   {
@@ -194,14 +250,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "GTA 6 : comment 212 Go arrivent sur des millions de consoles sans saturer Internet ?",
-   "link": "https://www.it-connect.fr/gta-6-prechargement-cdn-chiffrement/",
-   "date": "2026-11-16T09:55:46+00:00",
-   "summary": "GTA 6 pèse jusqu'à 212 Go et sort le 19 novembre. Préchargement, CDN, clé livrée au lancement : voici comment le réseau absorbe des millions de téléchargements. Le post GTA 6 : comment 212 Go arrivent sur des millions…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Test d’intrusion : ces frameworks agentiques détournés à des fins malveillantes",
    "link": "https://www.lemagit.fr/actualites/366654832/Test-dintrusion-ces-framework-agentiques-detournes-a-des-fins-malveillantes",
@@ -226,51 +274,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Bon plan Geekom : les meilleures offres sur les mini-PC avant même le Black Friday",
-   "link": "https://www.it-connect.fr/bon-plan-geekom-les-meilleures-offres-sur-les-mini-pc-avant-meme-le-black-friday/",
-   "date": "2026-11-16T07:00:00+00:00",
-   "summary": "Vente flash Geekom : économisez jusqu’à 200€ sur l’IT13 Max et l’A5 Pro jusqu'au 3 décembre 2026. Codes promo exclusifs et livraisons gratuites. Le post Bon plan Geekom : les meilleures offres sur les mini-PC avant même…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Nextcloud Office Desktop : l’application de bureau basée sur Euro-Office est disponible",
-   "link": "https://www.it-connect.fr/nextcloud-office-desktop-euro-office-disponible/",
-   "date": "2026-11-16T06:25:59+00:00",
-   "summary": "Nextcloud Office Desktop, l'application de bureau gratuite basée sur Euro-Office, est disponible pour Windows, Linux et macOS. Voici ce qu'il faut retenir. Le post Nextcloud Office Desktop : l’application de bureau…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Linux 7.4 : pour Linus Torvalds, les correctifs assistés par l’IA sont devenus la norme",
-   "link": "https://www.it-connect.fr/linux-7-4-correctifs-ia-norme-torvalds/",
-   "date": "2026-11-16T05:58:44+00:00",
-   "summary": "Dans l'annonce de Linux 7.4-rc2, Linus Torvalds tient les correctifs issus de l'IA pour acquis. Sur BPF, ils arriveraient plus vite que les rapports de bugs. Le post Linux 7.4 : pour Linus Torvalds, les correctifs…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Patch Tuesday de novembre : encore une cuvée spectaculaire",
    "link": "https://www.lemagit.fr/dessin/Patch-Tuesday-de-novembre-encore-une-cuvee-spectaculaire",
    "date": "2026-11-16T03:55:00+00:00",
    "summary": "Microsoft a corrigé plus d’un millier de vulnérabilités ce mois-ci. Pour la seconde fois consécutive. Un chiffre spectaculaire, mais aussi le pic d’une vague ?",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Anthropic décline Claude Managed Agents en cloud privé et sur site",
-   "link": "https://www.lemagit.fr/actualites/366654740/Anthropic-decline-Claude-Managed-Agents-en-cloud-prive-et-sur-site",
-   "date": "2026-11-13T15:00:00+00:00",
-   "summary": "Sans les laisser installer ses LLM, le fournisseur propose aux entreprises de déployer sa plateforme d’exécution d’agents IA sur leurs instances de cloud privé ou sur site. Ce niveau de contrôle supplémentaire sur…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "N-Central : N-Able fournit un correctif d’urgence",
-   "link": "https://www.lemagit.fr/actualites/366654627/N-Central-N-Able-fournit-un-correctif-durgence",
-   "date": "2026-11-13T12:22:00+00:00",
-   "summary": "N-able Technologies a commencé par déconnecter sa plateforme N-Central après la divulgation de quelques dizaines de vulnérabilités. Avant de publier un correctif en urgence.",
    "theme": false
   },
   {
@@ -291,50 +299,50 @@
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans NetApp ONTAP tools pour VMware vSphere 10. Elle permet à un attaquant de provoquer un déni de service à distance et une atteinte à l'intégrité des données.",
+   "title": "Multiples vulnérabilités dans Apple HomeView Software (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1526/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Apple HomeView Software. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Microsoft .Net (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1512/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft .Net. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de…",
+   "title": "Vulnérabilité dans les produits Axis (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1534/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans les produits Axis. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Microsoft Azure (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1514/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une…",
+   "title": "Multiples vulnérabilités dans Node.js (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1531/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Microsoft Windows (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1513/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Windows. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni…",
+   "title": "Multiples vulnérabilités dans les produits Citrix (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1528/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de…",
+   "title": "Multiples vulnérabilités dans le noyau Linux de Debian (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1538/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Citrix Secure Access client (12 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1519/",
-   "date": "2026-11-12T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Citrix Secure Access client. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
+   "title": "Vulnérabilité dans Opera Neon (13 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1532/",
+   "date": "2026-11-13T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Opera Neon. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
    "theme": false
   }
  ]
