@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T14:20+00:00",
+ "updated": "2026-11-17T23:50+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -11,11 +11,123 @@
  "items": [
   {
    "source": "BleepingComputer",
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-   "date": "2026-11-17T11:19:51+00:00",
-   "summary": "Microsoft is testing a new feature that lets enterprise IT administrators remotely lock stolen or lost Windows devices without wiping them. [...]",
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "date": "2026-11-17T23:04:21+00:00",
+   "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins,…",
    "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+   "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+   "date": "2026-11-17T21:27:17+00:00",
+   "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Le Flipper One est en précommande à 399 dollars sur Kickstarter",
+   "link": "https://www.it-connect.fr/flipper-one-kickstarter-399-dollars/",
+   "date": "2026-11-17T21:00:45+00:00",
+   "summary": "Le Flipper One, ordinateur Linux de poche de Flipper Devices, est sur Kickstarter à 399 dollars jusqu'au 17 décembre. Livraison prévue en juillet 2027. Le post Le Flipper One est en précommande à 399 dollars sur…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+   "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+   "date": "2026-11-17T20:51:21+00:00",
+   "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+   "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+   "date": "2026-11-17T19:24:07+00:00",
+   "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs",
+   "link": "https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/",
+   "date": "2026-11-17T19:23:39+00:00",
+   "summary": "Un pirate a détourné les scripts Optimizely de 178 organisations, dont Ikea, Transavia, CNN, la BBC et Zoom, pour voler des cartes bancaires et des cryptos. Le post Cyberattaque : Air France, IKEA, HSBC, Zoom… De…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+   "date": "2026-11-17T18:21:24+00:00",
+   "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Tor releases emergency update amid ongoing DDoS attack",
+   "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+   "date": "2026-11-17T18:04:15+00:00",
+   "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators.…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+   "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+   "date": "2026-11-17T16:00:00+00:00",
+   "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
+   "link": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
+   "date": "2026-11-17T15:48:40+00:00",
+   "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor...) et peut le signaler à Microsoft via les données de diagnostic facultatives. Le post IA sur Windows 11 : Microsoft sait si vous codez…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+   "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+   "date": "2026-11-17T15:01:11+00:00",
+   "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Chiffrement postquantique : comment bâtir un inventaire cryptographique",
+   "link": "https://www.lemagit.fr/conseil/Chiffrement-postquantique-comment-batir-un-inventaire-cryptographique",
+   "date": "2026-11-17T13:31:00+00:00",
+   "summary": "Le recensement de toutes les clés, de tous les certificats et de tous les algorithmes de chiffrement utilisés dans votre entreprise constitue la première étape indispensable pour se préparer à l’ère post-quantique.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Comment l’Insee est passé au MLOps",
+   "link": "https://www.lemagit.fr/etude/Comment-lInsee-est-passe-au-MLOps",
+   "date": "2026-11-17T12:08:00+00:00",
+   "summary": "L’Institut national de la statistique a une longue expérience de l’IA, depuis les systèmes experts des années 80 au Machine Learning au début des années 2020. Il lui fallait néanmoins rapprocher les Data Scientists et…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Un composant JavaScript malveillant distribué sur près de 180 sites Web majeurs",
+   "link": "https://www.lemagit.fr/actualites/366654823/Un-composant-JavaScript-malveillant-distribue-sur-pres-de-180-sites-Web-majeurs",
+   "date": "2026-11-17T12:05:00+00:00",
+   "summary": "Air France-KLM, Zoom, la BBC, CNN, Salesforce, ou encore Ikea, pour ne citer que quelques exemples, ont vu leurs sites Web temporairement infectés par un dangereux script malveillant.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "INC Ransom : un ressortissant kazakh extradé vers les États-Unis",
+   "link": "https://www.lemagit.fr/actualites/366654838/INC-Ransom-un-ressortissant-Kazakh-extrade-vers-les-Etats-Unis",
+   "date": "2026-11-17T12:02:00+00:00",
+   "summary": "Roman Khlynovskiy vient de comparaître devant une cour fédérale de Knoxville au Tennessee. Il est accusé de faire partie d’un groupe affilié aux enseignes de rançongiciel INC et Lynx.",
+   "theme": true
   },
   {
    "source": "Zataz",
@@ -26,27 +138,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-   "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-   "date": "2026-11-17T09:44:22+00:00",
-   "summary": "US District Judge Jessica Clarke has acquitted two brothers accused of stealing $25 million in cryptocurrency in about 12 seconds through a scheme that exploited a bug in the Ethereum blockchain. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Claude Code : comment automatiser vos tâches avec le mode headless ?",
    "link": "https://www.it-connect.fr/claude-code-mode-headless/",
    "date": "2026-11-17T08:45:00+00:00",
    "summary": "Apprenez à utiliser Claude Code en mode headless avec la commande claude -p pour automatiser vos tâches dans des scripts, des tâches planifiées ou en CI/CD. Le post Claude Code : comment automatiser vos tâches avec le…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-   "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-   "date": "2026-11-17T08:35:42+00:00",
-   "summary": "Ride-hailing company Uber is notifying nearly 150,000 drivers that attackers stole their data after breaching AI infrastructure provider Fireworks in early October. [...]",
    "theme": false
   },
   {
@@ -106,14 +202,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-   "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-   "date": "2026-11-17T02:12:17+00:00",
-   "summary": "A suspected supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Gouvernance des agents IA : Axway destine Amplify aux secteurs régulés",
    "link": "https://www.lemagit.fr/actualites/366654671/Gouvernance-des-agents-IA-Axway-destine-Amplify-aux-secteurs-regules",
@@ -127,46 +215,6 @@
    "link": "https://www.lemagit.fr/actualites/366654670/Sauvegarde-Commvault-etend-ses-fonctions-de-souverainete-pour-mieux-vendre-en-Europe",
    "date": "2026-11-17T01:30:00+00:00",
    "summary": "L’éditeur cherche à se rendre indispensable auprès des entreprises en leur vendant une expertise de la restauration au-delà des fonctions de sauvegarde sur étagère. Et, en Europe, cela passe par des modules qui n’ont…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-   "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-   "date": "2026-11-16T22:54:00+00:00",
-   "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-   "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-   "date": "2026-11-16T21:31:44+00:00",
-   "summary": "Google Project Zero will replace its \"90+30\" disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-   "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-   "date": "2026-11-16T20:59:44+00:00",
-   "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-   "date": "2026-11-16T19:57:13+00:00",
-   "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Maileva (La Poste) : les noms et adresses de 22 millions de personnes dérobés lors d’une cyberattaque",
-   "link": "https://www.it-connect.fr/maileva-la-poste-fuite-donnees-22-millions-personnes/",
-   "date": "2026-11-16T19:47:53+00:00",
-   "summary": "Maileva, filiale de La Poste, confirme le vol des noms et adresses de 22 millions de personnes. Relances, données des clients : voici ce que l'on sait. Le post Maileva (La Poste) : les noms et adresses de 22 millions de…",
    "theme": false
   },
   {
@@ -202,36 +250,12 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Cybersécurité : j’ai créé des films de sensibilisation avec Claude et Higgsfield",
-   "link": "https://www.it-connect.fr/higgsfield-claude-mcp-films-sensibilisation/",
-   "date": "2026-11-16T17:00:00+00:00",
-   "summary": "J'ai connecté Claude à Higgsfield via MCP pour créer deux films de sensibilisation à la cybersécurité, sans caméra ni acteur. Méthode, coût et limites. Le post Cybersécurité : j’ai créé des films de sensibilisation avec…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Expedia : un pirate revendique un vol massif de données",
    "link": "https://www.zataz.com/expedia-un-pirate-revendique-un-vol-massif-de-donnees/",
    "date": "2026-11-16T16:57:49+00:00",
    "summary": "Expedia confirme une intrusion via un prestataire. Un pirate revendique un vol massif de données de voyageurs.",
    "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Microsoft 365 : un correctif Windows défectueux à l’origine de la panne mondiale",
-   "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-post-incident-bug-windows/",
-   "date": "2026-11-16T15:33:32+00:00",
-   "summary": "Microsoft a publié son rapport sur la panne de Microsoft 365 : un bug Windows dormant depuis juillet est à l'origine de la panne, mais pas tout seul. Le post Microsoft 365 : un correctif Windows défectueux à l’origine…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-   "date": "2026-11-16T12:53:18+00:00",
-   "summary": "Microsoft has reminded customers again that Windows Server 2016 will stop receiving security updates after it reaches the end of support in two months. [...]",
-   "theme": true
   },
   {
    "source": "LeMagIT",
@@ -255,30 +279,6 @@
    "link": "https://www.lemagit.fr/actualites/366654832/Test-dintrusion-ces-framework-agentiques-detournes-a-des-fins-malveillantes",
    "date": "2026-11-16T08:37:00+00:00",
    "summary": "Rendu public en juillet, Artex, un framework de test d’intrusion ouvert, agentique et multi-agents, ne cesse de faire de parler de lui, ayant même fait réagir le RSSI monde de Microsoft. Mais il n’est pas seul, loin de…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "La démission de Jensen Huang pourrait sonner la fin des néoclouds",
-   "link": "https://www.lemagit.fr/actualites/366654781/La-demission-de-Jensen-Huang-pourrait-sonner-la-fin-des-neoclouds",
-   "date": "2026-11-16T08:15:00+00:00",
-   "summary": "Le départ surprise du patron de Nvidia, suite à un scandale d’adultère, tombe à point nommé pour stopper un système de financement circulaire qu’il avait mis en place et qui menaçait de plus en plus l’économie…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "IA : Gemini 4 Hydrogen pèche (lui aussi) par gourmandise",
-   "link": "https://www.lemagit.fr/actualites/366654780/IA-Gemini-4-Hydrogen-peche-lui-aussi-par-gourmandise",
-   "date": "2026-11-16T07:22:00+00:00",
-   "summary": "S’il remplace avantageusement Gemini 3.8 Flash en se rapprochant de Sonnet 5.5 et GPT-6.1 Sol, Gemini 4 Hydrogen souffre d’une consommation de tokens trop gourmande. La faute à sa chaîne de pensée qui, en contrepartie,…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Patch Tuesday de novembre : encore une cuvée spectaculaire",
-   "link": "https://www.lemagit.fr/dessin/Patch-Tuesday-de-novembre-encore-une-cuvee-spectaculaire",
-   "date": "2026-11-16T03:55:00+00:00",
-   "summary": "Microsoft a corrigé plus d’un millier de vulnérabilités ce mois-ci. Pour la seconde fois consécutive. Un chiffre spectaculaire, mais aussi le pic d’une vague ?",
    "theme": false
   },
   {
