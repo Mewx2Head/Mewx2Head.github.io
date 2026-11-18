@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T23:50+00:00",
+ "updated": "2026-11-18T13:54+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,158 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+   "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+   "date": "2026-11-18T11:50:25+00:00",
+   "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Osaka exposée à une fuite massive",
+   "link": "https://www.zataz.com/osaka-exposee-a-une-fuite-massive/",
+   "date": "2026-11-18T10:37:09+00:00",
+   "summary": "Osaka et des centaines d'organisations japonaises sont touchées par un incident ressemblant à l'affaire Maileva !",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+   "date": "2026-11-18T10:35:05+00:00",
+   "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés",
+   "link": "https://www.it-connect.fr/powershell-7-integre-windows-powershell-5-1-deprecie/",
+   "date": "2026-11-18T10:31:17+00:00",
+   "summary": "PowerShell 7 sera intégré à la prochaine version de Windows et Windows PowerShell 5.1 est déprécié. Calendrier et limites du MSIX : voici ce qu'il faut savoir. Le post PowerShell 7 va débarquer dans Windows : les jours…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaque contre les douanes lituaniennes",
+   "link": "https://www.zataz.com/cyberattaque-contre-les-douanes-lituaniennes/",
+   "date": "2026-11-18T10:29:44+00:00",
+   "summary": "Une cyberattaque perturbe les douanes lituaniennes et pourrait exposer les données de centaines d'utilisateurs.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Piratage de GTA VI : un hacker reconnaît six infractions",
+   "link": "https://www.zataz.com/piratage-de-gta-vi-un-hacker-reconnait-six-infractions/",
+   "date": "2026-11-18T10:22:51+00:00",
+   "summary": "Le hacker impliqué dans la fuite de GTA VI reconnaît six infractions liées à plusieurs cyberattaques majeures.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Uber : 149 346 personnes touchées par une fuite",
+   "link": "https://www.zataz.com/uber-149-346-personnes-touchees-par-une-fuite/",
+   "date": "2026-11-18T10:14:55+00:00",
+   "summary": "Une intrusion chez un prestataire d'Uber expose les permis de conduire et les données de 149 346 personnes.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Ransomware : un suspect d’INC et Lynx extradé",
+   "link": "https://www.zataz.com/ransomware-un-suspect-dinc-et-lynx-extrade/",
+   "date": "2026-11-18T10:05:56+00:00",
+   "summary": "Un suspect lié aux rançongiciels INC et Lynx comparaît aux États-Unis après une extradition depuis l'Italie.",
+   "theme": true
+  },
+  {
+   "source": "Zataz",
+   "title": "Le Japon arrête le supercalculateur Fugaku",
+   "link": "https://www.zataz.com/le-japon-arrete-le-supercalculateur-fugaku/",
+   "date": "2026-11-18T09:48:31+00:00",
+   "summary": "RIKEN arrête Fugaku après une intrusion. Plus de 4 500 utilisateurs de deux supercalculateurs sont concernés.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Scattered Spider : un pirate britannique condamné à six ans",
+   "link": "https://www.zataz.com/scattered-spider-un-pirate-britannique-condamne-a-six-ans/",
+   "date": "2026-11-18T09:26:56+00:00",
+   "summary": "Scattered Spider : un pirate britannique condamné à six ans de prison pour phishing et vol de cryptomonnaies.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft announces Windows Server 2028 with hardened security",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+   "date": "2026-11-18T09:24:31+00:00",
+   "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday. [...]",
+   "theme": true
+  },
+  {
+   "source": "Zataz",
+   "title": "Optimizely piraté, des géants du web exposés",
+   "link": "https://www.zataz.com/optimizely-pirate-des-geants-du-web-exposes/",
+   "date": "2026-11-18T09:04:32+00:00",
+   "summary": "Optimizely victime d'une cyberattaque : 178 organisations touchées, données bancaires et appareils iOS menacés.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "GPT-6.2 Astra et Sol : OpenAI paie la rançon de l’efficience",
+   "link": "https://www.lemagit.fr/actualites/366654785/GPT-62-Astra-et-Sol-OpenAI-paie-la-rancon-de-lefficience",
+   "date": "2026-11-18T08:49:00+00:00",
+   "summary": "Avec sa collection GPT-6.2, le fournisseur de LLM égale à nouveau ses concurrents sur le papier. Il l’emporte sur le rapport performance-prix, mais ses processus d’entraînement provoquent une plus faible transparence de…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Mots de passe en clair : la CNIL inflige 5 millions d’euros",
+   "link": "https://www.zataz.com/mots-de-passe-en-clair-la-cnil-inflige-5-millions-deuros/",
+   "date": "2026-11-18T08:45:15+00:00",
+   "summary": "La CNIL sanctionne une société de 5 millions d’euros pour des mots de passe en clair et une conservation excessive des données.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.",
+   "link": "https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/",
+   "date": "2026-11-18T08:44:52+00:00",
+   "summary": "La faille Java4Shell (CVE-2026-114938) menace Java 17 à 27 sur certains CPU, et elle permet une exécution de code à distance sans authentification. Le post La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira,…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+   "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+   "date": "2026-11-18T08:24:18+00:00",
+   "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !",
+   "link": "https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/",
+   "date": "2026-11-18T07:53:56+00:00",
+   "summary": "Project Perception devient Microsoft Perception et passe en disponibilité générale : triage des alertes, pentest web, Intune, MCP. Voici l'essentiel à retenir. Le post Microsoft Perception : les agents IA spécialisés…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows Server 2028 arrive en préversion : quelles sont les nouveautés ?",
+   "link": "https://www.it-connect.fr/windows-server-2028-preversion-publique-nouveautes/",
+   "date": "2026-11-18T06:12:31+00:00",
+   "summary": "Windows Server 2028 est en préversion publique : Server Core durci, NVMe natif par défaut, Intune pour les serveurs et IA locale. Voici ce qu'il faut retenir. Le post Windows Server 2028 arrive en préversion : quelles…",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Intune : Microsoft ouvre la gestion des machines Windows Server, en préversion",
+   "link": "https://www.it-connect.fr/intune-gerer-serveurs-windows-server-preversion/",
+   "date": "2026-11-18T06:12:16+00:00",
+   "summary": "Microsoft ouvre l'inscription des serveurs Windows Server dans Intune en préversion : stratégies, mises à jour, accès conditionnel. Voici comment ça marche. Le post Intune : Microsoft ouvre la gestion des machines…",
+   "theme": true
+  },
   {
    "source": "BleepingComputer",
    "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
@@ -66,35 +218,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Tor releases emergency update amid ongoing DDoS attack",
-   "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-   "date": "2026-11-17T18:04:15+00:00",
-   "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators.…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
-   "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-   "date": "2026-11-17T16:00:00+00:00",
-   "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
    "link": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
    "date": "2026-11-17T15:48:40+00:00",
    "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor...) et peut le signaler à Microsoft via les données de diagnostic facultatives. Le post IA sur Windows 11 : Microsoft sait si vous codez…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-   "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-   "date": "2026-11-17T15:01:11+00:00",
-   "summary": "Huntress researchers break down how EvilTokens, Knight Office, and Kali365 capture and replay M365 tokens, plus how defenders can detect and contain them. [...]",
    "theme": false
   },
   {
@@ -130,14 +258,6 @@
    "theme": true
   },
   {
-   "source": "Zataz",
-   "title": "Faux coursiers bancaires : trois équipes interpellées",
-   "link": "https://www.zataz.com/faux-coursiers-bancaires-trois-equipes-interpellees/",
-   "date": "2026-11-17T11:02:44+00:00",
-   "summary": "Dans le Nord, trois équipes de faux coursiers bancaires arrêtées. Des personnes âgées ciblées et dépouillées.",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Claude Code : comment automatiser vos tâches avec le mode headless ?",
    "link": "https://www.it-connect.fr/claude-code-mode-headless/",
@@ -151,54 +271,6 @@
    "link": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
    "date": "2026-11-17T07:58:23+00:00",
    "summary": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux. Le post NoisyTCP : cette faille du noyau Linux vieille de 11 ans…",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Cyberattaque : 765 000 euros d’or dérobés à des clients",
-   "link": "https://www.zataz.com/cyberattaque-765-000-euros-dor-derobes-a-des-clients/",
-   "date": "2026-11-17T07:47:16+00:00",
-   "summary": "Cyberattaque et vol de données clients : de faux policiers dérobent au moins 765 000 euros d'or en France.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-   "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-   "date": "2026-11-17T07:25:44+00:00",
-   "summary": "A Kazakh national has been extradited from Italy to face charges alleging he targeted US schools, hospitals, and healthcare entities in ransomware attacks. [...]",
-   "theme": true
-  },
-  {
-   "source": "Zataz",
-   "title": "Rassemblement National : une seconde fuite de données ?",
-   "link": "https://www.zataz.com/rassemblement-national-une-seconde-fuite-de-donnees/",
-   "date": "2026-11-17T06:29:20+00:00",
-   "summary": "Un pirate revendique 500 782 nouvelles données du RN à vendre. Il affiche aussi un accés informatique interne.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la France, attention aux arnaques",
-   "link": "https://www.it-connect.fr/gta-6-heure-sortie-nouvelle-zelande-arnaques/",
-   "date": "2026-11-17T06:25:23+00:00",
-   "summary": "Envie de jouer à GTA 6 dès mercredi midi grâce à la Nouvelle-Zélande ? L’astuce a ses limites sur Xbox et PS5. Et les faux GTA 6 PC, eux, volent vos données. Le post GTA 6 : la Nouvelle-Zélande jouera 12 heures avant la…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Intune : Microsoft permet enfin de verrouiller à distance un PC Windows perdu ou volé",
-   "link": "https://www.it-connect.fr/intune-remote-lock-verrouiller-pc-windows-distance/",
-   "date": "2026-11-17T06:00:00+00:00",
-   "summary": "Remote Lock arrive en préversion dans Intune : verrouillez un PC Windows perdu ou volé sans effacer ses données. Fonctionnement, configuration et limites. Le post Intune : Microsoft permet enfin de verrouiller à…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "PostgreSQL a corrigé 52 failles de sécurité, dont une vieille de 22 ans (CVE-2026-6460)",
-   "link": "https://www.it-connect.fr/postgresql-52-failles-cve-2026-6460-mise-a-jour/",
-   "date": "2026-11-17T05:00:00+00:00",
-   "summary": "PostgreSQL corrige 52 failles, dont la CVE-2026-6460 vieille de 22 ans. Le correctif impose de mettre à jour serveur et extensions en même temps. Explications. Le post PostgreSQL a corrigé 52 failles de sécurité, dont…",
    "theme": false
   },
   {
@@ -218,43 +290,11 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "WhiteArmor recrute des complices pour infiltrer les entreprises",
-   "link": "https://www.zataz.com/whitearmor-recrute-des-complices-pour-infiltrer-les-entreprises/",
-   "date": "2026-11-16T18:03:56+00:00",
-   "summary": "WhiteArmor recrute des employés complices et achète des accès VPN, Azure et Okta pour infiltrer de grandes entreprises.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Maersk : un pirate réclame 5 millions de dollars",
-   "link": "https://www.zataz.com/maersk-un-pirate-reclame-5-millions-de-dollars/",
-   "date": "2026-11-16T17:50:58+00:00",
-   "summary": "WhiteArmor exige 5 millions de dollars après une intrusion chez Maersk. Le groupe confirme un incident... limité.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Gootloader : une opération frappe 100 serveurs infectés",
-   "link": "https://www.zataz.com/gootloader-une-operation-frappe-100-serveurs-infectes/",
-   "date": "2026-11-16T17:33:02+00:00",
-   "summary": "Une opération internationale contre Gootloader neutralise plus de 100 serveurs liés à 25 000 infections.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Corée du Nord : Washington frappe les voleurs de cryptos",
-   "link": "https://www.zataz.com/coree-du-nord-washington-frappe-les-voleurs-de-cryptos/",
-   "date": "2026-11-16T17:27:41+00:00",
-   "summary": "Le DOJ annonce des saisies liées aux vols de cryptomonnaies nord-coréens et démantèle des infrastructures FaceStealer.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Expedia : un pirate revendique un vol massif de données",
-   "link": "https://www.zataz.com/expedia-un-pirate-revendique-un-vol-massif-de-donnees/",
-   "date": "2026-11-16T16:57:49+00:00",
-   "summary": "Expedia confirme une intrusion via un prestataire. Un pirate revendique un vol massif de données de voyageurs.",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
+   "date": "2026-11-17T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
    "theme": false
   },
   {
@@ -274,75 +314,67 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Test d’intrusion : ces frameworks agentiques détournés à des fins malveillantes",
-   "link": "https://www.lemagit.fr/actualites/366654832/Test-dintrusion-ces-framework-agentiques-detournes-a-des-fins-malveillantes",
-   "date": "2026-11-16T08:37:00+00:00",
-   "summary": "Rendu public en juillet, Artex, un framework de test d’intrusion ouvert, agentique et multi-agents, ne cesse de faire de parler de lui, ayant même fait réagir le RSSI monde de Microsoft. Mais il n’est pas seul, loin de…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Kerberos (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Kerberos. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à…",
+   "theme": true
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Bulletin d'actualité CERTFR-2026-ACT-048 (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Progress Telerik (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1533/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Progress Telerik. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
+   "title": "Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Check Point (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1529/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Check Point. Elles permettent à un attaquant de provoquer une élévation de privilèges et un contournement de la politique de sécurité.",
+   "title": "Vulnérabilité dans Citrix App Layering (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Citrix App Layering. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Apple HomeView Software (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1526/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Apple HomeView Software. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité…",
+   "title": "Multiples vulnérabilités dans MongoDB (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Vulnérabilité dans les produits Axis (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1534/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans les produits Axis. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Node.js (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1531/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Node.js. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et…",
+   "title": "Vulnérabilité dans Git (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   },
   {
    "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Citrix (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1528/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans le noyau Linux de Debian (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1538/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans Opera Neon (13 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1532/",
-   "date": "2026-11-13T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Opera Neon. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+   "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+   "date": "2026-11-16T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   }
  ]
