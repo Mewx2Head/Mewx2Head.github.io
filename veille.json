@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:54+00:00",
+ "updated": "2026-11-18T23:22+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -11,10 +11,114 @@
  "items": [
   {
    "source": "BleepingComputer",
+   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+   "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+   "date": "2026-11-18T23:08:33+00:00",
+   "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide.…",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+   "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+   "date": "2026-11-18T20:49:32+00:00",
+   "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers.…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
+   "link": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
+   "date": "2026-11-18T19:59:23+00:00",
+   "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d'exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger. Le post NGINX2Root : deux failles critiques permettent de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+   "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+   "date": "2026-11-18T19:39:33+00:00",
+   "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+   "date": "2026-11-18T16:58:42+00:00",
+   "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Microsoft Ignite 2026 : les nouveautés Intune autour du poste de travail Windows",
+   "link": "https://www.it-connect.fr/ignite-nouveautes-intune-windows-poste-de-travail/",
+   "date": "2026-11-18T16:36:42+00:00",
+   "summary": "Ignite 2026 : Microsoft dévoile des nouveautés Intune et Windows pour le poste de travail, mais presque toutes sont en préversion. Voici ce qu'il faut retenir. Le post Microsoft Ignite 2026 : les nouveautés Intune…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows Server 2028 : Microsoft durcit Server Core par défaut, pour plus de sécurité",
+   "link": "https://www.it-connect.fr/windows-server-2028-server-core-durci-par-defaut/",
+   "date": "2026-11-18T15:59:12+00:00",
+   "summary": "Avec Windows Server 2028, Server Core est durci dès l'installation (SMB, TLS, WinRM, RDP, etc.). Ce qui change et comment le gérer, voici ce qu'il faut savoir. Le post Windows Server 2028 : Microsoft durcit Server Core…",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures",
+   "link": "https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/",
+   "date": "2026-11-18T15:45:00+00:00",
+   "summary": "Le FBI alerte sur ARTEX, un framework de pentest piloté par l'IA détourné par des pirates. Certaines intrusions atteignent un accès admin en moins de 3 heures. Le post FBI : avec ARTEX, certaines intrusions atteignent…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+   "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+   "date": "2026-11-18T15:00:10+00:00",
+   "summary": "Attackers are using deepfakes, helpdesk impersonation, and fake IT support requests to deceive employees and gain unauthorized access to corporate systems. Specops Software examines real-world attacks and explains how…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cloud « souverain » : en Europe, Google s’en remet à Thales, S3NS et ses partenaires",
+   "link": "https://www.lemagit.fr/actualites/366654876/Cloud-souverain-en-Europe-Google-sen-remet-a-Thales-S3NS-et-ses-partenaires",
+   "date": "2026-11-18T14:56:00+00:00",
+   "summary": "Lors de son AI Sovereign Summit, le géant du cloud américain a vanté une vision pragmatique de la souveraineté numérique. S’il enrichit ses briques d’audit et de chiffrement, il a surtout fait la part belle à S3NS et à…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Ransomware : coup de filet contre les anciens de Conti",
+   "link": "https://www.lemagit.fr/actualites/366654897/Ransomware-coup-de-filet-contre-les-anciens-de-Conti",
+   "date": "2026-11-18T12:38:00+00:00",
+   "summary": "La police ukrainienne vient d’arrêter quatre cybercriminels qu’elle présente comme précédemment liés aux activités du groupe de rançongiciels Conti. Les techniques évoquées renvoient à deux possibles sous-groupes.",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
    "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
    "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
    "date": "2026-11-18T11:50:25+00:00",
    "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Processeurs : la technologie MEXT d’AMD coupe en deux les besoins de RAM",
+   "link": "https://www.lemagit.fr/actualites/366654786/Processeurs-la-technologie-MEXT-dAMD-coupe-en-deux-les-besoins-de-RAM",
+   "date": "2026-11-18T11:27:00+00:00",
+   "summary": "Les serveurs équipés des nouveaux processeurs Epyc 9006 d’AMD pourront bénéficier d’un pilote Linux qui utilise un SSD NVMe comme extension mémoire, ce qui réduirait drastiquement leur coût. Toutefois, cela ne…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Workday travaille activement sur plus d’options souveraines",
+   "link": "https://www.lemagit.fr/actualites/366654726/Workday-travaille-activement-sur-plus-doptions-souveraines",
+   "date": "2026-11-18T10:52:00+00:00",
+   "summary": "L’éditeur de SIRH et de Core Finance a musclé son offre « souveraine » sur AWS, qui ne l’est donc qu’à moitié. Mais face aux évolutions du marché européen, Workday explore d’autres pistes. Et pas forcément avec…",
    "theme": false
   },
   {
@@ -55,6 +159,14 @@
    "link": "https://www.zataz.com/piratage-de-gta-vi-un-hacker-reconnait-six-infractions/",
    "date": "2026-11-18T10:22:51+00:00",
    "summary": "Le hacker impliqué dans la fuite de GTA VI reconnaît six infractions liées à plusieurs cyberattaques majeures.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "GTA 6 : celui qui avait piraté Rockstar a plaidé coupable",
+   "link": "https://www.lemagit.fr/actualites/366654894/GTA-6-celui-qui-avait-pirate-Rockstar-a-plaide-coupable",
+   "date": "2026-11-18T10:17:00+00:00",
+   "summary": "Arion Kurtaj avait piraté le studio de développement Rockstar Games en septembre 2022, en divulguant de premières vidéos. À Londres, il vient de plaider coupable. Jugement attendu le 23 novembre.",
    "theme": false
   },
   {
@@ -170,14 +282,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-   "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-   "date": "2026-11-17T21:27:17+00:00",
-   "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Le Flipper One est en précommande à 399 dollars sur Kickstarter",
    "link": "https://www.it-connect.fr/flipper-one-kickstarter-399-dollars/",
@@ -186,43 +290,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-   "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-   "date": "2026-11-17T20:51:21+00:00",
-   "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-   "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-   "date": "2026-11-17T19:24:07+00:00",
-   "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs",
    "link": "https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/",
    "date": "2026-11-17T19:23:39+00:00",
    "summary": "Un pirate a détourné les scripts Optimizely de 178 organisations, dont Ikea, Transavia, CNN, la BBC et Zoom, pour voler des cartes bancaires et des cryptos. Le post Cyberattaque : Air France, IKEA, HSBC, Zoom… De…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-   "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-   "date": "2026-11-17T18:21:24+00:00",
-   "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "IA sur Windows 11 : Microsoft sait si vous codez avec Claude, Codex ou Cursor",
-   "link": "https://www.it-connect.fr/windows-11-telemetrie-agents-ia-codage/",
-   "date": "2026-11-17T15:48:40+00:00",
-   "summary": "Un composant de Windows 11 repère les agents IA de codage (Claude, Codex, Cursor...) et peut le signaler à Microsoft via les données de diagnostic facultatives. Le post IA sur Windows 11 : Microsoft sait si vous codez…",
    "theme": false
   },
   {
@@ -258,38 +330,6 @@
    "theme": true
   },
   {
-   "source": "IT-Connect",
-   "title": "Claude Code : comment automatiser vos tâches avec le mode headless ?",
-   "link": "https://www.it-connect.fr/claude-code-mode-headless/",
-   "date": "2026-11-17T08:45:00+00:00",
-   "summary": "Apprenez à utiliser Claude Code en mode headless avec la commande claude -p pour automatiser vos tâches dans des scripts, des tâches planifiées ou en CI/CD. Le post Claude Code : comment automatiser vos tâches avec le…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "NoisyTCP : cette faille du noyau Linux vieille de 11 ans permet de faire planter un serveur à distance",
-   "link": "https://www.it-connect.fr/noisytcp-cve-2026-99288-faille-noyau-linux-tcp/",
-   "date": "2026-11-17T07:58:23+00:00",
-   "summary": "Des paquets TCP bien synchronisés, et tout le serveur tombe. NoisyTCP (CVE-2026-99288), une faille Linux vieille de 11 ans menace les serveurs Linux. Le post NoisyTCP : cette faille du noyau Linux vieille de 11 ans…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Gouvernance des agents IA : Axway destine Amplify aux secteurs régulés",
-   "link": "https://www.lemagit.fr/actualites/366654671/Gouvernance-des-agents-IA-Axway-destine-Amplify-aux-secteurs-regules",
-   "date": "2026-11-17T01:41:00+00:00",
-   "summary": "Axway infuse la gestion des agents et des applications agentiques au sein de sa plateforme Amplify. Chahuté par la concurrence, le spécialiste de l’intégration se concentre sur les enjeux des entreprises régulées. En…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Sauvegarde : Commvault étend ses fonctions de souveraineté pour mieux vendre en Europe",
-   "link": "https://www.lemagit.fr/actualites/366654670/Sauvegarde-Commvault-etend-ses-fonctions-de-souverainete-pour-mieux-vendre-en-Europe",
-   "date": "2026-11-17T01:30:00+00:00",
-   "summary": "L’éditeur cherche à se rendre indispensable auprès des entreprises en leur vendant une expertise de la restauration au-delà des fonctions de sauvegarde sur étagère. Et, en Europe, cela passe par des modules qui n’ont…",
-   "theme": false
-  },
-  {
    "source": "CERT-FR",
    "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
@@ -298,19 +338,19 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "IA : les États-Unis veulent laisser les modèles jouer en paix",
-   "link": "https://www.lemagit.fr/actualites/366654711/IA-les-Etats-Unis-veulent-laisser-les-modeles-jouer-en-paix",
-   "date": "2026-11-16T11:14:00+00:00",
-   "summary": "Le groupe de travail sur l’IA de l’administration Trump encourage les agences réglementaires à ne pas sévir contre les entreprises d’IA dont les modèles conduisent des cyberattaques.",
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
+   "date": "2026-11-17T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Juniper Networks Junos OS Evolved. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "IA : la dépendance en accéléré (étude)",
-   "link": "https://www.lemagit.fr/actualites/366654834/IA-la-dependance-en-accelere-etude",
-   "date": "2026-11-16T10:23:00+00:00",
-   "summary": "Le baromètre de la résilience numérique du bureau d’étude Tercio estime que de nouvelles lignes de faiblesses, semblables à celles du cloud, mais liées à l’IA, apparaissent dans les organisations. Pour les colmater, les…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+   "date": "2026-11-17T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une…",
    "theme": false
   },
   {
@@ -359,22 +399,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
    "date": "2026-11-16T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans Git (16 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
-   "date": "2026-11-16T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Git. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
-   "date": "2026-11-16T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   }
  ]
