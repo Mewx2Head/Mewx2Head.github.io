@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T23:22+00:00",
+ "updated": "2026-11-19T14:23+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,94 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "Zataz",
+   "title": "Élise Lucet, appât d’une arnaque crypto sur Google Ads",
+   "link": "https://www.zataz.com/elise-lucet-appat-dune-arnaque-crypto-sur-google-ads/",
+   "date": "2026-11-19T14:01:02+00:00",
+   "summary": "Élise Lucet sert d’appât à une arnaque crypto diffusée via Google Ads. Les indices du piège et les réflexes bancaires.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+   "date": "2026-11-19T13:08:08+00:00",
+   "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+   "date": "2026-11-19T11:46:00+00:00",
+   "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft confirms app installation, launch issues after hotpatch",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+   "date": "2026-11-19T10:35:05+00:00",
+   "summary": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
+   "link": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
+   "date": "2026-11-19T10:00:00+00:00",
+   "summary": "Garlic LLM fait tourner l'IA Qwen3.5-9B en local sur le GPU d'une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu'il faut savoir. Le post Garlic LLM : cette application fait tourner une IA de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+   "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+   "date": "2026-11-19T09:23:21+00:00",
+   "summary": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+   "theme": true
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Ransomware : que sait-on des quatre affidés de Chaos interpelés ?",
+   "link": "https://www.lemagit.fr/actualites/366654933/Ransomware-que-sait-on-des-quatre-affides-de-Chaos-interpeles",
+   "date": "2026-11-19T09:00:00+00:00",
+   "summary": "Les quatre cybercriminels sont en détention provisoire depuis le 3 novembre. Ils ont participé ensemble à au moins 4 cyberattaques majeures, dont certaines sous la bannière de Chaos.",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ?",
+   "link": "https://www.it-connect.fr/panne-microsoft-365-credit-sla/",
+   "date": "2026-11-19T06:45:00+00:00",
+   "summary": "Panne Microsoft 365 du 12 novembre : le crédit SLA n'est pas automatique. Calcul, infos à fournir et démarche pour client direct ou CSP : agissez maintenant. Le post Panne Microsoft 365 du 12 novembre 2026 : comment…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
+   "link": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
+   "date": "2026-11-19T05:55:10+00:00",
+   "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560. Le post PHP va corriger au moins une faille critique ce jeudi :…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Workday sort un ERP Financier pour les ETI, l’IA est incluse dans le prix",
+   "link": "https://www.lemagit.fr/actualites/366654727/Workday-sort-un-ERP-Financier-pour-les-ETI-lIA-est-incluse-dans-le-prix",
+   "date": "2026-11-19T04:48:00+00:00",
+   "summary": "Workday Go for Finance inclut un quota de crédits suffisant, selon l’éditeur, pour l’usage que pourront faire les ETI et les PME des agents IA de la nouvelle suite finance.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "OpenShift sur Azure exécute enfin les VM",
+   "link": "https://www.lemagit.fr/actualites/366654916/OpenShift-sur-Azure-execute-enfin-les-VM",
+   "date": "2026-11-19T02:55:00+00:00",
+   "summary": "L’environnement d’exécution de Red Hat, lorsqu’il est hébergé dans le cloud de Microsoft, ne servait jusque-là qu’à orchestrer des applications en containers. Une refonte lui permet désormais de piloter aussi les…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
@@ -130,14 +218,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-   "date": "2026-11-18T10:35:05+00:00",
-   "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés",
    "link": "https://www.it-connect.fr/powershell-7-integre-windows-powershell-5-1-deprecie/",
@@ -226,35 +306,11 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Mots de passe en clair : la CNIL inflige 5 millions d’euros",
-   "link": "https://www.zataz.com/mots-de-passe-en-clair-la-cnil-inflige-5-millions-deuros/",
-   "date": "2026-11-18T08:45:15+00:00",
-   "summary": "La CNIL sanctionne une société de 5 millions d’euros pour des mots de passe en clair et une conservation excessive des données.",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.",
    "link": "https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/",
    "date": "2026-11-18T08:44:52+00:00",
    "summary": "La faille Java4Shell (CVE-2026-114938) menace Java 17 à 27 sur certains CPU, et elle permet une exécution de code à distance sans authentification. Le post La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira,…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-   "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-   "date": "2026-11-18T08:24:18+00:00",
-   "summary": "A leader of the Scattered Spider cybercrime collective has been sentenced to six years in prison in the United States for stealing millions in cryptocurrency and conspiring to hack a dozen companies. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Microsoft Perception : les agents IA spécialisés dans la cybersécurité sont disponibles !",
-   "link": "https://www.it-connect.fr/microsoft-perception-disponibilite-generale-ignite/",
-   "date": "2026-11-18T07:53:56+00:00",
-   "summary": "Project Perception devient Microsoft Perception et passe en disponibilité générale : triage des alertes, pentest web, Intune, MCP. Voici l'essentiel à retenir. Le post Microsoft Perception : les agents IA spécialisés…",
    "theme": false
   },
   {
@@ -274,51 +330,11 @@
    "theme": true
   },
   {
-   "source": "BleepingComputer",
-   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-   "date": "2026-11-17T23:04:21+00:00",
-   "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins,…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Le Flipper One est en précommande à 399 dollars sur Kickstarter",
-   "link": "https://www.it-connect.fr/flipper-one-kickstarter-399-dollars/",
-   "date": "2026-11-17T21:00:45+00:00",
-   "summary": "Le Flipper One, ordinateur Linux de poche de Flipper Devices, est sur Kickstarter à 399 dollars jusqu'au 17 décembre. Livraison prévue en juillet 2027. Le post Le Flipper One est en précommande à 399 dollars sur…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Cyberattaque : Air France, IKEA, HSBC, Zoom… De nombreux sites ont servi du code malveillant à leurs visiteurs",
-   "link": "https://www.it-connect.fr/optimizely-pirate-scripts-malveillants-cnn-bbc-zoom/",
-   "date": "2026-11-17T19:23:39+00:00",
-   "summary": "Un pirate a détourné les scripts Optimizely de 178 organisations, dont Ikea, Transavia, CNN, la BBC et Zoom, pour voler des cartes bancaires et des cryptos. Le post Cyberattaque : Air France, IKEA, HSBC, Zoom… De…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Chiffrement postquantique : comment bâtir un inventaire cryptographique",
    "link": "https://www.lemagit.fr/conseil/Chiffrement-postquantique-comment-batir-un-inventaire-cryptographique",
    "date": "2026-11-17T13:31:00+00:00",
    "summary": "Le recensement de toutes les clés, de tous les certificats et de tous les algorithmes de chiffrement utilisés dans votre entreprise constitue la première étape indispensable pour se préparer à l’ère post-quantique.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Comment l’Insee est passé au MLOps",
-   "link": "https://www.lemagit.fr/etude/Comment-lInsee-est-passe-au-MLOps",
-   "date": "2026-11-17T12:08:00+00:00",
-   "summary": "L’Institut national de la statistique a une longue expérience de l’IA, depuis les systèmes experts des années 80 au Machine Learning au début des années 2020. Il lui fallait néanmoins rapprocher les Data Scientists et…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Un composant JavaScript malveillant distribué sur près de 180 sites Web majeurs",
-   "link": "https://www.lemagit.fr/actualites/366654823/Un-composant-JavaScript-malveillant-distribue-sur-pres-de-180-sites-Web-majeurs",
-   "date": "2026-11-17T12:05:00+00:00",
-   "summary": "Air France-KLM, Zoom, la BBC, CNN, Salesforce, ou encore Ikea, pour ne citer que quelques exemples, ont vu leurs sites Web temporairement infectés par un dangereux script malveillant.",
    "theme": false
   },
   {
@@ -391,14 +407,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
    "date": "2026-11-16T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
-   "date": "2026-11-16T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Trend Micro. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
    "theme": false
   }
  ]
