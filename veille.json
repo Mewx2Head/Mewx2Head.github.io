@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T23:33+00:00",
+ "updated": "2026-11-20T13:58+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,102 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "Zataz",
+   "title": "NoName revendique un accès aux caméras d’une salle de jeux",
+   "link": "https://www.zataz.com/noname-revendique-un-acces-aux-cameras-dune-salle-de-jeux/",
+   "date": "2026-11-20T13:39:14+00:00",
+   "summary": "NoName revendique un accès aux caméras d’une salle de jeux allemande et utilise la vidéosurveillance à des fins de propagande.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "N-able says recent security breach led to major service outage",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+   "date": "2026-11-20T13:18:36+00:00",
+   "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Accès piratés à vendre comme des pains au chocolat",
+   "link": "https://www.zataz.com/acces-pirates-a-vendre-comme-des-pains-au-chocolat/",
+   "date": "2026-11-20T12:30:18+00:00",
+   "summary": "ZATAZ décrypte quatre offres d’accès piratés et les risques de fraude liés aux bases de données et aux clés SMS.",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "France Travail : 4,15 millions de nouvelles lignes en vente ?",
+   "link": "https://www.zataz.com/france-travail-415-millions-de-nouvelles-lignes-en-vente/",
+   "date": "2026-11-20T12:25:52+00:00",
+   "summary": "France Travail : deux fichiers de 4,15 millions de lignes sont proposés à la vente. ZATAZ retrace les fuites depuis 2021.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+   "date": "2026-11-20T12:14:28+00:00",
+   "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Hell’s r00ts 2.0 : les vieux hackers n’ont pas dit leur dernier mot",
+   "link": "https://www.zataz.com/hells-r00ts-2-0-les-vieux-hackers-nont-pas-dit-leur-dernier-mot/",
+   "date": "2026-11-20T12:05:59+00:00",
+   "summary": "Avec Hell’s r00ts 2.0, Antoine Champagne ressuscite les pionniers du hacking dans un thriller cyber passionnant.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "FastUnlock : une faille zero-day Windows 11 contourne l’écran de verrouillage et menace BitLocker",
+   "link": "https://www.it-connect.fr/fastunlock-zero-day-windows-11-bitlocker-narrateur/",
+   "date": "2026-11-20T11:06:58+00:00",
+   "summary": "FastUnlock, nouvelle zero-day publiée par Nightmare Eclipse, contourne l'écran de verrouillage de Windows 11 via le Narrateur et menace BitLocker. Le post FastUnlock : une faille zero-day Windows 11 contourne l’écran de…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+   "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+   "date": "2026-11-20T10:57:43+00:00",
+   "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+   "date": "2026-11-20T09:25:35+00:00",
+   "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "NAS Synology : une mise à jour DSM corrige deux failles critiques, dont NGINX2Root",
+   "link": "https://www.it-connect.fr/nginx2root-synology-dsm-faille-oauth-cve-2026-120382/",
+   "date": "2026-11-20T06:04:17+00:00",
+   "summary": "Synology a publié deux bulletins critiques pour DSM : la faille NGINX2Root et une faille notée 9,8 sur 10 dans OAuth Service. Voici comment protéger votre NAS. Le post NAS Synology : une mise à jour DSM corrige deux…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "LLM : avec Olala, OVH se prépare à se jeter dans le grand bain",
+   "link": "https://www.lemagit.fr/actualites/366655032/LLM-avec-Olala-OVH-se-prepare-a-se-jeter-dans-le-grand-bain",
+   "date": "2026-11-20T02:23:00+00:00",
+   "summary": "Olala-v1.0-mini est à la fois le premier LLM d’OVH et le dernier de DragonLLM, devenu OVHai LLM. Si le petit modèle a déjà prouvé son utilité chez Qwant, deux chantiers d’envergure attendent le laboratoire d’IA adossé…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "date": "2026-11-20T00:26:25+00:00",
+   "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
@@ -82,14 +178,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-   "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-   "date": "2026-11-19T16:28:23+00:00",
-   "summary": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Luxor : des récompenses Bitcoin détournées",
    "link": "https://www.zataz.com/luxor-des-recompenses-bitcoin-detournees/",
@@ -114,22 +202,6 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Scattered Spider : six ans de prison pour un pirate",
-   "link": "https://www.zataz.com/scattered-spider-six-ans-de-prison-pour-un-pirate/",
-   "date": "2026-11-19T15:52:51+00:00",
-   "summary": "Scattered Spider : six ans de prison pour un pirate impliqué dans des attaques par SMS et des vols de cryptomonnaies.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Bitget : 1 052 bitcoins déplacés après le piratage",
-   "link": "https://www.zataz.com/bitget-1-052-bitcoins-deplaces-apres-le-piratage/",
-   "date": "2026-11-19T15:42:35+00:00",
-   "summary": "Après le piratage de Bitget, plus de 78 millions $ ont été déplacés, dont une large part vers CoinJoin.",
-   "theme": false
-  },
-  {
    "source": "BleepingComputer",
    "title": "Five warning signs of ransomware breach before encryption or data theft",
    "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
@@ -138,59 +210,11 @@
    "theme": true
   },
   {
-   "source": "BleepingComputer",
-   "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-   "date": "2026-11-19T14:57:24+00:00",
-   "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel…",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Arnaque au LEGO Formule 1 sur TikTok",
-   "link": "https://www.zataz.com/arnaque-au-lego-formule-1-sur-tiktok/",
-   "date": "2026-11-19T14:36:30+00:00",
-   "summary": "Une publicité TikTok promet un LEGO Formule 1 pour 2,85 €. Découvrez le piège et réagissez si votre carte est exposée.",
-   "theme": false
-  },
-  {
-   "source": "Zataz",
-   "title": "Élise Lucet, appât d’une arnaque crypto sur Google Ads",
-   "link": "https://www.zataz.com/elise-lucet-appat-dune-arnaque-crypto-sur-google-ads/",
-   "date": "2026-11-19T14:01:02+00:00",
-   "summary": "Élise Lucet sert d’appât à une arnaque crypto diffusée via Google Ads. Les indices du piège et les réflexes bancaires.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-   "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
-   "date": "2026-11-19T13:08:08+00:00",
-   "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
-   "date": "2026-11-19T11:46:00+00:00",
-   "summary": "Microsoft is developing a new Edge security feature to reduce the attack surface by disabling the WebGL, WebGL2, and WebGPU APIs. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "La Commission européenne frappée par une lourde cyberattaque",
    "link": "https://www.lemagit.fr/actualites/366654993/La-Commission-Europeenne-frappee-par-une-lourde-cyberattaque",
    "date": "2026-11-19T11:30:00+00:00",
    "summary": "Dans le sillage de nombreuses autres organisations dans le monde entier, la Commission se serait bien involontairement confrontée aux frameworks offensifs agentiques.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft confirms app installation, launch issues after hotpatch",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-   "date": "2026-11-19T10:35:05+00:00",
-   "summary": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
    "theme": false
   },
   {
@@ -226,14 +250,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
-   "link": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
-   "date": "2026-11-19T05:55:10+00:00",
-   "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560. Le post PHP va corriger au moins une faille critique ce jeudi :…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Workday sort un ERP financier pour les ETI, l’IA est incluse dans le prix",
    "link": "https://www.lemagit.fr/actualites/366654727/Workday-sort-un-ERP-Financier-pour-les-ETI-lIA-est-incluse-dans-le-prix",
@@ -247,22 +263,6 @@
    "link": "https://www.lemagit.fr/actualites/366654916/OpenShift-sur-Azure-execute-enfin-les-VM",
    "date": "2026-11-19T02:55:00+00:00",
    "summary": "L’environnement d’exécution de Red Hat, lorsqu’il est hébergé dans le cloud de Microsoft, ne servait jusque-là qu’à orchestrer des applications en containers. Une refonte lui permet désormais de piloter aussi les…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-   "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-   "date": "2026-11-18T23:08:33+00:00",
-   "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide.…",
-   "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
-   "link": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
-   "date": "2026-11-18T19:59:23+00:00",
-   "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d'exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger. Le post NGINX2Root : deux failles critiques permettent de…",
    "theme": false
   },
   {
@@ -311,14 +311,6 @@
    "link": "https://www.lemagit.fr/actualites/366654894/GTA-6-celui-qui-avait-pirate-Rockstar-a-plaide-coupable",
    "date": "2026-11-18T10:17:00+00:00",
    "summary": "Arion Kurtaj avait piraté le studio de développement Rockstar Games en septembre 2022, en divulguant de premières vidéos. À Londres, il vient de plaider coupable. Jugement attendu le 23 novembre.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "GPT-6.2 Astra et Sol : OpenAI paie la rançon de l’efficience",
-   "link": "https://www.lemagit.fr/actualites/366654785/GPT-62-Astra-et-Sol-OpenAI-paie-la-rancon-de-lefficience",
-   "date": "2026-11-18T08:49:00+00:00",
-   "summary": "Avec sa collection GPT-6.2, le fournisseur de LLM égale à nouveau ses concurrents sur le papier. Il l’emporte sur le rapport performance-prix, mais ses processus d’entraînement provoquent une plus faible transparence de…",
    "theme": false
   },
   {
