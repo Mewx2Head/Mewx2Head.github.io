@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T13:25+00:00",
+ "updated": "2026-11-21T22:10+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,38 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+   "date": "2026-11-21T18:01:58+00:00",
+   "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+   "date": "2026-11-21T15:17:27+00:00",
+   "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+   "date": "2026-11-21T14:26:04+00:00",
+   "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Cyberattaques : la boîte de Pandora est-elle ouverte avec l’IA ARTEX",
+   "link": "https://www.zataz.com/cyberattaques-la-boite-de-pandora-est-elle-ouverte-avec-lia-artex/",
+   "date": "2026-11-21T13:39:38+00:00",
+   "summary": "ARTEX révèle comment l'IA accélère les cyberattaques, le vol de données et les intrusions. La boîte de Pandore 2.0 a-t-elle été ouverte ?",
+   "theme": false
+  },
   {
    "source": "IT-Connect",
    "title": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
@@ -146,14 +178,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-   "date": "2026-11-20T12:14:28+00:00",
-   "summary": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Ransomware : le FBI piège un arnaqueur qui prétendait pouvoir déchiffrer",
    "link": "https://www.lemagit.fr/actualites/366655114/Ransomware-le-FBI-piege-un-arnaqueur-qui-pretendait-pouvoir-dechiffrer",
@@ -194,27 +218,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-   "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-   "date": "2026-11-20T10:57:43+00:00",
-   "summary": "US cybersecurity company F5 warned customers to patch five critical BIG-IP vulnerabilities that attackers can exploit to trigger denial-of-service (DoS) or gain remote code execution. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "OVHai Workspace : la suite collaborative nourrit la feuille de route IA d’OVHcloud",
    "link": "https://www.lemagit.fr/actualites/366655152/OVHai-Workspace-la-suite-collaborative-nourrit-la-feuille-de-route-IA-dOVHcloud",
    "date": "2026-11-20T10:54:00+00:00",
    "summary": "La suite collaborative infusée à l’IA du fournisseur français débarque en accès anticipé. Elle doit encore faire ses preuves. En attendant, les fonctionnalités d’IA agentique conçues pour l’occasion sont converties en…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
-   "date": "2026-11-20T09:25:35+00:00",
-   "summary": "Microsoft released the KB5132057 November Windows 11 preview update, which comes with 28 changes, including improvements to Windows Search, Windows Hello, and the Run dialog. [...]",
    "theme": false
   },
   {
@@ -255,22 +263,6 @@
    "link": "https://www.it-connect.fr/specops-password-auditor-audit-active-directory/",
    "date": "2026-11-19T17:00:00+00:00",
    "summary": "Un mot de passe robuste peut déjà être compromis. On le prouve avec hashcat, puis on audite l’Active Directory gratuitement avec Specops Password Auditor. Le post Mots de passe Active Directory : un attaquant les casse,…",
-   "theme": true
-  },
-  {
-   "source": "Zataz",
-   "title": "Un SMS blaster aurait perturbé 10 000 mobiles",
-   "link": "https://www.zataz.com/un-sms-blaster-aurait-perturbe-10-000-mobiles/",
-   "date": "2026-11-19T16:43:51+00:00",
-   "summary": "À Tokyo, un suspect est arrêté après une opération de SMS blaster ayant perturbé plus de 10 000 téléphones.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Five warning signs of ransomware breach before encryption or data theft",
-   "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-   "date": "2026-11-19T15:00:10+00:00",
-   "summary": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions…",
    "theme": true
   },
   {
