@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T23:03+00:00",
+ "updated": "2026-11-21T13:25+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "IT-Connect",
+   "title": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
+   "link": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
+   "date": "2026-11-21T12:00:00+00:00",
+   "summary": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir. Le post Sysinternals : Autoruns arrive sur Linux et Process…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
@@ -248,14 +256,6 @@
    "date": "2026-11-19T17:00:00+00:00",
    "summary": "Un mot de passe robuste peut déjà être compromis. On le prouve avec hashcat, puis on audite l’Active Directory gratuitement avec Specops Password Auditor. Le post Mots de passe Active Directory : un attaquant les casse,…",
    "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Black Friday TopAchat : jusqu’à 25 % de remise sur les écrans PC OLED et QHD",
-   "link": "https://www.it-connect.fr/bon-plan-ecrans-pc-black-friday-2026-topachat/",
-   "date": "2026-11-19T16:55:00+00:00",
-   "summary": "Black Friday chez TopAchat : jusqu'à 25 % de remise sur les écrans PC, avec des moniteurs QD-OLED 240 Hz dès 299,95 € et des 27 pouces QHD sous les 160 €. Le post Black Friday TopAchat : jusqu’à 25 % de remise sur les…",
-   "theme": false
   },
   {
    "source": "Zataz",
