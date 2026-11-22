@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:10+00:00",
+ "updated": "2026-11-22T13:18+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+   "date": "2026-11-21T22:59:58+00:00",
+   "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
@@ -151,14 +159,6 @@
    "link": "https://www.zataz.com/noname-revendique-un-acces-aux-cameras-dune-salle-de-jeux/",
    "date": "2026-11-20T13:39:14+00:00",
    "summary": "NoName revendique un accès aux caméras d’une salle de jeux allemande et utilise la vidéosurveillance à des fins de propagande.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "N-able says recent security breach led to major service outage",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-   "date": "2026-11-20T13:18:36+00:00",
-   "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
    "theme": false
   },
   {
