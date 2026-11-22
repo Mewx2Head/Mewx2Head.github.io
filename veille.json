@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:18+00:00",
+ "updated": "2026-11-22T22:26+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,30 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "date": "2026-11-22T18:45:37+00:00",
+   "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "date": "2026-11-22T15:43:04+00:00",
+   "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "date": "2026-11-22T15:15:25+00:00",
+   "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
@@ -66,27 +90,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-   "date": "2026-11-20T17:30:00+00:00",
-   "summary": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Actualités cybersécurité de la semaine du 16 novembre 2026",
    "link": "https://www.zataz.com/actualites-cybersecurite-de-la-semaine-du-16-novembre-2026/",
    "date": "2026-11-20T16:09:30+00:00",
    "summary": "Retrouvez les actualités cybersécurité ZATAZ de la semaine du 16 novembre 2026 : fuite de données chez Maileva, amende de la CNIL et faux coursiers bancaires.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-   "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-   "date": "2026-11-20T15:58:06+00:00",
-   "summary": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
    "theme": false
   },
   {
@@ -119,14 +127,6 @@
    "link": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
    "date": "2026-11-20T15:00:19+00:00",
    "summary": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-   "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-   "date": "2026-11-20T15:00:10+00:00",
-   "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password…",
    "theme": false
   },
   {
