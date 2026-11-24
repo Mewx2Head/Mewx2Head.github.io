@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T03:19+00:00",
+ "updated": "2026-11-24T15:48+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,110 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+   "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+   "date": "2026-11-24T15:10:10+00:00",
+   "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+   "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+   "date": "2026-11-24T15:01:11+00:00",
+   "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "McDonald's Japan data breach exposes customer location information",
+   "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+   "date": "2026-11-24T14:09:37+00:00",
+   "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+   "link": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+   "date": "2026-11-24T13:34:23+00:00",
+   "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
+   "link": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
+   "date": "2026-11-24T10:47:59+00:00",
+   "summary": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel. Le post Free lance Traduction Live : vos appels traduits en…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
+   "link": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
+   "date": "2026-11-24T10:33:39+00:00",
+   "summary": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut savoir. Le post Google Chrome : une seule faille corrigée, mais…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cyberattaques en Norvège : une vulnérabilité affectait Microsoft API Manager",
+   "link": "https://www.lemagit.fr/actualites/366655435/Cyberattaques-en-Norvege-une-vulnerabilite-affectait-Microsoft-API-Manager",
+   "date": "2026-11-24T09:49:00+00:00",
+   "summary": "La semaine dernière, deux énergéticiens norvégiens se déclaraient victimes d’une cyberattaque. La menace a été rapidement identifiée. Des secrets sont susceptibles d’avoir été compromis.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
+   "link": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
+   "date": "2026-11-24T08:55:00+00:00",
+   "summary": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le post Black Friday 2026 chez UGREEN : notre sélection de…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
+   "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
+   "date": "2026-11-24T08:45:00+00:00",
+   "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et…",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
+   "link": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
+   "date": "2026-11-24T08:20:00+00:00",
+   "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d'IA. Le post RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
+   "link": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
+   "date": "2026-11-24T08:00:00+00:00",
+   "summary": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader. Le post Neutralisé en 2019 par la gendarmerie, le ver USB…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "CrowdStrike absorbe Zscaler : consolidation et convergence des plateformes",
+   "link": "https://www.lemagit.fr/actualites/366655452/CrowdStrike-absorbe-Zscaler-consolidation-et-convergence-des-plateformes",
+   "date": "2026-11-24T04:37:00+00:00",
+   "summary": "CrowdStrike acquiert Zscaler pour intégrer la sécurité réseau dans sa plateforme d’endpoint, cherchant à maîtriser les risques associés à l’intelligence artificielle.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Flex Credits de Workday : où en sont réellement les clients européens ? (Entretien)",
+   "link": "https://www.lemagit.fr/actualites/366655373/Workday-face-aux-Flex-Credits-ou-en-sont-reellement-les-clients-europeens-Entretien",
+   "date": "2026-11-24T03:45:00+00:00",
+   "summary": "Achats prudents, périmètre limité, simulation pour anticiper les coûts : en Europe du Sud, les grands comptes sont en train de tester les crédits de Workday pour l’IA. Côté contrat, comptez 3 à 4 mois de négociation en…",
+   "theme": false
+  },
   {
    "source": "IT-Connect",
    "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
@@ -66,43 +170,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-   "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-   "date": "2026-11-23T16:50:01+00:00",
-   "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Windows Admin Center vMode : la migration de VMware ESXi vers Hyper-V arrive en préversion privée",
-   "link": "https://www.it-connect.fr/windows-admin-center-vmode-vm-conversion-vmware-hyper-v/",
-   "date": "2026-11-23T16:30:00+00:00",
-   "summary": "Microsoft intègre VM Conversion à Windows Admin Center vMode pour migrer des VM VMware ESXi vers Hyper-V. Une préversion privée qui change l'architecture. Le post Windows Admin Center vMode : la migration de VMware ESXi…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "AI Agents Are Creating a Shared Responsibility Gap",
-   "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-   "date": "2026-11-23T15:00:10+00:00",
-   "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "« Le vent tourne » en Europe : OVHCloud vise 2 milliards d’euros de chiffre d’affaires",
    "link": "https://www.lemagit.fr/actualites/366655352/Le-vent-tourne-en-Europe-OVHCloud-vise-2-milliards-deuros-de-chiffre-daffaires",
    "date": "2026-11-23T13:33:00+00:00",
    "summary": "Lors de l’AI Summit, Octave Klaba a révélé à la presse ses ambitions de réaliser un chiffre d’affaires de 2 milliards d’euros, près du double de l’exercice fiscal 2026. Le dirigeant ne pose toutefois pas d’échéance en…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
-   "date": "2026-11-23T13:28:45+00:00",
-   "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
    "theme": false
   },
   {
@@ -127,14 +199,6 @@
    "link": "https://www.zataz.com/courtiers-en-or-pirates-dix-personnes-mises-en-examen/",
    "date": "2026-11-23T12:05:22+00:00",
    "summary": "Trois courtiers en métaux précieux piratés, des clients ciblés par de faux policiers et dix personnes mises en examen.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
-   "link": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
-   "date": "2026-11-23T12:02:23+00:00",
-   "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme. [...]",
    "theme": false
   },
   {
@@ -178,27 +242,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
-   "link": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
-   "date": "2026-11-23T10:30:00+00:00",
-   "summary": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode. Le post Microsoft Edge : avec le Lockdown Mode, Microsoft veut…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "BlackHat Sector : une IA offensive à louer pour 500 €",
    "link": "https://www.zataz.com/blackhat-sector-une-ia-offensive-a-louer-pour-500-e/",
    "date": "2026-11-23T10:29:10+00:00",
    "summary": "BlackHat Sector commercialise une IA offensive après des cyberattaques revendiquées contre des sociétés françaises.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
-   "link": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
-   "date": "2026-11-23T10:20:00+00:00",
-   "summary": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes. Le post Black Friday GEEKOM : notre sélection d’offres sur les…",
    "theme": false
   },
   {
@@ -215,22 +263,6 @@
    "link": "https://www.zataz.com/blackhatsect0r-phishing-bancaire-extorsion-et-industrie/",
    "date": "2026-11-23T09:51:37+00:00",
    "summary": "BlackHatSect0r associe phishing bancaire, extorsion, destruction de sauvegardes et interfaces industrielles exposées.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
-   "link": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
-   "date": "2026-11-23T09:23:56+00:00",
-   "summary": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore. Le post GTA 6 sur PC : le projet Leonida tente de recompiler la version…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon",
-   "link": "https://www.it-connect.fr/bon-plan-black-friday-week-amazon-2026/",
-   "date": "2026-11-23T09:17:30+00:00",
-   "summary": "Black Friday Week sur Amazon : Mac mini M6 à 889 €, Alienware 15 à 969 €, AirPods Pro 3 à 188 €... Voici les bons plans du lundi 23 novembre 2026. Le post Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le…",
    "theme": false
   },
   {
@@ -256,30 +288,6 @@
    "date": "2026-11-20T12:13:00+00:00",
    "summary": "Le piège s’est refermé avec l’intervention de deux agents, l’un se faisant passer pour une victime de rançongiciel et l’autre… pour le cybercriminel ayant conduit la prétendue attaque.",
    "theme": true
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Puces IA : AMD consolide son offre avec les puces de Taalas",
-   "link": "https://www.lemagit.fr/actualites/366655133/Puces-IA-AMD-consolide-son-offre-avec-les-puces-de-Taalas",
-   "date": "2026-11-20T12:01:00+00:00",
-   "summary": "Le numéro 2 des GPU rachète la startup canadienne qui a mis au point une puce d’accélération HC1 pour l’inférence. Si ce rapprochement rappelle celui de Nvidia avec Groq, on ignore encore comment AMD entend conjuguer…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Sanofi nettoie son SIRH pour y lâcher ses agents IA",
-   "link": "https://www.lemagit.fr/etude/Sanofi-nettoie-son-SIRH-avant-dy-lacher-ses-agents-IA",
-   "date": "2026-11-20T11:17:00+00:00",
-   "summary": "Du recrutement au coaching, le groupe pharmaceutique déploie des agents IA dans les RH. Des projets qui mettent au jour plusieurs bonnes pratiques, comme la coordination avec l’IT.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "OVHai Workspace : la suite collaborative nourrit la feuille de route IA d’OVHcloud",
-   "link": "https://www.lemagit.fr/actualites/366655152/OVHai-Workspace-la-suite-collaborative-nourrit-la-feuille-de-route-IA-dOVHcloud",
-   "date": "2026-11-20T10:54:00+00:00",
-   "summary": "La suite collaborative infusée à l’IA du fournisseur français débarque en accès anticipé. Elle doit encore faire ses preuves. En attendant, les fonctionnalités d’IA agentique conçues pour l’occasion sont converties en…",
-   "theme": false
   },
   {
    "source": "CERT-FR",
@@ -351,14 +359,6 @@
    "link": "https://www.lemagit.fr/actualites/366654933/Ransomware-que-sait-on-des-quatre-affides-de-Chaos-interpeles",
    "date": "2026-11-19T09:00:00+00:00",
    "summary": "Les quatre cybercriminels sont en détention provisoire depuis le 3 novembre. Ils ont participé ensemble à au moins 4 cyberattaques majeures, dont certaines sous la bannière de Chaos.",
-   "theme": true
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Ransomware : coup de filet contre les anciens de Conti",
-   "link": "https://www.lemagit.fr/actualites/366654897/Ransomware-coup-de-filet-contre-les-anciens-de-Conti",
-   "date": "2026-11-18T12:38:00+00:00",
-   "summary": "La police ukrainienne vient d’arrêter quatre cybercriminels qu’elle présente comme précédemment liés aux activités du groupe de rançongiciels Conti. Les techniques évoquées renvoient à deux possibles sous-groupes.",
    "theme": true
   }
  ]
