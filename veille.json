@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:54+00:00",
+ "updated": "2026-11-24T03:19+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -10,6 +10,78 @@
  "errors": [],
  "items": [
   {
+   "source": "IT-Connect",
+   "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
+   "link": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
+   "date": "2026-11-24T03:00:00+00:00",
+   "summary": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat. Le post rust-anything : cet outil open source aide les agents…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
+   "link": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
+   "date": "2026-11-24T02:00:00+00:00",
+   "summary": "Une faille dans l'API d'Entra Connect Health a été exploitée pour lire les métadonnées de tenants, dont les e-mails des admins. Voici ce qu'il faut savoir. Le post Entra Connect Health : une faille exploitée a exposé…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+   "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+   "date": "2026-11-23T20:54:51+00:00",
+   "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+   "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+   "date": "2026-11-23T20:00:20+00:00",
+   "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+   "date": "2026-11-23T19:42:20+00:00",
+   "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+   "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+   "date": "2026-11-23T18:38:40+00:00",
+   "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer CCleaner ?",
+   "link": "https://www.it-connect.fr/alternative-ccleaner-logiciels-nettoyage/",
+   "date": "2026-11-23T17:00:00+00:00",
+   "summary": "Par quoi remplacer CCleaner ? Kudu, FluentCleaner, BleachBit, PrivaZer, Glary Utilities et PC Manager comparés, avec la vidéo de démonstration. Le post Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+   "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+   "date": "2026-11-23T16:50:01+00:00",
+   "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows Admin Center vMode : la migration de VMware ESXi vers Hyper-V arrive en préversion privée",
+   "link": "https://www.it-connect.fr/windows-admin-center-vmode-vm-conversion-vmware-hyper-v/",
+   "date": "2026-11-23T16:30:00+00:00",
+   "summary": "Microsoft intègre VM Conversion à Windows Admin Center vMode pour migrer des VM VMware ESXi vers Hyper-V. Une préversion privée qui change l'architecture. Le post Windows Admin Center vMode : la migration de VMware ESXi…",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "AI Agents Are Creating a Shared Responsibility Gap",
    "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
@@ -18,11 +90,35 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "« Le vent tourne » en Europe : OVHCloud vise 2 milliards d’euros de chiffre d’affaires",
+   "link": "https://www.lemagit.fr/actualites/366655352/Le-vent-tourne-en-Europe-OVHCloud-vise-2-milliards-deuros-de-chiffre-daffaires",
+   "date": "2026-11-23T13:33:00+00:00",
+   "summary": "Lors de l’AI Summit, Octave Klaba a révélé à la presse ses ambitions de réaliser un chiffre d’affaires de 2 milliards d’euros, près du double de l’exercice fiscal 2026. Le dirigeant ne pose toutefois pas d’échéance en…",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
    "date": "2026-11-23T13:28:45+00:00",
    "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Washington remet Jensen Huang à la tête de Nvidia",
+   "link": "https://www.lemagit.fr/actualites/366655333/Washington-remet-Jensen-Huang-a-la-tete-de-Nvidia",
+   "date": "2026-11-23T12:53:00+00:00",
+   "summary": "Après une démission qui n’aura tenu qu’une dizaine de jours, le fondateur de Nvidia en reprend les rênes, a priori grâce à une intervention de la Maison-Blanche. Pour l’heure, le sujet semble davantage concerner des…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Pour Octave Klaba (OVHcloud), les GPU de Nvidia sont enfin rentables",
+   "link": "https://www.lemagit.fr/actualites/366655332/Pour-Octave-Klaba-OVHcloud-les-GPU-de-Nvidia-sont-enfin-rentables",
+   "date": "2026-11-23T12:48:00+00:00",
+   "summary": "Lors de son AI Summit, OVHcloud a annoncé l’arrivée prochaine d’une plus grande quantité de GPU Blackwell Ultra et les premières machines de la génération Rubin. En 2025, Octave Klaba, son PDG, jugeait que l’achat de…",
    "theme": false
   },
   {
@@ -56,6 +152,22 @@
    "date": "2026-11-23T10:59:22+00:00",
    "summary": "La Bulgarie révèle cinq ans de cyberespionnage et le vol d’au moins 62 millions de pages.",
    "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Supply Chain IA : les fuites de secrets dans les infrastructures d’inférence",
+   "link": "https://www.lemagit.fr/actualites/366655292/Supply-Chain-IA-les-fuites-de-secrets-dans-les-infrastructures-dinference",
+   "date": "2026-11-23T10:58:00+00:00",
+   "summary": "L’analyse de la chaîne logistique de l’inférence IA révèle des failles structurelles et des compromissions de fournisseurs exposant les données clients. Une expérimentation de plusieurs mois en dresse une cartographie.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Ransomware : les frameworks offensifs agentiques sont entrés dans la danse",
+   "link": "https://www.lemagit.fr/actualites/366655137/Ransomware-les-frameworks-offensifs-agentiques-sont-entres-dans-la-danse",
+   "date": "2026-11-23T10:55:00+00:00",
+   "summary": "Les cybercriminels ne se contentent plus d’un usage superficiel des modèles d’IA générative : ils ont commencé à s’appuyer sur des frameworks offensifs agentiques tels qu’Artex.",
+   "theme": true
   },
   {
    "source": "Zataz",
@@ -122,83 +234,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
-   "date": "2026-11-23T09:11:15+00:00",
-   "summary": "Microsoft confirmed printing issues on systems running Forcepoint DLP software after installing the KB5132043 November 2026 Windows 11 hotpatch. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "J’ai testé ARTEX, ce framework offensif IA redouté par le FBI",
-   "link": "https://www.it-connect.fr/artex-framework-offensif-ia-cest-quoi/",
-   "date": "2026-11-23T08:24:44+00:00",
-   "summary": "ARTEX, framework de pentest autonome dopé à l'IA, fait l'objet d'une alerte du FBI. Fonctionnement, chronologie, test en lab et mesures de protection. Le post J’ai testé ARTEX, ce framework offensif IA redouté par le…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.",
-   "link": "https://www.it-connect.fr/api-specops-authentication/",
-   "date": "2026-11-23T08:00:00+00:00",
-   "summary": "Specops lance l'API Specops Authentication : vérifiez l'identité d'un utilisateur depuis un chatbot IA ou ServiceNow avant toute action sensible. Le post Specops lance une API pour vérifier l’identité des utilisateurs…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM",
-   "link": "https://www.it-connect.fr/gl-inet-goodcloud-routeurs-kvm-malware/",
-   "date": "2026-11-23T07:49:13+00:00",
-   "summary": "GL.iNet confirme qu'une faille de son cloud GoodCloud a servi à installer un malware sur des routeurs et des KVM. Voici ce qu'il faut savoir. Le post GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-   "date": "2026-11-23T07:44:19+00:00",
-   "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild. [...]",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "Ledger : un pirate piège d’autres pirates avec un faux fichier",
    "link": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
    "date": "2026-11-23T01:31:54+00:00",
    "summary": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "date": "2026-11-22T18:45:37+00:00",
-   "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-   "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-   "date": "2026-11-22T15:43:04+00:00",
-   "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-   "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-   "date": "2026-11-22T15:15:25+00:00",
-   "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
-   "link": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
-   "date": "2026-11-21T12:00:00+00:00",
-   "summary": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir. Le post Sysinternals : Autoruns arrive sur Linux et Process…",
    "theme": false
   },
   {
@@ -239,22 +279,6 @@
    "link": "https://www.lemagit.fr/actualites/366655152/OVHai-Workspace-la-suite-collaborative-nourrit-la-feuille-de-route-IA-dOVHcloud",
    "date": "2026-11-20T10:54:00+00:00",
    "summary": "La suite collaborative infusée à l’IA du fournisseur français débarque en accès anticipé. Elle doit encore faire ses preuves. En attendant, les fonctionnalités d’IA agentique conçues pour l’occasion sont converties en…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Cyberhebdo du 20 novembre 2026 : deux énergéticiens norvégiens attaqués",
-   "link": "https://www.lemagit.fr/actualites/366655112/Cyberhebdo-du-20-novembre-2026",
-   "date": "2026-11-20T08:59:00+00:00",
-   "summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "LLM : avec Olala, OVH se prépare à se jeter dans le grand bain",
-   "link": "https://www.lemagit.fr/actualites/366655032/LLM-avec-Olala-OVH-se-prepare-a-se-jeter-dans-le-grand-bain",
-   "date": "2026-11-20T02:23:00+00:00",
-   "summary": "Olala-v1.0-mini est à la fois le premier LLM d’OVH et le dernier de DragonLLM, devenu OVHai LLM. Si le petit modèle a déjà prouvé son utilité chez Qwant, deux chantiers d’envergure attendent le laboratoire d’IA adossé…",
    "theme": false
   },
   {
@@ -323,27 +347,11 @@
   },
   {
    "source": "LeMagIT",
-   "title": "La Commission européenne frappée par une lourde cyberattaque",
-   "link": "https://www.lemagit.fr/actualites/366654993/La-Commission-Europeenne-frappee-par-une-lourde-cyberattaque",
-   "date": "2026-11-19T11:30:00+00:00",
-   "summary": "Dans le sillage de nombreuses autres organisations dans le monde entier, la Commission se serait bien involontairement confrontée aux frameworks offensifs agentiques.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
    "title": "Ransomware : que sait-on des quatre affidés de Chaos interpellés ?",
    "link": "https://www.lemagit.fr/actualites/366654933/Ransomware-que-sait-on-des-quatre-affides-de-Chaos-interpeles",
    "date": "2026-11-19T09:00:00+00:00",
    "summary": "Les quatre cybercriminels sont en détention provisoire depuis le 3 novembre. Ils ont participé ensemble à au moins 4 cyberattaques majeures, dont certaines sous la bannière de Chaos.",
    "theme": true
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Workday sort un ERP financier pour les ETI, l’IA est incluse dans le prix",
-   "link": "https://www.lemagit.fr/actualites/366654727/Workday-sort-un-ERP-Financier-pour-les-ETI-lIA-est-incluse-dans-le-prix",
-   "date": "2026-11-19T04:48:00+00:00",
-   "summary": "Workday Go for Finance inclut un quota de crédits suffisant, selon l’éditeur, pour l’usage que pourront faire les ETI et les PME des agents IA de la nouvelle suite finance.",
-   "theme": false
   },
   {
    "source": "LeMagIT",
