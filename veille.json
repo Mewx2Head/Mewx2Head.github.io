@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:25+00:00",
+ "updated": "2026-11-25T15:15+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,126 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+   "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+   "date": "2026-11-25T15:00:10+00:00",
+   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+   "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+   "date": "2026-11-25T15:00:00+00:00",
+   "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
+   "link": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
+   "date": "2026-11-25T11:40:44+00:00",
+   "summary": "Skimming ? En Alsace, des retraits de 500 à 1 000 euros après un plein alertent les gendarmes. Comment réagir face à la fraude.",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+   "date": "2026-11-25T11:16:32+00:00",
+   "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
+   "link": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
+   "date": "2026-11-25T11:00:00+00:00",
+   "summary": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le post Black Friday : le mini-PC VZMORE iX9 Max profite de 26 %…",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "Faux jeu Ducros sur TikTok, le piège du coffret de Noël",
+   "link": "https://www.zataz.com/faux-jeu-ducros-sur-tiktok-le-piege-du-coffret-de-noel/",
+   "date": "2026-11-25T10:46:52+00:00",
+   "summary": "ZATAZ retrace le faux jeu Ducros sur TikTok, du coffret d’épices de Noël au formulaire de carte bancaire.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+   "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+   "date": "2026-11-25T10:38:32+00:00",
+   "summary": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs incidents. Le post Panne Microsoft 365 : des e-mails jamais remis,…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "date": "2026-11-25T10:10:20+00:00",
+   "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft confirms authentication issues after November updates",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+   "date": "2026-11-25T09:02:57+00:00",
+   "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+   "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+   "date": "2026-11-25T08:15:00+00:00",
+   "summary": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le post Rudder : une solution de gestion de configuration open…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers reportedly breached CIA intelligence analysis system",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+   "date": "2026-11-25T07:45:03+00:00",
+   "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
+   "theme": false
+  },
+  {
+   "source": "Zataz",
+   "title": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
+   "link": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
+   "date": "2026-11-25T07:40:26+00:00",
+   "summary": "Le CHU de Bordeaux confirme une intrusion. ScarlettGroup menace de publier des données et revendique aussi SIG Sauer.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
+   "link": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
+   "date": "2026-11-25T06:49:00+00:00",
+   "summary": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code. Le post Bon plan IA : Mistral Vibe Pro est gratuit pendant 1…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
+   "link": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+   "date": "2026-11-25T06:31:00+00:00",
+   "summary": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité. Le post Cyberattaque Commission européenne : les noms et adresses e-mail des…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+   "link": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+   "date": "2026-11-25T06:05:00+00:00",
+   "summary": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX. Le post VMware vCenter et ESX : trois nouvelles failles…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "Rackspace shuts down Spot cloud platform after security breach",
@@ -26,22 +146,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Turnitin discloses cyberattack affecting customer-facing systems",
-   "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
-   "date": "2026-11-24T18:59:52+00:00",
-   "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Radware discloses breach exposing customer cloud access keys",
-   "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-   "date": "2026-11-24T17:49:05+00:00",
-   "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left…",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
    "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
@@ -50,43 +154,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-   "date": "2026-11-24T16:30:19+00:00",
-   "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "European Commission confirms data theft in EU Academy breach",
-   "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-   "date": "2026-11-24T16:22:44+00:00",
-   "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers compromise Check Point Servers in 22 organizations",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-   "date": "2026-11-24T16:15:23+00:00",
-   "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-   "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-   "date": "2026-11-24T15:10:10+00:00",
-   "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year. [...]",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "IA : tout savoir sur l’émergence des modèles de décision",
    "link": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
    "date": "2026-11-24T13:55:00+00:00",
-   "summary": "Les modèles de décision constituent un type d'IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux…",
+   "summary": "Les modèles de décision constituent un type d’IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux…",
    "theme": false
   },
   {
@@ -94,7 +166,7 @@
    "title": "Stockage : Huawei propose disponibilité et fonctions inédites pour l’IA",
    "link": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
    "date": "2026-11-24T12:53:00+00:00",
-   "summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage » précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de toutes…",
+   "summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage », précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de…",
    "theme": false
   },
   {
@@ -122,14 +194,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
-   "link": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
-   "date": "2026-11-24T10:33:39+00:00",
-   "summary": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut savoir. Le post Google Chrome : une seule faille corrigée, mais…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Cyberattaques en Norvège : une vulnérabilité affectait Microsoft API Manager",
    "link": "https://www.lemagit.fr/actualites/366655435/Cyberattaques-en-Norvege-une-vulnerabilite-affectait-Microsoft-API-Manager",
@@ -139,35 +203,11 @@
   },
   {
    "source": "IT-Connect",
-   "title": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
-   "link": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
-   "date": "2026-11-24T08:55:00+00:00",
-   "summary": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le post Black Friday 2026 chez UGREEN : notre sélection de…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
    "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
    "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
    "date": "2026-11-24T08:45:00+00:00",
    "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et…",
    "theme": true
-  },
-  {
-   "source": "IT-Connect",
-   "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
-   "link": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
-   "date": "2026-11-24T08:20:00+00:00",
-   "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d'IA. Le post RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
-   "link": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
-   "date": "2026-11-24T08:00:00+00:00",
-   "summary": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader. Le post Neutralisé en 2019 par la gendarmerie, le ver USB…",
-   "theme": false
   },
   {
    "source": "LeMagIT",
@@ -183,22 +223,6 @@
    "link": "https://www.lemagit.fr/actualites/366655373/Workday-face-aux-Flex-Credits-ou-en-sont-reellement-les-clients-europeens-Entretien",
    "date": "2026-11-24T03:45:00+00:00",
    "summary": "Achats prudents, périmètre limité, simulation pour anticiper les coûts : en Europe du Sud, les grands comptes sont en train de tester les crédits de Workday pour l’IA. Côté contrat, comptez 3 à 4 mois de négociation en…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
-   "link": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
-   "date": "2026-11-24T03:00:00+00:00",
-   "summary": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat. Le post rust-anything : cet outil open source aide les agents…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
-   "link": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
-   "date": "2026-11-24T02:00:00+00:00",
-   "summary": "Une faille dans l'API d'Entra Connect Health a été exploitée pour lire les métadonnées de tenants, dont les e-mails des admins. Voici ce qu'il faut savoir. Le post Entra Connect Health : une faille exploitée a exposé…",
    "theme": false
   },
   {
@@ -258,27 +282,51 @@
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Cyberattaque contre AAAEP : 585 000 personnes exposées ?",
-   "link": "https://www.zataz.com/cyberattaque-contre-aaaep-585-000-personnes-exposees/",
-   "date": "2026-11-23T10:19:58+00:00",
-   "summary": "AAAEP visée par BlackHatSect0r : 585 000 personnes potentiellement concernées, données psychotechniques et appels exposés.",
+   "source": "CERT-FR",
+   "title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "BlackHatSect0r : phishing bancaire, extorsion et industrie",
-   "link": "https://www.zataz.com/blackhatsect0r-phishing-bancaire-extorsion-et-industrie/",
-   "date": "2026-11-23T09:51:37+00:00",
-   "summary": "BlackHatSect0r associe phishing bancaire, extorsion, destruction de sauvegardes et interfaces industrielles exposées.",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
    "theme": false
   },
   {
-   "source": "Zataz",
-   "title": "Ledger : un pirate piège d’autres pirates avec un faux fichier",
-   "link": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
-   "date": "2026-11-23T01:31:54+00:00",
-   "summary": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
+   "date": "2026-11-23T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
    "theme": false
   },
   {
@@ -303,54 +351,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
    "date": "2026-11-20T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans GitLab (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   }
  ]
