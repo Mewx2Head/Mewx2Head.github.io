@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page introuvable | Aness Khenichil</title>
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script>
+        // Anciennes adresses de documents : redirection vers les nouvelles
+        (function () {
+            var p = decodeURIComponent(location.pathname);
+            var map = [
+                [/CV ANESS KHENICHIL/i, '/documents/CV-Aness-Khenichil.pdf'],
+                [/TABLEAU DE SYNTHESE.*\.pdf$/i, '/documents/tableau-synthese-E5.pdf'],
+                [/TABLEAU DE SYNTHESE.*\.xlsx$/i, '/documents/tableau-synthese-E5.xlsx']
+            ];
+            for (var i = 0; i < map.length; i++) {
+                if (map[i][0].test(p)) { location.replace(map[i][1]); return; }
+            }
+        })();
+    </script>
+    <style>
+        :root { color-scheme: dark light; }
+        body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; box-sizing: border-box;
+               font-family: Inter, system-ui, -apple-system, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e2e8f0; }
+        @media (prefers-color-scheme: light) { body { background: #f8fafc; color: #0f172a; } }
+        .code { font-size: 96px; font-weight: 800; color: #ff6b00; line-height: 1; }
+        p { color: #94a3b8; }
+        a { display: inline-block; margin-top: 12px; padding: 11px 20px; border: 2px solid #ff6b00; border-radius: 8px; color: #ff6b00; font-weight: 700; text-decoration: none; }
+        a:hover { background: #ff6b00; color: #fff; }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="code">404</div>
+        <h1>Page introuvable</h1>
+        <p>Cette page n'existe pas ou a été déplacée.</p>
+        <a href="/">Retour au portfolio</a>
+    </main>
+</body>
+</html>

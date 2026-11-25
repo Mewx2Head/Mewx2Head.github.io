@@ -82,8 +82,8 @@ def read_feed(source, url):
     out = []
     for title, link, date, desc in items[:MAX_PER_FEED]:
         d = parse_date(date)
-        if not title or not link:
-            continue
+        if not title or not re.match(r"https?://", link or ""):
+            continue  # titre manquant ou lien non web : on ignore l'article
         blob = clean(title, 10**6) + " " + clean(desc, 10**6)
         out.append({
             "source": source,

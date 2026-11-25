@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -28,4 +32,5 @@ jobs:
           git add veille.json
           git diff --cached --quiet && exit 0
           git commit -m "Mise à jour automatique de la veille"
+          git pull --rebase origin main
           git push

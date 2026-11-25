@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StratAdvise · Réseau segmenté | Aness Khenichil</title>
+    <meta name="description" content="Projet BTS SIO SISR : segmentation en VLAN, routage inter-VLAN et tests de connectivité sous Cisco Packet Tracer.">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<a class="back-link" href="../index.html#realisations">&larr; Retour au portfolio</a>
+<div class="footer-bar">Aness Khenichil · BTS SIO SISR · StratAdvise</div>
+
+<div class="reveal">
+<div class="slides">
+
+    <section class="cover">
+        <span class="kicker">Projet de formation · Cisco Packet Tracer</span>
+        <h1>Strat<span>Advise</span></h1>
+        <p class="muted" style="font-size:.75em">Infrastructure réseau segmentée pour un cabinet de conseil</p>
+        <div class="chips"><span>VLAN</span><span>Routage inter-VLAN</span><span>802.1Q</span><span>DHCP</span><span>Wi-Fi</span><span>Packet Tracer</span></div>
+        <p class="meta">Aness Khenichil · BTS SIO option SISR · ESUP Paris</p>
+    </section>
+
+    <section>
+        <span class="kicker">Contexte</span>
+        <h2>Besoin et objectifs</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">Contexte</span>
+                <p>Le cabinet fictif <strong>StratAdvise</strong> accueille des visiteurs et emploie du personnel sur le même site.</p>
+                <p>Les deux populations ne doivent pas partager le même réseau.</p>
+            </div>
+            <div class="panel">
+                <span class="tag orange">Objectifs</span>
+                <ul>
+                    <li>Séparer le réseau en deux VLAN : <strong>Accueil</strong> et <strong>Gestion</strong></li>
+                    <li>Permettre la communication entre VLAN par le routeur</li>
+                    <li>Adresser automatiquement les postes du VLAN Accueil (DHCP)</li>
+                    <li>Valider le fonctionnement par des tests</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Architecture</span>
+        <h2>Topologie</h2>
+        <div class="cols">
+            <img class="shot" src="../images/stratadvise/01-topologie.png" alt="Topologie Packet Tracer : routeur, commutateur, point d'accès, serveur, imprimante et six PC">
+            <div class="panel">
+                <ul>
+                    <li>1 routeur relié au <strong>cloud</strong> (accès extérieur)</li>
+                    <li>1 commutateur central</li>
+                    <li>1 point d'accès <strong>Wi-Fi</strong> (PC2 et PC5)</li>
+                    <li>1 serveur et 1 imprimante</li>
+                    <li>Postes filaires PC1, PC4 et PC6</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Conception</span>
+        <h2>Plan d'adressage</h2>
+        <table class="data">
+            <thead><tr><th>VLAN</th><th>Réseau</th><th>Passerelle (routeur)</th><th>Ports du commutateur</th><th>Postes</th></tr></thead>
+            <tbody>
+                <tr><td><strong>10 · Accueil</strong></td><td><code>192.168.10.0/24</code></td><td><code>192.168.10.1</code> · Fa1/0.10</td><td>Fa1/1, Fa2/1, Fa3/1, Fa5/1</td><td>PC1 <code>.2</code> · PC2 <code>.6</code> (Wi-Fi) · PC5 <code>.5</code> (Wi-Fi)</td></tr>
+                <tr><td><strong>20 · Gestion</strong></td><td><code>192.168.20.0/24</code></td><td><code>192.168.20.1</code> · Fa1/0.20</td><td>Fa4/1, Fa6/1</td><td>PC4 <code>.2</code> · PC6 <code>.3</code></td></tr>
+            </tbody>
+        </table>
+        <p class="muted" style="font-size:.55em; margin-top:1em">Masque <code>255.255.255.0</code> pour les deux réseaux. Les valeurs sont relevées sur les captures des équipements.</p>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 1</span>
+        <h2>Création des VLAN</h2>
+        <div class="cols">
+            <img class="shot" src="../images/stratadvise/02-show-vlan-brief.png" alt="Commande show vlan brief sur le commutateur">
+            <div class="panel">
+                <ul>
+                    <li>VLAN <strong>10</strong> (Accueil) : ports Fa1/1, Fa2/1, Fa3/1, Fa5/1</li>
+                    <li>VLAN <strong>20</strong> (Gestion) : ports Fa4/1, Fa6/1</li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Vérification avec <code>show vlan brief</code> : chaque port est rattaché au bon VLAN.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 2</span>
+        <h2>Routage inter-VLAN</h2>
+        <div class="cols reverse">
+            <div class="panel">
+                <span class="tag">Router-on-a-stick</span>
+                <ul>
+                    <li>Une seule interface physique (<code>Fa1/0</code>) découpée en sous-interfaces</li>
+                    <li><code>Fa1/0.10</code> : <code>192.168.10.1</code>, passerelle du VLAN 10</li>
+                    <li><code>Fa1/0.20</code> : <code>192.168.20.1</code>, passerelle du VLAN 20</li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Vérification avec <code>show ip interface brief</code> : les deux sous-interfaces sont <strong>up</strong>.</p>
+            </div>
+            <img class="shot" src="../images/stratadvise/03-routeur-sous-interfaces.png" alt="Commande show ip interface brief sur le routeur">
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 3</span>
+        <h2>Adressage des postes</h2>
+        <div class="shots three">
+            <figure><img class="shot" src="../images/stratadvise/04-pc1-vlan10.png" alt="ipconfig de PC1"><figcaption>PC1 · VLAN 10 · 192.168.10.2</figcaption></figure>
+            <figure><img class="shot" src="../images/stratadvise/05-pc2-vlan10-wifi.png" alt="ipconfig de PC2"><figcaption>PC2 · VLAN 10 Wi-Fi · 192.168.10.6</figcaption></figure>
+            <figure><img class="shot" src="../images/stratadvise/06-pc5-vlan10-wifi.png" alt="ipconfig de PC5"><figcaption>PC5 · VLAN 10 Wi-Fi · 192.168.10.5</figcaption></figure>
+            <figure><img class="shot" src="../images/stratadvise/07-pc4-vlan20.png" alt="ipconfig de PC4"><figcaption>PC4 · VLAN 20 · 192.168.20.2</figcaption></figure>
+            <figure><img class="shot" src="../images/stratadvise/08-pc6-vlan20.png" alt="ipconfig de PC6"><figcaption>PC6 · VLAN 20 · 192.168.20.3</figcaption></figure>
+            <figure class="panel" style="display:flex; align-items:center; font-size:.5em">Chaque poste a une adresse dans le réseau de son VLAN et la bonne passerelle. Les postes du VLAN 10 sont adressés par DHCP.</figure>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Recette</span>
+        <h2>Tests de connectivité</h2>
+        <div class="cols" style="grid-template-columns:1fr 1.1fr">
+            <div class="shots" style="grid-template-columns:1fr 1fr">
+                <figure><img class="shot" src="../images/stratadvise/09-ping-pc1.png" alt="Tests ping depuis PC1"><figcaption>Depuis PC1 (VLAN 10)</figcaption></figure>
+                <figure><img class="shot" src="../images/stratadvise/10-ping-pc4.png" alt="Tests ping depuis PC4"><figcaption>Depuis PC4 (VLAN 20)</figcaption></figure>
+            </div>
+            <div>
+                <table class="data">
+                    <thead><tr><th>Test</th><th>Depuis</th><th>Vers</th><th>Résultat</th></tr></thead>
+                    <tbody>
+                        <tr><td>Passerelle</td><td>PC1</td><td>192.168.10.1</td><td class="ok">4/4</td></tr>
+                        <tr><td>Même VLAN (Wi-Fi)</td><td>PC1</td><td>PC2 · 192.168.10.6</td><td class="ok">4/4</td></tr>
+                        <tr><td>Inter-VLAN</td><td>PC1</td><td>PC4 · 192.168.20.2</td><td class="ok">3/4*</td></tr>
+                        <tr><td>Passerelle</td><td>PC4</td><td>192.168.20.1</td><td class="ok">4/4</td></tr>
+                        <tr><td>Inter-VLAN</td><td>PC4</td><td>PC1 · 192.168.10.2</td><td class="ok">4/4</td></tr>
+                    </tbody>
+                </table>
+                <p class="muted" style="font-size:.5em; margin-top:.8em">* Le premier paquet est perdu le temps de la résolution ARP, ce qui est normal. Le TTL de 127 confirme le passage par le routeur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Bilan</span>
+        <h2>Résultat et pistes d'amélioration</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">Ce qui fonctionne</span>
+                <ul>
+                    <li>Deux VLAN séparés au niveau du commutateur</li>
+                    <li>Routage entre VLAN opérationnel</li>
+                    <li>Postes filaires et Wi-Fi correctement adressés</li>
+                    <li>Tous les tests de connectivité réussis</li>
+                </ul>
+            </div>
+            <div class="panel">
+                <span class="tag orange">Pour aller plus loin</span>
+                <ul>
+                    <li>Ajouter une <strong>ACL</strong> sur le routeur : aujourd'hui le VLAN Accueil peut joindre le VLAN Gestion</li>
+                    <li>Sécuriser le Wi-Fi en <strong>WPA2/WPA3</strong></li>
+                    <li>Corriger le nom du VLAN 10 (« Acceuil » dans la configuration)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Référentiel BTS SIO · Bloc 1</span>
+        <h2>Compétences mobilisées</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">C5 · Mettre à disposition un service</span>
+                <ul>
+                    <li>Déployer un service : réseau segmenté et routage inter-VLAN</li>
+                    <li>Réaliser les tests d'intégration et d'acceptation d'un service : plan de tests de connectivité</li>
+                </ul>
+            </div>
+            <div class="panel">
+                <span class="tag">Compétences techniques</span>
+                <ul>
+                    <li>Configuration Cisco IOS : VLAN, sous-interfaces 802.1Q</li>
+                    <li>Plan d'adressage IPv4</li>
+                    <li>Diagnostic : <code>show vlan brief</code>, <code>show ip interface brief</code>, <code>ipconfig</code>, <code>ping</code></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="slides.js"></script>
+</body>
+</html>

@@ -3,29 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio BTS SIO SISR | Aness Khenichil</title>
-    <meta name="description" content="Portfolio BTS SIO option SISR d'Aness Khenichil : compétences du Bloc 1, réalisations professionnelles, tableau de synthèse E5, veille technologique.">
+    <title>Aness Khenichil · Portfolio BTS SIO SISR</title>
+    <meta name="description" content="Portfolio BTS SIO option SISR d'Aness Khenichil, alternant IT chez QSRP : compétences du Bloc 1, réalisations professionnelles, tableau de synthèse E5 et veille technologique.">
+    <meta name="author" content="Aness Khenichil">
+    <link rel="canonical" href="https://mewx2head.github.io/">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content="https://mewx2head.github.io/">
+    <meta property="og:title" content="Aness Khenichil · Portfolio BTS SIO SISR">
+    <meta property="og:description" content="Alternant IT chez QSRP. Réalisations professionnelles, compétences du Bloc 1 et veille technologique.">
+    <meta property="og:image" content="https://mewx2head.github.io/images/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <script>
+        // Thème appliqué avant l'affichage pour éviter un flash
+        (function () {
+            var t = null;
+            try { t = localStorage.getItem('theme'); } catch (e) {}
+            if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+            document.documentElement.dataset.theme = t;
+        })();
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aness Khenichil",
+        "jobTitle": "Alternant IT",
+        "worksFor": { "@type": "Organization", "name": "QSRP" },
+        "alumniOf": { "@type": "EducationalOrganization", "name": "ESUP Paris" },
+        "url": "https://mewx2head.github.io/",
+        "sameAs": ["https://www.linkedin.com/in/aness-khenichil-630a10224", "https://github.com/mewx2head"]
+    }
+    </script>
+
     <style>
         :root {
             --accent: #ff6b00;
             --accent-2: #00d4ff;
+            --on-accent: #fff;
             --bg: #0a0a0a;
+            --solid: #111111;
             --surface: rgba(255, 255, 255, 0.03);
             --surface-2: rgba(255, 255, 255, 0.06);
-            --border: rgba(255, 255, 255, 0.09);
+            --border: rgba(255, 255, 255, 0.1);
             --text: #e2e8f0;
             --muted: #94a3b8;
             --nav-bg: rgba(10, 10, 10, 0.88);
             --ok: #22c55e;
         }
         [data-theme="light"] {
-            --accent: #d9480f;
+            --accent: #c2410c;
             --accent-2: #0369a1;
             --bg: #f8fafc;
+            --solid: #ffffff;
             --surface: #ffffff;
             --surface-2: #f1f5f9;
             --border: rgba(15, 23, 42, 0.12);
@@ -39,142 +84,156 @@
         html { scroll-behavior: smooth; scroll-padding-top: 80px; }
         body {
             margin: 0;
-            font-family: 'Inter', system-ui, sans-serif;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
             background: var(--bg);
             color: var(--text);
             line-height: 1.6;
             transition: background .3s, color .3s;
+            -webkit-font-smoothing: antialiased;
         }
         a { color: inherit; }
-        h1, h2, h3, h4 { margin: 0; line-height: 1.2; }
-        .display { font-family: 'Syncopate', sans-serif; text-transform: uppercase; }
+        h1, h2, h3, h4 { margin: 0; line-height: 1.25; }
         .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
         .muted { color: var(--muted); }
         .accent { color: var(--accent); }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+        :focus-visible { outline: 2px solid var(--accent-2); outline-offset: 3px; border-radius: 4px; }
+        .skip-link { position: absolute; left: 12px; top: -60px; z-index: 300; background: var(--accent); color: var(--on-accent); padding: 10px 16px; border-radius: 8px; font-weight: 700; text-decoration: none; }
+        .skip-link:focus { top: 12px; }
 
         /* Navigation */
-        .nav {
-            position: sticky; top: 0; z-index: 50;
-            background: var(--nav-bg); backdrop-filter: blur(10px);
-            border-bottom: 1px solid var(--border);
-        }
+        .nav { position: sticky; top: 0; z-index: 50; background: var(--nav-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); }
         .nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
-        .brand { font-family: 'Syncopate'; font-weight: 700; font-size: 13px; letter-spacing: .15em; text-decoration: none; white-space: nowrap; }
+        .brand { font-family: 'Syncopate', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: .15em; text-decoration: none; white-space: nowrap; text-transform: uppercase; }
         .nav-links { display: flex; gap: 22px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
         .nav-links a { text-decoration: none; color: var(--muted); transition: color .2s; }
-        .nav-links a:hover { color: var(--accent); }
+        .nav-links a:hover, .nav-links a.active { color: var(--accent); }
+        .nav-tools { display: flex; gap: 8px; }
         .icon-btn {
             background: var(--surface-2); color: var(--text); border: 1px solid var(--border);
-            width: 38px; height: 38px; border-radius: 50%; cursor: pointer;
+            width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 15px;
             display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0;
         }
         .icon-btn:hover { border-color: var(--accent); color: var(--accent); }
         .menu-btn { display: none; }
-        @media (max-width: 900px) {
+        @media (max-width: 960px) {
             .menu-btn { display: inline-flex; }
-            .nav-links {
-                display: none; position: absolute; top: 64px; left: 0; right: 0;
-                flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--border);
-            }
+            .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--border); }
             .nav-links.open { display: flex; }
             .nav-links a { padding: 14px 20px; border-top: 1px solid var(--border); }
         }
 
         /* Sections */
         section { padding: 80px 0; }
+        section.alt { background: var(--surface); }
         .section-head { margin-bottom: 36px; }
         .kicker { font-size: 12px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); }
-        .section-head h2 { font-family: 'Syncopate'; font-size: clamp(22px, 4vw, 32px); text-transform: uppercase; margin-top: 8px; }
+        .section-head h2 { font-family: 'Syncopate', sans-serif; font-size: clamp(22px, 4vw, 32px); text-transform: uppercase; margin-top: 8px; }
         .section-head p { max-width: 720px; margin: 12px 0 0; color: var(--muted); }
+        .card-title { font-size: 16px; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+        .card-title i { color: var(--accent); }
 
-        .card {
-            background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
-            padding: 24px; transition: border-color .25s, transform .25s;
-        }
-        .card:hover { border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+        .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: border-color .25s; }
+        .card:hover { border-color: color-mix(in srgb, var(--accent) 55%, transparent); }
+        section.alt .card { background: var(--bg); }
+        [data-theme="light"] section.alt .card { background: var(--surface-2); }
         .grid { display: grid; gap: 18px; }
-        .g2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-        .g3 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+        .g2 { grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+        .g3 { grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); }
+        .g-wide { grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); }
 
         .btn {
             display: inline-flex; align-items: center; gap: 10px; text-decoration: none;
             border: 2px solid var(--accent); color: var(--accent); background: transparent;
-            padding: 11px 20px; border-radius: 8px; font-size: 13px; font-weight: 700;
-            cursor: pointer; transition: all .2s;
+            padding: 11px 20px; border-radius: 8px; font: inherit; font-size: 13px; font-weight: 700;
+            cursor: pointer; transition: background .2s, color .2s;
         }
-        .btn:hover { background: var(--accent); color: #fff; }
+        .btn:hover { background: var(--accent); color: var(--on-accent); }
         .btn.alt { border-color: var(--accent-2); color: var(--accent-2); }
         .btn.alt:hover { background: var(--accent-2); color: #000; }
-        .btn.sm { padding: 7px 12px; font-size: 12px; border-width: 1px; }
+        [data-theme="light"] .btn.alt:hover { color: #fff; }
+        .btn.sm { padding: 7px 12px; font-size: 12px; border-width: 1px; gap: 8px; }
 
-        .tag {
-            display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 9px;
-            border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted);
-        }
+        .tag { display: inline-block; font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); color: var(--muted); }
         .comp-badge {
             display: inline-flex; align-items: center; justify-content: center;
-            width: 26px; height: 26px; border-radius: 6px; font-size: 12px; font-weight: 800;
+            min-width: 28px; height: 26px; padding: 0 6px; border-radius: 6px; font-size: 12px; font-weight: 800;
             background: color-mix(in srgb, var(--accent-2) 15%, transparent); color: var(--accent-2);
         }
 
-        /* Hero */
-        .hero { padding: 90px 0 70px; text-align: center; }
-        .hero h1 { font-family: 'Syncopate'; font-size: clamp(34px, 8vw, 84px); font-weight: 700; font-style: italic; text-transform: uppercase; }
-        .hero .role { letter-spacing: .3em; text-transform: uppercase; font-size: 13px; color: var(--muted); margin: 18px 0 32px; }
+        /* Accueil */
+        .hero { padding: 90px 20px 70px; text-align: center; }
+        .hero h1 { font-family: 'Syncopate', sans-serif; font-size: clamp(32px, 8vw, 84px); font-weight: 700; font-style: italic; text-transform: uppercase; }
+        .hero .role { letter-spacing: .25em; text-transform: uppercase; font-size: 13px; color: var(--muted); margin: 18px 0 32px; }
         .hero .intro { max-width: 760px; margin: 0 auto 32px; text-align: left; }
+        .hero .intro p { margin: 0 0 12px; }
+        .hero .intro p:last-child { margin: 0; }
         .hero .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-        .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; max-width: 760px; margin: 40px auto 0; }
+        .facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; max-width: 760px; margin: 40px auto 0; }
         .fact { padding: 16px; text-align: center; }
         .fact strong { display: block; font-size: 26px; color: var(--accent); }
-        .fact span { font-size: 12px; color: var(--muted); }
+        .fact span { font-size: 12px; color: var(--muted); display: block; line-height: 1.4; }
+        @media (max-width: 600px) {
+            .hero { padding: 56px 16px 48px; }
+            .hero .role { letter-spacing: .15em; font-size: 12px; }
+            .facts { gap: 8px; }
+            .fact { padding: 12px 6px; }
+            .fact strong { font-size: 22px; }
+            .fact span { font-size: 11px; }
+            section { padding: 60px 0; }
+            .wrap { padding: 0 16px; }
+        }
 
         /* Compétences */
-        .comp-card { cursor: pointer; text-align: left; font: inherit; color: inherit; width: 100%; display: flex; flex-direction: column; align-items: flex-start; }
-        .comp-card .count { margin-top: auto !important; padding-top: 14px; }
+        .comp-card { display: flex; flex-direction: column; align-items: flex-start; cursor: pointer; }
         .comp-card h3 { font-size: 16px; margin: 12px 0 10px; }
         .comp-card ul { margin: 0; padding-left: 18px; font-size: 13px; color: var(--muted); }
         .comp-card li { margin-bottom: 4px; }
-        .comp-card .count { margin-top: 14px; font-size: 12px; font-weight: 600; color: var(--accent); }
+        .comp-card .count { margin-top: auto; padding: 14px 0 0; background: none; border: 0; font: inherit; font-size: 12px; font-weight: 700; color: var(--accent); cursor: pointer; }
         .comp-card.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
-
+        .stack-groups { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
+        .stack-groups h4 { font-size: 11px; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin-bottom: 8px; }
         .stack { display: flex; flex-wrap: wrap; gap: 8px; }
-        .stack .tag { font-size: 12px; padding: 6px 12px; }
+        .stack .tag { font-size: 12px; padding: 5px 11px; color: var(--text); }
 
         /* Réalisations */
         .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
-        .chip {
-            border: 1px solid var(--border); background: var(--surface); color: var(--muted);
-            padding: 7px 14px; border-radius: 999px; font-size: 12px; font-weight: 600; cursor: pointer;
-        }
-        .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+        .chip { border: 1px solid var(--border); background: var(--surface); color: var(--muted); padding: 7px 14px; border-radius: 999px; font: inherit; font-size: 12px; font-weight: 600; cursor: pointer; }
+        .chip:hover { color: var(--text); border-color: var(--accent); }
+        .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
         .group-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--muted); margin: 32px 0 14px; display: flex; align-items: center; gap: 10px; }
         .group-title::after { content: ""; flex: 1; height: 1px; background: var(--border); }
-        .real { display: flex; flex-direction: column; gap: 12px; }
+        .real { display: flex; flex-direction: column; gap: 12px; scroll-margin-top: 90px; }
         .real-top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; font-size: 12px; }
         .real h3 { font-size: 17px; }
         .real p { margin: 0; font-size: 14px; color: var(--muted); }
-        .real .comps { display: flex; gap: 6px; flex-wrap: wrap; }
-        .real .techs { display: flex; gap: 6px; flex-wrap: wrap; }
-        .real details { font-size: 14px; border-top: 1px solid var(--border); padding-top: 10px; }
+        .real .comps, .real .techs { display: flex; gap: 6px; flex-wrap: wrap; }
+        .real details { font-size: 14px; border-top: 1px solid var(--border); padding-top: 10px; margin-top: auto; }
         .real summary { cursor: pointer; font-weight: 600; font-size: 13px; color: var(--accent); }
-        .real details dl { margin: 10px 0 0; }
-        .real details dt { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin-top: 10px; }
-        .real details dd { margin: 2px 0 0; color: var(--muted); }
-        .real .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
+        .real dl { margin: 10px 0 0; }
+        .real dt { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; margin-top: 10px; }
+        .real dd { margin: 2px 0 0; color: var(--muted); }
+        .real .links { display: flex; gap: 8px; flex-wrap: wrap; }
+        .real.flash { animation: flash 1.6s ease-out; }
+        @keyframes flash { 0% { box-shadow: 0 0 0 3px var(--accent); } 100% { box-shadow: 0 0 0 0 transparent; } }
         .hidden { display: none !important; }
 
         /* Tableau de synthèse */
-        .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
-        table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 760px; }
+        .table-wrap { position: relative; overflow-x: auto; border: 1px solid var(--border); border-radius: 14px; background: var(--solid); }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 780px; }
         th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); text-align: center; }
-        th:first-child, td:first-child { text-align: left; }
-        thead th { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); vertical-align: bottom; background: var(--surface-2); }
-        tbody tr:hover { background: var(--surface-2); }
+        th:first-child, td:first-child { text-align: left; position: sticky; left: 0; background: var(--solid); z-index: 1; min-width: 240px; }
+        thead th { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); vertical-align: bottom; }
+        tbody tr:hover td { background: var(--surface-2); }
+        tbody tr:hover td:first-child { background: color-mix(in srgb, var(--solid) 92%, var(--text)); }
         td.period { white-space: nowrap; color: var(--muted); font-size: 12px; }
         .check { color: var(--ok); font-weight: 800; }
-        tr.group-row td { background: var(--surface-2); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; text-align: left; }
-        tfoot td { font-weight: 700; }
+        tr.group-row td { font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .08em; text-align: left; color: var(--accent); }
+        tfoot td { font-weight: 700; border-bottom: 0; }
+        .table-hint { display: none; font-size: 12px; color: var(--muted); margin: 0 0 8px; }
+        @media (max-width: 820px) { .table-hint { display: block; } }
         .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 6px 18px; margin-top: 14px; font-size: 13px; color: var(--muted); }
+        .legend strong { color: var(--text); }
 
         /* Veille */
         .source-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
@@ -182,10 +241,12 @@
         .source-list i { color: var(--accent); margin-top: 4px; width: 16px; text-align: center; }
         .source-list a { font-weight: 600; }
         .fiche { display: flex; flex-direction: column; gap: 10px; }
+        .fiche .tag { align-self: flex-start; }
         .fiche h3 { font-size: 16px; }
         .fiche p { margin: 0; font-size: 14px; }
         .fiche .links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; }
-        .feed { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+        .feed-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+        .feed { list-style: none; margin: 0; padding: 0; }
         .feed li { padding: 12px 0; border-bottom: 1px solid var(--border); }
         .feed li:last-child { border-bottom: 0; }
         .feed .meta { display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
@@ -193,43 +254,50 @@
         .feed a:hover { color: var(--accent); }
         .feed p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
 
-        /* Timeline */
-        .timeline { border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 22px; }
+        /* Parcours */
+        .timeline { border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 22px; margin-left: 5px; }
         .timeline .item { position: relative; }
-        .timeline .item::before {
-            content: ""; position: absolute; left: -29px; top: 6px; width: 12px; height: 12px;
-            border-radius: 50%; background: var(--bg); border: 2px solid var(--accent);
-        }
+        .timeline .item::before { content: ""; position: absolute; left: -29px; top: 5px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--accent); }
         .timeline h4 { font-size: 15px; }
         .timeline .date { font-size: 12px; color: var(--muted); }
         .timeline p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
 
-        .contact-grid a { text-decoration: none; display: flex; align-items: center; gap: 14px; }
-        .contact-grid i { font-size: 20px; color: var(--accent); width: 24px; text-align: center; }
+        .contact-grid a { text-decoration: none; display: flex; align-items: center; gap: 14px; min-width: 0; }
+        .contact-grid span { overflow-wrap: anywhere; }
+        .contact-grid i { font-size: 20px; color: var(--accent); width: 24px; text-align: center; flex-shrink: 0; }
 
-        footer { text-align: center; padding: 40px 0 60px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+        footer { text-align: center; padding: 40px 20px 60px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--border); }
+        footer a { color: var(--muted); }
 
-
-        /* Fenêtre d'aperçu (CV, PDF, livrables) */
-        .viewer { position: fixed; inset: 0; z-index: 200; display: none; align-items: center; justify-content: center; padding: 24px; background: rgba(0, 0, 0, .75); backdrop-filter: blur(4px); }
+        /* Fenêtre d'aperçu (CV, PDF, projets) */
+        .viewer { position: fixed; inset: 0; z-index: 200; display: none; align-items: center; justify-content: center; padding: 24px; background: rgba(0, 0, 0, .75); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
         .viewer.open { display: flex; }
-        .viewer-box { width: min(1200px, 100%); height: min(92vh, 100%); display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.5); animation: pop .2s ease-out; }
+        .viewer-box { width: min(1200px, 100%); height: min(92vh, 100%); display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: 0 30px 80px rgba(0, 0, 0, .5); animation: pop .2s ease-out; }
         @keyframes pop { from { opacity: 0; transform: scale(.97); } to { opacity: 1; transform: none; } }
         .viewer-bar { display: flex; align-items: center; gap: 10px; padding: 10px 12px 10px 18px; border-bottom: 1px solid var(--border); background: var(--surface-2); }
-        .viewer-bar h3 { flex: 1; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .viewer-bar h2 { flex: 1; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
         .viewer iframe { flex: 1; width: 100%; border: 0; background: #fff; }
         body.no-scroll { overflow: hidden; }
-        @media (max-width: 700px) { .viewer { padding: 0; } .viewer-box { height: 100%; border-radius: 0; } .viewer-bar .label { display: none; } }
+        @media (max-width: 700px) { .viewer { padding: 0; } .viewer-box { height: 100%; border-radius: 0; border: 0; } .viewer-bar .label { display: none; } }
+
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { animation: none !important; transition: none !important; }
+        }
 
         @media print {
-            .nav, .filters, .icon-btn, .hero .actions { display: none !important; }
+            .nav, .filters, .icon-btn, .hero .actions, .feed-block, .viewer, .skip-link, .table-hint { display: none !important; }
+            :root, [data-theme="light"], [data-theme="dark"] { --bg: #fff; --solid: #fff; --surface: #fff; --surface-2: #fff; --text: #000; --muted: #333; --border: #ccc; --accent: #c2410c; --accent-2: #0369a1; }
             body { background: #fff; color: #000; }
             section { padding: 24px 0; }
-            .real details { display: block; }
+            .card, .real { break-inside: avoid; }
+            .table-wrap { overflow: visible; }
+            table { min-width: 0; }
         }
     </style>
 </head>
 <body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
 
 <nav class="nav" aria-label="Navigation principale">
     <div class="wrap">
@@ -244,113 +312,113 @@
             <a href="#parcours">Parcours</a>
             <a href="#contact">Contact</a>
         </div>
-        <div style="display:flex; gap:8px;">
-            <button class="icon-btn" id="theme-btn" aria-label="Changer de thème"><i class="fas fa-sun"></i></button>
-            <button class="icon-btn menu-btn" id="menu-btn" aria-label="Ouvrir le menu"><i class="fas fa-bars"></i></button>
+        <div class="nav-tools">
+            <button class="icon-btn" id="theme-btn" type="button" aria-label="Passer en thème clair"><i class="fas fa-sun" aria-hidden="true"></i></button>
+            <button class="icon-btn menu-btn" id="menu-btn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links"><i class="fas fa-bars" aria-hidden="true"></i></button>
         </div>
     </div>
 </nav>
 
-<main>
+<main id="contenu">
     <!-- ACCUEIL -->
-    <header class="hero wrap" id="accueil">
+    <header class="hero" id="accueil">
         <h1>Aness <span class="accent">Khenichil</span></h1>
-        <p class="role">BTS SIO option SISR · Systèmes & Réseaux</p>
+        <p class="role">Alternant IT · BTS SIO option SISR</p>
         <div class="card intro" id="profil">
-            <p style="margin-top:0">
-                Étudiant en <strong>BTS Services Informatiques aux Organisations</strong>, option
-                <strong>SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux) à l'ESUP Paris, session 2027.
+            <p>
+                Étudiant en 2<sup>e</sup> année de <strong>BTS Services Informatiques aux Organisations</strong>, option
+                <strong>SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux) à l'ESUP Paris, en alternance au service
+                informatique de <strong>QSRP</strong> depuis août 2026.
             </p>
-            <p style="margin-bottom:0" class="muted">
+            <p class="muted">
                 Je m'intéresse à l'administration Windows Server et Linux, à la sécurité Active Directory et aux réseaux Cisco.
-                Ce portfolio présente mes réalisations professionnelles, en formation et en entreprise (alternance IT chez <strong>QSRP</strong>), classées selon
-                les compétences du <strong>Bloc 1 « Support et mise à disposition de services informatiques »</strong>
-                évaluées à l'épreuve E5.
+                Ce portfolio présente mes réalisations professionnelles, en formation et en entreprise, classées selon les
+                compétences du <strong>Bloc 1 « Support et mise à disposition de services informatiques »</strong> évaluées à l'épreuve E5.
             </p>
         </div>
         <div class="actions">
-            <a href="CV%20ANESS%20KHENICHIL%20-%20SISR.pdf" target="_blank" rel="noopener" class="btn"><i class="fas fa-file-pdf"></i> Mon CV</a>
-            <a href="#synthese" class="btn alt"><i class="fas fa-table"></i> Tableau de synthèse E5</a>
-            <a href="#realisations" class="btn alt"><i class="fas fa-folder-open"></i> Mes réalisations</a>
+            <a href="documents/CV-Aness-Khenichil.pdf" target="_blank" rel="noopener" class="btn"><i class="fas fa-file-pdf" aria-hidden="true"></i> Mon CV</a>
+            <a href="#synthese" class="btn alt"><i class="fas fa-table" aria-hidden="true"></i> Tableau de synthèse E5</a>
+            <a href="#realisations" class="btn alt"><i class="fas fa-folder-open" aria-hidden="true"></i> Mes réalisations</a>
         </div>
         <div class="facts">
-            <div class="card fact"><strong id="fact-real">–</strong><span>réalisations professionnelles</span></div>
-            <div class="card fact"><strong id="fact-comp">–</strong><span>compétences du Bloc 1 couvertes</span></div>
+            <div class="card fact"><strong id="fact-real">12</strong><span>réalisations professionnelles</span></div>
+            <div class="card fact"><strong id="fact-comp">6/6</strong><span>compétences du Bloc 1 couvertes</span></div>
             <div class="card fact"><strong>3</strong><span>parcours Cisco Networking Academy</span></div>
         </div>
     </header>
 
-    <!-- COMPETENCES -->
+    <!-- COMPÉTENCES -->
     <section id="competences">
         <div class="wrap">
             <div class="section-head">
                 <span class="kicker">Référentiel BTS SIO · Bloc 1</span>
                 <h2>Compétences</h2>
-                <p>Les six compétences du Bloc 1 évaluées à l'épreuve E5. Cliquez sur une compétence pour voir les réalisations qui la mettent en œuvre.</p>
+                <p>Les six compétences du Bloc 1 évaluées à l'épreuve E5. Cliquez sur une compétence pour afficher les réalisations qui la mettent en œuvre.</p>
             </div>
             <div class="grid g3" id="comp-grid"></div>
 
             <div class="card" style="margin-top:28px">
-                <h3 style="font-size:16px; margin-bottom:14px"><i class="fas fa-screwdriver-wrench accent"></i> Environnement technique maîtrisé</h3>
-                <div class="stack">
-                    <span class="tag">Windows Server 2019</span>
-                    <span class="tag">Active Directory (AD DS)</span>
-                    <span class="tag">GPO</span>
-                    <span class="tag">DNS / DHCP</span>
-                    <span class="tag">PowerShell</span>
-                    <span class="tag">Ubuntu / Kali Linux</span>
-                    <span class="tag">Cisco IOS : VLAN, inter-VLAN, ACL</span>
-                    <span class="tag">Cisco Packet Tracer</span>
-                    <span class="tag">VirtualBox</span>
-                    <span class="tag">GLPI (ITSM, gestion de parc)</span>
-                    <span class="tag">Kanboard</span>
-                    <span class="tag">TCP/IP</span>
-                    <span class="tag">Python (bases)</span>
-                    <span class="tag">HTML / CSS</span>
-                    <span class="tag">Microsoft 365 (administration, licences)</span>
-                    <span class="tag">SharePoint / OneDrive</span>
-                    <span class="tag">Microsoft Intune</span>
-                    <span class="tag">Microsoft Teams Rooms</span>
-                    <span class="tag">Téléphonie</span>
+                <h3 class="card-title"><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i> Environnement technique</h3>
+                <div class="stack-groups">
+                    <div>
+                        <h4>Systèmes</h4>
+                        <div class="stack"><span class="tag">Windows Server 2019</span><span class="tag">Active Directory (AD DS)</span><span class="tag">GPO</span><span class="tag">DNS / DHCP</span><span class="tag">PowerShell</span><span class="tag">Ubuntu / Kali Linux</span></div>
+                    </div>
+                    <div>
+                        <h4>Réseaux</h4>
+                        <div class="stack"><span class="tag">TCP/IP</span><span class="tag">Cisco IOS : VLAN, inter-VLAN</span><span class="tag">Cisco Packet Tracer</span><span class="tag">Wi-Fi</span></div>
+                    </div>
+                    <div>
+                        <h4>Microsoft 365 et postes</h4>
+                        <div class="stack"><span class="tag">Comptes et licences M365</span><span class="tag">Microsoft Intune</span><span class="tag">Microsoft Teams Rooms</span><span class="tag">SharePoint / OneDrive</span><span class="tag">Téléphonie</span></div>
+                    </div>
+                    <div>
+                        <h4>Outils</h4>
+                        <div class="stack"><span class="tag">GLPI</span><span class="tag">Kanboard</span><span class="tag">VirtualBox</span><span class="tag">Git / GitHub</span><span class="tag">HTML / CSS / JS</span><span class="tag">Python (bases)</span></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- REALISATIONS -->
-    <section id="realisations" style="background: var(--surface);">
+    <!-- RÉALISATIONS -->
+    <section id="realisations" class="alt">
         <div class="wrap">
             <div class="section-head">
                 <span class="kicker">Épreuve E5</span>
                 <h2>Réalisations professionnelles</h2>
-                <p>Chaque réalisation précise son contexte, sa période, les compétences mobilisées et les documents associés.</p>
+                <p>Chaque réalisation précise son contexte, sa période et les compétences mobilisées, avec les documents associés lorsqu'ils existent.</p>
             </div>
-            <div class="filters" id="filters"></div>
-            <div id="real-list"></div>
+            <div class="filters" id="filters" role="group" aria-label="Filtrer par compétence"></div>
+            <div id="real-list" aria-live="polite"></div>
         </div>
     </section>
 
-    <!-- TABLEAU DE SYNTHESE -->
+    <!-- TABLEAU DE SYNTHÈSE -->
     <section id="synthese">
         <div class="wrap">
             <div class="section-head">
-                <span class="kicker">Annexe VI-1 · Session 2026</span>
+                <span class="kicker">Annexe VI-1 · Épreuve E5</span>
                 <h2>Tableau de synthèse</h2>
-                <p>Vue d'ensemble des réalisations et des compétences mises en œuvre. Le document officiel est téléchargeable ci-dessous.</p>
+                <p>Vue d'ensemble des réalisations et des compétences mises en œuvre. Le tableau officiel reprend les mêmes réalisations.</p>
             </div>
+            <p class="table-hint"><i class="fas fa-arrows-left-right" aria-hidden="true"></i> Faites défiler le tableau horizontalement.</p>
             <div class="table-wrap">
-                <table id="synth-table" aria-label="Tableau de synthèse des réalisations professionnelles"></table>
+                <table id="synth-table">
+                    <caption class="sr-only">Tableau de synthèse des réalisations professionnelles et des compétences du Bloc 1</caption>
+                </table>
             </div>
             <div class="legend" id="legend"></div>
             <div style="display:flex; flex-wrap:wrap; gap:10px; margin-top:22px">
-                <a class="btn sm" target="_blank" rel="noopener" href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20-%20Tableau%20de%20synth%C3%A8se%20%C3%89preuve%20E5.pdf"><i class="fas fa-file-pdf"></i> Tableau officiel (PDF)</a>
-                <a class="btn sm alt" href="8%20-%20EPREUVE%20ORALE%20E5%20-%20MODELE%20DE%20TABLEAU%20DE%20SYNTHESE%20ANNEXE%20VI-1%20-%20BTS%20SIO%202026%20(2).xlsx"><i class="fas fa-file-excel"></i> Version Excel</a>
+                <a class="btn sm" target="_blank" rel="noopener" href="documents/tableau-synthese-E5.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i> Tableau officiel (PDF)</a>
+                <a class="btn sm alt" href="documents/tableau-synthese-E5.xlsx" download><i class="fas fa-file-excel" aria-hidden="true"></i> Version Excel</a>
             </div>
         </div>
     </section>
 
     <!-- VEILLE -->
-    <section id="veille" style="background: var(--surface);">
+    <section id="veille" class="alt">
         <div class="wrap">
             <div class="section-head">
                 <span class="kicker">Organiser son développement professionnel</span>
@@ -360,7 +428,7 @@
             </div>
             <div class="grid g3">
                 <div class="card">
-                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-bullseye accent"></i> Problématique</h3>
+                    <h3 class="card-title"><i class="fas fa-bullseye" aria-hidden="true"></i> Problématique</h3>
                     <p class="muted" style="margin:0; font-size:14px">
                         Comment un administrateur peut-il réduire la surface d'attaque d'un domaine Active Directory
                         et détecter rapidement une compromission ? Axes suivis : politique de mots de passe,
@@ -369,70 +437,70 @@
                     </p>
                 </div>
                 <div class="card">
-                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-gears accent"></i> Méthode et outils</h3>
+                    <h3 class="card-title"><i class="fas fa-gears" aria-hidden="true"></i> Méthode et outils</h3>
                     <ul class="source-list">
-                        <li><i class="fas fa-rss"></i><span><strong>Flux RSS</strong> récupérés automatiquement et affichés plus bas (fil d'actualité)</span></li>
-                        <li><i class="fas fa-bell"></i><span><strong>Google Alertes</strong> sur « Active Directory », « ransomware », « CVE Windows Server »</span></li>
-                        <li><i class="fab fa-linkedin"></i><span><strong>LinkedIn</strong> : suivi de professionnels et d'éditeurs de sécurité</span></li>
-                        <li><i class="fas fa-clock"></i><span>Lecture hebdomadaire, tri, puis fiche de synthèse mensuelle</span></li>
+                        <li><i class="fas fa-rss" aria-hidden="true"></i><span><strong>Flux RSS</strong> récupérés automatiquement et affichés plus bas</span></li>
+                        <li><i class="fas fa-bell" aria-hidden="true"></i><span><strong>Google Alertes</strong> sur « Active Directory », « ransomware », « CVE Windows Server »</span></li>
+                        <li><i class="fab fa-linkedin" aria-hidden="true"></i><span><strong>LinkedIn</strong> : suivi de professionnels et d'éditeurs de sécurité</span></li>
+                        <li><i class="fas fa-clock" aria-hidden="true"></i><span>Lecture chaque semaine, tri, puis fiche de synthèse chaque mois</span></li>
                     </ul>
                 </div>
                 <div class="card">
-                    <h3 style="font-size:16px; margin-bottom:12px"><i class="fas fa-book-open accent"></i> Sources</h3>
+                    <h3 class="card-title"><i class="fas fa-book-open" aria-hidden="true"></i> Sources</h3>
                     <ul class="source-list">
-                        <li><i class="fas fa-shield-halved"></i><span><a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">CERT-FR</a> : alertes et avis de sécurité</span></li>
-                        <li><i class="fas fa-landmark"></i><span><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">ANSSI</a> : guides de sécurisation AD</span></li>
-                        <li><i class="fas fa-user-shield"></i><span><a href="https://www.cybermalveillance.gouv.fr/" target="_blank" rel="noopener">Cybermalveillance.gouv.fr</a></span></li>
-                        <li><i class="fas fa-newspaper"></i><span><a href="https://www.it-connect.fr/" target="_blank" rel="noopener">IT-Connect</a>, <a href="https://www.lemagit.fr/" target="_blank" rel="noopener">LeMagIT</a>, <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">BleepingComputer</a></span></li>
+                        <li><i class="fas fa-shield-halved" aria-hidden="true"></i><span><a href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">CERT-FR</a> : alertes et avis de sécurité</span></li>
+                        <li><i class="fas fa-landmark" aria-hidden="true"></i><span><a href="https://cyber.gouv.fr/" target="_blank" rel="noopener">ANSSI</a> : guides de sécurisation AD</span></li>
+                        <li><i class="fas fa-user-shield" aria-hidden="true"></i><span><a href="https://www.cybermalveillance.gouv.fr/" target="_blank" rel="noopener">Cybermalveillance.gouv.fr</a></span></li>
+                        <li><i class="fas fa-newspaper" aria-hidden="true"></i><span><a href="https://www.it-connect.fr/" target="_blank" rel="noopener">IT-Connect</a>, <a href="https://www.lemagit.fr/" target="_blank" rel="noopener">LeMagIT</a>, <a href="https://www.zataz.com/" target="_blank" rel="noopener">Zataz</a>, <a href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">BleepingComputer</a></span></li>
                     </ul>
                 </div>
             </div>
 
             <h3 class="group-title">Fiches de veille</h3>
-            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr))">
+            <div class="grid g-wide">
                 <article class="card fiche">
                     <span class="tag">09/2026 · Kaspersky, relayé par SC Media</span>
                     <h3>Le groupe PAYLOAD paralyse un domaine Windows en détournant les GPO</h3>
                     <p class="muted">Lors d'une attaque contre un industriel au Moyen-Orient, les attaquants sont entrés par un compte VPN compromis, puis ont utilisé les stratégies de groupe (GPO) d'Active Directory pour perturber tout le domaine, sans rançongiciel classique ni chiffrement des fichiers.</p>
-                    <p><strong>Ce que j'en retiens :</strong> l'AD lui-même devient l'arme. Il faut surveiller les modifications de GPO (événements 5136, 5137 et 5141), protéger le partage SYSVOL, imposer la MFA sur le VPN et centraliser les journaux. C'est le prolongement de l'audit que j'ai configuré sur mon projet AD DS.</p>
+                    <p><strong>Ce que j'en retiens :</strong> l'AD lui-même devient l'arme. Il faut surveiller les modifications de GPO (événements 5136, 5137 et 5141), protéger le partage SYSVOL, imposer la MFA sur le VPN et centraliser les journaux. C'est le prolongement de l'audit que j'ai configuré sur mon projet Active Directory.</p>
                     <div class="links">
-                        <a class="btn sm" href="https://www.scworld.com/brief/ransomware-group-payload-weaponizes-microsoft-active-directory-for-disruption" target="_blank" rel="noopener">SC Media</a>
-                        <a class="btn sm" href="https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/" target="_blank" rel="noopener">Cyber Security News</a>
+                        <a class="btn sm" href="https://www.scworld.com/brief/ransomware-group-payload-weaponizes-microsoft-active-directory-for-disruption" target="_blank" rel="noopener">SC Media <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                        <a class="btn sm" href="https://cybersecuritynews.com/payload-ransomware-hijacks-active-directory/" target="_blank" rel="noopener">Cyber Security News <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                     </div>
                 </article>
                 <article class="card fiche">
                     <span class="tag">2026 · Semperis, relayé par Cyber Press</span>
                     <h3>87 % des attaques par rançongiciel visent les systèmes d'identité</h3>
-                    <p class="muted">Selon le rapport 2026 de Semperis sur les rançongiciels, les attaquants ont ciblé ou exploité un système d'identité (Active Directory, Entra ID, Okta) dans 87 % des cas. L'AD était touché dans 51 % des cas étudiés, et seules 60 % environ des organisations disposaient d'une procédure documentée de restauration de l'AD.</p>
+                    <p class="muted">Selon le rapport 2026 de Semperis sur les rançongiciels, les attaquants ont ciblé ou exploité un système d'identité (Active Directory, Entra ID, Okta) dans 87 % des cas. L'AD était touché dans 51 % des cas étudiés, et environ 60 % seulement des organisations disposaient d'une procédure documentée de restauration de l'AD.</p>
                     <p><strong>Ce que j'en retiens :</strong> protéger l'annuaire ne suffit pas, il faut aussi savoir le reconstruire. Sauvegarder les contrôleurs de domaine et tester la restauration fait partie de la continuité de service (compétence « Gérer le patrimoine informatique »).</p>
                     <div class="links">
-                        <a class="btn sm" href="https://cyberpress.org/ransomware-targets-identity-systems/" target="_blank" rel="noopener">Cyber Press</a>
+                        <a class="btn sm" href="https://cyberpress.org/ransomware-targets-identity-systems/" target="_blank" rel="noopener">Cyber Press <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                     </div>
                 </article>
                 <article class="card fiche">
                     <span class="tag">04 → 07/2026 · Microsoft</span>
                     <h3>Fin du chiffrement RC4 pour Kerberos (CVE-2026-20833)</h3>
                     <p class="muted">Pour contrer le Kerberoasting, Microsoft retire progressivement le chiffrement RC4, jugé faible, sur les contrôleurs de domaine : changement de comportement à partir d'avril 2026, application définitive en juillet 2026. Les comptes de service sans type de chiffrement défini passent en AES. Les applications qui ne connaissent que RC4 risquent de ne plus pouvoir s'authentifier.</p>
-                    <p><strong>Ce que j'en retiens :</strong> une mise à jour de sécurité peut casser un service. Avant de l'appliquer, il faut recenser les comptes de service et les applications concernées, puis tester. C'est exactement la démarche « tests d'intégration avant déploiement » du référentiel.</p>
+                    <p><strong>Ce que j'en retiens :</strong> une mise à jour de sécurité peut casser un service. Avant de l'appliquer, il faut recenser les comptes de service et les applications concernées, puis tester. C'est la démarche « tests d'intégration avant déploiement » du référentiel.</p>
                     <div class="links">
-                        <a class="btn sm" href="https://techcommunity.microsoft.com/discussions/microsoft-security/kerberos-and-the-end-of-rc4-protocol-hardening-and-preparing-for-cve%E2%80%912026%E2%80%9120833/4502262" target="_blank" rel="noopener">Microsoft Tech Community</a>
-                        <a class="btn sm" href="https://4sysops.com/archives/windows-kerberos-rc4-deprecation-what-will-break-in-active-directory-and-how-to-fix-it/" target="_blank" rel="noopener">4sysops</a>
+                        <a class="btn sm" href="https://techcommunity.microsoft.com/discussions/microsoft-security/kerberos-and-the-end-of-rc4-protocol-hardening-and-preparing-for-cve%E2%80%912026%E2%80%9120833/4502262" target="_blank" rel="noopener">Microsoft Tech Community <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                        <a class="btn sm" href="https://4sysops.com/archives/windows-kerberos-rc4-deprecation-what-will-break-in-active-directory-and-how-to-fix-it/" target="_blank" rel="noopener">4sysops <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                     </div>
                 </article>
                 <article class="card fiche">
                     <span class="tag">03/2026 · ANSSI / CERT-FR</span>
                     <h3>Mise à jour des points de contrôle Active Directory de l'ANSSI</h3>
                     <p class="muted">L'ANSSI publie une liste de points de contrôle pour évaluer la sécurité d'un annuaire AD, utilisée par son service d'audit ADS. La mise à jour du 23 mars 2026 classe comme vulnérables les modèles de certificats AD CS dont l'attribut EKU est vide, car ils permettent de s'authentifier via PKINIT.</p>
-                    <p><strong>Ce que j'en retiens :</strong> c'est une référence officielle et gratuite pour auditer un domaine. Je peux m'en servir comme liste de vérification sur mon laboratoire esup.local (compétence « Exploiter des référentiels, normes et standards »).</p>
+                    <p><strong>Ce que j'en retiens :</strong> c'est une référence officielle et gratuite pour auditer un domaine. Je peux m'en servir comme liste de vérification sur mon laboratoire <code>esup.local</code> (compétence « Exploiter des référentiels, normes et standards »).</p>
                     <div class="links">
-                        <a class="btn sm" href="https://www.cert.ssi.gouv.fr/uploads/guide-ad.html" target="_blank" rel="noopener">Points de contrôle AD</a>
-                        <a class="btn sm" href="https://messervices.cyber.gouv.fr/services/ads" target="_blank" rel="noopener">Service ADS</a>
+                        <a class="btn sm" href="https://www.cert.ssi.gouv.fr/uploads/guide-ad.html" target="_blank" rel="noopener">Points de contrôle AD <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                        <a class="btn sm" href="https://messervices.cyber.gouv.fr/services/ads" target="_blank" rel="noopener">Service ADS <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
                     </div>
                 </article>
             </div>
 
             <div class="card" style="margin-top:18px">
-                <h3 style="font-size:16px; margin-bottom:10px"><i class="fas fa-lightbulb accent"></i> Bilan de ma veille</h3>
+                <h3 class="card-title"><i class="fas fa-lightbulb" aria-hidden="true"></i> Bilan de ma veille</h3>
                 <p class="muted" style="margin:0; font-size:14px">
                     Les attaques ne cherchent plus seulement à chiffrer des fichiers : elles prennent le contrôle de l'annuaire et l'utilisent contre l'entreprise.
                     Pour un administrateur, les priorités sont claires : réduire les droits (GPO, comptes à privilèges), abandonner les protocoles faibles (RC4, NTLM),
@@ -440,17 +508,19 @@
                 </p>
             </div>
 
-            <h3 class="group-title">Fil d'actualité en direct</h3>
-            <div class="card">
-                <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:16px">
-                    <div class="filters" style="margin:0" id="feed-filters">
-                        <button class="chip active" data-feed="theme">Mon thème (AD, rançongiciels)</button>
-                        <button class="chip" data-feed="all">Toute l'actualité</button>
+            <div class="feed-block">
+                <h3 class="group-title">Fil d'actualité en direct</h3>
+                <div class="card">
+                    <div class="feed-head">
+                        <div class="filters" style="margin:0" id="feed-filters" role="group" aria-label="Filtrer l'actualité">
+                            <button class="chip" type="button" data-feed="theme" aria-pressed="true">Mon thème (AD, rançongiciels)</button>
+                            <button class="chip" type="button" data-feed="all" aria-pressed="false">Toute l'actualité</button>
+                        </div>
+                        <span class="muted" style="font-size:12px" id="feed-status"></span>
                     </div>
-                    <span class="muted" style="font-size:12px" id="feed-status"></span>
+                    <ul class="feed" id="feed-list" aria-live="polite"><li class="muted">Chargement du fil…</li></ul>
+                    <p class="muted" style="font-size:12px; margin:14px 0 0"><i class="fas fa-rss accent" aria-hidden="true"></i> Mis à jour automatiquement 3 fois par jour à partir des flux RSS de CERT-FR, IT-Connect, LeMagIT, Zataz et BleepingComputer.</p>
                 </div>
-                <ul class="feed" id="feed-list"></ul>
-                <p class="muted" style="font-size:12px; margin:14px 0 0"><i class="fas fa-rss accent"></i> Mis à jour automatiquement 3 fois par jour à partir des flux RSS de CERT-FR, IT-Connect, LeMagIT, Zataz et BleepingComputer.</p>
             </div>
         </div>
     </section>
@@ -483,19 +553,19 @@
     </section>
 
     <!-- PARCOURS -->
-    <section id="parcours" style="background: var(--surface);">
+    <section id="parcours" class="alt">
         <div class="wrap">
             <div class="section-head">
-                <span class="kicker">Formation & expériences</span>
+                <span class="kicker">Formation et expériences</span>
                 <h2>Parcours</h2>
             </div>
             <div class="grid g2">
                 <div class="card">
-                    <h3 style="font-size:16px; margin-bottom:20px"><i class="fas fa-graduation-cap accent"></i> Formation</h3>
+                    <h3 class="card-title" style="margin-bottom:20px"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Formation</h3>
                     <div class="timeline">
                         <div class="item">
-                            <h4>BTS SIO, option SISR</h4>
-                            <div class="date">ESUP Paris (Puteaux) · 2025 – 2027</div>
+                            <h4>BTS SIO, option SISR (en alternance)</h4>
+                            <div class="date">ESUP Paris, Puteaux · 2025 – 2027</div>
                             <p>Administration systèmes et réseaux, cybersécurité, support et mise à disposition de services informatiques.</p>
                         </div>
                         <div class="item">
@@ -503,19 +573,19 @@
                             <div class="date">Sorbonne Université · 2023 – 2025</div>
                         </div>
                         <div class="item">
-                            <h4>Baccalauréat scientifique</h4>
-                            <div class="date">Lycée Voltaire · 2023</div>
+                            <h4>Baccalauréat général</h4>
+                            <div class="date">Lycée Voltaire, Paris · 2023</div>
                             <p>Spécialités Mathématiques et Sciences de l'ingénieur.</p>
                         </div>
                     </div>
                 </div>
                 <div class="card">
-                    <h3 style="font-size:16px; margin-bottom:20px"><i class="fas fa-briefcase accent"></i> Expériences</h3>
+                    <h3 class="card-title" style="margin-bottom:20px"><i class="fas fa-briefcase" aria-hidden="true"></i> Expériences</h3>
                     <div class="timeline">
                         <div class="item">
                             <h4>Alternant IT · QSRP</h4>
                             <div class="date">Depuis le 24 août 2026</div>
-                            <p>Gestion du parc et des comptes Microsoft 365, licences, enrôlement des postes, téléphonie, support utilisateurs, déploiement de salles Teams Rooms.</p>
+                            <p>Gestion du parc et des comptes Microsoft 365, licences, enrôlement des postes dans Intune, téléphonie, support utilisateurs, déploiement de salles Teams Rooms.</p>
                         </div>
                         <div class="item">
                             <h4>Vendeur en boulangerie · Le 57, Paris</h4>
@@ -533,7 +603,7 @@
                             <p>Adaptabilité et réactivité en environnement dynamique.</p>
                         </div>
                     </div>
-                    <h3 style="font-size:16px; margin:28px 0 12px"><i class="fas fa-language accent"></i> Langues</h3>
+                    <h3 class="card-title" style="margin:28px 0 12px"><i class="fas fa-language" aria-hidden="true"></i> Langues</h3>
                     <div class="stack">
                         <span class="tag">Anglais · C1</span>
                         <span class="tag">Arabe · langue maternelle</span>
@@ -550,25 +620,27 @@
                 <span class="kicker">Me joindre</span>
                 <h2>Contact</h2>
             </div>
-            <div class="grid g3 contact-grid">
-                <a class="card" href="mailto:anesskhenichilone@gmail.com"><i class="fas fa-envelope"></i><span>anesskhenichilone@gmail.com</span></a>
-                <a class="card" href="tel:+33610057960"><i class="fas fa-phone"></i><span>06 10 05 79 60</span></a>
-                <a class="card" href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a>
+            <div class="grid g2 contact-grid">
+                <a class="card" href="mailto:anesskhenichilone@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i><span>anesskhenichilone@gmail.com</span></a>
+                <a class="card" href="tel:+33610057960"><i class="fas fa-phone" aria-hidden="true"></i><span>06 10 05 79 60</span></a>
+                <a class="card" href="https://www.linkedin.com/in/aness-khenichil-630a10224" target="_blank" rel="noopener"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a class="card" href="https://github.com/mewx2head" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>
             </div>
         </div>
     </section>
 </main>
 
 <footer>
-    Aness Khenichil · Portfolio BTS SIO SISR · ESUP Paris · 2026
+    © <span id="year">2026</span> Aness Khenichil · Portfolio BTS SIO SISR · ESUP Paris ·
+    <a href="https://github.com/mewx2head/mewx2head.github.io" target="_blank" rel="noopener">code source</a>
 </footer>
 
-<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title">
+<div class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title" hidden>
     <div class="viewer-box">
         <div class="viewer-bar">
-            <h3 id="viewer-title"></h3>
-            <a class="btn sm" id="viewer-newtab" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square"></i> <span class="label">Nouvel onglet</span></a>
-            <button class="icon-btn" id="viewer-close" aria-label="Fermer"><i class="fas fa-xmark"></i></button>
+            <h2 id="viewer-title"></h2>
+            <a class="btn sm" id="viewer-newtab" target="_blank" rel="noopener"><i class="fas fa-up-right-from-square" aria-hidden="true"></i> <span class="label">Nouvel onglet</span></a>
+            <button class="icon-btn" id="viewer-close" type="button" aria-label="Fermer"><i class="fas fa-xmark" aria-hidden="true"></i></button>
         </div>
         <iframe id="viewer-frame" title="Aperçu du document"></iframe>
     </div>
@@ -613,38 +685,39 @@
         ]}
     ];
 
-    // Réalisations professionnelles (reprises du tableau de synthèse)
+    // Réalisations professionnelles : mêmes intitulés, périodes et compétences que le tableau officiel
+    // (documents/tableau-synthese-E5.xlsx, généré par scripts/tableau.py)
     const REALISATIONS = [
         // ---- En formation ----
         {
             group: 'formation', title: "Mise en production d'un contrôleur de domaine sous Windows Server 2019 (AD DS, DNS, DHCP)",
-            period: '04/26', comps: ['C1', 'C5'],
-            techs: ['Windows Server 2019', 'AD DS', 'DNS', 'DHCP', 'PowerShell', 'VirtualBox'],
-            summary: "Déploiement d'un domaine esup.local sur le serveur SRV-AD01 et création automatisée des comptes utilisateurs.",
+            period: '03/26 à 04/26', comps: ['C1', 'C5'],
+            techs: ['Windows Server 2019', 'AD DS', 'DNS', 'PowerShell', 'VirtualBox'],
+            summary: "Déploiement du domaine esup.local sur le serveur SRV-AD01 et création des comptes utilisateurs par script.",
             context: "Projet du Bloc 1 en formation : mettre en place l'annuaire centralisé d'une ESN fictive.",
-            goals: "Installer et configurer les rôles AD DS, DNS et DHCP ; structurer l'annuaire en unités d'organisation ; provisionner les comptes.",
-            done: "Adressage IP statique (192.168.1.10), promotion du contrôleur de domaine esup.local, création de l'OU ESUP_Entreprise et import des utilisateurs depuis un fichier CSV avec PowerShell, création des groupes de sécurité.",
-            links: [{ label: 'Voir le livrable', href: 'adlivrable.html' }]
+            goals: "Installer les rôles AD DS et DNS, structurer l'annuaire en unités d'organisation et créer les comptes.",
+            done: "Adresse IP statique (192.168.1.10), promotion du serveur en contrôleur du domaine esup.local, création de l'OU ESUP_Entreprise et de ses sous-OU (admin, alternant, salariés), groupes de sécurité Direction et Technique, import des utilisateurs depuis un fichier CSV avec PowerShell.",
+            links: [{ label: 'Voir la présentation', href: 'projets/active-directory.html' }]
         },
         {
             group: 'formation', title: "Mise en place d'une politique de sécurité des mots de passe via AD DS",
-            period: '03/26', comps: ['C1', 'C5'],
+            period: '30/03/26', comps: ['C1', 'C5'],
             techs: ['GPO', 'AD DS', 'Observateur d’événements', 'Pare-feu Windows'],
-            summary: "Durcissement du domaine : complexité des mots de passe, verrouillage des comptes, carte à puce pour les administrateurs, audit des connexions.",
+            summary: "Durcissement du domaine par GPO : complexité des mots de passe, verrouillage des comptes, carte à puce, audit des connexions.",
             context: "Suite du projet Active Directory : sécuriser les comptes du domaine esup.local.",
             goals: "Protéger les comptes contre les attaques par force brute et tracer les tentatives de connexion.",
-            done: "Stratégie de mot de passe complexe par GPO, verrouillage après 3 échecs, exigence de carte à puce pour les sessions administrateur, audit des succès et échecs de connexion, filtrage des flux par le pare-feu avancé.",
-            links: [{ label: 'Voir le livrable', href: 'adlivrable.html#/3' }]
+            done: "Mots de passe complexes de 7 caractères minimum avec un historique de 24, verrouillage après 3 échecs pendant 30 minutes, carte à puce exigée pour le compte de Lefebvre, audit des connexions (réussites et échecs), pare-feu bloquant les connexions entrantes non autorisées avec journalisation.",
+            links: [{ label: 'Voir la présentation', href: 'projets/active-directory.html#/5' }]
         },
         {
             group: 'formation', title: 'StratAdvise : infrastructure réseau segmentée (VLAN, DHCP, routage inter-VLAN)',
-            period: '11/25', comps: ['C4', 'C5'],
-            techs: ['Cisco Packet Tracer', 'VLAN', 'Router-on-a-stick', 'DHCP', 'ACL'],
-            summary: "Conception et test du réseau d'un cabinet de conseil : VLAN Accueil et Gestion, DHCP, routage entre VLAN et accès sans fil.",
+            period: '11/25', comps: ['C5'],
+            techs: ['Cisco Packet Tracer', 'VLAN', '802.1Q', 'Routage inter-VLAN', 'DHCP', 'Wi-Fi'],
+            summary: "Conception et test du réseau d'un cabinet de conseil : VLAN Accueil et Gestion, routage entre VLAN, postes filaires et Wi-Fi.",
             context: "Projet de formation pour le cabinet fictif StratAdvise : séparer les flux des visiteurs et du personnel.",
-            goals: "Segmenter le réseau, distribuer les adresses automatiquement et valider la communication entre les VLAN.",
-            done: "Création des VLAN 10 (Accueil) et 20 (Gestion) sur le commutateur, pool DHCP pour le VLAN 10, sous-interfaces sur le routeur pour le routage inter-VLAN, tests de connectivité (ping intra et inter-VLAN) sur chaque poste.",
-            links: [{ label: 'Voir la présentation', href: 'StratAdvise%20Infrastructure.html' }]
+            goals: "Segmenter le réseau, adresser les postes et valider la communication entre les VLAN.",
+            done: "VLAN 10 (Accueil, 192.168.10.0/24) et VLAN 20 (Gestion, 192.168.20.0/24) sur le commutateur, sous-interfaces 802.1Q sur le routeur, adressage DHCP du VLAN 10, plan de tests (ping vers la passerelle, dans le même VLAN et entre VLAN) entièrement réussi.",
+            links: [{ label: 'Voir la présentation', href: 'projets/stratadvise.html' }]
         },
         {
             group: 'formation', title: 'Gestion du parc et support utilisateur avec la solution ITSM GLPI',
@@ -657,13 +730,13 @@
             links: []
         },
         {
-            group: 'formation', title: 'Création de ce portfolio',
-            period: '09/25 à 04/26', comps: ['C3', 'C6'],
-            techs: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages'],
-            summary: "Conception et publication de ce site sur GitHub Pages pour présenter mes compétences et réalisations.",
+            group: 'formation', title: 'Création et mise à jour de ce portfolio',
+            period: 'Depuis 09/25', comps: ['C3', 'C6'],
+            techs: ['HTML', 'CSS', 'JavaScript', 'GitHub Pages', 'GitHub Actions'],
+            summary: "Conception et publication de ce site sur GitHub Pages pour présenter mes compétences et mes réalisations.",
             context: "Portfolio exigé pour l'épreuve E5 du BTS SIO.",
             goals: "Valoriser mon identité professionnelle en ligne et rendre mes réalisations accessibles au jury et aux recruteurs.",
-            done: "Développement du site, hébergement sur GitHub Pages, gestion des versions avec Git, mise à jour régulière.",
+            done: "Développement du site, hébergement sur GitHub Pages, gestion des versions avec Git, fil de veille RSS mis à jour automatiquement par GitHub Actions.",
             links: [{ label: 'Code source', href: 'https://github.com/mewx2head/mewx2head.github.io' }]
         },
         {
@@ -677,13 +750,13 @@
             links: [{ label: 'Voir le profil', href: 'https://www.linkedin.com/in/aness-khenichil-630a10224' }]
         },
         {
-            group: 'formation', title: 'Parcours Cisco Packet Tracer (Premiers pas, Exploring Networking, Exploring IoT)',
+            group: 'formation', title: 'Parcours Cisco Networking Academy (Premiers pas avec Packet Tracer, Exploring Networking, Exploring IoT)',
             period: '11/25', comps: ['C5', 'C6'],
             techs: ['Cisco Packet Tracer', 'Cisco NetAcad'],
             summary: "Trois parcours Cisco Networking Academy pour maîtriser la simulation de réseaux et d'objets connectés.",
             context: "Autoformation sur la plateforme Cisco Networking Academy.",
             goals: "Savoir construire, configurer et tester un réseau simulé.",
-            done: "Réalisation des activités pratiques des trois parcours et obtention des attestations.",
+            done: "Réalisation des activités pratiques des trois parcours.",
             links: [{ label: 'Voir les certifications', href: '#certifications', internal: true }]
         },
         // ---- En milieu professionnel ----
@@ -699,7 +772,7 @@
         },
         {
             group: 'alternance', title: 'Administration des comptes utilisateurs et des licences Microsoft 365',
-            period: 'Depuis 08/26', comps: ['C1', 'C2'],
+            period: 'Depuis le 24/08/26', comps: ['C1', 'C2'],
             techs: ['Centre d’administration Microsoft 365', 'Licences Microsoft', 'Comptes utilisateurs'],
             summary: "Création, modification et désactivation des comptes utilisateurs et gestion des licences Microsoft 365.",
             context: "Chez QSRP : gestion du cycle de vie des comptes (arrivées, départs, changements de poste).",
@@ -709,7 +782,7 @@
         },
         {
             group: 'alternance', title: 'Enrôlement des nouveaux postes de travail dans Microsoft Intune',
-            period: 'Depuis 08/26', comps: ['C1', 'C5'],
+            period: 'Depuis le 24/08/26', comps: ['C1', 'C5'],
             techs: ['Microsoft Intune', 'Windows', 'Microsoft 365', 'Gestion de parc'],
             summary: "Préparation et enrôlement des nouveaux PC dans Microsoft Intune avant leur remise aux utilisateurs.",
             context: "Chez QSRP : arrivée de nouveaux collaborateurs et renouvellement du matériel.",
@@ -719,7 +792,7 @@
         },
         {
             group: 'alternance', title: 'Gestion de la téléphonie : lignes et téléphones',
-            period: 'Depuis 08/26', comps: ['C1', 'C2'],
+            period: 'Depuis le 24/08/26', comps: ['C1', 'C2'],
             techs: ['Téléphonie mobile', 'Gestion de lignes', 'Inventaire'],
             summary: "Gestion des lignes téléphoniques de l'entreprise, de la création de la ligne au changement de titulaire ou de numéro, et des téléphones.",
             context: "Chez QSRP : demandes liées aux arrivées, départs et changements de poste des collaborateurs.",
@@ -729,7 +802,7 @@
         },
         {
             group: 'alternance', title: 'Support utilisateurs : impression, SharePoint, cloud et matériel',
-            period: 'Depuis 08/26', comps: ['C1', 'C2'],
+            period: 'Depuis le 24/08/26', comps: ['C1', 'C2'],
             techs: ['SharePoint', 'OneDrive', 'Impression', 'Écrans', 'Microsoft 365'],
             summary: "Résolution des demandes et incidents des collaborateurs : impression, SharePoint, cloud, écrans en panne.",
             context: "Chez QSRP : support informatique des collaborateurs au quotidien.",
@@ -739,50 +812,58 @@
         }
     ];
 
-    const GROUPS = { formation: 'Réalisations en cours de formation', alternance: 'Réalisations en milieu professionnel · Alternance chez QSRP' };
+    const GROUPS = {
+        formation: 'Réalisations en cours de formation',
+        alternance: 'Réalisations en milieu professionnel · Alternance chez QSRP'
+    };
     const byId = Object.fromEntries(COMPETENCES.map(c => [c.id, c]));
     const esc = s => String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
-    let activeFilter = 'all';
+    const countFor = id => REALISATIONS.filter(r => r.comps.includes(id)).length;
+
+    document.getElementById('year').textContent = new Date().getFullYear();
 
     // Chiffres clés
     document.getElementById('fact-real').textContent = REALISATIONS.length;
-    document.getElementById('fact-comp').textContent =
-        COMPETENCES.filter(c => REALISATIONS.some(r => r.comps.includes(c.id))).length + '/6';
+    document.getElementById('fact-comp').textContent = COMPETENCES.filter(c => countFor(c.id) > 0).length + '/6';
 
     // Cartes compétences
     document.getElementById('comp-grid').innerHTML = COMPETENCES.map(c => {
-        const n = REALISATIONS.filter(r => r.comps.includes(c.id)).length;
-        return `<button class="card comp-card" data-comp="${c.id}">
+        const n = countFor(c.id);
+        return `<article class="card comp-card" data-comp="${c.id}">
             <span class="comp-badge">${c.id}</span>
             <h3>${esc(c.title)}</h3>
             <ul>${c.items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
-            <div class="count">${n} réalisation${n > 1 ? 's' : ''} <i class="fas fa-arrow-right"></i></div>
-        </button>`;
+            <button class="count" type="button">Voir ${n === 1 ? 'la réalisation' : `les ${n} réalisations`} <i class="fas fa-arrow-down" aria-hidden="true"></i></button>
+        </article>`;
     }).join('');
-    document.querySelectorAll('.comp-card').forEach(el => el.addEventListener('click', () => {
-        setFilter(el.dataset.comp);
+    document.querySelectorAll('.comp-card').forEach(card => card.addEventListener('click', () => {
+        setFilter(card.dataset.comp);
         document.getElementById('realisations').scrollIntoView();
     }));
 
     // Filtres
     document.getElementById('filters').innerHTML =
-        `<button class="chip active" data-f="all">Toutes</button>` +
-        COMPETENCES.map(c => `<button class="chip" data-f="${c.id}" title="${esc(c.title)}">${c.id} · ${esc(c.short)}</button>`).join('');
-    document.querySelectorAll('.chip').forEach(el => el.addEventListener('click', () => setFilter(el.dataset.f)));
+        `<button class="chip" type="button" data-f="all" aria-pressed="true">Toutes</button>` +
+        COMPETENCES.map(c => `<button class="chip" type="button" data-f="${c.id}" aria-pressed="false" title="${esc(c.title)}">${c.id} · ${esc(c.short)}</button>`).join('');
+    document.querySelectorAll('#filters .chip').forEach(el => el.addEventListener('click', () => setFilter(el.dataset.f)));
 
     // Cartes réalisations
     function renderReal(r, idx) {
-        const links = r.links.map(l =>
-            `<a class="btn sm" href="${l.href}" ${l.internal ? '' : 'target="_blank" rel="noopener"'}><i class="fas fa-arrow-up-right-from-square"></i> ${esc(l.label)}</a>`
+        const links = r.links.map(l => l.internal
+            ? `<a class="btn sm" href="${l.href}">${esc(l.label)} <i class="fas fa-arrow-down" aria-hidden="true"></i></a>`
+            : `<a class="btn sm" href="${l.href}" target="_blank" rel="noopener">${esc(l.label)} <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>`
         ).join('');
+        const where = r.group === 'formation'
+            ? '<i class="fas fa-graduation-cap" aria-hidden="true"></i> Formation'
+            : '<i class="fas fa-building" aria-hidden="true"></i> Alternance QSRP';
         return `<article class="card real" data-comps="${r.comps.join(' ')}" id="real-${idx}">
             <div class="real-top">
-                <span class="tag"><i class="fas ${r.group === 'formation' ? 'fa-graduation-cap' : 'fa-building'}"></i> ${r.group === 'formation' ? 'Formation' : 'Alternance QSRP'}</span>
-                <span class="muted"><i class="far fa-calendar"></i> ${esc(r.period)}</span>
+                <span class="tag">${where}</span>
+                <span class="muted"><i class="far fa-calendar" aria-hidden="true"></i> ${esc(r.period)}</span>
             </div>
             <h3>${esc(r.title)}</h3>
             <p>${esc(r.summary)}</p>
-            <div class="comps">${r.comps.map(c => `<span class="comp-badge" title="${esc(byId[c].title)}">${c}</span>`).join('')}</div>
+            <div class="comps">${r.comps.map(c => `<span class="comp-badge" title="${esc(byId[c].title)}">${c}<span class="sr-only"> : ${esc(byId[c].title)}</span></span>`).join('')}</div>
             <div class="techs">${r.techs.map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
             <details>
                 <summary>Contexte, objectifs et réalisation</summary>
@@ -804,8 +885,7 @@
     ).join('');
 
     function setFilter(f) {
-        activeFilter = f;
-        document.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.f === f));
+        document.querySelectorAll('#filters .chip').forEach(c => c.setAttribute('aria-pressed', String(c.dataset.f === f)));
         document.querySelectorAll('.comp-card').forEach(c => c.classList.toggle('active', c.dataset.comp === f));
         document.querySelectorAll('.real').forEach(el => {
             el.classList.toggle('hidden', f !== 'all' && !el.dataset.comps.split(' ').includes(f));
@@ -817,37 +897,45 @@
 
     // Tableau de synthèse
     (function buildTable() {
-        let html = `<thead><tr><th>Réalisation professionnelle</th><th>Période</th>` +
-            COMPETENCES.map(c => `<th title="${esc(c.title)}">${c.id}<br>${esc(c.short)}</th>`).join('') + `</tr></thead><tbody>`;
+        const table = document.getElementById('synth-table');
+        let html = `<thead><tr><th scope="col">Réalisation professionnelle</th><th scope="col">Période</th>` +
+            COMPETENCES.map(c => `<th scope="col" title="${esc(c.title)}">${c.id}<br>${esc(c.short)}</th>`).join('') + `</tr></thead><tbody>`;
         Object.entries(GROUPS).forEach(([g, label]) => {
             html += `<tr class="group-row"><td colspan="${COMPETENCES.length + 2}">${label}</td></tr>`;
             REALISATIONS.forEach((r, i) => {
                 if (r.group !== g) return;
-                html += `<tr><td><a href="#real-${i}">${esc(r.title)}</a></td><td class="period">${esc(r.period)}</td>` +
-                    COMPETENCES.map(c => `<td>${r.comps.includes(c.id) ? '<span class="check" aria-label="oui">✓</span>' : ''}</td>`).join('') + `</tr>`;
+                html += `<tr><th scope="row" style="font-weight:400"><a href="#real-${i}">${esc(r.title)}</a></th><td class="period">${esc(r.period)}</td>` +
+                    COMPETENCES.map(c => `<td>${r.comps.includes(c.id) ? '<span class="check" aria-hidden="true">✓</span><span class="sr-only">oui</span>' : ''}</td>`).join('') + `</tr>`;
             });
         });
-        html += `</tbody><tfoot><tr><td>Total</td><td></td>` +
-            COMPETENCES.map(c => `<td>${REALISATIONS.filter(r => r.comps.includes(c.id)).length}</td>`).join('') + `</tr></tfoot>`;
-        document.getElementById('synth-table').innerHTML = html;
+        html += `</tbody><tfoot><tr><th scope="row">Total</th><td></td>` +
+            COMPETENCES.map(c => `<td>${countFor(c.id)}</td>`).join('') + `</tr></tfoot>`;
+        table.insertAdjacentHTML('beforeend', html);
         document.getElementById('legend').innerHTML = COMPETENCES.map(c => `<span><strong>${c.id}</strong> : ${esc(c.title)}</span>`).join('');
+
+        // Depuis le tableau : retirer le filtre, ouvrir le détail et mettre la carte en évidence
+        table.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            setFilter('all');
+            const card = document.querySelector(a.getAttribute('href'));
+            if (!card) return;
+            card.querySelector('details').open = true;
+            card.classList.remove('flash');
+            void card.offsetWidth;
+            card.classList.add('flash');
+        }));
     })();
 
-    // Lien "réalisation" depuis le tableau : on enlève le filtre et on ouvre le détail
-    document.querySelectorAll('#synth-table a').forEach(a => a.addEventListener('click', () => {
-        setFilter('all');
-        const target = document.querySelector(a.getAttribute('href'));
-        if (target) target.querySelector('details').open = true;
-    }));
-
-    // Thème clair / sombre (mémorisé si possible)
+    // Thème clair / sombre
     const root = document.documentElement;
     const themeBtn = document.getElementById('theme-btn');
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
     function applyTheme(t) {
         root.dataset.theme = t;
-        themeBtn.innerHTML = `<i class="fas ${t === 'dark' ? 'fa-sun' : 'fa-moon'}"></i>`;
+        themeBtn.innerHTML = `<i class="fas ${t === 'dark' ? 'fa-sun' : 'fa-moon'}" aria-hidden="true"></i>`;
+        themeBtn.setAttribute('aria-label', t === 'dark' ? 'Passer en thème clair' : 'Passer en thème sombre');
+        themeMeta.content = t === 'dark' ? '#0a0a0a' : '#f8fafc';
     }
-    try { applyTheme(localStorage.getItem('theme') || 'dark'); } catch (e) { applyTheme('dark'); }
+    applyTheme(root.dataset.theme === 'light' ? 'light' : 'dark');
     themeBtn.addEventListener('click', () => {
         const t = root.dataset.theme === 'dark' ? 'light' : 'dark';
         applyTheme(t);
@@ -856,78 +944,130 @@
 
     // Menu mobile
     const navLinks = document.getElementById('nav-links');
-    document.getElementById('menu-btn').addEventListener('click', () => navLinks.classList.toggle('open'));
-    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+    const menuBtn = document.getElementById('menu-btn');
+    function setMenu(open) {
+        navLinks.classList.toggle('open', open);
+        menuBtn.setAttribute('aria-expanded', String(open));
+        menuBtn.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+        menuBtn.innerHTML = `<i class="fas ${open ? 'fa-xmark' : 'fa-bars'}" aria-hidden="true"></i>`;
+    }
+    menuBtn.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+    // Lien actif dans le menu selon la section visible
+    (function () {
+        const links = [...navLinks.querySelectorAll('a')];
+        const targets = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
+        if (!('IntersectionObserver' in window)) return;
+        const io = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+                if (!e.isIntersecting) return;
+                links.forEach(a => {
+                    const on = a.getAttribute('href') === '#' + e.target.id;
+                    a.classList.toggle('active', on);
+                    if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current');
+                });
+            });
+        }, { rootMargin: '-45% 0px -50% 0px' });
+        targets.forEach(t => io.observe(t));
+    })();
+
     // Fil de veille : lit veille.json, mis à jour par GitHub Actions
     (function () {
         const list = document.getElementById('feed-list');
         const status = document.getElementById('feed-status');
+        const buttons = document.querySelectorAll('#feed-filters .chip');
         let items = [], mode = 'theme';
+        const safeUrl = u => /^https?:\/\//i.test(u || '') ? u : '#';
         const fmt = d => d ? new Date(d).toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' }) : '';
+        function setMode(m) {
+            mode = m;
+            buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.feed === m)));
+            render();
+        }
         function render() {
             const shown = (mode === 'theme' ? items.filter(i => i.theme) : items).slice(0, 12);
             list.innerHTML = shown.length ? shown.map(i => `<li>
                 <div class="meta"><span class="tag">${esc(i.source)}</span><span>${fmt(i.date)}</span></div>
-                <a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>
+                <a href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener">${esc(i.title)}</a>
                 ${i.summary ? `<p>${esc(i.summary)}</p>` : ''}
             </li>`).join('') : `<li class="muted">${items.length ? 'Aucun article récent sur mon thème : voir « Toute l’actualité ».' : 'Le fil sera bientôt disponible.'}</li>`;
         }
-        document.querySelectorAll('#feed-filters .chip').forEach(b => b.addEventListener('click', () => {
-            mode = b.dataset.feed;
-            document.querySelectorAll('#feed-filters .chip').forEach(c => c.classList.toggle('active', c === b));
-            render();
-        }));
+        buttons.forEach(b => b.addEventListener('click', () => setMode(b.dataset.feed)));
         fetch('veille.json', { cache: 'no-cache' })
             .then(r => r.json())
             .then(d => {
                 items = d.items || [];
-                // Peu d'articles sur le thème en ce moment : on affiche toute l'actualité
-                if (items.filter(i => i.theme).length < 3) document.querySelector('[data-feed=all]').click();
                 if (d.updated) status.textContent = 'Dernière mise à jour : ' + new Date(d.updated).toLocaleString('fr-FR', { dateStyle: 'short', timeStyle: 'short' });
-                render();
+                // Peu d'articles sur le thème en ce moment : on affiche toute l'actualité
+                setMode(items.filter(i => i.theme).length < 3 ? 'all' : 'theme');
             })
             .catch(() => { list.innerHTML = '<li class="muted">Fil indisponible pour le moment.</li>'; });
     })();
 
-    // Ouvre les documents du site (CV, PDF, livrables) dans une fenêtre au lieu d'un nouvel onglet
+    // Impression : déplier tous les détails
+    window.addEventListener('beforeprint', () => document.querySelectorAll('details').forEach(d => d.open = true));
+
+    // Ouvre les documents du site (CV, PDF, projets) dans une fenêtre au lieu d'un nouvel onglet
     (function () {
         const viewer = document.getElementById('viewer');
         const frame = document.getElementById('viewer-frame');
         const title = document.getElementById('viewer-title');
         const newTab = document.getElementById('viewer-newtab');
+        const closeBtn = document.getElementById('viewer-close');
+        let lastFocus = null;
         // Les navigateurs mobiles affichent mal les PDF dans une fenêtre : on les ouvre normalement
         const mobile = matchMedia('(max-width: 700px), (pointer: coarse)').matches;
 
         function open(url, label) {
+            lastFocus = document.activeElement;
             title.textContent = label;
+            frame.title = label;
             newTab.href = url;
             frame.src = url;
+            viewer.hidden = false;
             viewer.classList.add('open');
             document.body.classList.add('no-scroll');
-            document.getElementById('viewer-close').focus();
+            closeBtn.focus();
         }
         function close() {
             viewer.classList.remove('open');
+            viewer.hidden = true;
             document.body.classList.remove('no-scroll');
             frame.src = 'about:blank';
+            if (lastFocus) lastFocus.focus();
         }
 
         document.addEventListener('click', e => {
             const a = e.target.closest('a[href]');
-            if (!a || a.closest('#viewer') || e.ctrlKey || e.metaKey || e.shiftKey) return;
+            if (!a || a.closest('#viewer') || a.hasAttribute('download') || e.ctrlKey || e.metaKey || e.shiftKey || e.button !== 0) return;
             const url = new URL(a.href, location.href);
             if (url.origin !== location.origin) return;
             const isPdf = /\.pdf$/i.test(url.pathname);
-            const isPage = /\.html$/i.test(url.pathname) && !/index\.html$/i.test(url.pathname);
+            const isPage = /\.html$/i.test(url.pathname) && !/\/(index\.html)?$/i.test(url.pathname);
             if (!isPdf && !isPage) return;
             if (isPdf && mobile) return;
             e.preventDefault();
             const card = a.closest('.real');
             open(url.href, (card && card.querySelector('h3').textContent) || a.textContent.trim() || 'Document');
         });
-        document.getElementById('viewer-close').addEventListener('click', close);
+        closeBtn.addEventListener('click', close);
         viewer.addEventListener('click', e => { if (e.target === viewer) close(); });
-        document.addEventListener('keydown', e => { if (e.key === 'Escape' && viewer.classList.contains('open')) close(); });
+        document.addEventListener('keydown', e => {
+            if (!viewer.classList.contains('open')) return;
+            if (e.key === 'Escape') close();
+            // Garder le focus clavier dans la fenêtre
+            if (e.key === 'Tab') {
+                const f = [newTab, closeBtn, frame];
+                const i = f.indexOf(document.activeElement);
+                if (e.shiftKey && i <= 0) { e.preventDefault(); f[f.length - 1].focus(); }
+                else if (!e.shiftKey && i === f.length - 1) { e.preventDefault(); f[0].focus(); }
+            }
+        });
+        // Échap fonctionne aussi quand le focus est dans la page affichée
+        frame.addEventListener('load', () => {
+            try { frame.contentWindow.document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); }); } catch (err) {}
+        });
     })();
 </script>
 </body>

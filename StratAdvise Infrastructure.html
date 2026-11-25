@@ -2,97 +2,12 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StratAdvise - Présentation Officielle</title>
-    <style>
-        :root { --color-dark: #0f172a; --color-primary: #0284c7; --color-text: #f1f5f9; --color-surface: #1e293b; }
-        body { font-family: 'Segoe UI', sans-serif; background-color: var(--color-dark); color: var(--color-text); margin: 0; padding-bottom: 50px; }
-        .slide { 
-            width: 960px; height: 540px; margin: 40px auto; padding: 40px; 
-            background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-surface) 100%);
-            border-radius: 15px; box-shadow: 0 20px 50px rgba(0,0,0,0.6);
-            display: flex; flex-direction: column; page-break-after: always; border: 1px solid #334155;
-        }
-        h1 { font-size: 3.5rem; color: white; text-align: center; margin-top: 100px; }
-        h2 { color: #06b6d4; border-left: 6px solid var(--color-primary); padding-left: 20px; font-size: 1.8rem; }
-        .content { display: flex; gap: 40px; align-items: center; flex: 1; overflow: hidden; }
-        .text { flex: 1; font-size: 1.1rem; line-height: 1.5; }
-        .image-box { flex: 1.2; text-align: center; }
-        img { max-width: 100%; max-height: 380px; border-radius: 10px; border: 2px solid #475569; }
-        .code { background: #000; color: #4ade80; padding: 10px; border-radius: 6px; font-family: monospace; font-size: 0.85rem; margin: 10px 0; }
-    </style>
+    <title>StratAdvise | Aness Khenichil</title>
+    <meta http-equiv="refresh" content="0; url=projets/stratadvise.html">
+    <link rel="canonical" href="https://mewx2head.github.io/projets/stratadvise.html">
+    <script>location.replace("projets/stratadvise.html" + location.hash);</script>
 </head>
 <body>
-<a id="back-link" href="index.html#realisations" style="position:fixed;top:14px;left:14px;z-index:1000;background:#ff6b00;color:#fff;padding:8px 14px;border-radius:8px;font:600 13px sans-serif;text-decoration:none">&larr; Retour au portfolio</a>
-
-    <section class="slide" style="justify-content: center;">
-        <h1>StratAdvise</h1>
-        <p style="text-align: center; font-size: 1.5rem; color: #06b6d4;">Infrastructure Réseau Sécurisée</p>
-        <p style="text-align: center; margin-top: 40px;">Par <strong>Khenichil Aness</strong></p>
-    </section>
-
-    <section class="slide">
-        <h2>1. Architecture Globale</h2>
-        <div class="content">
-            <div class="text"><p>Vue d'ensemble de la topologie incluant le Cloud, le point d'accès sans fil et la structure des VLANs.</p></div>
-            <div class="image-box"><img src="capture projet.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>2. Segmentation VLAN</h2>
-        <div class="content">
-            <div class="text">
-                <p>Configuration du Switch :</p>
-                <ul>
-                    <li>VLAN 10 : Accueil</li>
-                    <li>VLAN 20 : Gestion</li>
-                </ul>
-            </div>
-            <div class="image-box"><img src="vlan switch.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>3. Services Réseau (DHCP)</h2>
-        <div class="content">
-            <div class="text"><p>Configuration du pool DHCP pour le VLAN 10 assurant l'adressage automatique des clients.</p></div>
-            <div class="image-box"><img src="DHCP_VLAN10.jpg.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>4. Routage Inter-VLAN</h2>
-        <div class="content">
-            <div class="text"><p>Vérification des interfaces logiques (sous-interfaces) sur le routeur pour permettre la communication entre VLANs.</p></div>
-            <div class="image-box"><img src="routeur ip brief.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>5. Validation Client (PC1)</h2>
-        <div class="content">
-            <div class="text"><p>Le PC1 a correctement récupéré son adresse IP via le serveur DHCP du réseau.</p></div>
-            <div class="image-box"><img src="pc1 ip.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>6. Tests de Connectivité</h2>
-        <div class="content">
-            <div class="text"><p>Validation de la communication au sein du réseau et vérification des accès autorisés.</p></div>
-            <div class="image-box"><img src="ping pc1.png"></div>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>7. Conclusion du Projet</h2>
-        <div class="content">
-            <div class="text"><p>L'infrastructure StratAdvise est désormais opérationnelle, segmentée et prête pour la production.</p></div>
-            <div class="image-box"><img src="PING_INTER_VLAN.jpg.png"></div>
-        </div>
-    </section>
-
-<script>if (window.self !== window.top) document.getElementById("back-link").remove();</script>
+    <p>Cette page a été déplacée : <a href="projets/stratadvise.html">StratAdvise</a>.</p>
 </body>
 </html>

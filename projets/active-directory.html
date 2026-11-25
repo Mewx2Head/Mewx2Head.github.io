@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infrastructure Active Directory | Aness Khenichil</title>
+    <meta name="description" content="Projet BTS SIO SISR : contrôleur de domaine Windows Server 2019, organisation de l'annuaire et sécurisation des comptes par GPO.">
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slides.css">
+</head>
+<body>
+<a class="back-link" href="../index.html#realisations">&larr; Retour au portfolio</a>
+<div class="footer-bar">Aness Khenichil · BTS SIO SISR · Infrastructure Active Directory</div>
+
+<div class="reveal">
+<div class="slides">
+
+    <section class="cover">
+        <span class="kicker">Projet de formation · Bloc 1 · mars – avril 2026</span>
+        <h1>Infrastructure <span>Active Directory</span></h1>
+        <p class="muted" style="font-size:.75em">Déploiement et sécurisation d'un domaine Windows Server 2019</p>
+        <div class="chips"><span>Windows Server 2019</span><span>AD DS</span><span>DNS</span><span>GPO</span><span>PowerShell</span><span>VirtualBox</span></div>
+        <p class="meta">Aness Khenichil · BTS SIO option SISR · ESUP Paris</p>
+    </section>
+
+    <section>
+        <span class="kicker">Contexte</span>
+        <h2>Besoin et objectifs</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">Contexte</span>
+                <p>Une ESN fictive veut <strong>centraliser la gestion de ses utilisateurs</strong> et sécuriser l'accès à son système d'information.</p>
+                <p>Le projet est réalisé sur une machine virtuelle <strong>VirtualBox</strong>.</p>
+            </div>
+            <div class="panel">
+                <span class="tag orange">Objectifs</span>
+                <ul>
+                    <li>Installer un contrôleur de domaine</li>
+                    <li>Organiser l'annuaire et créer les comptes</li>
+                    <li>Durcir les comptes : mots de passe, verrouillage, carte à puce</li>
+                    <li>Tracer les connexions et filtrer les flux réseau</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 1</span>
+        <h2>Préparation du serveur</h2>
+        <div class="cols">
+            <img class="shot" src="../images/active-directory/01-serveur-local.png" alt="Gestionnaire de serveur : propriétés du serveur SRV-AD01">
+            <div class="panel">
+                <ul>
+                    <li>Système : <strong>Windows Server 2019</strong> Standard</li>
+                    <li>Nom d'hôte : <code>SRV-AD01</code></li>
+                    <li>Adresse IP statique : <code>192.168.1.10</code></li>
+                    <li>Pare-feu Windows Defender actif</li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Une adresse fixe est indispensable : les postes du domaine doivent toujours trouver leur contrôleur et leur serveur DNS.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 2</span>
+        <h2>Rôles AD DS et DNS</h2>
+        <div class="cols reverse">
+            <div class="panel">
+                <ul>
+                    <li>Installation des rôles <strong>AD DS</strong> et <strong>DNS</strong></li>
+                    <li>Promotion du serveur en contrôleur de domaine</li>
+                    <li>Création de la forêt et du domaine <code>esup.local</code></li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Le serveur apparaît en ligne dans la console AD DS du Gestionnaire de serveur.</p>
+            </div>
+            <img class="shot" src="../images/active-directory/02-ad-ds.png" alt="Gestionnaire de serveur : rôle AD DS sur SRV-AD01">
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Étape 3</span>
+        <h2>Organisation de l'annuaire</h2>
+        <div class="cols">
+            <img class="shot" src="../images/active-directory/03-ou-utilisateurs.png" alt="Utilisateurs et ordinateurs Active Directory : OU ESUP_Entreprise">
+            <div class="panel">
+                <ul>
+                    <li>Unité d'organisation <code>ESUP_Entreprise</code></li>
+                    <li>Sous-OU par profil : <strong>admin</strong>, <strong>alternant</strong>, <strong>salariés</strong></li>
+                    <li>Groupes de sécurité : <strong>Direction</strong> et <strong>Technique</strong></li>
+                    <li>Comptes créés par script <strong>PowerShell</strong> à partir d'un fichier CSV (Lefebvre, Garcia, Durand…)</li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Ranger les comptes par OU permet d'appliquer des GPO différentes selon le profil.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Sécurité · activité 1</span>
+        <h2>Politique de mots de passe</h2>
+        <div class="cols reverse">
+            <div class="panel">
+                <span class="tag">GPO · Stratégie de mot de passe</span>
+                <ul>
+                    <li>Respect des exigences de complexité : <strong>activé</strong></li>
+                    <li>Longueur minimale : <strong>7 caractères</strong></li>
+                    <li>Historique : <strong>24 mots de passe</strong> mémorisés</li>
+                    <li>Durée de vie : <strong>1 jour</strong> minimum, <strong>42 jours</strong> maximum</li>
+                    <li>Chiffrement réversible : <strong>désactivé</strong></li>
+                </ul>
+            </div>
+            <img class="shot" src="../images/active-directory/04-gpo-mots-de-passe.png" alt="Éditeur de stratégie de groupe : stratégie de mot de passe">
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Sécurité · activité 1</span>
+        <h2>Verrouillage des comptes</h2>
+        <div class="cols">
+            <img class="shot" src="../images/active-directory/05-gpo-verrouillage.png" alt="Éditeur de stratégie de groupe : stratégie de verrouillage du compte">
+            <div class="panel">
+                <span class="tag">Protection contre la force brute</span>
+                <ul>
+                    <li>Seuil : <strong>3 tentatives</strong> échouées</li>
+                    <li>Durée du verrouillage : <strong>30 minutes</strong></li>
+                    <li>Réinitialisation du compteur : <strong>30 minutes</strong></li>
+                    <li>Verrouillage du compte Administrateur : <strong>autorisé</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Sécurité · activité 2</span>
+        <h2>Authentification par carte à puce</h2>
+        <div class="cols reverse">
+            <div class="panel">
+                <span class="tag">Authentification forte</span>
+                <p>Sur le compte de <strong>Lefebvre</strong>, l'option « Une carte à puce est nécessaire pour ouvrir une session interactive » est activée.</p>
+                <p class="muted">Le mot de passe seul ne suffit plus : il faut aussi posséder la carte. Une mesure à réserver aux comptes sensibles.</p>
+            </div>
+            <img class="shot" src="../images/active-directory/06-carte-a-puce.png" alt="Propriétés du compte Lefebvre : carte à puce obligatoire">
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Sécurité · activité 3</span>
+        <h2>Audit des connexions</h2>
+        <div class="cols">
+            <img class="shot" src="../images/active-directory/07-gpo-audit.png" alt="Éditeur de stratégie de groupe : stratégie d'audit">
+            <div class="panel">
+                <span class="tag">GPO · Stratégie d'audit</span>
+                <ul>
+                    <li>Événements de connexion : <strong>réussite et échec</strong></li>
+                    <li>Accès aux objets : <strong>réussite et échec</strong></li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Chaque tentative est enregistrée dans le journal Sécurité de l'Observateur d'événements : on peut repérer une attaque par force brute.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Sécurité · activité 4</span>
+        <h2>Pare-feu et journalisation</h2>
+        <div class="cols reverse">
+            <div class="panel">
+                <span class="tag">Pare-feu Windows Defender</span>
+                <ul>
+                    <li>Profil de domaine : pare-feu <strong>activé</strong></li>
+                    <li>Connexions entrantes : <strong>bloquées par défaut</strong></li>
+                    <li>Journalisation des <strong>paquets ignorés</strong> et des <strong>connexions réussies</strong></li>
+                    <li>Fichier <code>pfirewall.log</code>, 4 096 Ko maximum</li>
+                </ul>
+                <p class="muted" style="margin-top:.8em">Les journaux servent ensuite à analyser les flux et à détecter les comportements anormaux.</p>
+            </div>
+            <img class="shot" src="../images/active-directory/08-pare-feu-journalisation.png" alt="Pare-feu Windows Defender : paramètres de journalisation du profil de domaine">
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Bilan</span>
+        <h2>Résultat et pistes d'amélioration</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">Ce qui fonctionne</span>
+                <ul>
+                    <li>Domaine <code>esup.local</code> opérationnel</li>
+                    <li>Comptes organisés par OU et par groupe</li>
+                    <li>Mots de passe, verrouillage et audit appliqués par GPO</li>
+                    <li>Flux entrants filtrés et journalisés</li>
+                </ul>
+            </div>
+            <div class="panel">
+                <span class="tag orange">Pour aller plus loin</span>
+                <ul>
+                    <li>Passer la longueur minimale à <strong>12 caractères</strong> ou plus</li>
+                    <li>Ajouter un <strong>second contrôleur de domaine</strong> pour la continuité de service</li>
+                    <li>Sauvegarder l'AD et <strong>tester la restauration</strong></li>
+                    <li>Centraliser les journaux de sécurité</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span class="kicker">Référentiel BTS SIO · Bloc 1</span>
+        <h2>Compétences mobilisées</h2>
+        <div class="cols even">
+            <div class="panel">
+                <span class="tag">C1 · Gérer le patrimoine informatique</span>
+                <ul>
+                    <li>Mettre en place et vérifier les niveaux d'habilitation associés à un service : OU, groupes de sécurité, GPO</li>
+                </ul>
+            </div>
+            <div class="panel">
+                <span class="tag">C5 · Mettre à disposition un service</span>
+                <ul>
+                    <li>Déployer un service : annuaire Active Directory et DNS pour le domaine <code>esup.local</code></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+<script src="slides.js"></script>
+</body>
+</html>

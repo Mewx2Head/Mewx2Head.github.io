@@ -1,0 +1,71 @@
+/* Style commun aux présentations de projets (reveal.js) */
+:root {
+    --accent: #ff6b00;
+    --accent-2: #00d4ff;
+    --bg: #0a0a0a;
+    --panel: rgba(255, 255, 255, 0.045);
+    --border: rgba(255, 255, 255, 0.12);
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --ok: #22c55e;
+}
+html, body { background: var(--bg); }
+.reveal { font-family: 'Inter', system-ui, sans-serif; font-size: 26px; color: var(--text); }
+.reveal .slides { text-align: left; }
+.reveal h1, .reveal h2, .reveal h3 { font-family: 'Syncopate', sans-serif; text-transform: uppercase; color: #fff; letter-spacing: .02em; line-height: 1.15; text-shadow: none; }
+.reveal h1 { font-size: 1.9em; }
+.reveal h2 { font-size: 1.15em; margin: 0 0 .6em; }
+.reveal h3 { font-size: .75em; color: var(--accent-2); margin: 0 0 .5em; }
+.reveal p, .reveal li { line-height: 1.45; }
+.reveal ul { margin: 0 0 0 1em; }
+.reveal li { margin: .18em 0; }
+.reveal strong { color: #fff; }
+.reveal .accent { color: var(--accent); }
+.reveal .cyan { color: var(--accent-2); }
+.reveal .muted { color: var(--muted); }
+.reveal .kicker { display: inline-block; font-size: .5em; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--accent); margin-bottom: .6em; }
+.reveal code { font-family: ui-monospace, Consolas, monospace; font-size: .9em; color: var(--accent-2); background: rgba(0, 212, 255, .08); padding: .05em .3em; border-radius: 4px; }
+
+.cols { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; align-items: center; }
+.cols.reverse { grid-template-columns: 1fr 1.2fr; }
+.cols.even { grid-template-columns: 1fr 1fr; }
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px; font-size: .72em; }
+.panel ul { margin-left: 1.1em; }
+.panel p { margin: 0 0 .5em; }
+.panel p:last-child { margin-bottom: 0; }
+.tag { display: inline-block; font-size: .78em; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #000; background: var(--accent-2); padding: 2px 10px; border-radius: 5px; margin-bottom: .7em; }
+.tag.orange { background: var(--accent); color: #fff; }
+
+.reveal img.shot {
+    display: block; margin: 0 auto; max-width: 100%; max-height: 470px; object-fit: contain;
+    border: 1px solid var(--border); border-radius: 10px; background: #fff; cursor: zoom-in;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, .45);
+}
+.shots { display: grid; gap: 14px; }
+.shots.three { grid-template-columns: repeat(3, 1fr); }
+.shots.two { grid-template-columns: repeat(2, 1fr); }
+.shots figure { margin: 0; }
+.shots figcaption { font-size: .45em; color: var(--muted); text-align: center; margin-top: 6px; }
+.reveal .shots img.shot { max-height: 230px; width: 100%; }
+
+table.data { width: 100%; border-collapse: collapse; font-size: .6em; }
+table.data th, table.data td { border-bottom: 1px solid var(--border); padding: 8px 10px; text-align: left; }
+table.data th { color: var(--muted); font-size: .85em; text-transform: uppercase; letter-spacing: .05em; }
+table.data td.ok { color: var(--ok); font-weight: 700; }
+
+.cover { text-align: center !important; }
+.cover h1 span { color: var(--accent); }
+.cover .meta { font-size: .6em; color: var(--muted); margin-top: 1.2em; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 1em; }
+.chips span { font-size: .5em; border: 1px solid var(--border); border-radius: 999px; padding: 4px 14px; color: var(--text); }
+
+.footer-bar { position: fixed; bottom: 12px; left: 20px; font-size: 12px; color: #555; letter-spacing: .08em; text-transform: uppercase; z-index: 10; }
+.back-link { position: fixed; top: 14px; left: 14px; z-index: 1000; background: var(--accent); color: #fff; padding: 8px 14px; border-radius: 8px; font: 600 13px Inter, sans-serif; text-decoration: none; }
+.reveal .progress { color: var(--accent); }
+.reveal .slide-number { background: transparent; color: var(--muted); font-size: 13px; }
+.reveal .controls { color: var(--accent); }
+
+/* Agrandissement d'une capture au clic */
+.zoom { position: fixed; inset: 0; z-index: 2000; background: rgba(0, 0, 0, .9); display: none; align-items: center; justify-content: center; padding: 24px; cursor: zoom-out; }
+.zoom.open { display: flex; }
+.zoom img { max-width: 100%; max-height: 100%; border-radius: 8px; background: #fff; }
