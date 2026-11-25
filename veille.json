@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:48+00:00",
+ "updated": "2026-11-25T01:25+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -11,6 +11,70 @@
  "items": [
   {
    "source": "BleepingComputer",
+   "title": "Rackspace shuts down Spot cloud platform after security breach",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+   "date": "2026-11-24T21:37:30+00:00",
+   "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "New Inception extortion gang launches large-scale vishing campaign",
+   "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+   "date": "2026-11-24T20:21:20+00:00",
+   "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+   "link": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+   "date": "2026-11-24T18:59:52+00:00",
+   "summary": "Turnitin disclosed via a statement from its CEO, Chris Caren, that it recently detected unauthorized activity involving certain customer-facing systems. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Radware discloses breach exposing customer cloud access keys",
+   "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+   "date": "2026-11-24T17:49:05+00:00",
+   "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
+   "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
+   "date": "2026-11-24T17:00:00+00:00",
+   "summary": "ElixirOffice, la suite libre de Gaël Duval basée sur Euro-Office, reprend le ruban, les menus et les raccourcis de Microsoft Office. Voici ce qu'il faut savoir. Le post ElixirOffice : une suite bureautique open source…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+   "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+   "date": "2026-11-24T16:30:19+00:00",
+   "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "European Commission confirms data theft in EU Academy breach",
+   "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+   "date": "2026-11-24T16:22:44+00:00",
+   "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Hackers compromise Check Point Servers in 22 organizations",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+   "date": "2026-11-24T16:15:23+00:00",
+   "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
    "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
    "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
    "date": "2026-11-24T15:10:10+00:00",
@@ -18,27 +82,35 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-   "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-   "date": "2026-11-24T15:01:11+00:00",
-   "summary": "AI-driven development is adding complexity to software supply chains, leaving security teams overwhelmed by vulnerabilities that may pose little actual risk. RapidFort explains how runtime visibility, container…",
+   "source": "LeMagIT",
+   "title": "IA : tout savoir sur l’émergence des modèles de décision",
+   "link": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
+   "date": "2026-11-24T13:55:00+00:00",
+   "summary": "Les modèles de décision constituent un type d'IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux…",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "McDonald's Japan data breach exposes customer location information",
-   "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-   "date": "2026-11-24T14:09:37+00:00",
-   "summary": "McDonald's Japan, the fast-food giant's Japanese subsidiary, has disclosed a data breach after attackers accessed a database containing sensitive information for users of the company's official smartphone app. [...]",
+   "source": "LeMagIT",
+   "title": "Stockage : Huawei propose disponibilité et fonctions inédites pour l’IA",
+   "link": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
+   "date": "2026-11-24T12:53:00+00:00",
+   "summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage » précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de toutes…",
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
-   "link": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
-   "date": "2026-11-24T13:34:23+00:00",
-   "summary": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without…",
+   "source": "LeMagIT",
+   "title": "Claude Ship : Anthropic veut confier la revue de code aux agents IA",
+   "link": "https://www.lemagit.fr/actualites/366655341/Claude-Ship-Anthropic-veut-confier-la-revue-de-code-aux-agents-IA",
+   "date": "2026-11-24T12:04:00+00:00",
+   "summary": "Dépassés par le volume de pull requests généré par leurs agents IA, les développeurs de Claude Code ont mis au point Claude Ship, une solution agentique pour relire, vérifier et, in fine valider les changements de code.…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cybersécurité : la CNIL est passée à la vitesse supérieure",
+   "link": "https://www.lemagit.fr/conseil/Cybersecurite-la-CNIL-est-passee-a-la-vitesse-superieure",
+   "date": "2026-11-24T11:32:00+00:00",
+   "summary": "Amendes records, injonctions sous astreinte et contrôles ciblés : en 2026, la CNIL a fait de la cybersécurité sa priorité absolue. Des grandes entreprises aux acteurs publics, les sanctions révèlent toujours les mêmes…",
    "theme": false
   },
   {
@@ -130,67 +202,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-   "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-   "date": "2026-11-23T20:54:51+00:00",
-   "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-   "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-   "date": "2026-11-23T20:00:20+00:00",
-   "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-   "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-   "date": "2026-11-23T19:42:20+00:00",
-   "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-   "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-   "date": "2026-11-23T18:38:40+00:00",
-   "summary": "LaLiga, Spain's top men's football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer CCleaner ?",
-   "link": "https://www.it-connect.fr/alternative-ccleaner-logiciels-nettoyage/",
-   "date": "2026-11-23T17:00:00+00:00",
-   "summary": "Par quoi remplacer CCleaner ? Kudu, FluentCleaner, BleachBit, PrivaZer, Glary Utilities et PC Manager comparés, avec la vidéo de démonstration. Le post Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "« Le vent tourne » en Europe : OVHCloud vise 2 milliards d’euros de chiffre d’affaires",
    "link": "https://www.lemagit.fr/actualites/366655352/Le-vent-tourne-en-Europe-OVHCloud-vise-2-milliards-deuros-de-chiffre-daffaires",
    "date": "2026-11-23T13:33:00+00:00",
    "summary": "Lors de l’AI Summit, Octave Klaba a révélé à la presse ses ambitions de réaliser un chiffre d’affaires de 2 milliards d’euros, près du double de l’exercice fiscal 2026. Le dirigeant ne pose toutefois pas d’échéance en…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Washington remet Jensen Huang à la tête de Nvidia",
-   "link": "https://www.lemagit.fr/actualites/366655333/Washington-remet-Jensen-Huang-a-la-tete-de-Nvidia",
-   "date": "2026-11-23T12:53:00+00:00",
-   "summary": "Après une démission qui n’aura tenu qu’une dizaine de jours, le fondateur de Nvidia en reprend les rênes, a priori grâce à une intervention de la Maison-Blanche. Pour l’heure, le sujet semble davantage concerner des…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Pour Octave Klaba (OVHcloud), les GPU de Nvidia sont enfin rentables",
-   "link": "https://www.lemagit.fr/actualites/366655332/Pour-Octave-Klaba-OVHcloud-les-GPU-de-Nvidia-sont-enfin-rentables",
-   "date": "2026-11-23T12:48:00+00:00",
-   "summary": "Lors de son AI Summit, OVHcloud a annoncé l’arrivée prochaine d’une plus grande quantité de GPU Blackwell Ultra et les premières machines de la génération Rubin. En 2025, Octave Klaba, son PDG, jugeait que l’achat de…",
    "theme": false
   },
   {
@@ -215,14 +231,6 @@
    "link": "https://www.zataz.com/cyberespionnage-en-bulgarie-62-millions-de-pages-volees/",
    "date": "2026-11-23T10:59:22+00:00",
    "summary": "La Bulgarie révèle cinq ans de cyberespionnage et le vol d’au moins 62 millions de pages.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Supply Chain IA : les fuites de secrets dans les infrastructures d’inférence",
-   "link": "https://www.lemagit.fr/actualites/366655292/Supply-Chain-IA-les-fuites-de-secrets-dans-les-infrastructures-dinference",
-   "date": "2026-11-23T10:58:00+00:00",
-   "summary": "L’analyse de la chaîne logistique de l’inférence IA révèle des failles structurelles et des compromissions de fournisseurs exposant les données clients. Une expérimentation de plusieurs mois en dresse une cartographie.",
    "theme": false
   },
   {
@@ -271,14 +279,6 @@
    "link": "https://www.zataz.com/ledger-un-pirate-piege-dautres-pirates-avec-un-faux-fichier/",
    "date": "2026-11-23T01:31:54+00:00",
    "summary": "Sur un forum pirate, une prétendue nouvelle fuite de données Ledger dissimule un piège. ZATAZ a suivi la manœuvre.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "DBaaS : Microsoft repeint HorizonDB aux couleurs de l’IA agentique",
-   "link": "https://www.lemagit.fr/actualites/366655115/DBaaS-Microsoft-repeint-HorizonDB-aux-couleurs-de-lIA-agentique",
-   "date": "2026-11-20T13:57:00+00:00",
-   "summary": "Microsoft profite de la disponibilité d’HorizonDB pour adapter sa distribution managée de PostgreSQL à l’IA agentique, et plus particulièrement aux usages analytiques. Selon les analystes, la DBaaS pensée pour…",
    "theme": false
   },
   {
@@ -352,14 +352,6 @@
    "date": "2026-11-20T00:00:00+00:00",
    "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Ransomware : que sait-on des quatre affidés de Chaos interpellés ?",
-   "link": "https://www.lemagit.fr/actualites/366654933/Ransomware-que-sait-on-des-quatre-affides-de-Chaos-interpeles",
-   "date": "2026-11-19T09:00:00+00:00",
-   "summary": "Les quatre cybercriminels sont en détention provisoire depuis le 3 novembre. Ils ont participé ensemble à au moins 4 cyberattaques majeures, dont certaines sous la bannière de Chaos.",
-   "theme": true
   }
  ]
 }
