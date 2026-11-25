@@ -18,12 +18,12 @@ ws = wb.active
 COL = {'C1': 'C', 'C2': 'D', 'C3': 'E', 'C4': 'F', 'C5': 'G', 'C6': 'H'}
 FORMATION = [
     ("Création et mise à jour de ce portfolio (https://mewx2head.github.io)", "Depuis 09/25", ['C3', 'C6']),
-    ("Mise en production d'un contrôleur de domaine sous Windows Server 2019 (AD DS, DNS, DHCP)\nDocument : diaporama « Infrastructure Active Directory » (portfolio)", "03/26 à 04/26", ['C1', 'C5']),
+    ("Mise en production d'un contrôleur de domaine sous Windows Server 2019 (AD DS, DNS, DHCP)\nDocument : diaporama « Infrastructure Active Directory » (portfolio)", "03/26 au 04/26", ['C1', 'C5']),
     ("Mise en place d'une politique de sécurité des mots de passe via AD DS (GPO, verrouillage, audit)\nDocument : diaporama « Infrastructure Active Directory » (portfolio)", "30/03/26", ['C1', 'C5']),
     ("StratAdvise : infrastructure réseau segmentée (VLAN, DHCP, routage inter-VLAN)\nDocument : présentation « StratAdvise » (portfolio)", "11/25", ['C5']),
-    ("Gestion du parc et support utilisateur avec la solution ITSM GLPI", "12/25 à 05/27", ['C1', 'C2']),
+    ("Gestion du parc et support utilisateur avec la solution ITSM GLPI", "12/25 au 05/27", ['C1', 'C2']),
     ("Création d'un profil LinkedIn présentant mes réalisations techniques", "12/25", ['C3', 'C6']),
-    ("Parcours Cisco Networking Academy : Premiers pas avec Packet Tracer, Exploring Networking, Exploring IoT", "11/25", ['C5', 'C6']),
+    ("Parcours Cisco Networking Academy : Premiers pas avec Packet Tracer, Exploring Internet of Things, Exploring Networking\nDocuments : 3 certificats de réussite Cisco (portfolio)", "08/10/25 au 05/11/25", ['C5', 'C6']),
 ]
 PREMIERE_ANNEE = []
 

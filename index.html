@@ -254,6 +254,18 @@
         .feed a:hover { color: var(--accent); }
         .feed p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
 
+        /* Certifications */
+        .cert { display: flex; flex-direction: column; gap: 10px; }
+        .cert-thumb { display: block; border-radius: 10px; overflow: hidden; border: 1px solid var(--border); background: #fff; margin-bottom: 4px; }
+        .cert-thumb img { display: block; width: 100%; height: auto; transition: transform .3s; }
+        .cert-thumb:hover img { transform: scale(1.03); }
+        .cert .tag { align-self: flex-start; }
+        .cert h3 { font-size: 16px; }
+        .cert p { margin: 0; font-size: 14px; }
+        .cert .cert-id { font-size: 11px; color: var(--muted); }
+        .cert .cert-id code { font-size: 10.5px; word-break: break-all; }
+        .cert .btn { align-self: flex-start; margin-top: auto; }
+
         /* Parcours */
         .timeline { border-left: 2px solid var(--border); padding-left: 22px; display: grid; gap: 22px; margin-left: 5px; }
         .timeline .item { position: relative; }
@@ -344,7 +356,7 @@
         <div class="facts">
             <div class="card fact"><strong id="fact-real">12</strong><span>réalisations professionnelles</span></div>
             <div class="card fact"><strong id="fact-comp">6/6</strong><span>compétences du Bloc 1 couvertes</span></div>
-            <div class="card fact"><strong>3</strong><span>parcours Cisco Networking Academy</span></div>
+            <div class="card fact"><strong>3</strong><span>certificats Cisco Networking Academy</span></div>
         </div>
     </header>
 
@@ -531,23 +543,38 @@
             <div class="section-head">
                 <span class="kicker">Formation continue</span>
                 <h2>Certifications</h2>
+                <p>Certificats de réussite délivrés par la Cisco Networking Academy. Cliquez sur un certificat pour l'afficher.</p>
             </div>
             <div class="grid g3">
-                <div class="card">
-                    <span class="tag">Cisco Networking Academy · 11/2025</span>
-                    <h3 style="font-size:16px; margin:12px 0 6px">Premiers pas avec Cisco Packet Tracer</h3>
-                    <p class="muted" style="margin:0; font-size:14px">Prise en main du simulateur : topologies, équipements, configuration de base.</p>
-                </div>
-                <div class="card">
-                    <span class="tag">Cisco Networking Academy · 11/2025</span>
-                    <h3 style="font-size:16px; margin:12px 0 6px">Exploring Networking with Cisco Packet Tracer</h3>
-                    <p class="muted" style="margin:0; font-size:14px">Construction et test de réseaux simulés : adressage IP, commutation, routage.</p>
-                </div>
-                <div class="card">
-                    <span class="tag">Cisco Networking Academy · 11/2025</span>
-                    <h3 style="font-size:16px; margin:12px 0 6px">Exploring IoT with Cisco Packet Tracer</h3>
-                    <p class="muted" style="margin:0; font-size:14px">Intégration d'objets connectés dans un réseau simulé et automatisation simple.</p>
-                </div>
+                <article class="card cert">
+                    <a class="cert-thumb" href="documents/certifications/cisco-premiers-pas-packet-tracer.pdf" target="_blank" rel="noopener" aria-label="Voir le certificat : Premiers pas avec Cisco Packet Tracer">
+                        <img src="images/certifications/cisco-premiers-pas-packet-tracer.jpg" alt="Certificat Cisco Networking Academy : Premiers pas avec Cisco Packet Tracer" width="720" height="488" loading="lazy">
+                    </a>
+                    <span class="tag"><i class="fas fa-award" aria-hidden="true"></i> Obtenu le 08/10/2025</span>
+                    <h3>Premiers pas avec Cisco Packet Tracer</h3>
+                    <p class="muted">Prise en main du simulateur : topologies, équipements, configuration de base.</p>
+                    <p class="cert-id">N° de certificat<br><code>300b595f-ab87-47c6-8f00-c7a6e41f6505</code></p>
+                    <a class="btn sm" href="documents/certifications/cisco-premiers-pas-packet-tracer.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Voir le certificat</a>
+                </article>
+                <article class="card cert">
+                    <a class="cert-thumb" href="documents/certifications/cisco-exploring-iot-packet-tracer.pdf" target="_blank" rel="noopener" aria-label="Voir le certificat : Exploring Internet of Things with Cisco Packet Tracer">
+                        <img src="images/certifications/cisco-exploring-iot-packet-tracer.jpg" alt="Certificat Cisco Networking Academy : Exploring Internet of Things with Cisco Packet Tracer" width="720" height="488" loading="lazy">
+                    </a>
+                    <span class="tag"><i class="fas fa-award" aria-hidden="true"></i> Obtenu le 22/10/2025</span>
+                    <h3>Exploring Internet of Things with Cisco Packet Tracer</h3>
+                    <p class="muted">Intégration d'objets connectés dans un réseau simulé et automatisation simple.</p>
+                    <p class="cert-id">N° de certificat<br><code>9d26efaf-85d5-45c0-8884-697593ddee75</code></p>
+                    <a class="btn sm" href="documents/certifications/cisco-exploring-iot-packet-tracer.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Voir le certificat</a>
+                </article>
+                <article class="card cert">
+                    <a class="cert-thumb" href="documents/certifications/cisco-exploring-networking-packet-tracer.pdf" target="_blank" rel="noopener" aria-label="Voir le certificat : Exploring Networking with Cisco Packet Tracer">
+                        <img src="images/certifications/cisco-exploring-networking-packet-tracer.jpg" alt="Certificat Cisco Networking Academy : Exploring Networking with Cisco Packet Tracer" width="720" height="488" loading="lazy">
+                    </a>
+                    <span class="tag"><i class="fas fa-award" aria-hidden="true"></i> Obtenu le 05/11/2025</span>
+                    <h3>Exploring Networking with Cisco Packet Tracer</h3>
+                    <p class="muted">Construction et test de réseaux simulés : adressage IP, commutation, routage.</p>
+                    <a class="btn sm" href="documents/certifications/cisco-exploring-networking-packet-tracer.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Voir le certificat</a>
+                </article>
             </div>
         </div>
     </section>
@@ -691,7 +718,7 @@
         // ---- En formation ----
         {
             group: 'formation', title: "Mise en production d'un contrôleur de domaine sous Windows Server 2019 (AD DS, DNS, DHCP)",
-            period: '03/26 à 04/26', comps: ['C1', 'C5'],
+            period: '03/26 au 04/26', comps: ['C1', 'C5'],
             techs: ['Windows Server 2019', 'AD DS', 'DNS', 'PowerShell', 'VirtualBox'],
             summary: "Déploiement du domaine esup.local sur le serveur SRV-AD01 et création des comptes utilisateurs par script.",
             context: "Projet du Bloc 1 en formation : mettre en place l'annuaire centralisé d'une ESN fictive.",
@@ -721,7 +748,7 @@
         },
         {
             group: 'formation', title: 'Gestion du parc et support utilisateur avec la solution ITSM GLPI',
-            period: '12/25 à 05/27', comps: ['C1', 'C2'],
+            period: '12/25 au 05/27', comps: ['C1', 'C2'],
             techs: ['GLPI', 'ITSM'],
             summary: "Inventaire du parc informatique et traitement des tickets d'assistance dans GLPI.",
             context: "Mise en œuvre de GLPI en formation pour gérer le parc et les demandes des utilisateurs.",
@@ -750,14 +777,14 @@
             links: [{ label: 'Voir le profil', href: 'https://www.linkedin.com/in/aness-khenichil-630a10224' }]
         },
         {
-            group: 'formation', title: 'Parcours Cisco Networking Academy (Premiers pas avec Packet Tracer, Exploring Networking, Exploring IoT)',
-            period: '11/25', comps: ['C5', 'C6'],
+            group: 'formation', title: 'Parcours Cisco Networking Academy : Premiers pas avec Packet Tracer, Exploring Internet of Things, Exploring Networking',
+            period: '08/10/25 au 05/11/25', comps: ['C5', 'C6'],
             techs: ['Cisco Packet Tracer', 'Cisco NetAcad'],
-            summary: "Trois parcours Cisco Networking Academy pour maîtriser la simulation de réseaux et d'objets connectés.",
+            summary: "Trois parcours Cisco Networking Academy validés par un certificat de réussite : simulation de réseaux et d'objets connectés.",
             context: "Autoformation sur la plateforme Cisco Networking Academy.",
             goals: "Savoir construire, configurer et tester un réseau simulé.",
-            done: "Réalisation des activités pratiques des trois parcours.",
-            links: [{ label: 'Voir les certifications', href: '#certifications', internal: true }]
+            done: "Réalisation des activités pratiques des trois parcours et obtention des certificats de réussite le 08/10/2025, le 22/10/2025 et le 05/11/2025.",
+            links: [{ label: 'Voir les certificats', href: '#certifications', internal: true }]
         },
         // ---- En milieu professionnel ----
         {
@@ -1048,7 +1075,7 @@
             if (!isPdf && !isPage) return;
             if (isPdf && mobile) return;
             e.preventDefault();
-            const card = a.closest('.real');
+            const card = a.closest('.real, .cert');
             open(url.href, (card && card.querySelector('h3').textContent) || a.textContent.trim() || 'Document');
         });
         closeBtn.addEventListener('click', close);
