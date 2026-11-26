@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:33+00:00",
+ "updated": "2026-11-26T00:58+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,46 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "date": "2026-11-25T22:05:09+00:00",
+   "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "date": "2026-11-25T21:33:33+00:00",
+   "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "date": "2026-11-25T19:39:31+00:00",
+   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
+   "link": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
+   "date": "2026-11-25T19:24:23+00:00",
+   "summary": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production. Le post Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "date": "2026-11-25T16:13:40+00:00",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
@@ -26,11 +66,27 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Shirudo : le « bouclier » IA pour Linux d’OpenAI et Cisco, encore loin de parer tous les assauts",
+   "link": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
+   "date": "2026-11-25T13:15:00+00:00",
+   "summary": "OpenAI et Cisco ont annoncé le lancement du projet Shirudo, une solution open source portée par Isovalent, une division de l’équipementier réseau. L’idée : accélérer la mise en place de filtres eBPF écrits par des…",
+   "theme": false
+  },
+  {
    "source": "Zataz",
    "title": "Skimming en Alsace, des cartes bancaires piégées à la pompe",
    "link": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
    "date": "2026-11-25T11:40:44+00:00",
    "summary": "Skimming ? En Alsace, des retraits de 500 à 1 000 euros après un plein alertent les gendarmes. Comment réagir face à la fraude.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Résultats financiers : le sursaut de HPE",
+   "link": "https://www.lemagit.fr/actualites/366655501/Resultats-financiers-le-sursaut-de-HPE",
+   "date": "2026-11-25T11:21:00+00:00",
+   "summary": "Le fournisseur d’équipements pour datacenters affiche un résultat trimestriel en progression de 50 %. La disponibilité de GPU pour les fabricants lui a notamment permis de facturer 8,8 milliards de dollars en serveurs…",
    "theme": false
   },
   {
@@ -42,11 +98,27 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Facture électronique : un rodage freiné par l’interopérabilité des systèmes IT",
+   "link": "https://www.lemagit.fr/actualites/366655414/Facture-electronique-un-rodage-freine-par-linteroperabilite-des-systemes-IT",
+   "date": "2026-11-25T11:05:00+00:00",
+   "summary": "Les débuts de la facture électronique restent modestes. Environ 50 millions de factures pour un objectif de plus de 3 milliards, selon Deborah Pilet, CPO de N2F. Raccordement des logiciels, sécurité des données,…",
+   "theme": false
+  },
+  {
    "source": "IT-Connect",
    "title": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
    "link": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
    "date": "2026-11-25T11:00:00+00:00",
    "summary": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le post Black Friday : le mini-PC VZMORE iX9 Max profite de 26 %…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
+   "link": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
+   "date": "2026-11-25T10:51:00+00:00",
+   "summary": "La quatrième édition de l’observatoire du risque cyber lié aux tiers vient de sortir, à point nommé. Il souligne les difficultés de réconcilier des perspectives qui ne manquent pas de diverger.",
    "theme": false
   },
   {
@@ -66,6 +138,14 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Dette technique : l’IA offensive risque de la faire payer au prix fort",
+   "link": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
+   "date": "2026-11-25T10:32:00+00:00",
+   "summary": "L’émergence des frameworks offensifs agentiques a de quoi faire peur. Mais son impact est avant tout la traduction d’une dette technique trop longtemps accumulée. Et qu’il est temps de régler.",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
    "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
@@ -74,27 +154,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Microsoft confirms authentication issues after November updates",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-   "date": "2026-11-25T09:02:57+00:00",
-   "summary": "Microsoft has confirmed that customers may experience authentication issues after installing November security updates that address a high-severity remote code execution vulnerability. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
    "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
    "date": "2026-11-25T08:15:00+00:00",
    "summary": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le post Rudder : une solution de gestion de configuration open…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Hackers reportedly breached CIA intelligence analysis system",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-   "date": "2026-11-25T07:45:03+00:00",
-   "summary": "Unknown attackers have reportedly breached an open-source intelligence analysis system at the US Central Intelligence Agency (CIA) [...]",
    "theme": false
   },
   {
@@ -130,22 +194,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Rackspace shuts down Spot cloud platform after security breach",
-   "link": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
-   "date": "2026-11-24T21:37:30+00:00",
-   "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "New Inception extortion gang launches large-scale vishing campaign",
-   "link": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-   "date": "2026-11-24T20:21:20+00:00",
-   "summary": "A newly formed data extortion group named 'Inception' has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
    "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
@@ -178,60 +226,12 @@
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "Cybersécurité : la CNIL est passée à la vitesse supérieure",
-   "link": "https://www.lemagit.fr/conseil/Cybersecurite-la-CNIL-est-passee-a-la-vitesse-superieure",
-   "date": "2026-11-24T11:32:00+00:00",
-   "summary": "Amendes records, injonctions sous astreinte et contrôles ciblés : en 2026, la CNIL a fait de la cybersécurité sa priorité absolue. Des grandes entreprises aux acteurs publics, les sanctions révèlent toujours les mêmes…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
-   "link": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
-   "date": "2026-11-24T10:47:59+00:00",
-   "summary": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel. Le post Free lance Traduction Live : vos appels traduits en…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Cyberattaques en Norvège : une vulnérabilité affectait Microsoft API Manager",
-   "link": "https://www.lemagit.fr/actualites/366655435/Cyberattaques-en-Norvege-une-vulnerabilite-affectait-Microsoft-API-Manager",
-   "date": "2026-11-24T09:49:00+00:00",
-   "summary": "La semaine dernière, deux énergéticiens norvégiens se déclaraient victimes d’une cyberattaque. La menace a été rapidement identifiée. Des secrets sont susceptibles d’avoir été compromis.",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
    "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
    "date": "2026-11-24T08:45:00+00:00",
    "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et…",
    "theme": true
-  },
-  {
-   "source": "LeMagIT",
-   "title": "CrowdStrike absorbe Zscaler : consolidation et convergence des plateformes",
-   "link": "https://www.lemagit.fr/actualites/366655452/CrowdStrike-absorbe-Zscaler-consolidation-et-convergence-des-plateformes",
-   "date": "2026-11-24T04:37:00+00:00",
-   "summary": "CrowdStrike acquiert Zscaler pour intégrer la sécurité réseau dans sa plateforme d’endpoint, cherchant à maîtriser les risques associés à l’intelligence artificielle.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Flex Credits de Workday : où en sont réellement les clients européens ? (Entretien)",
-   "link": "https://www.lemagit.fr/actualites/366655373/Workday-face-aux-Flex-Credits-ou-en-sont-reellement-les-clients-europeens-Entretien",
-   "date": "2026-11-24T03:45:00+00:00",
-   "summary": "Achats prudents, périmètre limité, simulation pour anticiper les coûts : en Europe du Sud, les grands comptes sont en train de tester les crédits de Workday pour l’IA. Côté contrat, comptez 3 à 4 mois de négociation en…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "« Le vent tourne » en Europe : OVHCloud vise 2 milliards d’euros de chiffre d’affaires",
-   "link": "https://www.lemagit.fr/actualites/366655352/Le-vent-tourne-en-Europe-OVHCloud-vise-2-milliards-deuros-de-chiffre-daffaires",
-   "date": "2026-11-23T13:33:00+00:00",
-   "summary": "Lors de l’AI Summit, Octave Klaba a révélé à la presse ses ambitions de réaliser un chiffre d’affaires de 2 milliards d’euros, près du double de l’exercice fiscal 2026. Le dirigeant ne pose toutefois pas d’échéance en…",
-   "theme": false
   },
   {
    "source": "Zataz",
