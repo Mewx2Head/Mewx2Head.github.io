@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T00:58+00:00",
+ "updated": "2026-11-26T15:07+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,46 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+   "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+   "date": "2026-11-26T11:50:17+00:00",
+   "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
+   "link": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
+   "date": "2026-11-26T08:29:23+00:00",
+   "summary": "Anthropic lance Install as app : les artefacts de Claude s'installent comme des applications Mac et Windows, avec un accès complet possible à l'ordinateur. Le post Claude : les artefacts peuvent désormais être installés…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Airbus branche ses données sur le temps réel",
+   "link": "https://www.lemagit.fr/etude/Airbus-branche-ses-donnees-sur-le-temps-reel",
+   "date": "2026-11-26T07:55:00+00:00",
+   "summary": "Pendant dix ans, sa grande plateforme analytique a fait tourner les traitements par millions. Mais pour tenir ses cadences, Airbus ne peut plus toujours attendre le prochain batch. L’avionneur s’est donc construit un…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
+   "link": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
+   "date": "2026-11-26T05:51:00+00:00",
+   "summary": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié. Le post Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows",
+   "link": "https://www.it-connect.fr/windows-novembre-2026-echec-authentification-ntlm-proxy-sso/",
+   "date": "2026-11-26T05:17:49+00:00",
+   "summary": "Depuis les mises à jour Windows de novembre 2026, l'authentification NTLM peut échouer dans certains cas, notamment avec les proxys et certains SSO. Le post Signature NTLM : les mises à jour de novembre 2026 perturbent…",
+   "theme": true
+  },
   {
    "source": "BleepingComputer",
    "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
@@ -146,14 +186,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-   "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-   "date": "2026-11-25T10:10:20+00:00",
-   "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday. [...]",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
    "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
@@ -186,22 +218,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
-   "link": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
-   "date": "2026-11-25T06:05:00+00:00",
-   "summary": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX. Le post VMware vCenter et ESX : trois nouvelles failles…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
-   "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
-   "date": "2026-11-24T17:00:00+00:00",
-   "summary": "ElixirOffice, la suite libre de Gaël Duval basée sur Euro-Office, reprend le ruban, les menus et les raccourcis de Microsoft Office. Voici ce qu'il faut savoir. Le post ElixirOffice : une suite bureautique open source…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "IA : tout savoir sur l’émergence des modèles de décision",
    "link": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
@@ -215,14 +231,6 @@
    "link": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
    "date": "2026-11-24T12:53:00+00:00",
    "summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage », précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Claude Ship : Anthropic veut confier la revue de code aux agents IA",
-   "link": "https://www.lemagit.fr/actualites/366655341/Claude-Ship-Anthropic-veut-confier-la-revue-de-code-aux-agents-IA",
-   "date": "2026-11-24T12:04:00+00:00",
-   "summary": "Dépassés par le volume de pull requests généré par leurs agents IA, les développeurs de Claude Code ont mis au point Claude Ship, une solution agentique pour relire, vérifier et, in fine valider les changements de code.…",
    "theme": false
   },
   {
