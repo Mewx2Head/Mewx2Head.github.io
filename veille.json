@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:07+00:00",
+ "updated": "2026-11-27T01:00+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,102 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "date": "2026-11-26T21:06:22+00:00",
+   "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+   "date": "2026-11-26T17:58:42+00:00",
+   "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+   "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "date": "2026-11-26T17:15:27+00:00",
+   "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Black Friday TerraMaster : jusqu’à 30 % de remise sur les NAS et boîtiers de stockage sur Amazon",
+   "link": "https://www.it-connect.fr/bon-plan-terramaster-black-friday-2026/",
+   "date": "2026-11-26T17:08:59+00:00",
+   "summary": "Black Friday TerraMaster : jusqu'au 30 novembre, NAS et boîtiers de stockage jusqu'à -30 % sur Amazon.fr. Le NAS F2-425 passe à 255,99 € au lieu de 319,99 €. Le post Black Friday TerraMaster : jusqu’à 30 % de remise sur…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "AdGuard Home passe en version 1.0 : découvrez la nouvelle interface !",
+   "link": "https://www.it-connect.fr/adguard-home-1-0-nouvelle-interface-dns-cloudflare/",
+   "date": "2026-11-26T17:00:00+00:00",
+   "summary": "AdGuard Home passe en version 1.0 avec une interface reconstruite et Cloudflare comme DNS par défaut à la place de Quad9. Voici ce qu'il faut savoir. Le post AdGuard Home passe en version 1.0 : découvrez la nouvelle…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "IA sur site : Microsoft Azure s’associe à Dell",
+   "link": "https://www.lemagit.fr/actualites/366655357/IA-sur-site-Microsoft-Azure-sassocie-a-Dell",
+   "date": "2026-11-26T16:53:00+00:00",
+   "summary": "Les deux acteurs élargissent leur partenariat autour des solutions physiques Azure Local pour que les machines censées déporter localement les fonctions du cloud de Microsoft intègrent des GPU B300 de Nvidia.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis",
+   "link": "https://www.it-connect.fr/navires-pirates-iran-fortigate/",
+   "date": "2026-11-26T16:14:00+00:00",
+   "summary": "Pétroliers, méthanier : jusqu'à 50 navires auraient subi une cyberattaque via des pare-feu FortiGate non patchés. Washington soupçonne l'Iran. Le post Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "date": "2026-11-26T15:23:28+00:00",
+   "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données",
+   "link": "https://www.it-connect.fr/fifa-cyberattaque-handsome-boy-hacking-club-fuite-donnees/",
+   "date": "2026-11-26T15:22:58+00:00",
+   "summary": "La FIFA confirme un vol de données personnelles et professionnelles, revendiqué par le Handsome Boy Hacking Club : voici ce que l'on sait. Le post La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Les outils IA accélèrent la livraison logicielle… et la hausse des coûts IT (étude)",
+   "link": "https://www.lemagit.fr/actualites/366655558/Les-outils-IA-accelerent-la-livraison-logicielle-et-la-hausse-des-couts-IT-etude",
+   "date": "2026-11-26T14:27:00+00:00",
+   "summary": "Dans son rapport Sate of Code Abundance consacré à trois pays européens, dont la France, Cloudbees observe l’accélération de la livraison logicielle au sein des entreprises. Le spécialiste des pipelines CI/CD estime…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Avec Zscaler, CrowdStrike se transforme en colosse",
+   "link": "https://www.lemagit.fr/tribune/Avec-Zscaler-CrowdStrike-se-transforme-en-colosse",
+   "date": "2026-11-26T13:22:00+00:00",
+   "summary": "L'acquisition vient tout juste d'être annoncée, mais les analystes d'Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Rançongiciels : une menace qui s’intensifie",
+   "link": "https://www.lemagit.fr/actualites/366655557/Rancongiciels-une-menace-qui-sintensifie",
+   "date": "2026-11-26T13:10:00+00:00",
+   "summary": "Si la France peut apparaître relativement protégée de l’intensification de la menace, il serait malvenu de baisser la garde. Car la menace des ransomwares change, qualitativement, avec un raccourcissement de la fenêtre…",
+   "theme": true
+  },
   {
    "source": "BleepingComputer",
    "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
@@ -82,30 +178,6 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-   "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-   "date": "2026-11-25T16:13:40+00:00",
-   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-   "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-   "date": "2026-11-25T15:00:10+00:00",
-   "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-   "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-   "date": "2026-11-25T15:00:00+00:00",
-   "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than…",
-   "theme": false
-  },
-  {
    "source": "LeMagIT",
    "title": "Shirudo : le « bouclier » IA pour Linux d’OpenAI et Cisco, encore loin de parer tous les assauts",
    "link": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
@@ -127,14 +199,6 @@
    "link": "https://www.lemagit.fr/actualites/366655501/Resultats-financiers-le-sursaut-de-HPE",
    "date": "2026-11-25T11:21:00+00:00",
    "summary": "Le fournisseur d’équipements pour datacenters affiche un résultat trimestriel en progression de 50 %. La disponibilité de GPU pour les fabricants lui a notamment permis de facturer 8,8 milliards de dollars en serveurs…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-   "date": "2026-11-25T11:16:32+00:00",
-   "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications. [...]",
    "theme": false
   },
   {
@@ -170,30 +234,6 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
-   "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
-   "date": "2026-11-25T10:38:32+00:00",
-   "summary": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs incidents. Le post Panne Microsoft 365 : des e-mails jamais remis,…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Dette technique : l’IA offensive risque de la faire payer au prix fort",
-   "link": "https://www.lemagit.fr/actualites/366655515/Dette-technique-lIA-offensive-risque-de-la-faire-payer-au-prix-fort",
-   "date": "2026-11-25T10:32:00+00:00",
-   "summary": "L’émergence des frameworks offensifs agentiques a de quoi faire peur. Mais son impact est avant tout la traduction d’une dette technique trop longtemps accumulée. Et qu’il est temps de régler.",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
-   "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
-   "date": "2026-11-25T08:15:00+00:00",
-   "summary": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le post Rudder : une solution de gestion de configuration open…",
-   "theme": false
-  },
-  {
    "source": "Zataz",
    "title": "CHU de Bordeaux et SIG Sauer ciblés par ScarlettGroup",
    "link": "https://www.zataz.com/chu-de-bordeaux-et-sig-sauer-cibles-par-scarlettgroup/",
@@ -202,44 +242,28 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
-   "link": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
-   "date": "2026-11-25T06:49:00+00:00",
-   "summary": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code. Le post Bon plan IA : Mistral Vibe Pro est gratuit pendant 1…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
-   "link": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
-   "date": "2026-11-25T06:31:00+00:00",
-   "summary": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité. Le post Cyberattaque Commission européenne : les noms et adresses e-mail des…",
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Laravel (24 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
    "theme": false
   },
   {
-   "source": "LeMagIT",
-   "title": "IA : tout savoir sur l’émergence des modèles de décision",
-   "link": "https://www.lemagit.fr/conseil/IA-tout-savoir-sur-lemergence-des-modeles-de-decision",
-   "date": "2026-11-24T13:55:00+00:00",
-   "summary": "Les modèles de décision constituent un type d’IA rapide et peu coûteux, conçu pour produire des valeurs précises et structurées. L’analyste Kashyap Kompella revient sur leur raison d’être, les cas d’usage ciblés et ceux…",
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits Elastic (24 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
+   "date": "2026-11-24T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
    "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Stockage : Huawei propose disponibilité et fonctions inédites pour l’IA",
-   "link": "https://www.lemagit.fr/actualites/366655497/Stockage-Huawei-propose-disponibilite-et-fonctions-inedites-pour-lIA",
-   "date": "2026-11-24T12:53:00+00:00",
-   "summary": "Huawei lance en Europe les configurations OceanStor A800 « AI Data Platform », « AI Data Lake » et M900 « Context Memory Storage », précédemment dévoilées en Chine. Elles ont vocation à apporter aux entreprises de…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
-   "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
-   "date": "2026-11-24T08:45:00+00:00",
-   "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et…",
-   "theme": true
   },
   {
    "source": "Zataz",
@@ -264,14 +288,6 @@
    "date": "2026-11-23T10:59:22+00:00",
    "summary": "La Bulgarie révèle cinq ans de cyberespionnage et le vol d’au moins 62 millions de pages.",
    "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Ransomware : les frameworks offensifs agentiques sont entrés dans la danse",
-   "link": "https://www.lemagit.fr/actualites/366655137/Ransomware-les-frameworks-offensifs-agentiques-sont-entres-dans-la-danse",
-   "date": "2026-11-23T10:55:00+00:00",
-   "summary": "Les cybercriminels ne se contentent plus d’un usage superficiel des modèles d’IA générative : ils ont commencé à s’appuyer sur des frameworks offensifs agentiques tels qu’Artex.",
-   "theme": true
   },
   {
    "source": "Zataz",
@@ -327,38 +343,6 @@
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
    "date": "2026-11-23T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Ransomware : le FBI piège un arnaqueur qui prétendait pouvoir déchiffrer",
-   "link": "https://www.lemagit.fr/actualites/366655114/Ransomware-le-FBI-piege-un-arnaqueur-qui-pretendait-pouvoir-dechiffrer",
-   "date": "2026-11-20T12:13:00+00:00",
-   "summary": "Le piège s’est refermé avec l’intervention de deux agents, l’un se faisant passer pour une victime de rançongiciel et l’autre… pour le cybercriminel ayant conduit la prétendue attaque.",
-   "theme": true
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
-   "date": "2026-11-20T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
    "theme": false
   }
  ]
