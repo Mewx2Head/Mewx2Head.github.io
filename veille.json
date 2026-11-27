@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:00+00:00",
+ "updated": "2026-11-27T14:59+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -9,6 +9,126 @@
  ],
  "errors": [],
  "items": [
+  {
+   "source": "BleepingComputer",
+   "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+   "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+   "date": "2026-11-27T14:22:06+00:00",
+   "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "date": "2026-11-27T11:18:36+00:00",
+   "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system. [...]",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Drupal warns of new site takeover flaw exploited in attacks",
+   "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+   "date": "2026-11-27T10:10:15+00:00",
+   "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "SAP confirms security incident after suspicious GitHub activity",
+   "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+   "date": "2026-11-27T09:56:36+00:00",
+   "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées",
+   "link": "https://www.it-connect.fr/danfoss-mitel-juniper-xen-orchestra-10-failles-exploitees-cisa/",
+   "date": "2026-11-27T09:36:00+00:00",
+   "summary": "La CISA a ajouté 10 failles exploitées à son catalogue KEV : contrôleurs Danfoss, Mitel MiCollab, Juniper et Xen Orchestra. Voici les failles en question. Le post Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "date": "2026-11-27T09:08:16+00:00",
+   "summary": "Microsoft has released an emergency hotpatch update to address Windows Server 2025 crashes triggered after installing this month's security hotpatch update (KB5131077). [...]",
+   "theme": true
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
+   "link": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
+   "date": "2026-11-27T08:55:00+00:00",
+   "summary": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le post Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cyberhebdo du 27 novembre 2026 : une semaine d'une intensité sans précédent",
+   "link": "https://www.lemagit.fr/actualites/366655521/Cyberhebdo-du-27-novembre-2026-une-semaine-dune-intensite-sans-precedent",
+   "date": "2026-11-27T08:45:00+00:00",
+   "summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
+   "link": "https://www.it-connect.fr/tuto-glpi-ai/",
+   "date": "2026-11-27T08:31:20+00:00",
+   "summary": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP. Le post GLPI AI : découvrez comment l’IA peut aider vos techniciens…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
+   "link": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+   "date": "2026-11-27T08:30:31+00:00",
+   "summary": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Agents d'IA : 5 étapes clefs pour automatiser un processus de bout en bout",
+   "link": "https://www.lemagit.fr/conseil/Agents-dIA-5-etapes-clefs-pour-automatiser-un-processus-de-bout-en-bout",
+   "date": "2026-11-27T08:29:00+00:00",
+   "summary": "Le nombre d'agents déployés est devenu l'indicateur préféré des comités de direction. C'est sans doute le plus trompeur. Une entreprise qui compte deux cents agents et aucun processus transformé de bout en bout n'a pas…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "date": "2026-11-27T08:06:58+00:00",
+   "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "GLPI 12 : voici les nouveautés de cette nouvelle version majeure",
+   "link": "https://www.it-connect.fr/glpi-12-nouveautes/",
+   "date": "2026-11-27T08:00:00+00:00",
+   "summary": "GLPI 12 refond la base de connaissances, contrôle les sessions et crée des OLA par groupe. Voici nos tests et les points à vérifier avant de migrer. Le post GLPI 12 : voici les nouveautés de cette nouvelle version…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Jules opte pour une passerelle de sécurité souveraine pour ses magasins",
+   "link": "https://www.lemagit.fr/etude/Jules-opte-pour-une-passerelle-de-securite-souveraine-pour-ses-magasins",
+   "date": "2026-11-27T07:58:00+00:00",
+   "summary": "Victime d’une cyberattaque en 2022, l’enseigne de prêt-à-porter masculin a renforcé ses mesures de sécurité, mais s’est heurtée au manque de réactivité de son fournisseur de Gateway américain. Son RSO s’est tourné vers…",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716)",
+   "link": "https://www.it-connect.fr/drupal-fail2install-cve-2026-136716-faille-exploitee/",
+   "date": "2026-11-27T07:52:44+00:00",
+   "summary": "Une semaine après Fail2Install, Drupal a corrigé la CVE-2026-136716, une faille critique de son installeur déjà exploitée. Voici ce qu'il faut savoir. Le post Drupal : après Fail2Install, une nouvelle faille critique…",
+   "theme": false
+  },
   {
    "source": "BleepingComputer",
    "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
@@ -58,27 +178,11 @@
    "theme": false
   },
   {
-   "source": "IT-Connect",
-   "title": "Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis",
-   "link": "https://www.it-connect.fr/navires-pirates-iran-fortigate/",
-   "date": "2026-11-26T16:14:00+00:00",
-   "summary": "Pétroliers, méthanier : jusqu'à 50 navires auraient subi une cyberattaque via des pare-feu FortiGate non patchés. Washington soupçonne l'Iran. Le post Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran…",
-   "theme": false
-  },
-  {
    "source": "BleepingComputer",
    "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
    "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
    "date": "2026-11-26T15:23:28+00:00",
    "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données",
-   "link": "https://www.it-connect.fr/fifa-cyberattaque-handsome-boy-hacking-club-fuite-donnees/",
-   "date": "2026-11-26T15:22:58+00:00",
-   "summary": "La FIFA confirme un vol de données personnelles et professionnelles, revendiqué par le Handsome Boy Hacking Club : voici ce que l'on sait. Le post La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club…",
    "theme": false
   },
   {
@@ -94,32 +198,16 @@
    "title": "Avec Zscaler, CrowdStrike se transforme en colosse",
    "link": "https://www.lemagit.fr/tribune/Avec-Zscaler-CrowdStrike-se-transforme-en-colosse",
    "date": "2026-11-26T13:22:00+00:00",
-   "summary": "L'acquisition vient tout juste d'être annoncée, mais les analystes d'Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
+   "summary": "L’acquisition vient tout juste d’être annoncée, mais les analystes d’Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
    "theme": false
   },
   {
    "source": "LeMagIT",
-   "title": "Rançongiciels : une menace qui s’intensifie",
+   "title": "Rançongiciels : une menace qui s’intensifie (nouveau magazine Information sécurité)",
    "link": "https://www.lemagit.fr/actualites/366655557/Rancongiciels-une-menace-qui-sintensifie",
    "date": "2026-11-26T13:10:00+00:00",
    "summary": "Si la France peut apparaître relativement protégée de l’intensification de la menace, il serait malvenu de baisser la garde. Car la menace des ransomwares change, qualitativement, avec un raccourcissement de la fenêtre…",
    "theme": true
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-   "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
-   "date": "2026-11-26T11:50:17+00:00",
-   "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
-   "link": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
-   "date": "2026-11-26T08:29:23+00:00",
-   "summary": "Anthropic lance Install as app : les artefacts de Claude s'installent comme des applications Mac et Windows, avec un accès complet possible à l'ordinateur. Le post Claude : les artefacts peuvent désormais être installés…",
-   "theme": false
   },
   {
    "source": "LeMagIT",
@@ -131,51 +219,11 @@
   },
   {
    "source": "IT-Connect",
-   "title": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
-   "link": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
-   "date": "2026-11-26T05:51:00+00:00",
-   "summary": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié. Le post Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
    "title": "Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows",
    "link": "https://www.it-connect.fr/windows-novembre-2026-echec-authentification-ntlm-proxy-sso/",
    "date": "2026-11-26T05:17:49+00:00",
    "summary": "Depuis les mises à jour Windows de novembre 2026, l'authentification NTLM peut échouer dans certains cas, notamment avec les proxys et certains SSO. Le post Signature NTLM : les mises à jour de novembre 2026 perturbent…",
    "theme": true
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-   "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-   "date": "2026-11-25T22:05:09+00:00",
-   "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "1Password customer data stolen after employee GitHub account breach",
-   "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-   "date": "2026-11-25T21:33:33+00:00",
-   "summary": "1Password has disclosed a data breach after a an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-   "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-   "date": "2026-11-25T19:39:31+00:00",
-   "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
-   "link": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
-   "date": "2026-11-25T19:24:23+00:00",
-   "summary": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production. Le post Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis…",
-   "theme": false
   },
   {
    "source": "LeMagIT",
@@ -191,38 +239,6 @@
    "link": "https://www.zataz.com/skimming-en-alsace-des-cartes-bancaires-piegees-a-la-pompe/",
    "date": "2026-11-25T11:40:44+00:00",
    "summary": "Skimming ? En Alsace, des retraits de 500 à 1 000 euros après un plein alertent les gendarmes. Comment réagir face à la fraude.",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Résultats financiers : le sursaut de HPE",
-   "link": "https://www.lemagit.fr/actualites/366655501/Resultats-financiers-le-sursaut-de-HPE",
-   "date": "2026-11-25T11:21:00+00:00",
-   "summary": "Le fournisseur d’équipements pour datacenters affiche un résultat trimestriel en progression de 50 %. La disponibilité de GPU pour les fabricants lui a notamment permis de facturer 8,8 milliards de dollars en serveurs…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Facture électronique : un rodage freiné par l’interopérabilité des systèmes IT",
-   "link": "https://www.lemagit.fr/actualites/366655414/Facture-electronique-un-rodage-freine-par-linteroperabilite-des-systemes-IT",
-   "date": "2026-11-25T11:05:00+00:00",
-   "summary": "Les débuts de la facture électronique restent modestes. Environ 50 millions de factures pour un objectif de plus de 3 milliards, selon Deborah Pilet, CPO de N2F. Raccordement des logiciels, sécurité des données,…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
-   "link": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
-   "date": "2026-11-25T11:00:00+00:00",
-   "summary": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le post Black Friday : le mini-PC VZMORE iX9 Max profite de 26 %…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Gestion du risque lié aux tiers : fournisseurs et clients, impossibles à réconcilier ?",
-   "link": "https://www.lemagit.fr/actualites/366655500/Gestion-du-risque-lie-aux-tiers-fournisseurs-et-clients-impossible-a-reconcilier",
-   "date": "2026-11-25T10:51:00+00:00",
-   "summary": "La quatrième édition de l’observatoire du risque cyber lié aux tiers vient de sortir, à point nommé. Il souligne les difficultés de réconcilier des perspectives qui ne manquent pas de diverger.",
    "theme": false
   },
   {
@@ -243,26 +259,66 @@
   },
   {
    "source": "CERT-FR",
+   "title": "Recommandations de sécurisation des liaisons inter-sites (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "Objet : Recommandations de sécurisation des liaisons inter-sites, à destination des clients de ces offres. Annexe : Liens et références Depuis plusieurs années, l’Agence nationale de la sécurité des systèmes…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
+   "title": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+   "date": "2026-11-25T00:00:00+00:00",
+   "summary": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement…",
+   "theme": false
+  },
+  {
+   "source": "CERT-FR",
    "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
    "date": "2026-11-24T00:00:00+00:00",
    "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans Laravel (24 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
-   "date": "2026-11-24T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Elastic (24 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
-   "date": "2026-11-24T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un…",
    "theme": false
   },
   {
@@ -303,46 +359,6 @@
    "link": "https://www.zataz.com/blackhat-sector-une-ia-offensive-a-louer-pour-500-e/",
    "date": "2026-11-23T10:29:10+00:00",
    "summary": "BlackHat Sector commercialise une IA offensive après des cyberattaques revendiquées contre des sociétés françaises.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas l'analyse de l'ensemble des avis et alertes publiés par le…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une…",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-   "theme": false
-  },
-  {
-   "source": "CERT-FR",
-   "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
-   "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
-   "date": "2026-11-23T00:00:00+00:00",
-   "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
    "theme": false
   }
  ]
