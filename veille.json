@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:59+00:00",
+ "updated": "2026-11-28T00:31+00:00",
  "sources": [
   "BleepingComputer",
   "CERT-FR",
@@ -10,11 +10,75 @@
  "errors": [],
  "items": [
   {
+   "source": "IT-Connect",
+   "title": "VMware ESXi et Proxmox VE : des ransomwares déployés avec des identifiants mal protégés",
+   "link": "https://www.it-connect.fr/blacknevas-ransomware-vmware-esxi-vcenter/",
+   "date": "2026-11-27T19:45:50+00:00",
+   "summary": "BlackNevas et The Gentlemen ont frappé des hyperviseurs VMware ESXi et Proxmox VE avec de simples identifiants volés ou stockés au mauvais endroit. Le post VMware ESXi et Proxmox VE : des ransomwares déployés avec des…",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "date": "2026-11-27T19:26:04+00:00",
+   "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "date": "2026-11-27T18:57:42+00:00",
+   "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "date": "2026-11-27T17:06:13+00:00",
+   "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers. [...]",
+   "theme": false
+  },
+  {
+   "source": "IT-Connect",
+   "title": "Windows Server 2025 : Microsoft corrige en urgence un bug d’écran bleu lié à la mise à jour de novembre",
+   "link": "https://www.it-connect.fr/windows-server-2025-kb5138318-hotpatch-ecran-bleu/",
+   "date": "2026-11-27T16:38:46+00:00",
+   "summary": "KB5138318 : Microsoft a corrigé en urgence les écrans bleus de la mort (erreur 0x139) causés par le hotpatch de novembre 2026 sur Windows Server 2025. Le post Windows Server 2025 : Microsoft corrige en urgence un bug…",
+   "theme": true
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "date": "2026-11-27T15:09:40+00:00",
+   "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department. [...]",
+   "theme": false
+  },
+  {
+   "source": "BleepingComputer",
+   "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+   "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+   "date": "2026-11-27T15:00:10+00:00",
+   "summary": "Forgotten virtual machines, unpatched servers, and excessive access permissions can create security blind spots across IT infrastructure. ISPsystem explains how centralized infrastructure management, access controls,…",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
    "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
    "date": "2026-11-27T14:22:06+00:00",
    "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "Cloudera promet enfin une offre véritablement souveraine",
+   "link": "https://www.lemagit.fr/actualites/366655443/Cloudera-promet-enfin-une-offre-veritablement-souveraine",
+   "date": "2026-11-27T12:50:00+00:00",
+   "summary": "Cloudera poursuit son opération de séduction auprès des entreprises européennes. Après son partenariat avec Mistral AI, voilà qu’il lance Cloudera for Digital Sovereignty.",
    "theme": false
   },
   {
@@ -26,6 +90,22 @@
    "theme": true
   },
   {
+   "source": "LeMagIT",
+   "title": "Stockage : Nvidia et Kioxia étendent la mémoire des GPU avec des SSD",
+   "link": "https://www.lemagit.fr/actualites/366655464/Stockage-Nvidia-et-Kioxia-etendent-la-memoire-des-GPU-avec-des-SSD",
+   "date": "2026-11-27T11:02:00+00:00",
+   "summary": "Une première implémentation de l’architecture Storage-Next basée sur la bibliothèque SCADA de Nvidia a permis d’étendre la mémoire adressable d’un GPU à 30 To, via quatre SSD. Le bénéfice est de charger 128 fois plus…",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "CADA Act : entre adaptation et influence, le double discours des acteurs américains",
+   "link": "https://www.lemagit.fr/actualites/366655507/CADA-Act-entre-adaptation-et-influence-le-double-discours-des-acteurs-americains",
+   "date": "2026-11-27T10:59:00+00:00",
+   "summary": "Le CADA Act gêne les fournisseurs cloud qui prétendent à la commande publique. Malgré leurs efforts pour offrir davantage de contrôles locaux aux clients européens, le brouillon du texte fait la part belle aux…",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "Drupal warns of new site takeover flaw exploited in attacks",
    "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
@@ -34,11 +114,27 @@
    "theme": false
   },
   {
+   "source": "LeMagIT",
+   "title": "Artex : le DIVD donne un aperçu précieux de ce à quoi s’attendre",
+   "link": "https://www.lemagit.fr/actualites/366655506/Artex-le-DIVD-donne-un-apercu-precieux-de-ce-a-quoi-sattendre",
+   "date": "2026-11-27T10:06:00+00:00",
+   "summary": "L’ère des cyberattaques organisées par des frameworks offensifs agentiques dopés à l’IA s’est ouverte. L’institut danois de divulgation des vulnérabilités semble en avoir fait l’expérience. Il la partage.",
+   "theme": false
+  },
+  {
    "source": "BleepingComputer",
    "title": "SAP confirms security incident after suspicious GitHub activity",
    "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
    "date": "2026-11-27T09:56:36+00:00",
    "summary": "SAP has confirmed to BleepingComputer that it took urgent action to protect its customers after detecting suspicious activity in its IT environment. [...]",
+   "theme": false
+  },
+  {
+   "source": "LeMagIT",
+   "title": "SAP envisage de se séparer de 9 % de ses employés",
+   "link": "https://www.lemagit.fr/actualites/366655442/SAP-envisage-de-se-separer-de-9-de-ses-employes",
+   "date": "2026-11-27T09:52:00+00:00",
+   "summary": "La raison invoquée est, sans surprise, l’IA. L’ingénierie produit devrait être particulièrement touchée. Plusieurs experts anticipent que l’IA détruira entre 5 % et 15 % des effectifs, y compris en dehors du secteur…",
    "theme": false
   },
   {
@@ -67,7 +163,7 @@
   },
   {
    "source": "LeMagIT",
-   "title": "Cyberhebdo du 27 novembre 2026 : une semaine d'une intensité sans précédent",
+   "title": "Cyberhebdo du 27 novembre 2026 : une semaine d’une intensité sans précédent",
    "link": "https://www.lemagit.fr/actualites/366655521/Cyberhebdo-du-27-novembre-2026-une-semaine-dune-intensite-sans-precedent",
    "date": "2026-11-27T08:45:00+00:00",
    "summary": "Chaque semaine, dans le Cyberhebdo, nous vous présentons une liste aussi exhaustive que possible des cyberattaques évoquées par la presse dans le monde entier.",
@@ -91,18 +187,10 @@
   },
   {
    "source": "LeMagIT",
-   "title": "Agents d'IA : 5 étapes clefs pour automatiser un processus de bout en bout",
+   "title": "Agents d’IA : 5 étapes clefs pour automatiser un processus de bout en bout",
    "link": "https://www.lemagit.fr/conseil/Agents-dIA-5-etapes-clefs-pour-automatiser-un-processus-de-bout-en-bout",
    "date": "2026-11-27T08:29:00+00:00",
-   "summary": "Le nombre d'agents déployés est devenu l'indicateur préféré des comités de direction. C'est sans doute le plus trompeur. Une entreprise qui compte deux cents agents et aucun processus transformé de bout en bout n'a pas…",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
-   "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-   "date": "2026-11-27T08:06:58+00:00",
-   "summary": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+   "summary": "Le nombre d’agents déployés est devenu l’indicateur préféré des comités de direction. C’est sans doute le plus trompeur. Une entreprise qui compte deux cents agents et aucun processus transformé de bout en bout n’a pas…",
    "theme": false
   },
   {
@@ -115,7 +203,7 @@
   },
   {
    "source": "LeMagIT",
-   "title": "Jules opte pour une passerelle de sécurité souveraine pour ses magasins",
+   "title": "Jules choisit une passerelle de sécurité souveraine pour ses magasins",
    "link": "https://www.lemagit.fr/etude/Jules-opte-pour-une-passerelle-de-securite-souveraine-pour-ses-magasins",
    "date": "2026-11-27T07:58:00+00:00",
    "summary": "Victime d’une cyberattaque en 2022, l’enseigne de prêt-à-porter masculin a renforcé ses mesures de sécurité, mais s’est heurtée au manque de réactivité de son fournisseur de Gateway américain. Son RSO s’est tourné vers…",
@@ -130,75 +218,11 @@
    "theme": false
   },
   {
-   "source": "BleepingComputer",
-   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
-   "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
-   "date": "2026-11-26T21:06:22+00:00",
-   "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-   "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
-   "date": "2026-11-26T17:58:42+00:00",
-   "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection. [...]",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-   "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-   "date": "2026-11-26T17:15:27+00:00",
-   "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews…",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Black Friday TerraMaster : jusqu’à 30 % de remise sur les NAS et boîtiers de stockage sur Amazon",
    "link": "https://www.it-connect.fr/bon-plan-terramaster-black-friday-2026/",
    "date": "2026-11-26T17:08:59+00:00",
    "summary": "Black Friday TerraMaster : jusqu'au 30 novembre, NAS et boîtiers de stockage jusqu'à -30 % sur Amazon.fr. Le NAS F2-425 passe à 255,99 € au lieu de 319,99 €. Le post Black Friday TerraMaster : jusqu’à 30 % de remise sur…",
-   "theme": false
-  },
-  {
-   "source": "IT-Connect",
-   "title": "AdGuard Home passe en version 1.0 : découvrez la nouvelle interface !",
-   "link": "https://www.it-connect.fr/adguard-home-1-0-nouvelle-interface-dns-cloudflare/",
-   "date": "2026-11-26T17:00:00+00:00",
-   "summary": "AdGuard Home passe en version 1.0 avec une interface reconstruite et Cloudflare comme DNS par défaut à la place de Quad9. Voici ce qu'il faut savoir. Le post AdGuard Home passe en version 1.0 : découvrez la nouvelle…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "IA sur site : Microsoft Azure s’associe à Dell",
-   "link": "https://www.lemagit.fr/actualites/366655357/IA-sur-site-Microsoft-Azure-sassocie-a-Dell",
-   "date": "2026-11-26T16:53:00+00:00",
-   "summary": "Les deux acteurs élargissent leur partenariat autour des solutions physiques Azure Local pour que les machines censées déporter localement les fonctions du cloud de Microsoft intègrent des GPU B300 de Nvidia.",
-   "theme": false
-  },
-  {
-   "source": "BleepingComputer",
-   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-   "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-   "date": "2026-11-26T15:23:28+00:00",
-   "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Les outils IA accélèrent la livraison logicielle… et la hausse des coûts IT (étude)",
-   "link": "https://www.lemagit.fr/actualites/366655558/Les-outils-IA-accelerent-la-livraison-logicielle-et-la-hausse-des-couts-IT-etude",
-   "date": "2026-11-26T14:27:00+00:00",
-   "summary": "Dans son rapport Sate of Code Abundance consacré à trois pays européens, dont la France, Cloudbees observe l’accélération de la livraison logicielle au sein des entreprises. Le spécialiste des pipelines CI/CD estime…",
-   "theme": false
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Avec Zscaler, CrowdStrike se transforme en colosse",
-   "link": "https://www.lemagit.fr/tribune/Avec-Zscaler-CrowdStrike-se-transforme-en-colosse",
-   "date": "2026-11-26T13:22:00+00:00",
-   "summary": "L’acquisition vient tout juste d’être annoncée, mais les analystes d’Omdia estiment que les points positifs sont plus nombreux que les éventuelles difficultés.",
    "theme": false
   },
   {
@@ -210,28 +234,12 @@
    "theme": true
   },
   {
-   "source": "LeMagIT",
-   "title": "Airbus branche ses données sur le temps réel",
-   "link": "https://www.lemagit.fr/etude/Airbus-branche-ses-donnees-sur-le-temps-reel",
-   "date": "2026-11-26T07:55:00+00:00",
-   "summary": "Pendant dix ans, sa grande plateforme analytique a fait tourner les traitements par millions. Mais pour tenir ses cadences, Airbus ne peut plus toujours attendre le prochain batch. L’avionneur s’est donc construit un…",
-   "theme": false
-  },
-  {
    "source": "IT-Connect",
    "title": "Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows",
    "link": "https://www.it-connect.fr/windows-novembre-2026-echec-authentification-ntlm-proxy-sso/",
    "date": "2026-11-26T05:17:49+00:00",
    "summary": "Depuis les mises à jour Windows de novembre 2026, l'authentification NTLM peut échouer dans certains cas, notamment avec les proxys et certains SSO. Le post Signature NTLM : les mises à jour de novembre 2026 perturbent…",
    "theme": true
-  },
-  {
-   "source": "LeMagIT",
-   "title": "Shirudo : le « bouclier » IA pour Linux d’OpenAI et Cisco, encore loin de parer tous les assauts",
-   "link": "https://www.lemagit.fr/actualites/366655460/Shirudo-le-bouclier-IA-pour-Linux-dOpenAI-et-Cisco-encore-loin-de-parer-tous-les-assauts",
-   "date": "2026-11-25T13:15:00+00:00",
-   "summary": "OpenAI et Cisco ont annoncé le lancement du projet Shirudo, une solution open source portée par Isovalent, une division de l’équipementier réseau. L’idée : accélérer la mise en place de filtres eBPF écrits par des…",
-   "theme": false
   },
   {
    "source": "Zataz",
